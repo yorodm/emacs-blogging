@@ -42,9 +42,9 @@
 
 ** @Work
 
-   For work, I have Lenovo Thinkpad T440p running [[https://getfedora.org/][Fedora]]. I work on
-   [[https://www.redhat.com/en/technologies/management/insights][Red Hat Insights]]. To know more about Red Hat Insights watch this
-   introductory [[https://www.youtube.com/watch?v=MfRnKe-xxLM][YouTube video]].
+   For work, I use Lenovo Thinkpad T440p running [[https://getfedora.org/][Fedora]]. I work on [[https://www.redhat.com/en/technologies/management/insights][Red
+   Hat Insights]]. Watch this introductory [[https://www.youtube.com/watch?v=MfRnKe-xxLM][YouTube video]] to know more
+   about Red Hat Insights.
 
 ** Tools I use
 
@@ -56,7 +56,7 @@
    I prefer to use latest Emacs version. My Emacs is heavily
    [[https://gitlab.com/psachin/emacs.d][configured]] for all my needs from programming(Python, Django, C,
    elisp, Ruby, shell etc.), blogs & note taking[[https://orgmode.org/][(org-mode)]], eshell,
-   tramp, magit etc. Recently I fell in love with =M-x
+   tramp, [[https://magit.vc][magit]] etc. Recently I fell in love with =M-x
    emacs-timemachine=. Terminal is occasionally needed to keep some
    front-end jobs running.
 
@@ -96,13 +96,7 @@
    - [[http://psachin.github.io/py-starwars/][py-starwars]]: Introductory talk on Python programming language.
 
 ** Articles
-*** Published on [[https://opensource.com/][opensource.com]]
-
-    - [[https://opensource.com/article/18/8/what-how-makefile][What is a Makefile and how does it work?]]
-    - [[https://opensource.com/article/18/5/how-kill-process-stop-program-linux][How to kill a process or stop a program in Linux]]
-    - [[https://opensource.com/article/18/4/how-create-latex-documents-emacs][How to create LaTeX documents with Emacs]]
-    - [[https://opensource.com/life/16/2/intro-to-emacs][Getting started with Emacs text editor]]
-
+*** Published on [[https://opensource.com/users/psachin][opensource.com]]
 *** Other web portals
 
     - [[http://www.csi-india.org/communications/CSIC%20July%202013.pdf][GNU/Linux on Aakash]]: An article published in CSI

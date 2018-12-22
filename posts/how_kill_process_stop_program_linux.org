@@ -1,0 +1,6 @@
+#+title: opensource.com: How to kill a process or stop a program in Linux
+#+date: <2018-05-09>
+#+keywords: linux
+#+setupfile: ../org-templates/post.org
+
+My post titled [[https://opensource.com/article/18/5/how-kill-process-stop-program-linux][How to kill a process or stop a program in Linux]] published on [[https://opensource.com/][opensource.com]]

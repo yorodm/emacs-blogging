@@ -52,7 +52,7 @@
   "<div class='intro'>
 <img src='/images/about/profile.png' alt='Sachin Patil' class='no-border'/>
 <h1>Sachin</h1>
-<p>Free software developer & Emacser</p>
+<p>Free Software developer & Emacser</p>
 </div>
 
 <div class='nav'>

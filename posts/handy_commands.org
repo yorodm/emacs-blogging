@@ -1,11 +1,11 @@
 #+title: Handy commands
 #+date: <2016-10-09>
-#+keywords: gs, ssh, wget, import, mplayer, ffmpeg, convert
+#+keywords: gs, ssh, wget, import, mplayer, ffmpeg, convert, git
 #+setupfile: ../org-templates/post.org
 
 List of commands for day-to-day use
 
-(*Updated on Mar 04, 2017*)
+(*Last updated on Jan 03, 2019*)
 
 **** SOCKS proxy using SSH
      #+BEGIN_SRC bash
@@ -17,7 +17,6 @@ List of commands for day-to-day use
      =-N=: Do not execute remote commands.
 
      =-D=: =[bind address:]port= (Port in above example)
-
 
 **** wget a website
      #+BEGIN_SRC bash
@@ -133,3 +132,15 @@ List of commands for day-to-day use
        # Clear cache using
        ccache -C
      #+END_SRC
+**** Git
+***** Find commits by author between timeline
+      #+BEGIN_SRC shell
+	# Syntax
+	git log --since "START" --until "END" --author=AUTHOR --pretty=oneline --diff-filter=A
+
+	# Example
+	git log --since "Oct 1 2018" --until "DEC 28 2018" --author=psachin@redhat.com --pretty=oneline --diff-filter=A
+
+	# If you also want to see the file names
+	git log --since "Oct 1 2018" --until "DEC 28 2018" --author=psachin@redhat.com --name-status --pretty=oneline --diff-filter=A
+      #+END_SRC

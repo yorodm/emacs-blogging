@@ -17,10 +17,10 @@
 
 (require 'org)
 (require 'ox-publish)
-(require 'htmlize)
-(require 'ox-html)
-(require 'ox-rss)
-(require 'ox-reveal)
+;; (require 'htmlize)
+;; (require 'ox-html)
+;; (require 'ox-rss)
+;; (require 'ox-reveal)
 
 ;; setting to nil, avoids "Author: x" at the bottom
 (setq org-export-with-section-numbers nil
@@ -36,7 +36,7 @@
       org-html-html5-fancy t
       org-html-validation-link t
       org-html-doctype "html5"
-      org-html-htmlize-output-type 'inline-css
+      org-html-htmlize-output-type 'css
       org-src-fontify-natively t)
 
 (defvar psachin-website-html-head
@@ -45,8 +45,8 @@
 <link rel='stylesheet' href='https://code.cdn.mozilla.net/fonts/fira.css'>
 <link rel='stylesheet' href='/css/site.css?v=2' type='text/css'/>
 <link rel='stylesheet' href='/css/custom.css' type='text/css'/>
-<script src='https://code.jquery.com/jquery-3.0.0.js'></script>
-<script src='https://code.jquery.com/jquery-migrate-3.0.1.js'></script>")
+<link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>")
+
 
 (defvar psachin-website-html-preamble
   "<div class='intro'>
@@ -131,6 +131,8 @@ PROJECT: `posts in this case."
 	 :sitemap-format-entry psachin-org-sitemap-format-entry
          :sitemap-style list
          :sitemap-sort-files anti-chronologically
+	 :html-head-include-scripts t
+	 :html-head-include-default-style nil
 	 :html-head ,psachin-website-html-head
 	 :html-preamble ,psachin-website-html-preamble
 	 :html-postamble ,psachin-website-html-postamble)
@@ -142,6 +144,8 @@ PROJECT: `posts in this case."
         :recursive nil
         :publishing-function org-html-publish-to-html
         :publishing-directory "./public/about"
+	:html-head-include-scripts t
+	:html-head-include-default-style nil
 	:html-head ,psachin-website-html-head
 	:html-preamble ,psachin-website-html-preamble
 	:html-postamble ,psachin-website-html-postamble)

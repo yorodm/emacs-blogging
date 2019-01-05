@@ -1,6 +1,7 @@
 #+title: Network utilities
-#+author: Sachin
 #+date: <2012-03-24>
+#+keywords: linux, networkm ifconfig, ip, route
+#+setupfile: ../org-templates/post.org
 
 Few network configuration which can be performed using CLI, this post
 covers examples with syntax.
@@ -16,14 +17,14 @@ covers examples with syntax.
    :END:
 
    Syntax
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      ifconfig <INTERFACE> <IP-ADDRESS> netmask <NETMASK>
      # or
      ip addr add <IP-ADDRESS/CIDR> dev <INTERFACE>
    #+END_SRC
 
    Example
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      ifconfig eth0 192.168.1.11 netmask 255.255.255.0
      # or
      ip addr add 192.168.1.11/24 dev eth0
@@ -35,14 +36,14 @@ covers examples with syntax.
    :END:
 
    Syntax
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      route add default gw <GATEWAY-IP> <INTERFACE>
      # or
      ip route add default via <GATEWAY-IP> dev <INTERFACE>
    #+END_SRC
 
    Example
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      route add default gw 192.168.1.1 eth0
      # or
      ip route add default via 192.168.1.1 dev eth0
@@ -54,14 +55,14 @@ covers examples with syntax.
    :END:
 
    Syntax
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      ip link set down dev DEVICE_NAME
      ip link set dev DEVICE_NAME address AA:BB:CC:DD:EE:FF
      ip link set up dev DEVICE_NAME
    #+END_SRC
 
    Example
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      ip link set down dev enp0s21
      ip link set dev enp0s21 address AA:BB:CC:DD:EE:FF
      ip link set up dev enp0s21
@@ -75,7 +76,7 @@ covers examples with syntax.
    Optionally DNS can be entered in the file =/etc/resolv.conf= in
    following format
 
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      # /etc/resolv.conf
      nameserver 8.8.8.8
      nameserver 8.8.4.4

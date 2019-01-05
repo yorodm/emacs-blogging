@@ -1,7 +1,7 @@
 #+title: Qemu - System emulator
-#+author: Sachin
-#+TAGS: qemu ssh
 #+date: <2012-03-24>
+#+keywords: qemu ssh
+#+setupfile: ../org-templates/post.org
 
 In this post I will create an Qemu image and work with it remotely
 using SSH.
@@ -64,8 +64,8 @@ using SSH.
    For example, if my system arch is `x86-64` and my ISO path is
    =/home/psachin/iso/ubuntu-12.04-desktop-amd64.iso= with memory as 4
    Gigs. Also I want to enable kernel based virtualization.
-   #+BEGIN_SRC sh
-     qemu--system-x86_64 \
+   #+BEGIN_SRC sh -n
+     qemu-system-x86_64 \
 	 -vnc none,ipv4 \
 	 -hda ics-testing.img \
 	 -cdrom /home/psachin/iso/ubuntu-12.04-desktop-amd64.iso \
@@ -82,7 +82,7 @@ using SSH.
    :END:
 
    Once the installation is complete, boot the image by typing,
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      qemu-system-x86_64 \
 	 -vnc none,ipv4 \
 	 -hda ics-testing.img \
@@ -92,7 +92,7 @@ using SSH.
    Now configure the system, its package manager and user account.
    Install Openssh-server and enable SSH login. If everything is
    configured, restart using,
-   #+BEGIN_SRC bash
+   #+BEGIN_SRC sh -n
      qemu-system-x86_64 \
 	 -vnc none,ipv4 \
 	 -hda ics-testing.img \
@@ -153,7 +153,7 @@ using SSH.
    :END:
 
    You can use the snapshot image using
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      qemu-system-x86_64 \
 	 -vnc none \
 	 -hda snapshot.img \

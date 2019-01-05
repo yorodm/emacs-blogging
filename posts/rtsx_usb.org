@@ -15,7 +15,7 @@ OK! that's fine, I checked =lspci= output but still not trace of Card
 Reader Controller. May be the controller is not attached to PCI bus. I
 fired =lsusb= and voila! I got an entry. The output had a reference of
 Card Reader Controller.
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh -n
   Bus 003 Device 003: ID 0bda:5728 Realtek Semiconductor Corp.
   Bus 004 Device 002: ID 0bda:0129 Realtek Semiconductor Corp. RTS5129 Card Reader Controller
   Bus 005 Device 007: ID 0cf3:3004 Atheros Communications, Inc.
@@ -49,7 +49,7 @@ as module.
 
 I recompiled the kernel and inserted SD-card. Nothing showed up in
 =dmesg= log. I loaded the module manually using the command
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   modprobe rtsx_usb
 #+END_SRC
 
@@ -80,7 +80,7 @@ Support for Realtek USB card reader is [[https://github.com/torvalds/linux/commi
 /PS/: The module =rtsx_usb= should load automatically. If the module
 is not able to load, create a file rtsx_usb.conf in the path
 =/etc/modules-load.d/= with following content.
-#+BEGIN_SRC bash
+#+BEGIN_SRC shell -n
   # Load rtsx_usb.ko on boot This module is used to mount sdcard(mmc)
   # for Realtek RTS5129 Card Reader Controller. You need to enable
   # CONFIG_MDF_RTSX_USB and MMC_REALTEK_USB in kernel.

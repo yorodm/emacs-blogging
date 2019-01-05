@@ -1,6 +1,7 @@
 #+title: pdftk
-#+author: Sachin
 #+date: <2012-08-26>
+#+keywords: pdftk, pdf, gs
+#+setupfile: ../org-templates/post.org
 
 =pdftk= can be an excellent tool for manupilating PDFs if you know
 some handy commands
@@ -11,7 +12,7 @@ some handy commands
    :END:
 
    Suppose I have some PDF pages like
-   #+BEGIN_SRC sh
+   #+BEGIN_SRC sh -n
      front.pdf     toc.pdf
      auth_colo.pdf part1.pdf
      chap01.pdf    chap02.pdf

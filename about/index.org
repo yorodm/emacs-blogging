@@ -3,15 +3,18 @@
   #+ATTR_HTML: :class center no-border
   [[file:../../images/about/isitme.png]]
 
+  #+ATTR_HTML: :style text-align:center
   Developer, FOSS enthusiast, & avid GNU Emacs user.
 
   #+ATTR_HTML: :class center no-border
   [[file:../../images/about/rx_open_source.png]]
 
   I try not to be biased with any programming language or technology.
-  I work on GNU/Linux and Free & Open Source Software for living. If
-  you are passionate about GNU and Free Software like me, I encourage
-  you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako Hill.
+  I work on GNU/Linux and Free & Open Source Software for living. I
+  prefer to use Google products at minimum and use [[https://duckduckgo.com/][duckduckgo]] to
+  search the Web using [[https://www.privateinternetaccess.com/][privateinternetaccess]] VPN service. If you are
+  passionate about GNU and Free Software like me, I encourage you to
+  watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako Hill.
 
 ** My work-space
 
@@ -51,12 +54,13 @@
    #+ATTR_HTML: :class center no-border
    [[file:../../images/about/tools-server-small.png]]
 
-   [[https://www.gnu.org/software/emacs/][GNU Emacs]] and a terminal are the least I need.
+   [[https://www.gnu.org/software/emacs/][GNU Emacs]] and a terminal are the essential tools I need. However I
+   manage most of the shell tasks from Emacs.
 
    I prefer to use latest Emacs version. My Emacs is heavily
    [[https://gitlab.com/psachin/emacs.d][configured]] for all my needs from programming(Python, Django, C,
-   elisp, Ruby, shell etc.), blogs & note taking[[https://orgmode.org/][(org-mode)]], eshell,
-   tramp, [[https://magit.vc][magit]] etc. Recently I fell in love with =M-x
+   elisp, Ruby, shell etc.), blogs & note taking[[https://orgmode.org/][(org-mode)]], agenda,
+   eshell, tramp, [[https://magit.vc][magit]] etc. Recently I fell in love with =M-x
    emacs-timemachine=. Terminal is occasionally needed to keep some
    front-end jobs running.
 
@@ -69,8 +73,8 @@
 ** More..
 
    I find programming in =elisp= relaxing when I'm bored with Python
-   and friends. Though not much but I do write helper functions and
-   share it on [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]].
+   and friends. Occasionally I do write helper functions and share it
+   on [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]].
 
 ** Blogs
 
@@ -85,7 +89,8 @@
 ** Talks/Presentations/Slides
 
    All my presentation slides are pushed to
-   [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]]. With few exceptions(Online):
+   [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]]. With few exceptions()hosted
+   online):
 
    - Freenode #live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]] [[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][(Org file)]]
    - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]]
@@ -96,16 +101,14 @@
    - [[http://psachin.github.io/py-starwars/][py-starwars]]: Introductory talk on Python programming language.
 
 ** Articles
-*** Published on [[https://opensource.com/users/psachin][opensource.com]]
-*** Other web portals
-
-    - [[http://www.csi-india.org/communications/CSIC%20July%202013.pdf][GNU/Linux on Aakash]]: An article published in CSI
-      communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at Indian
-      Institute of Technology Bombay.
-
-    - [[http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem][Configuring Huawei-EC152 modem]]: My very first article appeared
-      on [[https://www.linuxquestions.org/][linuxquestions.org]]. I just started using GNU/Linux that time
-      and USB-modeswitch was also quite new.
+   - Posts published on [[https://opensource.com/users/psachin][opensource.com]]
+   - Posts published on other web portals:
+     * [[http://www.csi-india.org/communications/CSIC%20July%202013.pdf][GNU/Linux on Aakash]]: An article published in CSI
+       communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at Indian
+       Institute of Technology Bombay.
+     * [[http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem][Configuring Huawei-EC152 modem]]: My very first article appeared
+       on [[https://www.linuxquestions.org/][linuxquestions.org]]. I just started using GNU/Linux that time
+       and USB-modeswitch was also quite new.
 
 ** Contact
 
@@ -116,7 +119,8 @@
    - [[mailto:iclcoolster@gmail.com][Email]]
 
 ** Social
-   You won't find me on Twitter, Whatsapp, [[https://www.fsf.org/facebook][Facebook]] & Linkedin.
+   #+ATTR_HTML: :style text-align:center
+   You won't find me on [[https://www.fsf.org/twitter][Twitter]], Whatsapp, [[https://www.fsf.org/facebook][Facebook]] & Linkedin.
 
    #+ATTR_HTML: :class center no-border
    http://static.fsf.org/nosvn/no-facebook-me.png

@@ -31,7 +31,7 @@ available on air but can be upgraded using developer mode.
     [[file:images/posts/sailfish/remote-access.png]]
 
 
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       psachin@nubia:$ ssh nemo@10.42.0.85
       The authenticity of host '10.42.0.85 (10.42.0.85)' can't be established.
       ED25519 key fingerprint is SHA256:oLCSaLDMyRlfBe4jZ/paFblizD5siujbCve7buatako.
@@ -47,7 +47,7 @@ available on air but can be upgraded using developer mode.
     #+END_SRC
 
     Login as root using the command =devel-su=
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       [nemo@Sailfish ~]$ devel-su
       Password:
       [root@Sailfish nemo]#
@@ -59,7 +59,7 @@ available on air but can be upgraded using developer mode.
     the latest release on [[https://en.wikipedia.org/wiki/Sailfish_OS][wiki]]. Say you want to update to latest
     release(2.0.4.14, at the time when this post was published), set
     the release version using command =ssu release VERSION=
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       ssu release 2.0.4.14
       version --dup
     #+END_SRC
@@ -70,7 +70,7 @@ available on air but can be upgraded using developer mode.
 
     To remove preinstall package like *gaana*, search by name using
     the command =pkcon=(PackageKit Console client).
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       [root@Sailfish ~]# pkcon search name gaana
       Searching by name
       Waiting in queue
@@ -84,7 +84,7 @@ available on air but can be upgraded using developer mode.
     the package using =pkcon remove PACKAGE_NAME=. Exclude version
     number. =pkcon= should behave like any other package manager found
     in various GNU/Linux distros.
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       [root@Sailfish ~]# pkcon remove sailfish-content-partnerspaces-intex-gaana
       Removing
       Waiting in queue

@@ -28,7 +28,7 @@ a smart-watch.
     model(WI501Q). This was brought up by /bencord0/ on [[https://asteroidos.org/irc-channel/][#asteroid
     channel]]
 
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC
       psachin	bencord0: All the files are downloaded from official page and are intact
       psachin	bencord0: Do you want to look at the output of above command?
       bencord0	Sure
@@ -47,17 +47,17 @@ a smart-watch.
 
     I tried to compile few builds to verify this using /bencord0's/
     suggestions
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC
       bencord0	https://github.com/AsteroidOS/meta-sparrow-hybris/blob/master/recipes-core/initrdscripts/initramfs-boot-android/init.sh is the init script in the initramfs. Stick an infinite loop near the top, run the build and boot that. If it stays blank, then we will have learned something.
     #+END_SRC
 
     which yield similar results and failed to boot AsteroidOS
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC
       psachin	bencord0: even with infinite loop it booted with android-wear
     #+END_SRC
 
     I also tried few AOSP branch which gave same results
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC
       psachin	kido: Didn't get you. What branch? android-msm-sparrow-3.10-marshmallow-mr1-wear-release? with commit: 8ffc85d0e5dba485a52a4405a21d3a516f969420. Do you want me to test the patch manually?
       @kido	this branch is marshmallow, maybe there is a newer branch for lollypop or whatever
     #+END_SRC
@@ -117,7 +117,6 @@ a smart-watch.
 
     Finally it has wallpapers which can be applied over a Watchface.
 
-
 *** Install AsteroidOS
 
     AsteroidOS Alpha 1.0 can be [[https://asteroidos.org/install/][installed]] on four smartwatches
@@ -131,7 +130,7 @@ a smart-watch.
 
     One can build AsteroidOS following [[https://asteroidos.org/wiki/building-asteroidos/][wiki page]]. On Fedora-25, one
     need to install following dependencies
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       dnf install -y git perl-bignum git patch chrpath gawk diffstat texinfo libaccounts-glib libaccounts-glib-devel
       dnf groupinstall -y "C Development Tools and Libraries"
     #+END_SRC

@@ -59,12 +59,12 @@
 <ul>
 <li><a href='/'>Blog</a>.</li>
 <li><a href='http://gitlab.com/psachin'>GitLab</a>.</li>
-<li><a href='http://github.com/psachin'>GitHub</a>.</li>
+<li><a href='http://github.com/psachin'><del>GitHub</del></a>.</li>
 <li><a href='https://www.reddit.com/user/psachin'>Reddit</a>.</li>
-<li><a href='https://plus.google.com/u/0/+Sachinp'>G+</a>.</li>
-<li><a href='https://youtube.com/user/iclcoolsterU'>YouTube</a>.</li>
-<li><a href='/about/'>About</a>.</li>
-<li><a href='/index.xml'>RSS feed</a></li>
+<li><a href='https://plus.google.com/u/0/+Sachinp'><del>Google Plus</del></a>.</li>
+<li><a href='https://youtube.com/user/iclcoolsterU'><del>YouTube</del></a>.</li>
+<li><a href='/index.xml'>RSS</a>.</li>
+<li><a href='/about/'>About</a></li>
 </ul>
 </div>")
 

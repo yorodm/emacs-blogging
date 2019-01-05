@@ -1,6 +1,7 @@
-#+title: Introducing Clojure
-#+author: Sachin
+#+title: Introduction to Clojure
 #+date: <2013-10-18>
+#+keywords: linux, clojure, lein
+#+setupfile: ../org-templates/post.org
 
 **Clojure** has been around for couple of years now. It has been
 recognized for its features like functional programming, elegance,
@@ -50,7 +51,7 @@ With this brief introduction lets start setting up Clojure.
       =~/.lein/profiles.clj=. Create this file if it does not exist.
 
     - A sample =profiles.clj= file looks like below
-      #+BEGIN_SRC lisp
+      #+BEGIN_SRC lisp -n
 	{:user {:plugins [[lein-difftest "1.3.8"]
 			  [lein-marginalia "0.7.1"]
 			  [lein-pprint "1.1.1"]
@@ -107,7 +108,7 @@ With this brief introduction lets start setting up Clojure.
 
   - Lets say the project name is =my-stuff=, go to project directory
     and run REPL using
-    #+BEGIN_SRC sh
+    #+BEGIN_SRC sh -n
       cd my-stuff
       lein
     #+END_SRC
@@ -153,13 +154,13 @@ With this brief introduction lets start setting up Clojure.
      :PROPERTIES:
      :ID:       2f0155c9-d839-40ff-8995-fcc2101daa77
      :END:
-     #+BEGIN_SRC sh
+     #+BEGIN_SRC sh -n
        lein repl
        ...
      #+END_SRC
 
      Simple queries can be performed inside a REPL
-     #+BEGIN_SRC sh
+     #+BEGIN_SRC sh -n
        user=> (require 'my-lib.core)
        nil
        user=> (ns my-lib.core)
@@ -175,7 +176,7 @@ With this brief introduction lets start setting up Clojure.
     - Add project dependencies to =~/.lein/profiles.clj= or
       =your-app/project.clj=
     - Below is my sample =profiles.clj= file
-      #+BEGIN_SRC lisp
+      #+BEGIN_SRC lisp -n
 	{:user {:plugins [[lein-difftest "1.3.8"]
 			  [lein-marginalia "0.7.1"]
 			  [lein-pprint "1.1.1"]
@@ -184,7 +185,7 @@ With this brief introduction lets start setting up Clojure.
 			  [lein-ring "0.8.7"]]}}
       #+END_SRC
     - Or you can have it specific to the project
-      #+BEGIN_SRC lisp
+      #+BEGIN_SRC lisp -n
 	(defproject perfect-clojure "0.1.0-SNAPSHOT"
 	  :description "A simple clojure app to test my environment"
 	  :url "<http://clojuremadesimple.co.uk>"
@@ -246,7 +247,7 @@ With this brief introduction lets start setting up Clojure.
     :ID:       085fb66b-fba4-4939-84ae-f008edd7b9e7
     :END:
     - Install =marginalia=
-      #+BEGIN_SRC sh
+      #+BEGIN_SRC sh -n
 	cd ~/.lein
 	touch profiles.clj
       #+END_SRC

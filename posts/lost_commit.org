@@ -63,17 +63,17 @@ by a **brand-new** commit.
 Below commands can be really handy:
 
 - Check local commit
-  #+BEGIN_SRC bash
+  #+BEGIN_SRC sh
     git log
   #+END_SRC
 
 - Check remote commit
-  #+BEGIN_SRC bash
+  #+BEGIN_SRC sh
     git log origin
   #+END_SRC
 
 - View both local and remote(origin) logs all-together
-  #+BEGIN_SRC bash
+  #+BEGIN_SRC sh
     git log origin master
   #+END_SRC
 
@@ -88,13 +88,13 @@ scenario in a better way.
 
 In order to push, I first need to pull that lost commit from remote. A
 simple
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   git pull
 #+END_SRC
 
 or
 
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   git pull origin master
 #+END_SRC
 

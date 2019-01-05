@@ -6,13 +6,13 @@
 
 ** Setup [[https://docs.oepenstack.org/tripleo-quickstart/latest/readme.html][tripleo-quickstart]] environment.
    - Create non-root user
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh -n
        adduser <NON-ROOT-USER> -G wheel
        passwd <NON-ROOT-USER>
      #+END_SRC
 
    - Login as NON-ROOT-USER and download required scripts
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh -n
        ssh-keygen
        export VIRTHOST=127.0.0.2
        ssh-copy-id root@$VIRTHOST
@@ -34,33 +34,33 @@
 
 ** Deploy OpenStack
 *** 1-ctrl, 1-compute, pacemaker (Ocata release)
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       ./quickstart.sh --config config/general_config/pacemaker.yml \
-      -N config/nodes/1ctlr_1comp.yml \
-      --teardown all \
-      --tags all \
-      --clean \
-      --release ocata $VIRTHOST
+		      -N config/nodes/1ctlr_1comp.yml \
+		      --teardown all \
+		      --tags all \
+		      --clean \
+		      --release ocata $VIRTHOST
     #+END_SRC
 
 *** 3-ctrl, 1-compute, pacemaker (Ocata release)
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       ./quickstart.sh --config config/general_config/pacemaker.yml \
-       -N config/nodes/3ctlr_1comp.yml \
-       --teardown all \
-       --tags all \
-       --clean \
-       --release ocata $VIRTHOST
+		      -N config/nodes/3ctlr_1comp.yml \
+		      --teardown all \
+		      --tags all \
+		      --clean \
+		      --release ocata $VIRTHOST
     #+END_SRC
 
 *** 1-ctrl, 1-compute, pacemaker (Master branch with latest commit)
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       ./quickstart.sh --config config/general_config/pacemaker.yml \
-      -N config/nodes/1ctlr_1comp.yml \
-      --teardown all \
-      --tags all \
-      --clean \
-      --release master-tripleo-ci $VIRTHOST
+		      -N config/nodes/1ctlr_1comp.yml \
+		      --teardown all \
+		      --tags all \
+		      --clean \
+		      --release master-tripleo-ci $VIRTHOST
     #+END_SRC
 
 *** 1-ctrl, 1-compute, pacemaker (Ocata with telemetry)
@@ -73,22 +73,21 @@
     #+HTML:  <html><head><script src="https://gist.github.com/psachin/97708deb39aa60484c95a9df6f535ba6.js"></script></head></html>
 
     And deploy using,
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh -n
       ./quickstart.sh --config config/general_config/pacemaker-enable-telemetry.yml \
-      -N config/nodes/1ctlr_1comp.yml \
-      --teardown all \
-      --tags all \
-      --clean \
-      --release ocata $VIRTHOST
+		      -N config/nodes/1ctlr_1comp.yml \
+		      --teardown all \
+		      --tags all \
+		      --clean \
+		      --release ocata $VIRTHOST
     #+END_SRC
 
     Once setup is complete login to undercloud node using,
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh
       ssh -F /home/NON-ROOT-USER/.quickstart/ssh.config.ansible undercloud
     #+END_SRC
 
-    and source =overcloudrc for API version 2 or =overcloudrc.v3= for
+    and source =overcloudrc= for API version 2 or =overcloudrc.v3= for
     API version 3
-
 
 ** Reference: [[https://gist.github.com/psachin/6ba906217984f7dec97efce7b753ad11][psachin/gist]]

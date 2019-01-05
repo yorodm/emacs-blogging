@@ -1,6 +1,7 @@
 #+title: Python virtualenv
-#+author: Sachin
 #+date: <2014-03-04>
+#+keywords: python, virtualenv
+#+setupfile: ../org-templates/post.org
 
 =setv=: /Lightweight Python virtual environment manager/
 
@@ -22,14 +23,14 @@ environments and can switch the environment as needed.
 
 ** Usage:
    - List all virtual environment
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh -n
        setv [TAB] [TAB]
        # or
        setv -l
      #+END_SRC
 
    - Switch virtual environment
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        setv <VIRTUAL-ENVIRONMENT-NAME>
      #+END_SRC
 
@@ -39,33 +40,33 @@ environments and can switch the environment as needed.
      #+END_SRC
 
    - Create new virtual environment
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        setv -n <NEW-VIRTUAL-ENVIRONMENT-NAME>
      #+END_SRC
 
      for example:
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        setv -n foobar
      #+END_SRC
 
    - Delete existing virtual environment
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        setv -d <EXISTING-VIRTUAL-ENVIRONMENT-NAME>
      #+END_SRC
 
      for example:
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        setv -d foobar
      #+END_SRC
 
    - Deactivate virtual environment
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        deactivate
      #+END_SRC
 
 ** Download
    The script is available [[https://raw.github.com/psachin/bash_scripts/master/virtual.sh][here]] and can be downloaded via =wget=
-   #+BEGIN_SRC bash
+   #+BEGIN_SRC sh
      wget https://raw.github.com/psachin/bash_scripts/master/virtual.sh
    #+END_SRC
 
@@ -75,11 +76,11 @@ environments and can switch the environment as needed.
      =~/virtualenvs/=
 
    - Create a directory to hold all virtual environments
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        mkdir ~/virtualenvs
      #+END_SRC
 
    - Added this line to your =.bashrc= or any local rc script.
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        source /path/to/virtual.sh
      #+END_SRC

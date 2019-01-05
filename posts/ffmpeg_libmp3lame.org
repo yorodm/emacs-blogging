@@ -9,7 +9,7 @@ How to manually install =ffmpeg= with =libmp3lame= encoder support.
 
    Download and extract lame from [[https://sourceforge.net/projects/lame/?source=typ_redirect][https://sourceforge.net/projects/lame]]
 
-   #+BEGIN_SRC bash
+   #+BEGIN_SRC sh -n
      cd lame-*
      make
      sudo make install
@@ -17,7 +17,7 @@ How to manually install =ffmpeg= with =libmp3lame= encoder support.
 
 ** Clone and install ffmpeg
 
-   #+BEGIN_SRC bash
+   #+BEGIN_SRC sh -n
      git clone https://git.ffmpeg.org/ffmpeg.git
      ./configure --enable-libmp3lame
      make

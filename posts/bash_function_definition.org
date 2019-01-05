@@ -1,6 +1,7 @@
 #+title: Find bash function
-#+author: Sachin
 #+date: <2014-03-04>
+#+keywords: bas, function
+#+setupfile: ../org-templates/post.org
 
 In this post I'll walk you through few commands which will help to
 find the location & definition of Bash functions.
@@ -19,19 +20,19 @@ can read the function definition and also find its location.
 ** Read function definition
 
 =type= can be used to read function definition.
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   type -a <FUNCTION-NAME>
 #+END_SRC
 
 For example, I have a function called =mcd= to create new directory
 and =cd= in to it. The following command will print the function
 definition
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   type -a mcd
 #+END_SRC
 
 Output:
-#+BEGIN_SRC bash
+#+BEGIN_SRC shell -n
   # mcd is a function
   mcd () {
       if [ "$#" -eq 1 ]; then
@@ -48,7 +49,7 @@ Output:
 
 I you enable shell debug ON USING =set -e=, you can still read a
 function definition.
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh -n
   set -e
   which mcd
 #+END_SRC
@@ -58,22 +59,22 @@ function definition.
 In the similar way =declare= can be used to locate the function.
 
 To locate the function, turn on shell debugging using
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   shopt -s extdebug
 #+END_SRC
 
 and then
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   declare -F <FUNCTION-NAME>
 #+END_SRC
 
 For example, to find =mcd='s location, type
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   declare -F mcd
 #+END_SRC
 
 Output:
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   mcd 51 /home/sachin/.bashrc
 #+END_SRC
 
@@ -81,7 +82,7 @@ Output:
 /51/ is the line number in file =~/.bashrc= where =mcd= is defined.
 
 Finally turn off shell debugging.
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   shopt -u extdebug
 #+END_SRC
 
@@ -89,7 +90,7 @@ Finally turn off shell debugging.
 
 Its better to write a custom function(=whichf= in this case) using
 above commands.
-#+BEGIN_SRC bash
+#+BEGIN_SRC shell -n
   function whichf () {
       if [ ${1} ]; then
 	  shopt -s extdebug
@@ -103,16 +104,16 @@ above commands.
 #+END_SRC
 
 Copy above function in =~/.bashrc= file and source the file using
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   source ~/.bashrc
 #+END_SRC
 
 Now call this function by typing
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   whichf <FUNCTION-NAME>
 #+END_SRC
 
 For example
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   whichf mcd
 #+END_SRC

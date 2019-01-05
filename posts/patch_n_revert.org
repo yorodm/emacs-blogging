@@ -1,6 +1,7 @@
 #+title: Patch and revert source code
-#+author: Sachin
 #+date: <2013-06-21>
+#+keywords: linux, patch
+#+setupfile: ../org-templates/post.org
 
 Using =patch= efficiently.
 
@@ -32,12 +33,12 @@ patch.
 In the above command:
 
 1. =-p1= stands for verbosity. For more information, please refer
-   comment by *Yogesh* [[http://www.cyberciti.biz/faq/appy-patch-file-using-patch-command/][here]].
+   comment by /Yogesh/ [[http://www.cyberciti.biz/faq/appy-patch-file-using-patch-command/][here]].
 
 2. =--dry-run= will not actually apply a patch, but gives you an
    output as if the patch is really applied.
 
-If `--dry-run` applies a patch without any error message, you can go
+If =--dry-run= applies a patch without any error message, you can go
 ahead an apply a real patch.
 #+BEGIN_SRC sh
   patch -p1 < ~/Downloads/patch-linux-3.0.42+_elan_ts.patch
@@ -48,10 +49,10 @@ Now if you want to remove a patch just add the flag `-R`. For example,
   patch -R -p1 < ~/Downloads/patch-linux-3.0.42+_elan_ts.patch
 #+END_SRC
 
-Remember you have to give full path to your patch file when you apply
-or revert a patch. If you plan to apply or revert a patch it is
-recommended to apply/revert one patch at a time. In this way you can
-carefully manage you patches.
+Remember that you have to give full path to your patch file when you
+apply or revert a patch. If you plan to apply or revert a patch, it is
+recommended to apply/revert one patch at a time so that you can
+carefully manage your changes.
 
 Hope this was helpful.
 

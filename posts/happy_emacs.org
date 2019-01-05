@@ -17,13 +17,13 @@ version. Compiling and using should not be a problem. But still for
 newcomers, following are the steps:
 
 - Download and extract the latest pretest version.
-  #+BEGIN_SRC bash
+  #+BEGIN_SRC sh -n
     wget -Nc --show-progress http://alpha.gnu.org/gnu/emacs/pretest/emacs-25.0.92.tar.xz
     tar xvJf emacs-25.0.92.tar.xz
   #+END_SRC
 
 - Configure and compile.
-  #+BEGIN_SRC bash
+  #+BEGIN_SRC sh
     cd emacs-25-0.92
   #+END_SRC
 
@@ -33,12 +33,12 @@ newcomers, following are the steps:
   #+END_SRC
 
   Configure the build environment
-  #+BEGIN_SRC bash
+  #+BEGIN_SRC sh
     ./configure --prefix=/opt/emacs-pretest --host=x86_64-fedora23-linux-gnu
   #+END_SRC
 
   Build from source
-  #+BEGIN_SRC bash
+  #+BEGIN_SRC sh
     make
   #+END_SRC
 
@@ -55,7 +55,7 @@ newcomers, following are the steps:
     or 'gnu'.
 
     If the =make= is successful, you can go head and try the build using.
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC sh
       src/emacs
     #+END_SRC
 
@@ -69,7 +69,7 @@ newcomers, following are the steps:
 
   Try out Emacs with your custom configuration. When you are happy,
   you can proceed toward installation.
-  #+BEGIN_SRC bash
+  #+BEGIN_SRC sh
     sudo make install
   #+END_SRC
 
@@ -86,5 +86,5 @@ default.
 If you encounter any issues during =make=, make sure you have all
 dependencies installed. If you think, there is an issue in the pretest
 release and needs to be fixed, make sure that it is reproducible
-before notifying `emacs-devel@gnu.org`. You can also ask for help on
+before notifying /emacs-devel@gnu.org/. You can also ask for help on
 IRC at freenode, channel *#emacs*.

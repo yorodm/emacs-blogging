@@ -8,7 +8,7 @@ List of commands for day-to-day use
 (*Last updated on Jan 03, 2019*)
 
 **** SOCKS proxy using SSH
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        ssh -N -D 1080 user@server
      #+END_SRC
 
@@ -19,7 +19,7 @@ List of commands for day-to-day use
      =-D=: =[bind address:]port= (Port in above example)
 
 **** wget a website
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        wget -rkp -l5 -np -nH -cut-dirs=1 https://example.com
      #+END_SRC
 
@@ -34,22 +34,20 @@ List of commands for day-to-day use
      =-H=: Span across hosts when doing recursive retrieving.
 
 **** Capture screenshot
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        import -window root screenshot.png
      #+END_SRC
-
 **** Reduce PDF size
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -sOutputFile=new_file.pdf original_file.pdf
      #+END_SRC
 
 **** Unlock PDF file
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f encrypted.pdf
      #+END_SRC
-
 **** Rotate video
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh -n
        # Using mplayer(watch rotated video)
        mplayer -vf-add rotate=1 sample.mp4
 
@@ -58,17 +56,17 @@ List of commands for day-to-day use
      #+END_SRC
 
 **** Convert 3GP to MP4
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        ffmpeg -i VID_0050.3gp -strict -2 -q:a 0 -ab 64k -ar 44100 VID_0050.mp4
      #+END_SRC
 
 **** FLV to MP4
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        ffmpeg -i input.flv -qscale 1 -ar 22050 output.mp4
      #+END_SRC
 
 **** Extract audio(MP3) from MP4 video
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh -n
        ffmpeg -i video.mp4 -f mp3 -ab 192000 -vn music.mp3
 
        # or specify codec to use `libmp3lame` in this case.
@@ -86,46 +84,45 @@ List of commands for day-to-day use
      =-vn=: don't want video
 
 **** Cut video by time interval
-
 ***** Cut video starting from 19 min 49 seconds up to 04 mins 18 seconds.
-      #+BEGIN_SRC bash
+      #+BEGIN_SRC sh
 	ffmpeg -y -i Video.mp4 -qscale 1 -ss 00:19:49.0 -t 00:04:18.0 -acodec copy -vcodec copy output.mp4
       #+END_SRC
 
       /Note/: =-sameq= was removed in recent version of =ffmpeg=
 
 **** Use =mplayer= to extract audio(MP3)
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        mplayer -dumpaudio movie.flv -dumpfile movie_audio_track.mp3
      #+END_SRC
 
 **** Reduce resolution
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        ffmpeg -i Birdman.mp4 -strict -2  -s 720x480 birdman.mp4
      #+END_SRC
 
 **** recordmydesktop
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        recordmydesktop -x 100 -y 100 --width 1280 --height 720 --freq 48000 --fps 30 -o ~/Videos/recordings/test-video.ogv
      #+END_SRC
 
 **** Include subtitles(Use =subtitleeditor= to create subtitle)
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        ffmpeg -i video.avi -vf subtitles=subtitle.srt out.avi
      #+END_SRC
 
 **** Resize image 50% of its original size
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        convert dragon.gif -resize 50% half_dragon.gif
      #+END_SRC
 
 **** Control compression level of an image
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        convert input.png -quality 75 output.jpg
      #+END_SRC
 
 **** Clean up =~/.ccache/= directory
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh -n
        # View statistics using
        ccache -s
 
@@ -134,7 +131,7 @@ List of commands for day-to-day use
      #+END_SRC
 **** Git
 ***** Find commits by author between timeline
-      #+BEGIN_SRC shell
+      #+BEGIN_SRC sh -n
 	# Syntax
 	git log --since "START" --until "END" --author=AUTHOR --pretty=oneline --diff-filter=A
 

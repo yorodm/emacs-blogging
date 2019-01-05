@@ -19,20 +19,20 @@ Download the template using,
 #+END_SRC
 
 Download and create glance image,
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh -n
   curl http://download.cirros-cloud.net/0.3.5/cirros-0.3.5-x86_64-disk.img -o cirros-0.3.5-x86_64-disk.img
   openstack image create --public --container-format bare --file cirros-0.3.5-x86_64-disk.img cirros
 #+END_SRC
 
 Finally create a stack using,
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   openstack stack create --template test-stack.yml test-stack
 #+END_SRC
 
 Once stack creation is completed, get IP address of an instance using
 comment =openstack server list= (should be in range 192.168.24.0/24)
 as show in example below,
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh -n
   [stack@undercloud ]$ openstack server list
   +--------------------------------------+-----------------------------------------------+--------+------------------------------------+------------+
   | ID                                   | Name                                          | Status | Networks                           | Image Name |

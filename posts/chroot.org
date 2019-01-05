@@ -1,11 +1,12 @@
-#+title: Working with chroot environment
-#+author: Sachin
+#+title: Working on chroot environments
 #+date: <2013-02-25>
+#+keywords: linux, makefile
+#+setupfile: ../org-templates/post.org
 
 This post covers what is =chroot= and why to use it? It also provides
 steps to create =chroot= environment.
 
-As its =man page= says, /"it is used to run commands or an interactive
+As its man-page says, /"it is used to run commands or an interactive
 shell with special root directory"/. It provides an environment to
 test new packages in a secured way without touching an actual system.
 It can be called as a virtual system with isolated root(/)
@@ -94,4 +95,4 @@ Linux environment.
    :END:
    - Visit the manual page - =man chroot=
    - Guide to [[http://technoreview.net/2011/10/using-rootstock.html][rootstock]]
-   - Why FreeBSD prefers [[http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/jails-intro.html][jail]] instead of `chroot`?
+   - Why FreeBSD prefers [[http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/jails-intro.html][jail]] instead of chroot?

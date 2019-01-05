@@ -14,7 +14,7 @@ are worth it).
 
 As usual, I start by adding a file, but this time, instead of using
 =git add <FILENAME>=, I'll include an option =--patch= to =git-add=,
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   git add --patch <FILENAME>
 #+END_SRC
 
@@ -73,7 +73,7 @@ But =git diff --cached= will have all staged hunks.
 #+ATTR_HTML: :width 100% :height
 [[file:images/posts/partial_commit/git_diff_cached.png]]
 
-Ensuring that I have what I needed in my staging area, I can go ahead
-and commit my changes.
+By ensuring that I have what I needed in my staging area, I can go
+ahead and commit the changes.
 
 - Reference: [[https://git-scm.com/docs/git-add][https://git-scm.com/docs/git-add]]

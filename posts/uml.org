@@ -12,12 +12,12 @@ how to compile, and run UML
 
    Download latest kernel source from [[https://www.kernel.org/][kernel.org]], as of this writing,
    the kernel version was 3.14.2
-   #+BEGIN_SRC bash
+   #+BEGIN_SRC sh
      wget -c https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.14.2.tar.xz
    #+END_SRC
 
    Un-compress and visit the directory
-   #+BEGIN_SRC bash
+   #+BEGIN_SRC sh -n
      tar -xvJf linux-3.14.2.tar.xz
      cd linux-3.14.2
    #+END_SRC

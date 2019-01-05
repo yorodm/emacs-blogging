@@ -8,7 +8,7 @@ Update ASUS ZenWatch2 to Android Wear 2.0
 The post assumes that [[https://developer.android.com/studio/command-line/adb.html][adb]] is installed on a system. On [[https://getfedora.org/][Fedora]] it comes
 with =android-tools= package and can be installed using
 
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
   sudo dnf install android-tools -y
 #+END_SRC
 
@@ -21,7 +21,7 @@ with =android-tools= package and can be installed using
     On the system make sure you are able to access ZenWatch shell
     using =adb shell=. You may have to add [[http://www.reactivated.net/writing_udev_rules.html][udev]] rules as below
 
-    #+BEGIN_SRC bash
+    #+BEGIN_SRC shell -n
       # file: /etc/udev/rules.d/51-android.rules
       SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", MODE="0666", GROUP="plugdev"
       SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", MODE="7770", GROUP="plugdev"
@@ -31,7 +31,7 @@ with =android-tools= package and can be installed using
     - Download OTA from [[https://android.googleapis.com/packages/ota-api/asus_sparrow_sparrow/f0095b7e9162d37af8f00140aea38d7922887a0a.zip][here]] and connect the watch to system via USB
       and run
 
-      #+BEGIN_SRC bash
+      #+BEGIN_SRC sh
         adb reboot recovery
       #+END_SRC
 
@@ -46,7 +46,7 @@ with =android-tools= package and can be installed using
       [[file:images/posts/zw2wear2ota/zw2_adb_sideload-1.png]]
 
     - On the system run
-      #+BEGIN_SRC bash
+      #+BEGIN_SRC sh
         adb sideload f0095b7e9162d37af8f00140aea38d7922887a0a.zip
       #+END_SRC
 
@@ -59,7 +59,7 @@ with =android-tools= package and can be installed using
       [[file:images/posts/zw2wear2ota/zw2_adb_sideload-2.png]]
 
       Finally on system you should see
-      #+BEGIN_SRC bash
+      #+BEGIN_SRC bash -n
 	loading: 'f0095b7e9162d37af8f00140aea38d7922887a0a.zip'...
 	connecting...
 	Total xfer: 2.01x

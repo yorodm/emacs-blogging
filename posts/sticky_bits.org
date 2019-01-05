@@ -17,7 +17,7 @@ Sticky bits explained
      called *restricted deletion flag.
 
      Usage
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        chmod +t /var/share
      #+END_SRC
 
@@ -26,7 +26,7 @@ Sticky bits explained
      =/usr/bin/bin2hex=
 
      In such situation *sticky bit* is handy
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        chmod +s /usr/bin/bin2hex
      #+END_SRC
 
@@ -34,26 +34,26 @@ Sticky bits explained
      control, use u+s, or g+s
 
      *Example*: setuid ONLY
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        chmod u+s /usr/bin/bin2hex
      #+END_SRC
 
      *Example*: setgid ONLY
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh
        chmod g+s /usr/bin/bin2hex
      #+END_SRC
 
      or you can remove sticky bits using =u-s=, =g-s=
 
    - Binary implementation of *Restrict file deletion flag*
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh -n
        chmod +t /var/share
        # is equivalent to
        chmod 1755 /var/share
      #+END_SRC
 
      We can also set both =setuid= and *Restrict file deletion flag*
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC sh -n
        chmod 5755 /var/share
        # is equivalent to
        chmod u+s,+t /var/share
@@ -61,7 +61,7 @@ Sticky bits explained
 
 ** Explanation
 
-   Say the permission on file is **5755**
+   Lets say the permission on file is **5755**
 
    Lets break it as **5** and **755**
 

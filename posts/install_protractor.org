@@ -11,7 +11,7 @@ based on [[http://nodejs.org/][Node.js]]. To install Protractor, you need to ins
         user may use =apt-get= to install Node.js.
      2. Untar using =tar -xvzf node-xxx.tar.gz=
      3. Configure, compile, and install using
-	#+BEGIN_SRC bash
+	#+BEGIN_SRC sh -n
 	  cd node
 	  ./configure
 	  make
@@ -20,7 +20,6 @@ based on [[http://nodejs.org/][Node.js]]. To install Protractor, you need to ins
 
      4. =npm= is a package-manager for Node.js. It should installed
         with Node.js
-
 
 **** Now install Protractor using
      1. =sudo npm install -g protractor=. =-g= will install protractor

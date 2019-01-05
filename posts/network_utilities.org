@@ -157,3 +157,5 @@ covers examples with syntax.
     #+BEGIN_SRC sh
       nmcli connection up my-dsl-conn
     #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

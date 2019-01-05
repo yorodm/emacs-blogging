@@ -86,3 +86,5 @@ is not able to load, create a file rtsx_usb.conf in the path
   # CONFIG_MDF_RTSX_USB and MMC_REALTEK_USB in kernel.
   rtsx_usb
 #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

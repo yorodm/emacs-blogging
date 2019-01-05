@@ -71,3 +71,5 @@ Manually install Python-3.5 in Red Hat Enterprise Linux
        (py3) [jedi@pywar ~]$ python --version
        Python 3.5.2
      #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

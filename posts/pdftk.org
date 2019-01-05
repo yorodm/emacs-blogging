@@ -101,3 +101,5 @@ some handy commands
    #+BEGIN_SRC sh
      man pdftk
    #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

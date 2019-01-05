@@ -27,3 +27,5 @@ How to manually install =ffmpeg= with =libmp3lame= encoder support.
 /Note/: If you are using Fedora 27 or above, lame is available as
 package using =dnf= or =yum= hence not required to install from
 source.
+
+#+INCLUDE: "../disquss.inc"

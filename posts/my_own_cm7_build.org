@@ -24,3 +24,5 @@ else ROM. It looks great and everything works!
 [[file:images/posts/my_own_cm7_build/zteBlade-aboutPhone-cm7.png]]
 
 Download the ROM from Google drive: [[https://drive.google.com/folderview?id=0B-PZvjWWRSpQd3dwTUZVNVM4SVE&usp=sharing][cm-7-20140417-UNOFFICIAL-blade.zip]]
+
+#+INCLUDE: "../disquss.inc"

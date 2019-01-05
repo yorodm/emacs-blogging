@@ -3,7 +3,6 @@
 #+keywords: gitlab, git, org-mode, orgmode
 #+setupfile: ../org-templates/post.org
 
-
 /THIS is a sample post and will be removed./
 
 It's easy to publish org-mode pages via [[https://about.gitlab.com/gitlab-ci/][GitLab CI]] and [[https://pages.gitlab.io/][Pages]].
@@ -35,3 +34,4 @@ It's easy to publish org-mode pages via [[https://about.gitlab.com/gitlab-ci/][G
 This project was published with the following =.gitlab-ci.yml=:
 
 #+INCLUDE: "../.gitlab-ci.yml" src conf
+#+INCLUDE: "../disquss.inc"

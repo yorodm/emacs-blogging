@@ -88,3 +88,5 @@ dependencies installed. If you think, there is an issue in the pretest
 release and needs to be fixed, make sure that it is reproducible
 before notifying /emacs-devel@gnu.org/. You can also ask for help on
 IRC at freenode, channel *#emacs*.
+
+#+INCLUDE: "../disquss.inc"

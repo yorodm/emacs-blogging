@@ -81,3 +81,5 @@ Sticky bits explained
    file =passwd=. Although it is owned by root, =setuid= is set for
    normal users to execute the program in-order to change password. It
    was invented by Dennis Ritchie around 1972.
+
+#+INCLUDE: "../disquss.inc"

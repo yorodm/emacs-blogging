@@ -105,3 +105,5 @@ Geeksphone(Keon v1, model: =qcom=).
    - Flash script(for reference): [[https://github.com/psachin/bash_scripts/blob/master/flash.sh][flash.sh]]
 
 /Note: Some images are captured using Android SDK 'monitor' tool/
+
+#+INCLUDE: "../disquss.inc"

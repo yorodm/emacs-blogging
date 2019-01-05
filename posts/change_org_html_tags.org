@@ -38,3 +38,5 @@ Now change the value of **HTML start tag** and **HTML end tag** to
 whatever you want.
 
 /Update - March 1, 2016: This solution is NOT valid for Emacs-pretest version(25.0.91.1)/
+
+#+INCLUDE: "../disquss.inc"

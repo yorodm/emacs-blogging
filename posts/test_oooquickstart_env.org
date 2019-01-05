@@ -4,7 +4,7 @@
 #+setupfile: ../org-templates/post.org
 
 
-The [[http://psachin.github.io/blog/ooo-quickstart/][Last post]] explains how to setup tripleo-quickstart environment. In
+The [[./ooo_quickstart.html][Last post]] explains how to setup tripleo-quickstart environment. In
 this post we will see how to test the environment by using [[https://docs.openstack.org/heat/latest/template_guide/hot_guide.html][heat
 template]].
 
@@ -40,3 +40,5 @@ as show in example below,
   | c14904d2-bc35-48a3-bc75-7b778eb02acd | test-stack-test_instance-1-adgli2qymnzm       | ACTIVE | int-green=30.0.0.8, 192.168.24.110 | cirros     |
   +--------------------------------------+-----------------------------------------------+--------+------------------------------------+------------+
 #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

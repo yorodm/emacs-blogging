@@ -117,3 +117,5 @@ For example
 #+BEGIN_SRC sh
   whichf mcd
 #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

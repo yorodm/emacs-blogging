@@ -69,3 +69,5 @@ with =android-tools= package and can be installed using
       swipe right. Complete setup should take around 15 minutes
 
 *** References: [[https://www.reddit.com/r/AndroidWear/comments/6o6niv/zenwatch_2_w501q_android_wear_20_update_and_how/][https://www.reddit.com]]
+
+#+INCLUDE: "../disquss.inc"

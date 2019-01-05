@@ -61,3 +61,5 @@ Fortunately, I got another Blade with broken touch screen. I managed
 to replace the board[Figure 9]. It was an amazing experience and I got
 all the hardware working :). Out of excitement, I bricked the new
 hardware too :P but this time it was successfully [[http://www.modaco.com/topic/343587-guide-de-bricking-a-zte-blade/][de-bricked(method-5)]]
+
+#+INCLUDE: "../disquss.inc"

@@ -84,3 +84,5 @@ environments and can switch the environment as needed.
      #+BEGIN_SRC sh
        source /path/to/virtual.sh
      #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

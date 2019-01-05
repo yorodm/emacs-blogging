@@ -141,3 +141,5 @@ List of commands for day-to-day use
 	# If you also want to see the file names
 	git log --since "Oct 1 2018" --until "DEC 28 2018" --author=psachin@redhat.com --name-status --pretty=oneline --diff-filter=A
       #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

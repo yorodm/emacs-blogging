@@ -29,3 +29,5 @@ type)
 
     - *vmx* (Virtual Machine eXtension) - denotes Intel processor
     - *svm* (Secure Virtual Machine) - denotes AMD processor
+
+#+INCLUDE: "../disquss.inc"

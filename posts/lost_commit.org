@@ -142,3 +142,5 @@ rolls-up all the latest commits on the top of all the previous
 commits. Behind the curtains =git-rebase= completely re-writes the
 history. As the matter of fact one should never rebase commits that
 have been pushed to a public.
+
+#+INCLUDE: "../disquss.inc"

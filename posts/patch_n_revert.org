@@ -58,3 +58,5 @@ Hope this was helpful.
 
 Linux kernel has an excellent documentation on this topic
 [[https://www.kernel.org/doc/Documentation/applying-patches.txt][applying-patch]].
+
+#+INCLUDE: "../disquss.inc"

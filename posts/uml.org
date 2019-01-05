@@ -91,3 +91,5 @@ how to compile, and run UML
    #+ATTR_HTML: :alt UML: login prompt :title UML: login prompt
    #+ATTR_HTML: :width 90% :height
    [[file:images/posts/uml/uml-login.png]]
+
+#+INCLUDE: "../disquss.inc"

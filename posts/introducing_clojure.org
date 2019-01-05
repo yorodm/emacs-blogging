@@ -289,3 +289,5 @@ With this brief introduction lets start setting up Clojure.
    :END:
    - [[http://www.unexpected-vortices.com/clojure/brief-beginners-guide/][http://www.unexpected-vortices.com/clojure/brief-beginners-guide/]]
    - [[http://clojuremadesimple.co.uk/][http://clojuremadesimple.co.uk/]]
+
+#+INCLUDE: "../disquss.inc"

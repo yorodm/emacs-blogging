@@ -98,3 +98,5 @@ already done, please upgrade ManageIQ version following below steps./
   bundle exec rake evm:compile_assets
   bundle exec rake evm:restart
 #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

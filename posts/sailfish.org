@@ -146,3 +146,5 @@ available on air but can be upgraded using developer mode.
     with entire GNU/Linux OS and package-manager(=pkcon=). One can
     install all Android apps either from Jolla store or using Google
     Play store.
+
+#+INCLUDE: "../disquss.inc"

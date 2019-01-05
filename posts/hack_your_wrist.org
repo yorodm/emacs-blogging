@@ -143,3 +143,5 @@ AsteroidOS unlocks new doors for Smartwatch Operating system with
 end-users no longer have to only depend on Android Wear. AsteroidOS
 community is very active and responsive. I encourage users to try out
 AsteroidOS on smartwatch and give feedback to AsteroidOS community.
+
+#+INCLUDE: "../disquss.inc"

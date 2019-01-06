@@ -27,11 +27,13 @@
       org-export-with-smart-quotes t
       org-export-with-toc nil)
 
+(defvar psachin-date-format "%b %d, %Y")
+
 (setq org-html-divs '((preamble "header" "top")
                       (content "main" "content")
                       (postamble "footer" "postamble"))
       org-html-container-element "section"
-      org-html-metadata-timestamp-format "%Y-%m-%d"
+      org-html-metadata-timestamp-format psachin-date-format
       org-html-checkbox-type 'html
       org-html-html5-fancy t
       org-html-validation-link t
@@ -49,12 +51,15 @@
 
 (defun psachin-website-html-preamble (plist)
   "PLIST: An entry."
+  ;; Skip adding subtitle to the post if :KEYWORDS don't have 'post' has a
+  ;; keyword
   (when (string-match-p "post" (format "%s" (plist-get plist :keywords)))
     (plist-put plist
 	       :subtitle (format "Published on %s by %s."
-				 (org-export-get-date plist "%b %d, %Y")
+				 (org-export-get-date plist psachin-date-format)
 				 (car (plist-get plist :author)))))
 
+  ;; Below content will be added anyways
 "<div class='intro'>
 <img src='/images/about/profile.png' alt='Sachin Patil' class='no-border'/>
 <h1>Sachin</h1>
@@ -88,7 +93,7 @@ Last updated on %C using %c
   "File types that are published as static files.")
 
 (defun psachin-org-sitemap-format-entry (entry style project)
-  "Format posts with author and published data.
+  "Format posts with author and published data in the index page.
 
 ENTRY: file-name
 STYLE:
@@ -99,7 +104,7 @@ PROJECT: `posts in this case."
 		 entry
 		 (org-publish-find-title entry project)
 		 (car (org-publish-find-property entry :author project))
-		 (format-time-string "%b %d, %Y"
+		 (format-time-string psachin-date-format
 				     (org-publish-find-date entry project))))
         ((eq style 'tree) (file-name-nondirectory (directory-file-name entry)))
         (t entry)))
@@ -116,7 +121,6 @@ PROJECT: `posts in this case."
          :auto-sitemap t
          :sitemap-filename "index.org"
 	 :sitemap-title "Posts"
-	 :sitemap-file-entry-format "%d *%t*"
 	 :sitemap-format-entry psachin-org-sitemap-format-entry
          :sitemap-style list
          :sitemap-sort-files anti-chronologically

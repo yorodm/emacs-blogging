@@ -47,8 +47,15 @@
 <link rel='stylesheet' href='/css/custom.css' type='text/css'/>
 <link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>")
 
-(defvar psachin-website-html-preamble
-  "<div class='intro'>
+(defun psachin-website-html-preamble (plist)
+  "PLIST: An entry."
+  (when (string-match-p "post" (format "%s" (plist-get plist :keywords)))
+    (plist-put plist
+	       :subtitle (format "Published on %s by %s."
+				 (org-export-get-date plist "%b %d, %Y")
+				 (car (plist-get plist :author)))))
+
+"<div class='intro'>
 <img src='/images/about/profile.png' alt='Sachin Patil' class='no-border'/>
 <h1>Sachin</h1>
 <p>Free Software developer & Emacser</p>
@@ -116,7 +123,7 @@ PROJECT: `posts in this case."
 	 :html-head-include-scripts t
 	 :html-head-include-default-style nil
 	 :html-head ,psachin-website-html-head
-	 :html-preamble ,psachin-website-html-preamble
+	 :html-preamble psachin-website-html-preamble
 	 :html-postamble ,psachin-website-html-postamble)
        ("about"
         :base-directory "about"
@@ -129,7 +136,7 @@ PROJECT: `posts in this case."
 	:html-head-include-scripts t
 	:html-head-include-default-style nil
 	:html-head ,psachin-website-html-head
-	:html-preamble ,psachin-website-html-preamble
+	:html-preamble psachin-website-html-preamble
 	:html-postamble ,psachin-website-html-postamble)
        ("slides"
         :base-directory "slides"

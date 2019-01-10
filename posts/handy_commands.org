@@ -5,9 +5,114 @@
 
 List of commands for day-to-day use
 
-(*Last updated on Jan 03, 2019*)
+/(Last updated on Jan 08, 2019)/
 
-**** SOCKS proxy using SSH
+
+** PDF tricks
+   - Reduce PDF size
+     #+BEGIN_SRC sh
+       gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -sOutputFile=new_file.pdf original_file.pdf
+     #+END_SRC
+
+   - Unlock PDF file
+     #+BEGIN_SRC sh
+       gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f encrypted.pdf
+     #+END_SRC
+
+   - Extract pages from PDF file
+      #+BEGIN_SRC sh
+        gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=3 -sOutputFile=out_file_page_1_to_3.pdf input_file.pdf
+      #+END_SRC
+** Media tricks
+   - Rotate video
+      #+BEGIN_SRC sh -n
+	# Using mplayer(watch rotated video)
+	mplayer -vf-add rotate=1 sample.mp4
+
+	# Using ffmpeg
+	ffmpeg -i infile.mp4 -strict -2 -vf "transpose=1" outfile.mp4
+      #+END_SRC
+
+   - Convert 3GP to MP4
+      #+BEGIN_SRC sh
+	ffmpeg -i VID_0050.3gp -strict -2 -q:a 0 -ab 64k -ar 44100 VID_0050.mp4
+      #+END_SRC
+   - FLV to MP4
+      #+BEGIN_SRC sh
+	ffmpeg -i input.flv -qscale 1 -ar 22050 output.mp4
+      #+END_SRC
+
+   - Extract audio(MP3) from MP4 video
+      #+BEGIN_SRC sh -n
+	ffmpeg -i video.mp4 -f mp3 -ab 192000 -vn music.mp3
+
+	# or specify codec to use `libmp3lame` in this case.
+	ffmpeg -i video.mp4 -f mp3 -codec:a libmp3lame -ab 320000 -vn music.mp3
+      #+END_SRC
+
+      /where/
+
+      =-i=: input file
+
+      =-f mp3=: file format should be MP3
+
+      =-ab 192000=: audio should be encoded at 192Kbps. 320000 for 320Kbps
+
+      =-vn=: don't want video
+
+   - Cut video starting from 19 min 49 seconds up to 04 mins 18 seconds.
+      #+BEGIN_SRC sh
+	ffmpeg -y -i Video.mp4 -qscale 1 -ss 00:19:49.0 -t 00:04:18.0 -acodec copy -vcodec copy output.mp4
+      #+END_SRC
+
+      /Note/: =-sameq= was removed in recent version of =ffmpeg=
+
+   - Use =mplayer= to extract audio(MP3)
+     #+BEGIN_SRC sh
+       mplayer -dumpaudio movie.flv -dumpfile movie_audio_track.mp3
+     #+END_SRC
+   - Reduce resolution
+     #+BEGIN_SRC sh
+       ffmpeg -i Birdman.mp4 -strict -2  -s 720x480 birdman.mp4
+     #+END_SRC
+   - recordmydesktop
+     #+BEGIN_SRC sh
+       recordmydesktop -x 100 -y 100 --width 1280 --height 720 --freq 48000 --fps 30 -o ~/Videos/recordings/test-video.ogv
+     #+END_SRC
+   - Include subtitles(Use =subtitleeditor= to create subtitle)
+     #+BEGIN_SRC sh
+       ffmpeg -i video.avi -vf subtitles=subtitle.srt out.avi
+     #+END_SRC
+
+** Image manupulation
+   - Capture screenshot
+     #+BEGIN_SRC sh
+       import -window root screenshot.png
+     #+END_SRC
+   - Resize image 50% of its original size
+     #+BEGIN_SRC sh
+       convert dragon.gif -resize 50% half_dragon.gif
+     #+END_SRC
+   - Control compression level of an image
+     #+BEGIN_SRC sh
+       convert input.png -quality 75 output.jpg
+     #+END_SRC
+
+** Git
+   - Find commits by author between timeline
+     #+BEGIN_SRC sh -n
+       # Syntax
+       git log --since "START" --until "END" --author=AUTHOR --pretty=oneline --diff-filter=A
+
+       # Example
+       git log --since "Oct 1 2018" --until "DEC 28 2018" --author=psachin@redhat.com --pretty=oneline --diff-filter=A
+
+       # If you also want to see the file names
+       git log --since "Oct 1 2018" --until "DEC 28 2018" --author=psachin@redhat.com --name-status --pretty=oneline --diff-filter=A
+     #+END_SRC
+
+** Misc
+   - SOCKS proxy using SSH
      #+BEGIN_SRC sh
        ssh -N -D 1080 user@server
      #+END_SRC
@@ -18,7 +123,16 @@ List of commands for day-to-day use
 
      =-D=: =[bind address:]port= (Port in above example)
 
-**** wget a website
+   - Clean up =~/.ccache/= directory
+     #+BEGIN_SRC sh -n
+       # View statistics using
+       ccache -s
+
+       # Clear cache using
+       ccache -C
+     #+END_SRC
+
+   - wget a website
      #+BEGIN_SRC sh
        wget -rkp -l5 -np -nH -cut-dirs=1 https://example.com
      #+END_SRC
@@ -32,114 +146,5 @@ List of commands for day-to-day use
      =-n=: retrieve files below parent directory.
 
      =-H=: Span across hosts when doing recursive retrieving.
-
-**** Capture screenshot
-     #+BEGIN_SRC sh
-       import -window root screenshot.png
-     #+END_SRC
-**** Reduce PDF size
-     #+BEGIN_SRC sh
-       gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -sOutputFile=new_file.pdf original_file.pdf
-     #+END_SRC
-
-**** Unlock PDF file
-     #+BEGIN_SRC sh
-       gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f encrypted.pdf
-     #+END_SRC
-**** Rotate video
-     #+BEGIN_SRC sh -n
-       # Using mplayer(watch rotated video)
-       mplayer -vf-add rotate=1 sample.mp4
-
-       # Using ffmpeg
-       ffmpeg -i infile.mp4 -strict -2 -vf "transpose=1" outfile.mp4
-     #+END_SRC
-
-**** Convert 3GP to MP4
-     #+BEGIN_SRC sh
-       ffmpeg -i VID_0050.3gp -strict -2 -q:a 0 -ab 64k -ar 44100 VID_0050.mp4
-     #+END_SRC
-
-**** FLV to MP4
-     #+BEGIN_SRC sh
-       ffmpeg -i input.flv -qscale 1 -ar 22050 output.mp4
-     #+END_SRC
-
-**** Extract audio(MP3) from MP4 video
-     #+BEGIN_SRC sh -n
-       ffmpeg -i video.mp4 -f mp3 -ab 192000 -vn music.mp3
-
-       # or specify codec to use `libmp3lame` in this case.
-       ffmpeg -i video.mp4 -f mp3 -codec:a libmp3lame -ab 320000 -vn music.mp3
-     #+END_SRC
-
-     /where/
-
-     =-i=: input file
-
-     =-f mp3=: file format should be MP3
-
-     =-ab 192000=: audio should be encoded at 192Kbps. 320000 for 320Kbps
-
-     =-vn=: don't want video
-
-**** Cut video by time interval
-***** Cut video starting from 19 min 49 seconds up to 04 mins 18 seconds.
-      #+BEGIN_SRC sh
-	ffmpeg -y -i Video.mp4 -qscale 1 -ss 00:19:49.0 -t 00:04:18.0 -acodec copy -vcodec copy output.mp4
-      #+END_SRC
-
-      /Note/: =-sameq= was removed in recent version of =ffmpeg=
-
-**** Use =mplayer= to extract audio(MP3)
-     #+BEGIN_SRC sh
-       mplayer -dumpaudio movie.flv -dumpfile movie_audio_track.mp3
-     #+END_SRC
-
-**** Reduce resolution
-     #+BEGIN_SRC sh
-       ffmpeg -i Birdman.mp4 -strict -2  -s 720x480 birdman.mp4
-     #+END_SRC
-
-**** recordmydesktop
-     #+BEGIN_SRC sh
-       recordmydesktop -x 100 -y 100 --width 1280 --height 720 --freq 48000 --fps 30 -o ~/Videos/recordings/test-video.ogv
-     #+END_SRC
-
-**** Include subtitles(Use =subtitleeditor= to create subtitle)
-     #+BEGIN_SRC sh
-       ffmpeg -i video.avi -vf subtitles=subtitle.srt out.avi
-     #+END_SRC
-
-**** Resize image 50% of its original size
-     #+BEGIN_SRC sh
-       convert dragon.gif -resize 50% half_dragon.gif
-     #+END_SRC
-
-**** Control compression level of an image
-     #+BEGIN_SRC sh
-       convert input.png -quality 75 output.jpg
-     #+END_SRC
-
-**** Clean up =~/.ccache/= directory
-     #+BEGIN_SRC sh -n
-       # View statistics using
-       ccache -s
-
-       # Clear cache using
-       ccache -C
-     #+END_SRC
-**** Git
-***** Find commits by author between timeline
-      #+BEGIN_SRC sh -n
-	# Syntax
-	git log --since "START" --until "END" --author=AUTHOR --pretty=oneline --diff-filter=A
-
-	# Example
-	git log --since "Oct 1 2018" --until "DEC 28 2018" --author=psachin@redhat.com --pretty=oneline --diff-filter=A
-
-	# If you also want to see the file names
-	git log --since "Oct 1 2018" --until "DEC 28 2018" --author=psachin@redhat.com --name-status --pretty=oneline --diff-filter=A
-      #+END_SRC
 
 #+INCLUDE: "../disquss.inc"

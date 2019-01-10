@@ -81,7 +81,7 @@
 
 (defvar psachin-website-html-postamble
   "<div class='footer'>
-Copyright © 2012-2018 <a href='mailto:iclcoolster@gmail.com'>Sachin Patil</a>. <br>
+Copyright © 2012-2018 <a href='mailto:iclcoolster@gmail.com'>Sachin Patil</a> | <a href='https://gitlab.com/psachin/psachin.gitlab.io'>Source</a><br>
 GnuPG fingerprint: 28C5 A1F3 221B 949D B651 FC47 E5F9 CE48 62AA 06E2 <br>
 Adapted from <a href='https://nicolas.petton.fr'>https://nicolas.petton.fr</a> <br>
 Last updated on %C using %c
@@ -124,6 +124,8 @@ PROJECT: `posts in this case."
 	 :sitemap-format-entry psachin-org-sitemap-format-entry
          :sitemap-style list
          :sitemap-sort-files anti-chronologically
+	 :html-link-home "/"
+	 :html-link-up "/"
 	 :html-head-include-scripts t
 	 :html-head-include-default-style nil
 	 :html-head ,psachin-website-html-head
@@ -137,6 +139,8 @@ PROJECT: `posts in this case."
         :recursive nil
         :publishing-function org-html-publish-to-html
         :publishing-directory "./public/about"
+	:html-link-home "/"
+	:html-link-up "/"
 	:html-head-include-scripts t
 	:html-head-include-default-style nil
 	:html-head ,psachin-website-html-head

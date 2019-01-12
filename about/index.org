@@ -1,4 +1,5 @@
 #+title: About
+#+keywords: about
 
   #+ATTR_HTML: :class center no-border
   [[file:../../images/about/isitme.png]]
@@ -11,8 +12,8 @@
 
   I try not to be biased with any programming language or technology. I work on
   GNU/Linux and Free & Open Source Software for living. I prefer to use Google
-  products at minimum and use [[https://duckduckgo.com/][duckduckgo]] to search the Web using
-  [[https://www.privateinternetaccess.com/][privateinternetaccess]] VPN service. If you are passionate about GNU and Free
+  products at minimum and use [[https://duckduckgo.com/][duckduckgo]] to search the Web and switch between
+  [[https://www.torproject.org/][Tor]] & [[https://www.privateinternetaccess.com/][VPN service]] when online. If you are passionate about GNU and Free
   Software like me, I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako
   Hill.
 
@@ -89,12 +90,12 @@
    [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]]. With few exceptions()hosted
    online):
 
-   - Freenode #live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]] [[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][(Org file)]]
+   - Freenode #live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]]([[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[/slides/gnu_emacs_for_all/index.html][Slides]])
    - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]]
-   - [[http://psachin.github.io/.emacs.d/][GNU Hackers Meeting-2016]]: Manage GNU Emacs configuration using
-     [[http://orgmode.org/worg/org-contrib/babel/intro.html][literate programming]].
-   - [[http://redhat.slides.com/psachin/rhosp-swift-2016][OpenStack Swift Object Storage]]: Session covered Swift object
-     storage architecture and demonstrated Object versioning in Swift.
+   - [[http://psachin.github.io/.emacs.d/][GNU Hackers Meeting-2016]]: Manage GNU Emacs configuration using [[http://orgmode.org/worg/org-contrib/babel/intro.html][literate
+     programming]].
+   - [[http://redhat.slides.com/psachin/rhosp-swift-2016][OpenStack Swift Object Storage]]: Session covered Swift object storage
+     architecture and demonstrated Object versioning in Swift.
    - [[http://psachin.github.io/py-starwars/][py-starwars]]: Introductory talk on Python programming language.
 
 ** Articles

@@ -1,0 +1,94 @@
+#+title: My TODOs
+#+keywords: todo, agenda, tasks, books
+
+** Books
+*** Physics
+**** DONE Seven Wonders of the Cosmos, Jayant V. Narlikar
+**** DONE Introduction to Electrodynamics, David J. Griffiths
+**** IN-PROGRESS A Brief History of Time, Stephen Hawking
+**** IN-PROGRESS The Feynman Lectures on Physics: Vol 1
+**** TODO The Feynman Lectures on Physics: Vol 2
+**** TODO The Feynman Lectures on Physics: Vol 3
+**** TODO QED: The Strange Theory of Light and Matter, Richard P. Feynman
+*** Computing
+**** DONE Linux Kernel in a Nutshell, Greg Kroah-Hartman
+**** DONE The Hacker's Guide to Python, 3rd Ed., Julien Danjou
+**** DONE A Byte of Python, Swaroop C H
+**** DONE Tango With Django, Leif Azzopardi & David Maxwell
+**** DONE Python Cookbook, 3rd Ed., David Beazley & Brain K. Joned
+**** DONE Learning GNU Emacs, 3rd Ed., Debra Cameron, Et al.
+**** DONE Writing GNU Emacs Extensions, Bob Glickstein
+**** DONE The Linux Kernel Module Programming Guide, Peter Jay Salzman
+**** DONE An Introduction to Programming in Emacs Lisp, 3rd Ed., Robert J. Chassell
+**** IN-PROGRESS The Linux Programming Interface, Michael KerrisK
+**** IN-PROGRESS Serious Python, Julien Danjou
+**** TODO Cryptography & Network Security, William Stallings
+*** Electronics
+**** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
+*** Fiction
+**** DONE The Kite Runner, Khaled Hosseini
+**** DONE A Thousand Splendid Suns, Khaled Hosseini
+**** DONE The Monk Who Sold His Ferrari, Robin Sharma
+**** DONE The Alchemist, Paulo Coelho
+**** DONE The Zahir, Paulo Coelho
+**** DONE Eleven Minutes, Paulo Coelho
+**** DONE Veronika Decides to Die, Paulo Coelho
+**** DONE The Winner Stands Alone, Paulo Coelho
+**** DONE An Ear to the Ground, James Hadley Chase
+**** DONE The Treasure Island, Robert Louis Stevenson
+**** DONE Kidnapped, Robert Louis Stevenson
+**** DONE The Three Musketeers, Alexandre Dumas
+**** DONE The White Tiger, Aravind Adiga
+**** DONE The 3 Mistakes of My Life, Chetan Bhagat
+**** DONE Five Point Someone, Chetan Bhagat
+**** DONE 2 States, Chetan Bhagat
+**** DONE Being Happy, Andrew Matthews
+**** DONE Almost Single, Advaita Kala
+**** DONE Nancy Drew: Mystery On Maui, Carolyn Keene
+**** DONE The Da Vinci Code, Dan Brown
+**** DONE Inferno, Dan Brown
+**** DONE Deception Point, Dan Brown
+**** DONE Angels & Demons, Dan Brown
+**** DONE Digital Fortress, Dan Brown
+**** DONE The Railway Children, Edith Nesbit
+**** IN-PROGRESS GoldFish Have No Hiding Place, James Hadley Chase
+**** IN-PROGRESS The Devil's Alternative, Frederick Forsyth
+**** IN-PROGRESS To Kill A Mocking Bird, Harper Lee
+**** TODO Devils, Fyodor Dostoevsky
+**** TODO A Christmas Carol, Charles Dickens
+**** TODO Martin Chuzzlewit, Charles Dickens
+**** TODO You're Dead Without Money, James Hadley Chase
+**** TODO Hit Them Where it Hurts, James Hadley Chase
+**** TODO An Ace Up My Sleeve, James Hadley Chase
+**** TODO The Whiff of Money, James Hadley Chase
+**** TODO Baki Shoonya(Language: Marathi, India), Kamalesh Walavalkar
+**** TODO The World Set Free, H.G Wells
+**** TODO The Apprentice, Arun Joshi
+**** TODO Leaves of Grass, Walt Whitman
+**** TODO EM and the big HOOM, Jerry Pinto
+**** TODO Sabbath's Theater, Philip Roth
+**** TODO Lord Jim, Joseph Conrad
+**** TODO The Secret Agent, Joseph Conrad
+*** Non Fiction
+**** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
+**** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
+**** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
+**** DONE Amacha Baap Ani Amhi(Language: Marathi, Indian), Narendra Jadhav
+**** DONE "Surely You're Joking, Mr. Feynman", Ralph Leighton
+**** DONE Shantaram, Gregory David Roberts
+**** DONE Black Friday, S. Hussain Zaidi
+**** DONE Dongri to Dubai, S. Hussain Zaidi
+**** DONE The Element of Style, William, Strunk Jr. & E.B. White
+**** DONE Into The Wild, Jon Krakauer
+**** DONE Discover your Destiny, Robin Sharma
+**** DONE Free as in Freedom, Sam Williams
+**** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
+**** DONE The Art of War, Sun Tzu
+**** TODO Mein Kampf, Adolf Hitler
+**** TODO Joseph Stalin: A Short Biography, G.F Alexandrov, Et al.
+**** TODO Medieval India: The Study if a Civilization, Irfan Habib
+**** TODO Early India: From the origins to AD 1300, Romila Thapar
+**** TODO Tolstoy, Henry Troyat
+*** Publications
+**** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
+**** TODO Bitcoin: A Peer-to-Peer Electronic Cash System, Satoshi Nakamoto

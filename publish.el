@@ -131,55 +131,70 @@ PROJECT: `posts in this case."
 	 :html-head ,psachin-website-html-head
 	 :html-preamble psachin-website-html-preamble
 	 :html-postamble ,psachin-website-html-postamble)
-       ("about"
-        :base-directory "about"
-        :base-extension "org"
-	:exclude ,(regexp-opt '("README.org" "draft"))
-	:index-filename "index.org"
-        :recursive nil
-        :publishing-function org-html-publish-to-html
-        :publishing-directory "./public/about"
-	:html-link-home "/"
-	:html-link-up "/"
-	:html-head-include-scripts t
-	:html-head-include-default-style nil
-	:html-head ,psachin-website-html-head
-	:html-preamble psachin-website-html-preamble
-	:html-postamble ,psachin-website-html-postamble)
-       ("slides"
-        :base-directory "slides"
-        :base-extension "org"
-	:exclude ,(regexp-opt '("README.org" "draft"))
-	:index-filename "index.org"
-        :recursive t
-        :publishing-function org-reveal-publish-to-reveal
-        :publishing-directory "./public/slides/")
-       ("css"
-        :base-directory "./css"
-        :base-extension "css"
-        :publishing-directory "./public/css"
-        :publishing-function org-publish-attachment
-        :recursive t)
-       ("images"
-	:base-directory "./images"
-        :base-extension ,site-attachments
-        :publishing-directory "./public/images"
-        :publishing-function org-publish-attachment
-        :recursive t)
-       ("rss"
-	:base-directory "posts"
-        :base-extension "org"
-	:html-link-home "https://psachin.gitlab.io/"
-	:rss-link-home "https://psachin.gitlab.io/"
-	:html-link-use-abs-url t
-	:rss-extension "xml"
-	:publishing-directory "./public"
-	:publishing-function (org-rss-publish-to-rss)
-	:section-number nil
-	:exclude ".*"
-	:include ("index.org")
-	:table-of-contents nil)
-       ("all" :components ("posts" "slides" "about" "css" "images" "rss"))))
+	("about"
+         :base-directory "about"
+         :base-extension "org"
+	 :exclude ,(regexp-opt '("README.org" "draft"))
+	 :index-filename "index.org"
+         :recursive nil
+         :publishing-function org-html-publish-to-html
+         :publishing-directory "./public/about"
+	 :html-link-home "/"
+	 :html-link-up "/"
+	 :html-head-include-scripts t
+	 :html-head-include-default-style nil
+	 :html-head ,psachin-website-html-head
+	 :html-preamble psachin-website-html-preamble
+	 :html-postamble ,psachin-website-html-postamble)
+	("todo"
+         :base-directory "todo"
+         :base-extension "org"
+	 :exclude ,(regexp-opt '("README.org" "draft"))
+	 :index-filename "index.org"
+         :recursive nil
+         :publishing-function org-html-publish-to-html
+         :publishing-directory "./public/todo"
+	 :html-link-home "/"
+	 :html-link-up "/"
+	 :html-head-include-scripts t
+	 :html-head-include-default-style nil
+	 :html-head ,psachin-website-html-head
+	 :html-preamble psachin-website-html-preamble
+	 :html-postamble ,psachin-website-html-postamble)
+	("slides"
+         :base-directory "slides"
+         :base-extension "org"
+	 :exclude ,(regexp-opt '("README.org" "draft"))
+	 :index-filename "index.org"
+         :recursive t
+         :publishing-function org-reveal-publish-to-reveal
+         :publishing-directory "./public/slides/")
+	("css"
+         :base-directory "./css"
+         :base-extension "css"
+         :publishing-directory "./public/css"
+         :publishing-function org-publish-attachment
+         :recursive t)
+	("images"
+	 :base-directory "./images"
+         :base-extension ,site-attachments
+         :publishing-directory "./public/images"
+         :publishing-function org-publish-attachment
+         :recursive t)
+	("rss"
+	 :base-directory "posts"
+         :base-extension "org"
+	 :html-link-home "https://psachin.gitlab.io/"
+	 :rss-link-home "https://psachin.gitlab.io/"
+	 :html-link-use-abs-url t
+	 :rss-extension "xml"
+	 :publishing-directory "./public"
+	 :publishing-function (org-rss-publish-to-rss)
+	 :section-number nil
+	 :exclude ".*"
+	 :include ("index.org")
+	 :table-of-contents nil)
+	("all" :components ("posts" "slides" "about" "css" "images" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

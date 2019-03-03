@@ -86,9 +86,8 @@
 
 ** Talks/Presentations/Slides
 
-   All my presentation slides are pushed to
-   [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]]. With few exceptions()hosted
-   online):
+   All my presentation slides are pushed to [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]].
+   With few exceptions(hosted online):
 
    - Freenode #live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]]([[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[/slides/gnu_emacs_for_all/index.html][Slides]])
    - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]]
@@ -113,8 +112,7 @@
    #+ATTR_HTML: :class center no-border
    [[file:../../images/about/skogskanten-300px.png]]
 
-   - IRC: psachin@{RedHat, freenode, OFTC, GIMPNet}
-   - [[mailto:iclcoolster@gmail.com][Email]]
+   - *IRC*: psachin@{RedHat, freenode, OFTC, GIMPNet}
 
 ** Social
    #+ATTR_HTML: :style text-align:center

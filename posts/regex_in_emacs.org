@@ -1,0 +1,145 @@
+#+title: Regex in Emacs
+#+date: <2014-05-13>
+#+keywords: regex, re-builder, emacs
+#+setupfile: ../org-templates/post.org
+
+Working on the regular expressions in GNU Emacs is fun!! Unlike the conventional
+regex in Perl or Bash, where one has to type the expression and execute it in
+order to test, regex in Emacs is highly interactive! Emacs has a build-in regex
+builder which highlights the match pattern as we create the regular expression.
+
+#+CAPTION: re-builder
+#+ATTR_HTML: :width 100% :height
+[[file:images/posts/regex_in_emacs/poster.png]]
+
+This post explains the interactive =re-builder= function in Emacs, which I
+personally enjoyed a lot. As an example, I am going to take few header lines
+from Linux kernel source code(I altered some of them) for which we will to
+create a regular expression.
+
+Consider following header lines:
+
+#+BEGIN_SRC C -n
+  #include <stdio.h>
+  #include <linux/stdio.h>
+  #include  <linux/stdio.h>
+  #include <linux/module.h>
+  #include<linux/slab.h>
+  #include<linux/init.h>
+  #include <linux/types.h>
+  #include <linux/dmi.h>
+  #include <linux/delay.h>
+  #include <linux/platform_device.h>
+  #include <linux/power_supply.h>
+  #include "stdio.h"
+  #include "linux/stdio.h"
+  #include "linux/stdio.h"
+  #include  "linux/module.h"
+#+END_SRC
+
+** Invoke =re-builder=
+   Call *re-builder* using
+   #+BEGIN_SRC shell
+     M-x re-builder
+   #+END_SRC
+
+   This will open a buffer with the name *RE-Builder* as shown below
+
+   #+CAPTION: re-builder buffer
+   #+ATTR_HTML: :width 100% :height
+   [[file:images/posts/regex_in_emacs/snap_1.png]]
+
+** Build an expression
+
+   - The header line start with a =#=, lets begin by typing =^#=, =^= denotes
+     the beginning of the line, string or a buffer followed by a =#= and a
+     string =include=. Altogether the expression will be =^#include=. This
+     should highlight all the region which has =#include=
+
+     #+CAPTION: Beginning of line, string or a buffer
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_2.png]]
+
+   - To match the white space after the =#include=, note that in some lines it
+     does not exists, for example in the line =#include<slab.h>=. That means the
+     white space should be skipped. To handle this, we make use of square
+     brackets *[]* to denote an optional part. Lets append *[ ]* (notice the
+     space between the square brackets). The expression will be =^#include[ ]=.
+
+     #+CAPTION: Highlight white spaces
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_3.png]]
+
+   - Problem with the above expression is it skips lines like below
+     #+BEGIN_SRC C -n
+       #include<linux/slab.h>
+       #include<linux/init.h>
+     #+END_SRC
+
+     and does not highlight more than one spaces like below
+     #+BEGIN_SRC C -n
+       #include  <linux/stdio.h>
+       #include  "linux/module.h"
+     #+END_SRC
+
+     This can easily handled using an asterisk (=*=), which match an expression
+     zero or more times. So the modified expression will be =^#include[ ]*=
+
+     #+CAPTION: Highlight zero or more white spaces
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_4.png]]
+
+   - Now we have to match *<* or *"* (double-quote). We can use another square
+     brackets to match them. Note that *<* and *"* are special characters and
+     should be escaped with *\* (backslash) at the beginning which makes the
+     final expression as =^#include[ ]*[\<\"]=
+
+     #+CAPTION: Special characters
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_5.png]]
+
+   - Now we need to match a string. This is achieved using =[a-z]= which will
+     match all characters between 'a' and 'z'. The expression will be
+     =^#include[ ]*[\<\"][a-z]=
+
+     #+CAPTION: Match characters
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_6.png]]
+
+     Now we have a same problem like before that the above expression will
+     highlight just single character. And appending a =+= sign will match
+     previous pattern one or more times. Now the expression will be =^#include[
+     ]*[\<\"][a-z]+=. To make it more flexible, lets also match all the capital
+     letters which transforms an expression into =^#include[ ]*[\<\"][a-zA-Z]+=
+
+     #+CAPTION: Match all characters
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_7.png]]
+
+   - Now lets also match */*, *.* and *_*. We have to escape all these special
+     characters using *\* and the expression will look like =^#include[
+     ]*[\<\"][a-zA-Z\/\.\_]+=
+
+     #+CAPTION: Match special characters
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_8.png]]
+
+   - Finally *>* and closing *"*(double-quote) can be matched using =[\>\"]=.
+     Our final expression will be
+
+     #+BEGIN_SRC shell
+       "^#include[ ]*[\<\"][a-zA-Z\/\.\_]+[\>\"]"
+     #+END_SRC
+
+     #+CAPTION: Match all
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_9.png]]
+
+     #+CAPTION: Regex in an animated form
+     #+ATTR_HTML: :width 100% :height
+     [[file:images/posts/regex_in_emacs/snap_10.gif]]
+
+
+This ends an introduction to Emacs’s re-builder, for more info please visit [[http://ergoemacs.org/emacs/emacs_regex.html][Xah Lee’s page on regex]].
+
+#+INCLUDE: "../disquss.inc"

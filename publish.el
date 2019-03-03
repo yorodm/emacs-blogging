@@ -20,7 +20,7 @@
 ;; (require 'htmlize)
 ;; (require 'ox-html)
 ;; (require 'ox-rss)
-;; (require 'ox-reveal)
+(require 'ox-reveal)
 
 ;; setting to nil, avoids "Author: x" at the bottom
 (setq org-export-with-section-numbers nil
@@ -72,7 +72,7 @@
 <li><a href='http://gitlab.com/psachin'>GitLab</a>.</li>
 <li><a href='http://github.com/psachin'><del>GitHub</del></a>.</li>
 <li><a href='https://www.reddit.com/user/psachin'>Reddit</a>.</li>
-<li><a href='https://plus.google.com/u/0/+Sachinp'><del>Google Plus</del></a>.</li>
+<li><a href='https://plus.google.com/u/0/+Sachinp'><del>G+</del></a>.</li>
 <li><a href='https://youtube.com/user/iclcoolsterU'><del>YouTube</del></a>.</li>
 <li><a href='/index.xml'>RSS</a>.</li>
 <li><a href='/about/'>About</a></li>
@@ -81,7 +81,7 @@
 
 (defvar psachin-website-html-postamble
   "<div class='footer'>
-Copyright © 2012-2018 <a href='mailto:iclcoolster@gmail.com'>Sachin Patil</a> | <a href='https://gitlab.com/psachin/psachin.gitlab.io'>Source</a><br>
+Copyright © 2012-2019 <a href='mailto:iclcoolster@gmail.com'>Sachin Patil</a> | <a href='https://gitlab.com/psachin/psachin.gitlab.io'>Source</a><br>
 GnuPG fingerprint: 28C5 A1F3 221B 949D B651 FC47 E5F9 CE48 62AA 06E2 <br>
 Adapted from <a href='https://nicolas.petton.fr'>https://nicolas.petton.fr</a> <br>
 Last updated on %C using %c

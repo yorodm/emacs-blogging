@@ -41,6 +41,7 @@
       org-html-htmlize-output-type 'css
       org-src-fontify-natively t)
 
+
 (defvar psachin-website-html-head
   "<link rel='icon' type='image/x-icon' href='/images/favicon.jpg'/>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -110,6 +111,14 @@ PROJECT: `posts in this case."
         (t entry)))
 
 
+(defun psachin-org-reveal-publish-to-html (plist filename pub-dir)
+  "Publish an org file to reveal.js HTML Presentation.
+FILENAME is the filename of the Org file to be published.  PLIST
+is the property list for the given project.  PUB-DIR is the
+publishing directory. Returns output file name."
+  (let ((org-reveal-root "http://cdn.jsdelivr.net/reveal.js/3.0.0/"))
+    (org-publish-org-to 'reveal filename ".html" plist pub-dir)))
+
 (setq org-publish-project-alist
       `(("posts"
          :base-directory "posts"
@@ -167,7 +176,7 @@ PROJECT: `posts in this case."
 	 :exclude ,(regexp-opt '("README.org" "draft"))
 	 :index-filename "index.org"
          :recursive t
-         :publishing-function org-reveal-publish-to-reveal
+         :publishing-function psachin-org-reveal-publish-to-html
          :publishing-directory "./public/slides/")
 	("css"
          :base-directory "./css"
@@ -194,7 +203,7 @@ PROJECT: `posts in this case."
 	 :exclude ".*"
 	 :include ("index.org")
 	 :table-of-contents nil)
-	("all" :components ("posts" "slides" "about" "css" "images" "rss"))))
+	("all" :components ("posts" "slides" "about" "todo" "css" "images" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

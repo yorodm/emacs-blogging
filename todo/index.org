@@ -22,7 +22,13 @@
 **** DONE An Introduction to Programming in Emacs Lisp, 3rd Ed., Robert J. Chassell
 **** IN-PROGRESS The Linux Programming Interface, Michael KerrisK
 **** IN-PROGRESS Serious Python, Julien Danjou
+**** IN-PROGRESS Successful Lisp, David B. Lamkins
 **** TODO Cryptography & Network Security, William Stallings
+**** TODO Coders at Work: Reflections on the Craft of Programming, Peter Seibel
+**** TODO LISP in Small Pieces, Christian Queinnec
+**** TODO [[http://www.gigamonkeys.com/book/][Practical Common Lisp]], Peter Seibel
+**** TODO ANSI Common LISP, Paul Graham
+**** TODO [[https://bigmachine.io/products/the-imposters-handbook/][The Imposter's Handbooks]], Rob Conery
 *** Electronics
 **** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
 *** Fiction
@@ -89,6 +95,11 @@
 **** TODO Medieval India: The Study if a Civilization, Irfan Habib
 **** TODO Early India: From the origins to AD 1300, Romila Thapar
 **** TODO Tolstoy, Henry Troyat
+**** TODO The Checklist Manifesto: How to Get Things Right, Atul Gawande
+**** TODO Scandinavia Since 1500, Byron J. Nordstrom
+**** TODO The Globalization of Inequality, François Bourguignon
 *** Publications
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** TODO Bitcoin: A Peer-to-Peer Electronic Cash System, Satoshi Nakamoto
+**** TODO [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat
+**** TODO [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]

@@ -5,9 +5,10 @@
 
 =setv=: /Lightweight Python virtual environment manager/
 
+*Update [March 28, 2019]*: The [[https://gitlab.com/psachin/setV][setV]] project is migrated from GitHub to Gitlab.
 
-/Update [March 30, 2016]: I created [[https://github.com/psachin/setV][setV]] as a separate project with
-installer and readme. This post is quite old./
+*Update [March 30, 2016]*: I created [[https://github.com/psachin/setV][setV]] as a separate project with installer
+and readme. This post is quite old.
 
 I like to have a separate [[http://www.virtualenv.org/en/latest/][virtualenv]] for each python project. This
 ends up having virtual-environments for each project that I often find

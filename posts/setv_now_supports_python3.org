@@ -1,0 +1,16 @@
+#+title: setv v1.0 now supports Python3
+#+date: <2019-03-28>
+#+keywords: setv python python3 virtual-environment
+#+setupfile: ../org-templates/post.org
+
+I have few updates related to [[https://gitlab.com/psachin/setV][setv]]. Last week I implemented new changes in
+=setv= to /support Python3 by default/, this is a major change. The detailed
+usage instructions can be found in the [[https://gitlab.com/psachin/setV/blob/master/ReadMe.org][ReadMe]].
+
+A screen-cast recorded using [[https://asciinema.org][asciinema]] can be found below:
+#+HTML: <a href="https://asciinema.org/a/234059" target="_blank"><img src="https://asciinema.org/a/234059.svg" width="700"/></a>
+
+As you may have noticed, I migrated the project from [[https://github.com/psachin/setV][GitHub]] to [[https://gitlab.com/psachin/setV][GitLab]]. Enjoy the
+[[https://gitlab.com/psachin/setV/tags/1.0][latest version]] and as always contributions are welcome.
+
+#+INCLUDE: "../disquss.inc"

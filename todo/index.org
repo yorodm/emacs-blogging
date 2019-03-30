@@ -90,6 +90,7 @@
 **** DONE Free as in Freedom, Sam Williams
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
+**** DONE A long way gone, Ishmael Beah
 **** TODO Mein Kampf, Adolf Hitler
 **** TODO Joseph Stalin: A Short Biography, G.F Alexandrov, Et al.
 **** TODO Medieval India: The Study if a Civilization, Irfan Habib

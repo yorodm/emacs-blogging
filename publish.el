@@ -71,10 +71,9 @@
 <ul>
 <li><a href='/'>Blog</a>.</li>
 <li><a href='http://gitlab.com/psachin'>GitLab</a>.</li>
-<li><a href='http://github.com/psachin'><del>GitHub</del></a>.</li>
+<li><a href='http://github.com/psachin'>GitHub</a>.</li>
 <li><a href='https://www.reddit.com/user/psachin'>Reddit</a>.</li>
-<li><a href='https://plus.google.com/u/0/+Sachinp'><del>G+</del></a>.</li>
-<li><a href='https://youtube.com/user/iclcoolsterU'><del>YouTube</del></a>.</li>
+<li><a href='https://youtube.com/user/iclcoolsterU'>YouTube</a>.</li>
 <li><a href='/index.xml'>RSS</a>.</li>
 <li><a href='/about/'>About</a></li>
 </ul>
@@ -83,7 +82,7 @@
 (defvar psachin-website-html-postamble
   "<div class='footer'>
 Copyright © 2012-2019 <a href='mailto:iclcoolster@gmail.com'>Sachin Patil</a> | <a href='https://gitlab.com/psachin/psachin.gitlab.io'>Source</a><br>
-GnuPG fingerprint: 28C5 A1F3 221B 949D B651 FC47 E5F9 CE48 62AA 06E2 <br>
+GnuPG fingerprint: <a href='http://pgp.mit.edu/pks/lookup?op=get&search=0xE5F9CE4862AA06E2'>28C5 A1F3 221B 949D B651 FC47 E5F9 CE48 62AA 06E2</a> <br>
 Adapted from <a href='https://nicolas.petton.fr'>https://nicolas.petton.fr</a> <br>
 Last updated on %C using %c
 </div>")
@@ -190,6 +189,12 @@ publishing directory. Returns output file name."
          :publishing-directory "./public/images"
          :publishing-function org-publish-attachment
          :recursive t)
+	("assets"
+	 :base-directory "./assets"
+         :base-extension ,site-attachments
+         :publishing-directory "./public/assets"
+         :publishing-function org-publish-attachment
+         :recursive t)
 	("rss"
 	 :base-directory "posts"
          :base-extension "org"
@@ -203,7 +208,7 @@ publishing directory. Returns output file name."
 	 :exclude ".*"
 	 :include ("index.org")
 	 :table-of-contents nil)
-	("all" :components ("posts" "slides" "about" "todo" "css" "images" "rss"))))
+	("all" :components ("posts" "about" "todo" "css" "images" "assets" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

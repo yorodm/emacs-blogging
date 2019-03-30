@@ -100,7 +100,7 @@
 ** Articles
    - My posts published on [[https://opensource.com/users/psachin][opensource.com]]
    - My posts published on other web portals:
-     * [[http://www.csi-india.org/communications/CSIC%20July%202013.pdf][GNU/Linux on Aakash]]: An article published in CSI
+     * [[file:../assets/about/GNU_Linux_on_Aakash.pdf][GNU/Linux on Aakash]]: An article published in CSI
        communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at Indian Institute of
        Technology Bombay.
      * [[http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem][Configuring Huawei-EC152 modem]]: My very first article appeared on
@@ -116,7 +116,7 @@
 
 ** Social
    #+ATTR_HTML: :style text-align:center
-   You won't find me on [[https://www.fsf.org/twitter][Twitter]], Whatsapp, [[https://www.fsf.org/facebook][Facebook]] & Linkedin.
+   You won't find me on [[https://www.fsf.org/twitter][Twitter]], [[https://www.whatsapp.com/][Whatsapp]], [[https://www.fsf.org/facebook][Facebook]] & [[https://www.linkedin.com/][Linkedin]].
 
    #+ATTR_HTML: :class center no-border
    http://static.fsf.org/nosvn/no-facebook-me.png

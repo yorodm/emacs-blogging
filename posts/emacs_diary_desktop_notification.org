@@ -1,0 +1,57 @@
+#+title: Emacs Diary reminder using desktop notification
+#+date: <2019-05-03>
+#+keywords: emacs diary desktop notifications
+#+setupfile: ../org-templates/post.org
+
+The post explains how to configure Emacs to alert diary reminders using
+Freedesktop notification protocol.
+
+#+CAPTION: Emacs Diary desktop notification
+#+ATTR_HTML: :width 100% :height
+[[file:images/posts/emacs_diary_desktop_notification/notification.png]]
+
+Inspired by the post [[https://blog.jft.rocks/emacs/diary.html][Use Emacs as a reminder]], where the [[https://github.com/julienXX/terminal-notifier][terminal-notifier]] is
+used to send Emacs Diary reminder on MacOS, I decided to make use of
+=notification= extension which is builtin within Emacs to send Desktop
+notifications via D-Bus.
+
+Start by importing a =notification= extension and create a placeholder for
+session bus:
+#+BEGIN_SRC emacs-lisp -n
+  (require 'notifications)
+
+  (defcustom appt-notification-bus :session
+    "D-Bus bus to use for notification."
+    :version "25.1"
+    :group 'appt-notification
+    :type '(choice (const :tag "Session bus" :session) string))
+#+END_SRC
+
+Once the session bus is in place, create a function to send a notification via
+D-Bus using the =notifications-notify=:
+#+BEGIN_SRC emacs-lisp -n
+  (defun psachin/appt-display (min-to-app new-time msg)
+    "Send notification."
+    (notifications-notify :bus appt-notification-bus
+			  :title (format "Appointment in %s minutes." min-to-app)
+			  :body (format "%s" msg)
+			  :replaces-id nil
+			  :app-icon nil
+			  :timeout 5000
+			  :desktop-entry "emacs-diary"))
+#+END_SRC
+
+Finally call the function as a value to the variable =appt-disp-window-function=
+#+BEGIN_SRC emacs-lisp
+  (setq appt-disp-window-function (function psachin/appt-display))
+#+END_SRC
+
+Test the notification by creating an entry in Emacs diary, for ex:
+#+BEGIN_SRC emacs-lisp
+  Friday
+	  20:10 to 20:30 Meeting with Rey
+#+END_SRC
+
+Refer the entire configuration [[https://gitlab.com/psachin/emacs.d/blob/dev/mytime.org][here]].
+
+#+INCLUDE: "../disquss.inc"

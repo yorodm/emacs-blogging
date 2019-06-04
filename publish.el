@@ -208,7 +208,7 @@ publishing directory. Returns output file name."
 	 :exclude ".*"
 	 :include ("index.org")
 	 :table-of-contents nil)
-	("all" :components ("posts" "about" "todo" "css" "images" "assets" "rss"))))
+	("all" :components ("posts" "about" "slides" "todo" "css" "images" "assets" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

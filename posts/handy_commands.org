@@ -135,17 +135,6 @@ List of commands that I find useful.
      #+END_SRC
 
 ** Misc
-   - SOCKS proxy using SSH
-     #+BEGIN_SRC shell
-       ssh -N -D 1080 user@server
-     #+END_SRC
-
-     /where/
-
-     *-N*: Do not execute remote commands.
-
-     *-D*: =[bind address:]port= (Port in above example)
-
    - Clean up =~/.ccache/= directory
      #+BEGIN_SRC shell -n
        # View statistics using

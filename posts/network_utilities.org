@@ -1,12 +1,12 @@
 #+title: Network utilities
 #+date: <2012-03-24>
-#+keywords: linux, networkm ifconfig, ip, route
+#+keywords: linux network ifconfig ip route nmcli ssh
 #+setupfile: ../org-templates/post.org
 
 Few network configuration which can be performed using CLI, this post
 covers examples with syntax.
 
-(Updated on Aug 09, 2018)
+(Updated on Jun 04, 2019)
 
 /Note/: You must be =root= or =sudo= user to run following commands.
 =ifconfig= has been deprecated in favor of =ip=
@@ -157,5 +157,89 @@ covers examples with syntax.
     #+BEGIN_SRC sh
       nmcli connection up my-dsl-conn
     #+END_SRC
+
+** SSH: Secure shell
+*** SOCKS proxy
+    #+BEGIN_SRC shell
+      ssh -N -D 1080 user@server
+    #+END_SRC
+
+    /where/
+
+    *-N*: Do not execute remote commands
+
+    *-D*: =[bind address:]port= (port in the above example)
+
+*** Local port forwarding
+    Forward all the requests from local port to remote port via /remote-server/.
+
+    Example:
+    #+BEGIN_SRC shell
+      ssh -L 8000:blocked-domain.com:80 user@remote-server
+    #+END_SRC
+
+    In the above example the website /blocked-domain.com/ is not accessible from
+    local machine(may be because it is blocked) but it can be accessed from
+    /remote-server/. We create an SSH tunnel to /remote-server/ and forward all
+    the request from local port 8000 to port 80 of /blocked-domain.com/ via
+    /remote-server/. Once the connection is established, the
+    /blocked-domain.com/ can be accessed from local machine on port
+    8000(localhost:8000). The domain /blocked-domain.com/ hence assumes that all
+    the requests are coming from /remote-server/.
+
+    Syntax:
+    #+BEGIN_SRC shell
+      ssh -L <LOCAL_PORT>:<REMOTE_HOST>:<REMOTE_PORT> user@remote-server
+    #+END_SRC
+
+    Another example of forwarding local port is found in the manpage of =ssh=:
+
+    When encrypting communication between an IRC client and server, even though
+    the IRC server does not directly support encrypted communications. This
+    works as follows: the user connects to the remote host using ssh,
+    specifying a port to be used to forward connections to the remote server.
+    After that it is possible to start the service which is to be encrypted on
+    the client machine, connecting to the same local port, and ssh will encrypt
+    and forward the connection.
+
+    The following example tunnels an IRC session from client machine "127.0.0.1"
+    (localhost) to remote server "server.example.com":
+    #+BEGIN_SRC shell
+      ssh -f -L 1234:localhost:6667 server.example.com sleep 10
+      irc -c '#users' -p 1234 pinky 127.0.0.1
+    #+END_SRC
+
+    This tunnels a connection to IRC server server.example.com", joining
+    channel "#users", nickname "pinky", using port 1234. It doesn't matter which
+    port is used, as long as it's greater than 1023 (remember, only root can
+    open sockets on privileged ports) and doesn't conflict with any ports
+    already in use. The connection is forwarded to port 6667 on the remote
+    server, since that's the standard port for IRC services.
+
+    The -f option backgrounds ssh and the remote command =sleep 10= is specified
+    to allow an amount of time (10 seconds, in the example) to start the service
+    which is to be tunnelled. If no connections are made within the time
+    specified, ssh will exit.
+
+*** Remote port forwarding
+    Forward all requests from the remote port to local port.
+
+    Example:
+    #+BEGIN_SRC shell
+      ssh -R 8000:localhost:3000 user@remote-server.com
+    #+END_SRC
+
+    In the above example assume that we are developing a website and we test it
+    locally on port 3000(localhost:3000), but if we want to showcase or
+    demonstrate the website to the public, we create a remote tunnel to
+    /remote-server.com/ and forward all traffic from /remote-server.com:8000/ to
+    /localhost:3000/. Any one accessing /remote-server.com:8000/ will be able to
+    access the website.
+
+    Syntax:
+    #+BEGIN_SRC shell
+      ssh -R <REMOTE_PORT>:localhost:<LOCAL_PORT> user@remote-server.com
+    #+END_SRC
+
 
 #+INCLUDE: "../disquss.inc"

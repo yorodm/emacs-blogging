@@ -1,15 +1,15 @@
 #+title: My TODOs
-#+keywords: todo, agenda, tasks, books
+#+keywords: todo agenda tasks books reading
 
-** Books
+** Reading
 *** Physics
 **** DONE Seven Wonders of the Cosmos, Jayant V. Narlikar
 **** DONE Introduction to Electrodynamics, David J. Griffiths
-**** IN-PROGRESS A Brief History of Time, Stephen Hawking
+**** IN-PROGRESS A Brief History of Time, Stephen Hawking  :page:41:
 **** IN-PROGRESS The Feynman Lectures on Physics: Vol 1
+**** IN-PROGRESS QED: The Strange Theory of Light & Matter, Feynman :page:40:
 **** TODO The Feynman Lectures on Physics: Vol 2
 **** TODO The Feynman Lectures on Physics: Vol 3
-**** TODO QED: The Strange Theory of Light and Matter, Richard P. Feynman
 *** Computing
 **** DONE Linux Kernel in a Nutshell, Greg Kroah-Hartman
 **** DONE The Hacker's Guide to Python, 3rd Ed., Julien Danjou
@@ -22,7 +22,7 @@
 **** DONE An Introduction to Programming in Emacs Lisp, 3rd Ed., Robert J. Chassell
 **** IN-PROGRESS The Linux Programming Interface, Michael KerrisK
 **** IN-PROGRESS Serious Python, Julien Danjou
-**** IN-PROGRESS Successful Lisp, David B. Lamkins
+**** IN-PROGRESS Successful Lisp, David B. Lamkins  :page:88:
 **** TODO Cryptography & Network Security, William Stallings
 **** TODO Coders at Work: Reflections on the Craft of Programming, Peter Seibel
 **** TODO LISP in Small Pieces, Christian Queinnec
@@ -101,6 +101,9 @@
 **** TODO The Globalization of Inequality, François Bourguignon
 *** Publications
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
+**** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
 **** TODO Bitcoin: A Peer-to-Peer Electronic Cash System, Satoshi Nakamoto
 **** TODO [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat
 **** TODO [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]
+**** TODO The structure of the atom(Noble Lecture), Niels Bohr
+**** TODO The wave nature of the electron(Noble Lecture), Louis De Broglie

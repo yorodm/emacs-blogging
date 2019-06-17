@@ -128,7 +128,7 @@ publishing directory. Returns output file name."
          :exclude ,(regexp-opt '("README.org" "draft"))
          :auto-sitemap t
          :sitemap-filename "index.org"
-	 :sitemap-title "Posts"
+	 :sitemap-title "Blog"
 	 :sitemap-format-entry psachin-org-sitemap-format-entry
          :sitemap-style list
          :sitemap-sort-files anti-chronologically

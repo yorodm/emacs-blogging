@@ -89,7 +89,7 @@
    All my presentation slides are pushed to [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]].
    With few exceptions(hosted online):
 
-   - Freenode #live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]]([[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[../../slides/gnu_emacs_for_all/index.html][Slides]])
+   - Freenode #live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]]([[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[file:../assets/slides/GNU_Emacs_for_all.pdf][Slides]])
    - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]]
    - [[http://psachin.github.io/.emacs.d/][GNU Hackers Meeting-2016]]: Manage GNU Emacs configuration using [[http://orgmode.org/worg/org-contrib/babel/intro.html][literate
      programming]].

@@ -1,0 +1,53 @@
+#+title: SELinux cheat-sheet
+#+date: <2019-01-19>
+#+keywords: selinux command
+#+setupfile: ../org-templates/post.org
+
+*** Display selinux context
+    #+BEGIN_SRC shell -n
+      ls -lZ /etc/httpd/conf/httpd.conf
+
+      # Output
+      -rw-r--r--. 1 root root system_u:object_r:httpd_config_t:s0 11753 Apr 17 14:23 /etc/httpd/conf/httpd.conf
+    #+END_SRC
+
+    - =system_u=: User
+    - =object_r=: Role
+    - =httpd_config_t=: Type
+    - =s0=: Order/Range
+
+*** Change selinux context
+    #+BEGIN_SRC shell -n
+      # Syntax
+      chcon <context> <file>
+
+      # Example
+      chcon system_u:object_r:httpd_config_t:s0 /etc/httpd/conf/httpd.conf
+    #+END_SRC
+
+    or referencing other file
+    #+BEGIN_SRC sh
+      chcon --reference=ssl.conf httpd.conf
+    #+END_SRC
+
+*** Change user
+    #+BEGIN_SRC sh
+      chcon -u system_u httpd.conf
+    #+END_SRC
+
+*** Change role
+    #+BEGIN_SRC sh
+      chcon -r object_r httpd.conf
+    #+END_SRC
+
+*** Change type
+    #+BEGIN_SRC sh
+      chcon -t httpd_config_t httpd.conf
+    #+END_SRC
+
+*** Change Order/Range/Level
+    #+BEGIN_SRC sh
+      chcon -l s0 httpd.conf
+    #+END_SRC
+
+ #+INCLUDE: "../disquss.inc"

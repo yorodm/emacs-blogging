@@ -1,0 +1,60 @@
+#+title: How to create a nested VM?
+#+date: <2018-12-19>
+#+keywords: vm kvm nested virt virt-manager libvirt qemu-kvm
+#+setupfile: ../org-templates/post.org
+
+This post provides steps to create a virtual-machine inside another
+virtual-machine. We will use =virt-manager= to achieve this. Please note that
+the physical host should support Virtualization Technology(VT). Follow [[./enable_kvm_intel.html][this post]]
+to verify and enable VT in the host.
+
+Assuming that the virtual-machine is already running on the host, SSH to the VM
+and install following packages needed to create and manage a nested VM:
+#+BEGIN_SRC shell
+  sudo yum install virt-manager virt-install libvirt qemu-kvm
+#+END_SRC
+
+Now load the =kvm= kernel module that provides virtualization capabilities:
+#+BEGIN_SRC shell
+  sudo modprobe kvm
+#+END_SRC
+
+Optionally, you can load CPU specific kvm module: =kvm_intel= or =kvm_amd=.
+
+Enable and start the =libvirtd= service:
+#+BEGIN_SRC shell -n
+  sudo systemctl enable libvirtd
+  sudo systemctl start libvirtd
+#+END_SRC
+
+For the sake of this post, we will use an Cirros OS image as the root disk.
+Download the image inside =/var/lib/libvirt/images/=:
+#+BEGIN_SRC shell
+  sudo curl https://download.cirros-cloud.net/0.4.0/cirros-0.4.0-x86_64-disk.img -o /var/lib/libvirt/images/cirros.img -#
+#+END_SRC
+
+You may need to add a non-root user to =kvm= & =libvirt= group to use the
+=virt-install= command:
+#+BEGIN_SRC shell -n
+  sudo usermod -aG kvm NON_ROOT_USER
+  sudo usermod -aG libvirt NON_ROOT_USER
+#+END_SRC
+
+Once the image is in place, we can create a VM using =virt-install=:
+#+BEGIN_SRC shell -n
+  virt-install --os-type=linux \
+	       --os-variant=rhel7 \
+	       --name vm01 \
+	       --ram=256 \
+	       --vcpus=1 \
+	       --disk path=/var/lib/libvirt/images/cirros.img \
+	       --graphic none \
+	       --import
+#+END_SRC
+
+Finally start the domain using,
+#+BEGIN_SRC shell
+  virsh start vm01
+#+END_SRC
+
+#+INCLUDE: "../disquss.inc"

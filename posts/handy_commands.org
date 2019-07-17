@@ -6,7 +6,6 @@
 List of commands that I find useful.
 
 /(Last updated on March 05, 2019)/
-
 ** PDF tricks
    - Reduce PDF size
      #+BEGIN_SRC shell
@@ -51,7 +50,7 @@ List of commands that I find useful.
        ffmpeg -t 10 -i input.mkv -c:v copy -c:a aac -b:a 128K output.mp4
      #+END_SRC
 
-   - [[https://manuals.playstation.net/document/en/ps4/videos/mp_format_v.html][PS4 compatible format]] (Special thanks to the Guys at =#ffmpeg@freenode= for helping me converting to the PS4 compatible format)
+   - [[https://manuals.playstation.net/document/en/ps4/videos/mp_format_v.html][PS4 compatible format]] (Special thanks to the guys at =#ffmpeg@freenode= for helping me converting to the PS4 compatible format)
      #+BEGIN_SRC shell -n
        # Ex1
        ffmpeg -i input.mkv -c:v libx264 -c:a libmp3lame -preset slow -profile:v high -level 4.2 -b:a 320K output.mkv
@@ -158,5 +157,32 @@ List of commands that I find useful.
      *-n*: retrieve files below parent directory.
 
      *-H*: Span across hosts when doing recursive retrieving.
+
+   - Find the Filesystem/partition of current directory
+     #+BEGIN_SRC shell
+       df -h .
+       # Notice the DOT
+     #+END_SRC
+
+   - List commands/applications using IPv4/IPv6
+     #+BEGIN_SRC shell
+       lsof -i 4
+       # and
+       lsof -i 6
+
+       # Sample output of `lsof -i 6`
+       COMMAND     PID    USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
+       emacs      3131 psachin   21u  IPv6 4519926      0t0  TCP nubia:55524->rajaniemi.freenode.net:ircu-3 (ESTABLISHED)
+       emacs      3131 psachin   22u  IPv6 4524689      0t0  TCP nubia:41416->irc0.acc.umu.se:ircu-3 (ESTABLISHED)
+       emacs      3131 psachin   23u  IPv6 4548798      0t0  TCP nubia:33452->strange.oftc.net:ircu-3 (ESTABLISHED)
+       firefox    3656 psachin   51u  IPv6 5606852      0t0  TCP nubia:54302->sc-in-xbd.1e100.net:https (ESTABLISHED)
+       chrome     3878 psachin  128u  IPv6 4518904      0t0  UDP *:mdns
+       chrome     3878 psachin  148u  IPv6 4518906      0t0  UDP *:mdns
+       thunderbi 13475 psachin   40u  IPv6 5552262      0t0  TCP nubia:35084->sc-in-x6d.1e100.net:imaps (ESTABLISHED)
+       thunderbi 13475 psachin   61u  IPv6 4526804      0t0  TCP nubia:59268->sb-in-x6c.1e100.net:imaps (ESTABLISHED)
+       thunderbi 13475 psachin   62u  IPv6 5592285      0t0  TCP nubia:60922->sa-in-x6d.1e100.net:imaps (ESTABLISHED)
+       thunderbi 13475 psachin   85u  IPv6 5408348      0t0  TCP nubia:48110->sb-in-x6d.1e100.net:imaps (ESTABLISHED)
+       thunderbi 13475 psachin  134u  IPv6 5561644      0t0  TCP nubia:44914->sb-in-x6c.1e100.net:imaps (ESTABLISHED)
+     #+END_SRC
 
 #+INCLUDE: "../disquss.inc"

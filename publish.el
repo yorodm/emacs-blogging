@@ -169,6 +169,21 @@ publishing directory. Returns output file name."
 	 :html-head ,psachin-website-html-head
 	 :html-preamble psachin-website-html-preamble
 	 :html-postamble ,psachin-website-html-postamble)
+	("photography"
+         :base-directory "photography"
+         :base-extension "org"
+	 :exclude ,(regexp-opt '("README.org" "draft"))
+	 :index-filename "index.org"
+         :recursive nil
+         :publishing-function org-html-publish-to-html
+         :publishing-directory "./public/photography"
+	 :html-link-home "/"
+	 :html-link-up "/"
+	 :html-head-include-scripts t
+	 :html-head-include-default-style nil
+	 :html-head ,psachin-website-html-head
+	 :html-preamble psachin-website-html-preamble
+	 :html-postamble ,psachin-website-html-postamble)
 	("slides"
          :base-directory "slides"
          :base-extension "org"

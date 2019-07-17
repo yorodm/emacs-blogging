@@ -1,0 +1,20 @@
+#+title: Vector Linux
+#+keywords: photography vector linux
+
+#+CAPTION: Very old chassis with Pidgin running on the screen.
+#+ATTR_HTML: :class center rounded-border
+#+ATTR_HTML: :width 100% :height
+[[../images/photography/chassis.jpeg]]
+
+#+CAPTION: Login prompt
+#+ATTR_HTML: :class center rounded-border
+#+ATTR_HTML: :width 100% :height
+[[../images/photography/kb.jpg]]
+
+#+CAPTION: Did you notice the system specs? 350MHz P2 with 63MB of memory.
+#+ATTR_HTML: :class center rounded-border
+#+ATTR_HTML: :width 100% :height
+[[../images/photography/machine_specs.jpg]]
+
+
+#+INCLUDE: "../disquss.inc"

@@ -7,12 +7,12 @@
   #+ATTR_HTML: :style text-align:center
   Developer, FOSS enthusiast, & avid GNU Emacs user.
 
-  #+ATTR_HTML: :class center no-border
-  [[file:../../images/about/rx_open_source.png]]
+  #+ATTR_HTML: :class center rounded-border
+  https://static.fsf.org/nosvn/images/badges/Spring19-fan-of-fsf.png
 
   I try not to be biased with any programming language or technology. I work on
   GNU/Linux and Free & Open Source Software for living. I prefer to use Google
-  products at minimum and use [[https://duckduckgo.com/][duckduckgo]] to search the Web and switch between
+  products at minimum and use [[https://duckduckgo.com/][DuckDuckGo]] to search the Web and switch between
   [[https://www.torproject.org/][Tor]] & [[https://www.privateinternetaccess.com/][VPN service]] when online. If you are passionate about GNU and Free
   Software like me, I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako
   Hill.
@@ -24,9 +24,9 @@
 
 ** @Home
 
-   My current system is [[https://plus.google.com/photos/photo/113870692888444102463/6355020254313100738?icm=false&sqid=104043194426129544738&ssid=2c4bb3f4-0eed-4d83-9385-eb6e51a01dc9][Lenovo G505s]] with AMD A8 Quad-core processor and 8 Gigs
-   of RAM running Slackware 14.1(I always prefer [[https://gitlab.com/psachin/bash_scripts/blob/master/build_my_kernel.sh][latest kernel]]. I usually work
-   on this system.
+   For personal use, I have [[https://www.lenovo.com/gb/en/laptops/lenovo/g-series/g505s/][Lenovo G505s]] with AMD A8 Quad-core processor and 8
+   Gigs of RAM running Slackware 14.1(I always prefer [[https://gitlab.com/psachin/bash_scripts/blob/master/build_my_kernel.sh][latest kernel]]. I usually
+   work on this system.
 
    My other system includes /Acer emachines eM350/ netbook running [[https://manjaro.org/][Manjaro Linux]]
    an independently developed [[https://www.archlinux.org/][Arch Linux]]. I've [[http://awesomewm.org][Awesome window manager]] on it. I
@@ -36,7 +36,7 @@
 
    Apart from this I had a very old Intel Pentium II Machine with 350MHz
    processor and 64MB of RAM running Vector Linux. +I wonder how this machine
-   [[https://plus.google.com/+Sachinp/posts/UMCp3L6NiAn?pid=5864821069617337218&oid=113870692888444102463][still runs?]]+
+   [[./../photography/vector.html][still runs?]]+
 
    Most of my home network and Internet connection is managed by D-LINK DIR-615E
    wireless router flashed with custom [[https://openwrt.org/][OpenWRT(barrier-breaker)]]. This is my
@@ -89,7 +89,7 @@
    All my presentation slides are pushed to [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]].
    With few exceptions(hosted online):
 
-   - Freenode #live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]]([[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[file:../assets/slides/GNU_Emacs_for_all.pdf][Slides]])
+   - Freenode#live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]]: [[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] & [[file:../assets/slides/GNU_Emacs_for_all.pdf][Slides]]
    - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]]
    - [[http://psachin.github.io/.emacs.d/][GNU Hackers Meeting-2016]]: Manage GNU Emacs configuration using [[http://orgmode.org/worg/org-contrib/babel/intro.html][literate
      programming]].

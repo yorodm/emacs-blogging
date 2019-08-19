@@ -1,0 +1,56 @@
+#+title: Using cdrecord
+#+date: <2016-09-05>
+#+keywords: cdrecord, linux, scsi, cd-rom, optical, scanbus
+#+setupfile: ../org-templates/post.org
+
+Logging commands for using =cdrecord=. Might be useful.
+
+- Identifying an Optical device
+  #+BEGIN_SRC bash
+    cdrecord -scanbus
+  #+END_SRC
+
+  Sample output:
+  #+BEGIN_SRC shell -n
+    Cdrecord-ProDVD-ProBD-Clone 3.01a16 (x86_64-unknown-linux-gnu) Copyright (C) 1995-2013 Joerg Schilling
+    Linux sg driver version: 3.5.34
+    Using libscg version 'schily-0.9'.
+    scsibus3:
+	    3,0,0   300) 'ATA     ' 'Hitachi HDS72161' 'P22O' Disk
+	    3,1,0   301) *
+	    3,2,0   302) *
+	    3,3,0   303) *
+	    3,4,0   304) *
+	    3,5,0   305) *
+	    3,6,0   306) *
+	    3,7,0   307) *
+    scsibus4:
+	    4,0,0   400) 'HL-DT-ST' 'DVDRAM GSA-H42N ' 'RL00' Removable CD-ROM
+	    4,1,0   401) 'ATA     ' 'ST340810A       ' '5.33' Disk
+	    4,2,0   402) *
+	    4,3,0   403) *
+	    4,4,0   404) *
+	    4,5,0   405) *
+	    4,6,0   406) *
+	    4,7,0   407) *
+  #+END_SRC
+
+  Note that the Optical device/CD-ROM with the name **'HL-DT-ST' 'DVDRAM
+  GSA-H42N ' 'RL00' Removable CD-ROM** is identified with **4,0,0** (also called
+  the SCSI number)
+
+
+- Writing data to Optical device media
+  #+BEGIN_SRC bash
+    cdrecord -v -eject speed=48 dev=4,0,0 puppy_linux.iso
+  #+END_SRC
+
+  Where:
+
+  - =-v= Show verbose output.
+  - =-eject= Eject the media after successfully finished writing.
+  - =speed= An integer representing multiple of audio speed. Refer manpage for more info.
+  - =dev= Device number.
+  - =puppy_linux.iso= Path to the file.
+
+#+INCLUDE: "../disquss.inc"

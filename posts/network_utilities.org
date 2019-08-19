@@ -128,6 +128,19 @@ covers examples with syntax.
       nmcli connection
     #+END_SRC
 
+*** Show all devices
+    #+BEGIN_SRC bash
+      nmcli device
+
+      # Sample output
+      DEVICE      TYPE      STATE        CONNECTION
+      enp0s25     ethernet  connected    enp0s25
+      virbr0      bridge    connected    virbr0
+      wlp3s0      wifi      unavailable  --
+      lo          loopback  unmanaged    --
+      virbr0-nic  tun       unmanaged    --
+    #+END_SRC
+
 *** Show details for specific connection
     :PROPERTIES:
     :ID:       99c2ef59-f4ee-4eaa-b739-7b973413fcb0
@@ -156,6 +169,20 @@ covers examples with syntax.
     Example
     #+BEGIN_SRC sh
       nmcli connection up my-dsl-conn
+    #+END_SRC
+
+*** Show status of the WIFI
+    #+BEGIN_SRC bash
+      nmcli radio
+
+      # Sample output
+      WIFI-HW  WIFI      WWAN-HW  WWAN
+      enabled  disabled  enabled  disabled
+    #+END_SRC
+
+*** Enable WIFI
+    #+BEGIN_SRC bash
+      nmcli radio wifi on
     #+END_SRC
 
 ** SSH: Secure shell

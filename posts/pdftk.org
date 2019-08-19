@@ -6,6 +6,8 @@
 =pdftk= can be an excellent tool for manupilating PDFs if you know
 some handy commands
 
+/Note: I prefer Ghostscript(=gs=) over =pdftk=. Please refer [[./handy_commands.html][this post]] to see =gs= commands examples./
+
 ** Merge pages
    :PROPERTIES:
    :ID:       4728456a-9bdd-4abf-ac5f-700814f2a201

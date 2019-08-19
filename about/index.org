@@ -89,12 +89,15 @@
    All my presentation slides are pushed to [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]].
    With few exceptions(hosted online):
 
-   - Freenode#live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][GNU Emacs for All]]: [[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] & [[file:../assets/slides/GNU_Emacs_for_all.pdf][Slides]]
-   - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]]
+   - DevConf 2019: [[https://github.com/psachin/analysis-plugins][Contributing to the Insights Core Framework]].
+   - GNU Emacs for All:
+     - GHM 2019: [[https://gitlab.com/psachin/slides/blob/master/ghm_2019/index.org][Org file]] | [[https://psachin.gitlab.io/assets/slides/GNU_Emacs_for_all_GHM_2019.pdf][PDF]] | [[https://gitlab.com/psachin/slides/blob/master/ghm_2019/latex_beamer.pdf][LaTeX Beamer]]
+     - Freenode#live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][Video]] | [[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[https://psachin.gitlab.io/assets/slides/GNU_Emacs_for_all.pdf][PDF]]
+   - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]].
    - [[http://psachin.github.io/.emacs.d/][GNU Hackers Meeting-2016]]: Manage GNU Emacs configuration using [[http://orgmode.org/worg/org-contrib/babel/intro.html][literate
      programming]].
    - [[http://redhat.slides.com/psachin/rhosp-swift-2016][OpenStack Swift Object Storage]]: Session covered Swift object storage
-     architecture and demonstrated Object versioning in Swift.
+     architecture and [[https://www.youtube.com/watch?v=ru2iMJvUZjI][demonstrated Object versioning in Swift]].
    - [[http://psachin.github.io/py-starwars/][py-starwars]]: Introductory talk on Python programming language.
 
 ** Articles

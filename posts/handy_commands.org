@@ -21,6 +21,11 @@ List of commands that I find useful.
       #+BEGIN_SRC shell
         gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=3 -sOutputFile=out_file_page_1_to_3.pdf input_file.pdf
       #+END_SRC
+
+   - Merge PDF files
+     #+BEGIN_SRC shell
+       gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=out_file.pdf in_file_1.pdf in_file_2.pdf
+     #+END_SRC
 ** Media tricks
    - Rotate video
       #+BEGIN_SRC shell -n
@@ -144,7 +149,7 @@ List of commands that I find useful.
      #+END_SRC
 
    - wget a website
-     #+BEGIN_SRC shell
+     #+BEGIN_SRC bash
        wget -rkp -l5 -np -nH -cut-dirs=1 https://example.com
      #+END_SRC
 
@@ -165,7 +170,7 @@ List of commands that I find useful.
      #+END_SRC
 
    - List commands/applications using IPv4/IPv6
-     #+BEGIN_SRC shell
+     #+BEGIN_SRC shell -n
        lsof -i 4
        # and
        lsof -i 6

@@ -9,7 +9,7 @@ based on Qt & QML with OpenEmbedded GNU/Linux distribution.
 #+ATTR_HTML: :width 70% :height
 [[file:images/posts/asteroidos/cropped-logo-tourne.png]]
 
-Eventually I was able to run AsteroidOS on my [[https://www.asus.com/in/ZenWatch/ASUS_ZenWatch_2_WI501Q/][ZenWatch2]]. It has been
+Eventually I was able to run AsteroidOS on my [[https://www.asus.com/us/ZenWatch/ASUS_ZenWatch_2_WI501Q/][ZenWatch2]]. It has been
 an amazing experience to run GNU/Linux distribution on a watch. The
 user-interface is smooth and covers most features that are needed for
 a smart-watch.

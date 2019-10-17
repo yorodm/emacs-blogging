@@ -1,0 +1,127 @@
+#+title: Asus Zen Watch 2(WI501Q) review
+#+date: <2019-10-17>
+#+keywords: asus zenwatch zenwatch2 WI501Q
+#+setupfile: ../org-templates/post.org
+
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+
+#+CAPTION: ASUS ZenWatch2 WI501Q
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/zenwatch_1.jpg]]
+
+After 3 years(I brought it on Oct 22, 2016) of use I'm finally writing a review
+of my **ASUS Zenwatch2**. This was my first smartwatch and I spend a good amount
+of time to convince myself to buy it and the device never disappointed me. I
+choose to have the one with 1.63" dial. It comes with all sorts of features
+mentioned [[https://www.asus.com/us/ZenWatch/ASUS_ZenWatch_2_WI501Q/Features/][here]] and syncs pretty well the any Android phone.
+
+The photos you see were taken today and as seen the device is in very good state
+after regular use. I wear it everyday during my evening walk just to see the
+distance covered and the calories burned ;-) Of course the strap in the photos
+is not the original strap that came with the watch(the original leather strap is
+still intact and occasionally switch to it). This one with white stitches on
+black leather suits even better with the watch.
+
+If you want to look at the specs, I have put them below:
+
+#+ATTR_HTML: :align center
+#+ATTR_HTML: :align |c|c|
+| Specs                |                                                   |
+|----------------------+---------------------------------------------------|
+| Brand                | Asus                                              |
+| Class                | ZenWatch 2                                        |
+| Model                | WI501Q                                            |
+| Android OS version   | 7.1.1(unofficial update)                          |
+| Processor            | Qualcomm Snapdragon 400 1.2GHz                    |
+| Battery              | 380mAh                                            |
+| Storage              | 4GB eMMC Flash                                    |
+| Memory               | 512 MB RAM                                        |
+| Dial shape           | Square                                            |
+| Glass                | Cover Lens: 2.5D curved Corning® Gorilla® Glass 3 |
+| Display              | AMOLED 1.63", 320x320, 278ppi Touch Display       |
+| Sensor               | 6-Axis (A+G) with Sensor-hub                      |
+| Audio                | Built-in microphone & speaker                     |
+| Communication        | Bluetooth 4.1 + WIFI                              |
+| WR                   | IP67                                              |
+| Device name          | ASUS ZenWatch2 6207                               |
+| Lug width            | 22mm                                              |
+| Strap material       | Genuine Italian Leather                           |
+| Dial material        | /Some sort of metal/                              |
+| Android Wear version | 2.28.0.270002478(unofficial update)               |
+
+#+CAPTION: Dim screen mode(Always-on Screen).
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/zenwatch_2.jpg]]
+
+I never used the stock ROM which came with the watch. Soon after it arrived, I
+flashed it with **AsteroidOS**. You can read the entire post [[../hack_your_wrist.html][here]].
+**AsteroidOS** has very good community support and most of the features works.
+It is worth trying.
+
+I think what made me stick to this watch was I flashed it many times and
+simultaneously switched between **Wear OS** and **AsteroidOS** whenever I was
+bored. I still love using [[https://developer.android.com/studio/command-line/adb][adb]] to sneak into the device and with AsteriodOS you
+can even SSH into the watch. Below are few lines of bash history:
+
+#+BEGIN_SRC shell -n
+  psachin@nubia:$ ssh ceres@192.168.2.15
+  The authenticity of host '192.168.2.15 (192.168.2.15)' can't be established.
+  ECDSA key fingerprint is SHA256:LxNXmUOedFlgPA+PHbPRW8kzHETwXtrAhdtQRE6x5gj.
+  ECDSA key fingerprint is MD5:9b:12:8c:54:20:b0:a8:15:65:14:a7:c7:cd:e2:5a:75.
+  Are you sure you want to continue connecting (yes/no)? yes
+  Warning: Permanently added '192.168.2.15' (ECDSA) to the list of known hosts.
+  Last login: Mon Jun 12 17:12:55 2017
+  Could not chdir to home directory /home/ceres: No such file or directory
+  ceres@sparrow:/$ journalctl --no-pager
+  Hint: You are currently not seeing messages from other users and the system.
+	Users in the 'systemd-journal' group can see all messages. Pass -q to
+	turn off this notice.
+  No journal files were opened due to insufficient permissions.
+  ceres@sparrow:/$ journalctl --no-pager -q
+  No journal files were opened due to insufficient permissions.
+  ceres@sparrow:/$ sudo -s
+  -sh: sudo: not found
+  ceres@sparrow:/$ su
+  root@sparrow:/# journalctl --no-pager
+  -- Logs begin at Mon 2017-06-12 17:12:41 UTC, end at Mon 2017-06-12 17:16:33 UTC. --
+  Jun 12 17:12:41 sparrow kernel: Booting Linux on physical CPU 0x0
+  Jun 12 17:12:41 sparrow kernel: Initializing cgroup subsys cpuset
+  Jun 12 17:12:41 sparrow kernel: Initializing cgroup subsys cpu
+  Jun 12 17:12:41 sparrow kernel: Initializing cgroup subsys cpuacct
+#+END_SRC
+
+You can look at the full logs at https://pastebin.com/EkQG9QYV
+
+What I love about this watch is that I have a precise timekeeping device with
+all the complications like Day-Date, Battery status, Second timezone, Step count
+on a single screen. With Bluetooth ON and **Always-on screen** turned off, the
+Watch goes up to 2 days on battery. On **Airplane mode** and **Always-on
+screen** turned off, the Watch stay for more than 5 days with less than 10%
+battery. If **Battery Saver on**, it stays for 7 days. This is a reliable device
+for travel because you don't have to worry about the regional time change. The
+watch syncs with the Phone and auto adjust to the destination timezone.
+
+#+CAPTION: Settings are available with a press of the crown button.
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/zenwatch2_settings.jpg]]
+
+With the HyperCharge, the watch is 100% charged in less than 60 mins. The only
+issue I face is I need to cleanup the charging contacts from time-to-time as
+they easily loose contact with the charger points due to sweat and dirt.
+
+#+CAPTION: Charging contacts at the back. This was clicked with the original straps.
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/zenwatch2_back.jpg]]
+
+I'm currently using an [[../zw2_wear2_ota.html][unofficial update]]. ASUS ZenWatch2 is quite a piece and in
+my experience with continuous experimenting & flashing the watch, I can say that
+the hardware is very stable. The Battery performance is quite incredible till
+now. I must say that the device has served me well.
+
+#+INCLUDE: "../disquss.inc"

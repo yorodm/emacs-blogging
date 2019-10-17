@@ -188,7 +188,10 @@ publishing directory. Returns output file name."
          :base-directory "horology"
          :base-extension "org"
 	 :exclude ,(regexp-opt '("README.org" "draft"))
-	 :index-filename "index.org"
+	 :auto-sitemap t
+	 :sitemap-filename "index.org"
+	 :sitemap-title "Horology"
+	 :sitemap-format-entry psachin-org-sitemap-format-entry
          :recursive nil
          :publishing-function org-html-publish-to-html
          :publishing-directory "./public/horology"

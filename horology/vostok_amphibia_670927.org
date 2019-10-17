@@ -22,22 +22,23 @@ arrow with classic /Amphibia/ signature below.
 
 #+ATTR_HTML: :align center
 #+ATTR_HTML: :align |c|c|
-| Specs          |                    |
-|----------------+--------------------|
-| Brand          | Vostok             |
-| Class          | Amphibia           |
-| Model          | 670927             |
-| Movement       | 2415               |
-| Winding        | Manual + Automatic |
-| Power reserve  | < 33 hrs.          |
-| WR             | 20 ATM             |
-| Dial           | 41mm               |
-| Lug width      | 20mm               |
-| Strap material | Silicon            |
-| Dial material  | Steel              |
-| Dial shape     | Round              |
-| Bezel          | (smooth)Rotating   |
-| Glass          | Crystal(I guess)   |
+| Specs          |                           |
+|----------------+---------------------------|
+| Brand          | Vostok                    |
+| Class          | Amphibia                  |
+| Model          | 670927                    |
+| Movement       | 2415                      |
+| Winding        | Manual + Automatic        |
+| Power reserve  | < 33 hrs.                 |
+| WR             | 20 ATM                    |
+| Dial           | 41mm                      |
+| Lug width      | 20mm                      |
+| Strap material | Silicon                   |
+| Dial material  | Steel                     |
+| Dial shape     | Round                     |
+| Bezel          | (smooth)Rotating          |
+| Glass          | Covered, Crystal(I guess) |
+
 
 The Vostok Amphibia 670927 has 2415 automatic movement with no complications.
 Also there is no hacking(sadly). The power reserve as per the user-guide says

@@ -72,7 +72,10 @@
 
    I find programming in =elisp= relaxing when I'm bored with Python and
    friends. Occasionally I do write helper functions and share it on
-   [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]].
+   [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most the tiny helper functions can be found within
+   my [[https://gitlab.com/psachin/emacs.d][Emacs conf]]. In my free time I engage myself in reading Physics and
+   Mathematics. My latest obsession is Horology, you can read my first review on
+   Vostok Amphibia 670927 [[../horology/vostok_amphibia_670927.html][here]].
 
 ** Blogs
 

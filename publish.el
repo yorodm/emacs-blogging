@@ -184,6 +184,21 @@ publishing directory. Returns output file name."
 	 :html-head ,psachin-website-html-head
 	 :html-preamble psachin-website-html-preamble
 	 :html-postamble ,psachin-website-html-postamble)
+	("horology"
+         :base-directory "horology"
+         :base-extension "org"
+	 :exclude ,(regexp-opt '("README.org" "draft"))
+	 :index-filename "index.org"
+         :recursive nil
+         :publishing-function org-html-publish-to-html
+         :publishing-directory "./public/horology"
+	 :html-link-home "/"
+	 :html-link-up "/"
+	 :html-head-include-scripts t
+	 :html-head-include-default-style nil
+	 :html-head ,psachin-website-html-head
+	 :html-preamble psachin-website-html-preamble
+	 :html-postamble ,psachin-website-html-postamble)
 	("slides"
          :base-directory "slides"
          :base-extension "org"
@@ -223,7 +238,7 @@ publishing directory. Returns output file name."
 	 :exclude ".*"
 	 :include ("index.org")
 	 :table-of-contents nil)
-	("all" :components ("posts" "about" "slides" "todo" "css" "images" "assets" "rss"))))
+	("all" :components ("posts" "about" "slides" "todo" "horology" "css" "images" "assets" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

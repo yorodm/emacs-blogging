@@ -1,0 +1,100 @@
+#+title: Seiko 5 Sports SNZG13J1 review
+#+date: <2019-10-21>
+#+keywords: seiko snzg13j1 7S36 review wrist watch review
+#+setupfile: ../org-templates/post.org
+
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+
+#+CAPTION: Seiko 5 Sports SNZG13J1, 7S36 movement
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/seiko_SNZG13J1_lisa.jpg]]
+
+This is the first automatic mechanical watch in my possession and what better
+than a *Seiko 5 Sports*. The photos you see is after 1.8 years of usage. I've
+replaced the original metal straps with 22mm Nylon Khaki strap and it looks more
+/sportier/ to me.
+
+At the time when I brought [[../asus_zenwatch2_WI501Q.html][ASUS ZenWatch2]] a friend of mine suggested to go for a
+Seiko Automatic watch. He introduced me to couple to Manual and Automatic
+watches but I was not very convinced. However the idea stuck with me until a
+year back when eventually I decided to have a Seiko. This is made in Japan
+verses the model *SNZG13K1* which is assembled in Malaysia.
+
+I often switch between [[https://www.amazon.com/Ritche-Watch-Straps-Nylon-Replacement/dp/B07QHB5BD5][Nylon]], [[https://fullmosa.hk/collections/22mm/products/4-colors-for-wax-watch-band-18mm-20mm-22mm-24mm][Leather]] and the original Stainless steel bracelet
+depending on the event. The watch looks good on all the straps.
+
+#+CAPTION: The White on Black background makes it a perfect field watch
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/seiko_SNZG13J1_7S36.jpg]]
+
+Below are the specifications:
+
+#+ATTR_HTML: :align center
+#+ATTR_HTML: :align |c|c|
+| Specs          |                         |
+|----------------+-------------------------|
+| Brand          | Seiko 5                 |
+| Class          | Sports                  |
+| Model          | SNZG13J1                |
+| Caliber        | 7236                    |
+| Movement       | Automatic               |
+| Jewels         | 23                      |
+| Power reserve  | > 41 hrs.               |
+| WR             | 10 ATM                  |
+| Dial           | 42mm                    |
+| Lug width      | 22mm                    |
+| Strap material | Stainless Steel         |
+| Dial material  | Stainless Steel         |
+| Dial shape     | Round                   |
+| Bezel          | No Bezel/Fixed Bezel    |
+| Glass          | Hardlex Mineral Crystal |
+
+
+This is a best field watch one can have and is recommended for those who want to
+buy their first automatic watch. The dial has Black (mate) background with White
+markings, numerals and watch hands. The bezel is fixed and brushed(or I would it
+has not bezel as such) The Dial has depth for hands and where the hours as
+marked in numerals from 1 to 12 and from 13 to 24(in small case) inwards. The
+*SEIKO* branding emerges form the background with *5* badging below it. The 5
+represents the five features of this watch mentioned below:
+
+1. Automatic mechanism
+2. Day-Date display
+3. Water Resistance(This one is 100 Meters WR. Good for diving.)
+4. Diaflex(High durable main spring)
+5. Shock Resistance
+
+The outer ring, which is placed higher than the dial and has lume strips at
+every hour. Seiko uses its own proprietary *Lumibrite* paint for lumes and has
+very good light emission even with couple of minutes of light exposure. The
+Hour, Minute hand is lumed as well. The Day-Date window is placed at 3 O'clock
+as White on Black background.
+
+The crown is not signed and the size of the crown matches the width of the
+watch. The grip is good for performing time and day-date adjustments. It has two
+pull up positions for adjusting time and day-date. The crown is not screw down
+and there is no hacking and no manual winding.
+
+#+CAPTION: An exhibition caseback
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/seiko_back_SNZG13J1_7S36.jpg]]
+
+It has an exhibition caseback and the glass has *SEIKO* branding with water
+resistance indication, caliber details.
+
+#+CAPTION: Seiko 5 Sports SNZG13J1, 7S36 movement
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/seiko_SNZG13J1_ralph.jpg]]
+
+The watch is pretty accurate at timekeeping and kick starts even with the
+slightest movement. Although it is recommended to give it a horizontal swings
+for at least 30 seconds to avoid gain or loss. I've never encountered any issue
+till now and glad to have this in my collection.
+
+#+INCLUDE: "../disquss.inc"

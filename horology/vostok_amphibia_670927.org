@@ -1,6 +1,6 @@
 #+title: Vostok Amphibia Classic 670927 review
 #+date: <2019-10-17>
-#+keywords: vostok amphibia 670927
+#+keywords: vostok amphibia 670927 wrist watch review
 #+setupfile: ../org-templates/post.org
 
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
@@ -11,10 +11,10 @@
 #+CAPTION: Vostok Amphibia Classic 670927
 #+ATTR_HTML: :width 70% :height
 #+ATTR_HTML: :class center spaced-border
-[[../images/horology/vostok_amphibia_670927_front_1.jpg]]
+[[../images/horology/vostok_amphibia_670927_front_2.jpg]]
 
 I brought this *Vostok Amphibia 670* series watch which is the second Automatic
-watch in my possession. It fits perfectly on my wrist because of it 41 mm dial
+watch in my possession. It fits perfectly on my wrist because of its 41 mm dial
 and silicon straps. It appears classic because the dial has light Bluish Grey
 color on top of Black background. It has a white strip and a lume dot to mark
 every hour with three black strips between each hour. The 12 is marked with Red
@@ -29,6 +29,7 @@ arrow with classic /Amphibia/ signature below.
 | Model          | 670927                    |
 | Movement       | 2415                      |
 | Winding        | Manual + Automatic        |
+| Jewels         | 31                        |
 | Power reserve  | < 33 hrs.                 |
 | WR             | 20 ATM                    |
 | Dial           | 41mm                      |
@@ -37,40 +38,39 @@ arrow with classic /Amphibia/ signature below.
 | Dial material  | Steel                     |
 | Dial shape     | Round                     |
 | Bezel          | (smooth)Rotating          |
-| Glass          | Covered, Crystal(I guess) |
+| Glass          | Covered, Acrylic(I guess) |
 
-
-The Vostok Amphibia 670927 has 2415 automatic movement with no complications.
-Also there is no hacking(sadly). The power reserve as per the user-guide says
-"not less that 33 hrs". It has 31 ruby jewels, shock resistance balance and 20 ATM
-water-resistance.
+The Vostok Amphibia 670927 has 2415 automatic in-house movement with no
+complications. Also there is no hacking(sadly). The power reserve as per the
+user guide says "not less that 33 hrs". It has 31 ruby jewels, shock resistance
+balance and 20 ATM water-resistance.
 
 #+CAPTION: The retro dial in combination with chunkier bezel and silicon straps.
 #+ATTR_HTML: :width 70% :height
 #+ATTR_HTML: :class center spaced-border
-[[../images/horology/vostok_amphibia_670927_front_2.jpg]]
+[[../images/horology/vostok_amphibia_670927_front_1.jpg]]
 
-This is the my first automatic watch with 20 ATM WR and rotating bezel. The
-watch is quite heavy, may be because if the bezel(which is 4mm depth). The bezel
-rotation is smooth but firm so you don't have to worry about unwanted bezel
-rotation on minor touches. The bezel has 10, 20, 30, 40, and 50 black markings
-with 12 marked with a white circle. I like the combinations of color used on
-this watch which is a mix of everything from black, white, Grey, blue(ish) and
-Red. Besides the retro look in combination with chunkier bezel feels robust. I
-like the way the dial colors plays with the light which appears completely Grey
-sometime but will also match a blue shade attire. The quality of silicon strap
-is great and perfect to wear in the Summers. Although I'm guessing how NATO
-straps will look with this watch.
+This is the my first automatic watch with 20 ATM WR(perfect diving watch) and
+rotating bezel. The watch is quite heavy, may be because if the bezel(which is
+4mm depth). The bezel rotation is smooth but firm so you don't have to worry
+about unwanted bezel rotation on minor touches. The bezel has 10, 20, 30, 40,
+and 50 black markings with 12 marked with a white circle. I like the
+combinations of color used on this watch which is a mix of everything from
+black, white, Grey, blue(ish) and Red. Besides the retro look in combination
+with chunkier bezel feels robust. I like the way the dial colors plays with the
+light which appears completely Grey sometime but will also match a blue shade
+attire. The quality of silicon strap is great and perfect to wear in the
+Summers. Although I'm guessing how NATO straps will look on this watch.
 
-Almost all of the front is in high polish and the back is brushed with
-"Amphibian" signature and indication of water resistance.
+Almost all of the front is in high polish and the caseback is brushed with
+"Amphibian" signature and water resistance indication.
 
-#+CAPTION: Brushed back
+#+CAPTION: No Exhibition caseback
 #+ATTR_HTML: :width 70% :height
 #+ATTR_HTML: :class center spaced-border
 [[../images/horology/vostok_amphibia_670927_back.jpg]]
 
-The crown is "huge"(and it looks good by the way) and you have to unscrew it
+The crown is "huge"(and it looks good by the way) and you have to /unscrew/ it
 before winding or performing time adjustments.
 
 It is very early to share the performance review of this watch but I'll share a

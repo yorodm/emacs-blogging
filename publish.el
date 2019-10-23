@@ -57,8 +57,8 @@
   (when (string-match-p "post" (format "%s" (plist-get plist :keywords)))
     (plist-put plist
 	       :subtitle (format "Published on %s by %s."
-				 (org-export-get-date plist psachin-date-format)
-				 (car (plist-get plist :author)))))
+				             (org-export-get-date plist psachin-date-format)
+				             (car (plist-get plist :author)))))
 
   ;; Below content will be added anyways
 "<div class='intro'>
@@ -100,12 +100,12 @@ STYLE:
 PROJECT: `posts in this case."
   (cond ((not (directory-name-p entry))
          (format "*[[file:%s][%s]]*
-                  #+HTML: <p class='pubdate'>by %s on %s</p>"
-		 entry
-		 (org-publish-find-title entry project)
-		 (car (org-publish-find-property entry :author project))
-		 (format-time-string psachin-date-format
-				     (org-publish-find-date entry project))))
+					#+HTML: <p class='pubdate'>by %s on %s</p>"
+		         entry
+		         (org-publish-find-title entry project)
+		         (car (org-publish-find-property entry :author project))
+		         (format-time-string psachin-date-format
+				                     (org-publish-find-date entry project))))
         ((eq style 'tree) (file-name-nondirectory (directory-file-name entry)))
         (t entry)))
 
@@ -128,120 +128,121 @@ publishing directory. Returns output file name."
          :exclude ,(regexp-opt '("README.org" "draft"))
          :auto-sitemap t
          :sitemap-filename "index.org"
-	 :sitemap-title "Blog Index"
-	 :sitemap-format-entry psachin-org-sitemap-format-entry
+         :sitemap-title "Blog Index"
+         :sitemap-format-entry psachin-org-sitemap-format-entry
          :sitemap-style list
          :sitemap-sort-files anti-chronologically
-	 :html-link-home "/"
-	 :html-link-up "/"
-	 :html-head-include-scripts t
-	 :html-head-include-default-style nil
-	 :html-head ,psachin-website-html-head
-	 :html-preamble psachin-website-html-preamble
-	 :html-postamble ,psachin-website-html-postamble)
-	("about"
+         :html-link-home "/"
+         :html-link-up "/"
+         :html-head-include-scripts t
+         :html-head-include-default-style nil
+         :html-head ,psachin-website-html-head
+         :html-preamble psachin-website-html-preamble
+         :html-postamble ,psachin-website-html-postamble)
+        ("about"
          :base-directory "about"
          :base-extension "org"
-	 :exclude ,(regexp-opt '("README.org" "draft"))
-	 :index-filename "index.org"
+         :exclude ,(regexp-opt '("README.org" "draft"))
+         :index-filename "index.org"
          :recursive nil
          :publishing-function org-html-publish-to-html
          :publishing-directory "./public/about"
-	 :html-link-home "/"
-	 :html-link-up "/"
-	 :html-head-include-scripts t
-	 :html-head-include-default-style nil
-	 :html-head ,psachin-website-html-head
-	 :html-preamble psachin-website-html-preamble
-	 :html-postamble ,psachin-website-html-postamble)
-	("todo"
+         :html-link-home "/"
+         :html-link-up "/"
+         :html-head-include-scripts t
+         :html-head-include-default-style nil
+         :html-head ,psachin-website-html-head
+         :html-preamble psachin-website-html-preamble
+         :html-postamble ,psachin-website-html-postamble)
+        ("todo"
          :base-directory "todo"
          :base-extension "org"
-	 :exclude ,(regexp-opt '("README.org" "draft"))
-	 :index-filename "index.org"
+         :exclude ,(regexp-opt '("README.org" "draft"))
+         :index-filename "index.org"
          :recursive nil
          :publishing-function org-html-publish-to-html
          :publishing-directory "./public/todo"
-	 :html-link-home "/"
-	 :html-link-up "/"
-	 :html-head-include-scripts t
-	 :html-head-include-default-style nil
-	 :html-head ,psachin-website-html-head
-	 :html-preamble psachin-website-html-preamble
-	 :html-postamble ,psachin-website-html-postamble)
-	("photography"
+         :html-link-home "/"
+         :html-link-up "/"
+         :html-head-include-scripts t
+         :html-head-include-default-style nil
+         :html-head ,psachin-website-html-head
+         :html-preamble psachin-website-html-preamble
+         :html-postamble ,psachin-website-html-postamble)
+        ("photography"
          :base-directory "photography"
          :base-extension "org"
-	 :exclude ,(regexp-opt '("README.org" "draft"))
-	 :index-filename "index.org"
+         :exclude ,(regexp-opt '("README.org" "draft"))
+         :index-filename "index.org"
          :recursive nil
          :publishing-function org-html-publish-to-html
          :publishing-directory "./public/photography"
-	 :html-link-home "/"
-	 :html-link-up "/"
-	 :html-head-include-scripts t
-	 :html-head-include-default-style nil
-	 :html-head ,psachin-website-html-head
-	 :html-preamble psachin-website-html-preamble
-	 :html-postamble ,psachin-website-html-postamble)
-	("horology"
+         :html-link-home "/"
+         :html-link-up "/"
+         :html-head-include-scripts t
+         :html-head-include-default-style nil
+         :html-head ,psachin-website-html-head
+         :html-preamble psachin-website-html-preamble
+         :html-postamble ,psachin-website-html-postamble)
+        ("horology"
          :base-directory "horology"
          :base-extension "org"
-	 :exclude ,(regexp-opt '("README.org" "draft"))
-	 :auto-sitemap t
-	 :sitemap-filename "index.org"
-	 :sitemap-title "Horology"
-	 :sitemap-format-entry psachin-org-sitemap-format-entry
+         :exclude ,(regexp-opt '("README.org" "draft"))
+         :auto-sitemap t
+         :sitemap-filename "index.org"
+         :sitemap-title "Horology"
+         :sitemap-format-entry psachin-org-sitemap-format-entry
+         :sitemap-sort-files anti-chronologically
          :recursive nil
          :publishing-function org-html-publish-to-html
          :publishing-directory "./public/horology"
-	 :html-link-home "/"
-	 :html-link-up "/"
-	 :html-head-include-scripts t
-	 :html-head-include-default-style nil
-	 :html-head ,psachin-website-html-head
-	 :html-preamble psachin-website-html-preamble
-	 :html-postamble ,psachin-website-html-postamble)
-	("slides"
+         :html-link-home "/"
+         :html-link-up "/"
+         :html-head-include-scripts t
+         :html-head-include-default-style nil
+         :html-head ,psachin-website-html-head
+         :html-preamble psachin-website-html-preamble
+         :html-postamble ,psachin-website-html-postamble)
+        ("slides"
          :base-directory "slides"
          :base-extension "org"
-	 :exclude ,(regexp-opt '("README.org" "draft"))
-	 :index-filename "index.org"
+         :exclude ,(regexp-opt '("README.org" "draft"))
+         :index-filename "index.org"
          :recursive t
          :publishing-function psachin-org-reveal-publish-to-html
          :publishing-directory "./public/slides/")
-	("css"
+        ("css"
          :base-directory "./css"
          :base-extension "css"
          :publishing-directory "./public/css"
          :publishing-function org-publish-attachment
          :recursive t)
-	("images"
-	 :base-directory "./images"
+        ("images"
+         :base-directory "./images"
          :base-extension ,site-attachments
          :publishing-directory "./public/images"
          :publishing-function org-publish-attachment
          :recursive t)
-	("assets"
-	 :base-directory "./assets"
+        ("assets"
+         :base-directory "./assets"
          :base-extension ,site-attachments
          :publishing-directory "./public/assets"
          :publishing-function org-publish-attachment
          :recursive t)
-	("rss"
-	 :base-directory "posts"
+        ("rss"
+         :base-directory "posts"
          :base-extension "org"
-	 :html-link-home "https://psachin.gitlab.io/"
-	 :rss-link-home "https://psachin.gitlab.io/"
-	 :html-link-use-abs-url t
-	 :rss-extension "xml"
-	 :publishing-directory "./public"
-	 :publishing-function (org-rss-publish-to-rss)
-	 :section-number nil
-	 :exclude ".*"
-	 :include ("index.org")
-	 :table-of-contents nil)
-	("all" :components ("posts" "about" "slides" "todo" "horology" "css" "images" "assets" "rss"))))
+         :html-link-home "https://psachin.gitlab.io/"
+         :rss-link-home "https://psachin.gitlab.io/"
+         :html-link-use-abs-url t
+         :rss-extension "xml"
+         :publishing-directory "./public"
+         :publishing-function (org-rss-publish-to-rss)
+         :section-number nil
+         :exclude ".*"
+         :include ("index.org")
+         :table-of-contents nil)
+        ("all" :components ("posts" "about" "slides" "todo" "horology" "css" "images" "assets" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

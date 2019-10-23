@@ -1,6 +1,6 @@
 #+title: Asus Zen Watch 2(WI501Q) review
-#+date: <2019-10-17>
-#+keywords: asus zenwatch zenwatch2 WI501Q
+#+date: <2019-10-18>
+#+keywords: asus zenwatch zenwatch2 WI501Q wrist watch review
 #+setupfile: ../org-templates/post.org
 
 #+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
@@ -28,7 +28,7 @@ black leather suits even better with the watch.
 If you want to look at the specs, I have put them below:
 
 #+ATTR_HTML: :align center
-#+ATTR_HTML: :align |c|c|
+#+ATTR_HTML: :align |l|r|
 | Specs                |                                                   |
 |----------------------+---------------------------------------------------|
 | Brand                | Asus                                              |

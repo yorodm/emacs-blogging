@@ -2,10 +2,9 @@
 #+date: <2019-10-21>
 #+keywords: seiko snzg13j1 7S36 review wrist watch review
 #+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{Seiko 5 Sports SNZG13J1 review}
 
-#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
-#+HTML_DOCTYPE: xhtml-strict
-#+HTML_CONTAINER: div
 
 #+CAPTION: Seiko 5 Sports SNZG13J1, 7S36 movement
 #+ATTR_HTML: :width 70% :height

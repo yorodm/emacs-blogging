@@ -197,7 +197,7 @@ publishing directory. Returns output file name."
          :publishing-function org-html-publish-to-html
          :publishing-directory "./public/horology"
          :html-link-home "/"
-         :html-link-up "/"
+         :html-link-up "/horology"
          :html-head-include-scripts t
          :html-head-include-default-style nil
          :html-head ,psachin-website-html-head

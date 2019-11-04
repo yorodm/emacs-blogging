@@ -2,6 +2,9 @@
 #+date: <2016-10-09>
 #+keywords: gs, ssh, wget, import, mplayer, ffmpeg, convert, git
 #+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{Handy commands}
+#+LaTeX_HEADER: \usepackage[a4paper, landscape, margin=0.5in, top=1in, bottom=1in]{geometry}
 
 List of commands that I find useful.
 

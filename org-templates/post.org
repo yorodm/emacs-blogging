@@ -1,3 +1,4 @@
 #+AUTHOR: Sachin
 #+KEYWORDS: post
 #+OPTIONS: toc:nil
+#+HTML_DOCTYPE: xhtml-strict

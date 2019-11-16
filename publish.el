@@ -57,8 +57,8 @@
   (when (string-match-p "post" (format "%s" (plist-get plist :keywords)))
     (plist-put plist
 	       :subtitle (format "Published on %s by %s."
-				             (org-export-get-date plist psachin-date-format)
-				             (car (plist-get plist :author)))))
+				 (org-export-get-date plist psachin-date-format)
+				 (car (plist-get plist :author)))))
 
   ;; Below content will be added anyways
 "<div class='intro'>
@@ -82,7 +82,7 @@
 (defvar psachin-website-html-postamble
   "<div class='footer'>
 Copyright © 2012-2019 <a href='mailto:iclcoolster@gmail.com'>Sachin Patil</a> | <a href='https://gitlab.com/psachin/psachin.gitlab.io'>Source</a><br>
-GnuPG fingerprint: <a href='http://pgp.mit.edu/pks/lookup?op=get&search=0xE5F9CE4862AA06E2'>28C5 A1F3 221B 949D B651 FC47 E5F9 CE48 62AA 06E2</a> <br>
+GnuPG fingerprint: <a href='https://pgp.key-server.io/0xE5F9CE4862AA06E2'>28C5 A1F3 221B 949D B651 FC47 E5F9 CE48 62AA 06E2</a> <br>
 Adapted from <a href='https://nicolas.petton.fr'>https://nicolas.petton.fr</a> <br>
 Last updated on %C using %c
 </div>")
@@ -92,7 +92,8 @@ Last updated on %C using %c
                 "ico" "cur" "css" "js" "woff" "html" "pdf"))
   "File types that are published as static files.")
 
-(defun psachin-org-sitemap-format-entry (entry style project)
+
+(defun psachin/org-sitemap-format-entry (entry style project)
   "Format posts with author and published data in the index page.
 
 ENTRY: file-name
@@ -100,17 +101,17 @@ STYLE:
 PROJECT: `posts in this case."
   (cond ((not (directory-name-p entry))
          (format "*[[file:%s][%s]]*
-					#+HTML: <p class='pubdate'>by %s on %s</p>"
-		         entry
-		         (org-publish-find-title entry project)
-		         (car (org-publish-find-property entry :author project))
-		         (format-time-string psachin-date-format
-				                     (org-publish-find-date entry project))))
+                 #+HTML: <p class='pubdate'>by %s on %s.</p>"
+                 entry
+                 (org-publish-find-title entry project)
+                 (car (org-publish-find-property entry :author project))
+                 (format-time-string psachin-date-format
+                                     (org-publish-find-date entry project))))
         ((eq style 'tree) (file-name-nondirectory (directory-file-name entry)))
         (t entry)))
 
 
-(defun psachin-org-reveal-publish-to-html (plist filename pub-dir)
+(defun psachin/org-reveal-publish-to-html (plist filename pub-dir)
   "Publish an org file to reveal.js HTML Presentation.
 FILENAME is the filename of the Org file to be published.  PLIST
 is the property list for the given project.  PUB-DIR is the
@@ -129,7 +130,7 @@ publishing directory. Returns output file name."
          :auto-sitemap t
          :sitemap-filename "index.org"
          :sitemap-title "Blog Index"
-         :sitemap-format-entry psachin-org-sitemap-format-entry
+         :sitemap-format-entry psachin/org-sitemap-format-entry
          :sitemap-style list
          :sitemap-sort-files anti-chronologically
          :html-link-home "/"
@@ -191,7 +192,7 @@ publishing directory. Returns output file name."
          :auto-sitemap t
          :sitemap-filename "index.org"
          :sitemap-title "Horology"
-         :sitemap-format-entry psachin-org-sitemap-format-entry
+         :sitemap-format-entry psachin/org-sitemap-format-entry
          :sitemap-sort-files anti-chronologically
          :recursive nil
          :publishing-function org-html-publish-to-html
@@ -209,7 +210,7 @@ publishing directory. Returns output file name."
          :exclude ,(regexp-opt '("README.org" "draft"))
          :index-filename "index.org"
          :recursive t
-         :publishing-function psachin-org-reveal-publish-to-html
+         :publishing-function psachin/org-reveal-publish-to-html
          :publishing-directory "./public/slides/")
         ("css"
          :base-directory "./css"

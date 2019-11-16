@@ -1,0 +1,34 @@
+#+title: Watchmaker: Masahiro Kikuno
+#+date: <2018-02-01>
+#+keywords: horology watchmaker masahiro kikuno basel
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{Watchmaker: Masahiro Kikuno}
+#+LaTeX_HEADER: \usepackage[a4paper, margin=0.5in, top=1in, bottom=1in]{geometry}
+
+[[https://www.youtube.com/watch?v=ZTiPNqeMS8E][This documentary]] by [[https://www3.nhk.or.jp/nhkworld/][NHK World, Japan]] features [[https://www.masahirokikuno.jp/][Masahiro Kikuno]], an independent
+watchmaker from Japan. Masahiro is on a six months project to make a watch
+inspired by Myriad year clock[fn:myriad] using the traditional Japanese
+technology(without relying on modern day watchmaking technologies)
+
+The Myriad year clock belongs to a category of Japanese clocks called
+Wadokei[fn:Wadokei], when fully wound can work for a year without a need of
+another winding. The clock was completed in 1851 by Japanese inventor [[https://en.wikipedia.org/wiki/Tanaka_Hisashige][Hisashige
+Tanaka]]. The Myriad year clock is on display at National Museum of Nature and
+Science, Tokyo.
+
+In this documentary, Masahiro Kikuno who is the youngest member of [[https://www.ahci.ch/][AHCI]][fn:ahci]
+is preparing for the BaselWorld[fn:baselworld] Time piece trade show to display
+his unique master piece. Experience his achievements(/when the watch first
+starts to tick/) and the problem(/when one of the pin is lifted off the track
+while the arms move/) he faced during the course of watchmaking. Truly an
+inspiring video.
+
+[fn:myriad] [[https://en.wikipedia.org/wiki/Myriad_year_clock][Wiki]].
+[fn:Wadokei] A mechanical clock denotes Japanese traditional time using a system
+in which daytime & nighttime are always [[https://youtu.be/ZTiPNqeMS8E?t=912][divided into six periods]]. The length of
+the period consequently changes with seasons.
+[fn:ahci] [[https://www.ahci.ch/][The Horology Academy of Independent Designers]].
+[fn:baselworld] [[https://www.baselworld.com/][BaselWorld.com]]
+
+#+INCLUDE: "../disquss.inc"

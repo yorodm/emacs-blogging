@@ -68,7 +68,7 @@
 **** TODO Hit Them Where it Hurts, James Hadley Chase
 **** TODO An Ace Up My Sleeve, James Hadley Chase
 **** TODO The Whiff of Money, James Hadley Chase
-**** TODO Baki Shoonya(Language: Marathi, India), Kamalesh Walavalkar
+**** TODO Baki Shoonya, Kamalesh Walavalkar
 **** TODO The World Set Free, H.G Wells
 **** TODO The Apprentice, Arun Joshi
 **** TODO Leaves of Grass, Walt Whitman
@@ -77,11 +77,13 @@
 **** TODO Lord Jim, Joseph Conrad
 **** TODO The Secret Agent, Joseph Conrad
 **** TODO Celestial Bodies, Jokha Alharthi
+**** TODO And the Mountains Echoed, Khaled Hosseni
+**** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 *** Non Fiction
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
-**** DONE Amacha Baap Ani Amhi(Language: Marathi, Indian), Narendra Jadhav
+**** DONE Amacha Baap Ani Amhi, Narendra Jadhav
 **** DONE "Surely You're Joking, Mr. Feynman", Ralph Leighton
 **** DONE Shantaram, Gregory David Roberts
 **** DONE Black Friday, S. Hussain Zaidi
@@ -93,6 +95,7 @@
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
 **** DONE A long way gone, Ishmael Beah
+**** IN-PROGRESS The Class of 83, S. Hussain Zaidi                  :page:68:
 **** TODO Mein Kampf, Adolf Hitler
 **** TODO Joseph Stalin: A Short Biography, G.F Alexandrov, Et al.
 **** TODO Medieval India: The Study if a Civilization, Irfan Habib

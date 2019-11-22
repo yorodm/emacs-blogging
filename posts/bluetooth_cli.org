@@ -1,0 +1,172 @@
+#+title: Connect Bluetooth sound devices using command-line
+#+date: <2019-11-22>
+#+keywords: bluetoothctl rfkill
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{Connect Bluetooth sound devices using command-line}
+
+Every time I try to play something on the Bluetooth device from my laptop I have
+trouble connecting to the devices using the GUI. The UI crash most of the time
+or show unexpected behavior. Looks like the GNOME interface is not very helpful
+when interfacing with Bluetooth devices.
+
+This prompted me to use the more reliable command-line utilities which I'm going
+to share in this post. The post describes in detail the packages and commands
+needed with examples to help connect the Bluetooth sound devices from laptop. I
+am using Fedora 29 as my GNU/Linux distro.
+
+** Enable Bluetooth controller
+
+   First and foremost the controller on the system needs to be enabled or
+   unblocked. The =rfkill= command provided by =util-linux=[fn:util-linux]
+   package is helpful here. The =util-linux= provides basic system utilities.
+
+   The system may have a hardware switch(Hard blocked) and the software
+   switch(Soft blocked, usually in the system setting) to turn on the Bluetooth
+   controller. The status of both hardware & software switches can be verified
+   using =rfkill list= command:
+
+   #+BEGIN_SRC shell -n
+     # rfkill list
+     0: tpacpi_bluetooth_sw: Bluetooth
+	     Soft blocked: yes
+	     Hard blocked: no
+     1: phy0: Wireless LAN
+	     Soft blocked: no
+	     Hard blocked: no
+   #+END_SRC
+
+   Use the device index number to enable/unblock the controller:
+   #+BEGIN_SRC shell -n
+     # rfkill unblock 0
+   #+END_SRC
+
+   /After the controller is enabled/
+   #+BEGIN_SRC shell -n
+     # rfkill list
+     0: tpacpi_bluetooth_sw: Bluetooth
+	     Soft blocked: no
+	     Hard blocked: no
+     1: phy0: Wireless LAN
+	     Soft blocked: no
+	     Hard blocked: no
+     15: hci0: Bluetooth
+	     Soft blocked: no
+	     Hard blocked: no
+   #+END_SRC
+
+** Install Bluetooth utilities and enable the service
+
+   Once the controller is enabled, we need utilities to interact with the device
+   mostly to list all the devices available around and connect the device. The
+   =bluez=[fn:bluez] package from http://www.bluez.org provides necessary
+   Bluetooth utilities.
+
+   Start the Bluetooth service:
+   #+BEGIN_SRC shell
+     # systemctl start bluetooth
+   #+END_SRC
+
+** Connect Bluetooth device
+
+   Start scanning[fn:bt_scan] the devices around:
+   #+BEGIN_SRC shell -n
+     # bluetoothctl scan on
+     Discovery started
+     [CHG] Controller 4C:EB:42:XX:XX:XX Discovering: yes
+     [NEW] Device 06:99:13:XX:XX:XX ARTIS BT99
+     [CHG] Device F6:9F:77:XX:XX:XX RSSI: -52
+     [CHG] Device F6:9F:77:XX:XX:XX ManufacturerData Key: 0x0200
+     CTRL + C
+   #+END_SRC
+
+   List all the discovered devices using =bluetoothctl devices= command:
+   #+BEGIN_SRC shell -n
+     # bluetoothctl devices
+     Device 06:99:13:XX:XX:XX ARTIS BT99
+     Device D8:55:A3:XX:XX:XX shuttle
+     Device F6:9F:77:XX:XX:XX GOQii S
+     Device 8C:2D:AA:XX:XX:XX GSS’s Mac Pro
+   #+END_SRC
+
+   Pair the device using =bluetoothctl pair= command:
+   #+BEGIN_SRC shell -n
+     # bluetoothctl pair 06:99:13:XX:XX:XX
+     Attempting to pair with 06:99:13:XX:XX:XX
+     [CHG] Device 06:99:13:XX:XX:XX Connected: yes
+     [CHG] Device 06:99:13:XX:XX:XX UUIDs: 0000110b-0000-1000-8000-00805f9b34fb
+     [CHG] Device 06:99:13:XX:XX:XX UUIDs: 0000110e-0000-1000-8000-00805f9b34fb
+     [CHG] Device 06:99:13:XX:XX:XX ServicesResolved: yes
+     [CHG] Device 06:99:13:XX:XX:XX Paired: yes
+     Pairing successful
+   #+END_SRC
+
+   Trust the device:
+   #+BEGIN_SRC shell -n
+     # bluetoothctl trust 06:99:13:XX:XX:XX
+     [CHG] Device 06:99:13:XX:XX:XX Trusted: yes
+     Changing 06:99:13:XX:XX:XX trust succeeded
+   #+END_SRC
+
+   To display device information use =bluetoothctl info= command:
+   #+BEGIN_SRC shell -n
+     # bluetoothctl info 06:99:13:XX:XX:XX
+     Device 06:99:13:XX:XX:XX (public)
+	     Name: ARTIS BT99
+	     Alias: ARTIS BT99
+	     Class: 0x00240404
+	     Icon: audio-card
+	     Paired: no
+	     Trusted: no
+	     Blocked: no
+	     Connected: no
+	     LegacyPairing: no
+	     UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	     UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	     RSSI: -64
+   #+END_SRC
+
+   The device is not connected which indicated by =Connected: no= parameter. To
+   connect the device, use the MAC address as an argument to =bluetoothctl
+   connect= command:
+   #+BEGIN_SRC shell -n
+     # bluetoothctl connect 06:99:13:XX:XX:XX
+     Attempting to connect to 06:99:13:XX:XX:XX
+     [CHG] Device 06:99:13:XX:XX:XX Connected: yes
+     [CHG] Device 06:99:13:XX:XX:XX Paired: yes
+     Connection successful
+   #+END_SRC
+
+   #+BEGIN_SRC shell -n
+     # bluetoothctl info 06:99:13:XX:XX:XX
+     Device 06:99:13:XX:XX:XX (public)
+	     Name: ARTIS BT99
+	     Alias: ARTIS BT99
+	     Class: 0x00240404
+	     Icon: audio-card
+	     Paired: yes
+	     Trusted: yes
+	     Blocked: no
+	     Connected: yes
+	     LegacyPairing: no
+	     UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	     UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+   #+END_SRC
+
+   Finally use the Gnome Sound Settings to use the Bluetooth device as sound
+   output:
+   #+CAPTION: Gnome Sound Settings
+   #+ATTR_LATEX: :width 7cm
+   #+ATTR_HTML: :width 90% :height
+   #+ATTR_HTML: :class center
+   [[../images/posts/bluetooth_cli/gnome_sound_settings.png]]
+
+   The Bluetooth Sound device is now ready to play the media.
+
+[fn:util-linux] Execute =dnf install util-linux= as root to install the package
+on Fedora.
+[fn:bluez] Execute =dnf install bluez= as root to install the package.
+[fn:bt_scan] Turn off the scanning mode after the device is discovered using
+=bluetoothctl scan off=
+
+#+INCLUDE: "../disquss.inc"

@@ -96,6 +96,7 @@
 **** DONE The Art of War, Sun Tzu
 **** DONE A long way gone, Ishmael Beah
 **** IN-PROGRESS The Class of 83, S. Hussain Zaidi                  :page:68:
+**** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
 **** TODO Mein Kampf, Adolf Hitler
 **** TODO Joseph Stalin: A Short Biography, G.F Alexandrov, Et al.
 **** TODO Medieval India: The Study if a Civilization, Irfan Habib

@@ -8,8 +8,8 @@
 
 List of commands that I find useful.
 
-/(Last updated on March 05, 2019)/
-** PDF tricks
+/(Last updated on Nov 26, 2019)/
+** PDF tricks[fn:gs]
    - Reduce PDF size
      #+BEGIN_SRC shell
        gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -sOutputFile=new_file.pdf original_file.pdf
@@ -21,14 +21,25 @@ List of commands that I find useful.
      #+END_SRC
 
    - Extract pages from PDF file
-      #+BEGIN_SRC shell
-        gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=3 -sOutputFile=out_file_page_1_to_3.pdf input_file.pdf
-      #+END_SRC
+     #+BEGIN_SRC shell -n
+       # Extract pages 1 to 3 from a file.
+       gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=3 -sOutputFile=out_file_page_1_to_3.pdf input_file.pdf
+
+       # Or extract pages from 3 to 7
+       gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sPageList=3-7 -sOutputFile=out_file.pdf in_file.pdf
+
+       # Extract page 1,2,3,4, & 6
+       gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sPageList=1-4,6 -sOutputFile=out_file.pdf in_file.pdf
+
+       # Extract page 1,4,5,6 & 9
+       gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sPageList=1,4,5,6,9 -sOutputFile=out_file.pdf in_file.pdf
+     #+END_SRC
 
    - Merge PDF files
      #+BEGIN_SRC shell
        gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=out_file.pdf in_file_1.pdf in_file_2.pdf
      #+END_SRC
+
 ** Media tricks
    - Rotate video
       #+BEGIN_SRC shell -n
@@ -49,7 +60,7 @@ List of commands that I find useful.
       #+END_SRC
 
    - MKV to MP4
-     #+BEGIN_SRC shell
+     #+BEGIN_SRC shell -n
        ffmpeg -i input.mkv -c:v mpeg4 -c:a libmp3lame -b:a 128K output.mp4
        # or you can keep the video stream
        ffmpeg -i input.mkv -c:v copy -c:a aac -b:a 128K output.mp4
@@ -58,7 +69,7 @@ List of commands that I find useful.
        ffmpeg -t 10 -i input.mkv -c:v copy -c:a aac -b:a 128K output.mp4
      #+END_SRC
 
-   - [[https://manuals.playstation.net/document/en/ps4/videos/mp_format_v.html][PS4 compatible format]] (Special thanks to the guys at =#ffmpeg@freenode= for helping me converting to the PS4 compatible format)
+   - [[https://manuals.playstation.net/document/en/ps4/videos/mp_format_v.html][PS4 compatible format]] [fn:freenode]
      #+BEGIN_SRC shell -n
        # Ex1
        ffmpeg -i input.mkv -c:v libx264 -c:a libmp3lame -preset slow -profile:v high -level 4.2 -b:a 320K output.mkv
@@ -80,7 +91,7 @@ List of commands that I find useful.
 	ffmpeg -i video.mp4 -f mp3 -codec:a libmp3lame -ab 320000 -vn music.mp3
       #+END_SRC
 
-      /where/
+      /where:/
 
       *-i*: input file
 
@@ -105,7 +116,7 @@ List of commands that I find useful.
      #+BEGIN_SRC shell
        ffmpeg -i Birdman.mp4 -strict -2  -s 720x480 birdman.mp4
      #+END_SRC
-   - recordmydesktop
+   - Record a screencast using *recordmydesktop*
      #+BEGIN_SRC shell
        recordmydesktop -x 100 -y 100 --width 1280 --height 720 --freq 48000 --fps 30 -o ~/Videos/recordings/test-video.ogv
      #+END_SRC
@@ -152,11 +163,11 @@ List of commands that I find useful.
      #+END_SRC
 
    - wget a website
-     #+BEGIN_SRC bash
+     #+BEGIN_SRC shell
        wget -rkp -l5 -np -nH -cut-dirs=1 https://example.com
      #+END_SRC
 
-     /where/
+     /where:/
 
      *-rkp*: recursive, make link suitable for local viewing, download all files needed to properly view the page.
 
@@ -168,8 +179,7 @@ List of commands that I find useful.
 
    - Find the Filesystem/partition of current directory
      #+BEGIN_SRC shell
-       df -h .
-       # Notice the DOT
+       df -h .   # Notice the DOT
      #+END_SRC
 
    - List commands/applications using IPv4/IPv6
@@ -192,5 +202,10 @@ List of commands that I find useful.
        thunderbi 13475 psachin   85u  IPv6 5408348      0t0  TCP nubia:48110->sb-in-x6d.1e100.net:imaps (ESTABLISHED)
        thunderbi 13475 psachin  134u  IPv6 5561644      0t0  TCP nubia:44914->sb-in-x6c.1e100.net:imaps (ESTABLISHED)
      #+END_SRC
+
+[fn:gs] *ghostscript* has a very good usage documentaion at
+https://www.ghostscript.com/doc/current/Use.htm
+[fn:freenode] Special thanks to the guys at *#ffmpeg@freenode* for helping me
+converting to the PS4 compatible format.
 
 #+INCLUDE: "../disquss.inc"

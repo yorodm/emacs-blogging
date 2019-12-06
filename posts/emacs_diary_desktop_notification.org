@@ -38,7 +38,7 @@ D-Bus using the =notifications-notify=:
 			  :replaces-id nil
 			  :app-icon nil
 			  :timeout 5000
-			  :desktop-entry "emacs-diary"))
+			  :desktop-entry "emacs"))
 #+END_SRC
 
 Finally call the function as a value to the variable =appt-disp-window-function=

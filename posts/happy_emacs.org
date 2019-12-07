@@ -89,14 +89,32 @@ release and needs to be fixed, make sure that it is reproducible
 before notifying /emacs-devel@gnu.org/. You can also ask for help on
 IRC at freenode, channel *#emacs*.
 
-(/Added on June 26, 2019/)
+** Update: (June 26, 2019)
 
-Mostly I use Emacs available from the master branch and install the binary in
-=~/bin/=. Below are the steps:
+I use most recent version of GNU/Emacs available from the [[https://git.savannah.gnu.org/git/emacs.git][master]] branch. Below
+are the steps:
 #+BEGIN_SRC shell -n
-  ./configure --with-mailutils --prefix=$HOME/source/emacs/build --bindir=$HOME/bin
-  make -j 4			# Where 4 is the job count that can run simultaneously.
+  git clone https://git.savannah.gnu.org/git/emacs.git  # use `--depth 1` if you don't want to pull entire history
+  make clean all
+  ./configure --host=x86_64-fedora-gnu --with-mailutils --prefix=$HOME/source/emacs/build --bindir=$HOME/bin
+  make -j 4
   make install
+#+END_SRC
+
+Below is the Desktop entry:
+#+BEGIN_SRC shell -n
+  [Desktop Entry]
+  Name=Emacs-BleedingEdge
+  GenericName=Text Editor
+  Comment=Text editing
+  MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
+  Exec=/home/psachin/bin/emacs %f
+  Icon=emacs
+  Type=Application
+  Terminal=false
+  Categories=Utility;TextEditor;X-Red-Hat-Base;
+  StartupWMClass=Emacs
+  X-Desktop-File-Install-Version=0.22
 #+END_SRC
 
 #+INCLUDE: "../disquss.inc"

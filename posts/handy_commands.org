@@ -164,7 +164,7 @@ List of commands that I find useful.
 
    - wget a website
      #+BEGIN_SRC shell
-       wget -rkp -l5 -np -nH -cut-dirs=1 https://example.com
+       wget -rkp -l5 -np -nH --cut-dirs=1 https://example.com
      #+END_SRC
 
      /where:/

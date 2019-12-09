@@ -1,0 +1,77 @@
+#+title: Notes: diff & patch
+#+date: <2017-03-21>
+#+keywords: diff patch git notes
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{TITLE}
+
+** =diff=
+
+   #+BEGIN_SRC shell
+     diff setup.py setup_mod.py -u > setup_py_with_path.diff
+   #+END_SRC
+
+** =patch=
+
+   #+BEGIN_SRC shell -n
+     diff -u > setup.diff
+
+     patch --dry-run < setup.diff
+     patch --dry-run < setup.diff --verbose
+
+     # Target file
+     patch --dry-run setup.py < setup.diff
+     patch --dry-run setup.py < setup.diff --verbose
+
+     patch --dry-run < setup_py_with_path.diff
+     patch --dry-run setup.py < setup_py_with_path.diff
+     patch -p5 --dry-run < setup_py_with_path.diff
+
+     patch --dry-run < setup_py_with_path.diff  # will fail with an error
+     patch --dry-run swift/setup.py < setup_py_with_path.diff
+     patch -p4 --dry-run < setup_py_with_path.diff
+   #+END_SRC
+
+
+** =git diff=
+
+   #+BEGIN_SRC sh -n
+     git diff
+     git diff -u -p
+     git diff > my_patch.diff
+
+     git commit # will fail with an error
+     git add -u
+     for f in `git ls-files --modified`; do git add $f; done
+     git commit
+   #+END_SRC
+
+
+** =git format-patch=
+
+   #+BEGIN_SRC sh -n
+     git format-patch
+     git format-patch HEAD^
+
+     git format-patch -o patches/ HEAD^
+
+     git format-patch -o patches/ -3 HEAD
+
+     git format-patch -o patches/ -3 <commit-hash>
+
+     git format-patch --subject-prefix="RFC" -o patches/ -3
+   #+END_SRC
+
+
+
+** =git send-email=
+
+   #+BEGIN_SRC sh -n
+     git send-email --to=psachin@redhat.com -o patches/*
+
+     git send-email --to=psachin@redhat.com -1
+   #+END_SRC
+
+
+
+#+INCLUDE: "../disquss.inc"

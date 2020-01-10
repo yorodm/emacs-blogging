@@ -1,6 +1,6 @@
 #+title: opensource.com: How to use Magit to manage Git projects
 #+date: <2019-01-03>
-#+keywords: linux, git, emacs, magit
+#+keywords: linux, git, emacs, magit, opensource.com
 #+setupfile: ../org-templates/post.org
 
 My post titled [[https://opensource.com/article/19/1/how-use-magit][How to use Magit to manage Git projects]] published on [[https://opensource.com/][opensource.com]]

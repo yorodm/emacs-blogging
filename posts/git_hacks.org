@@ -1,0 +1,128 @@
+#+title: Git Hacks
+#+date: <2020-01-10>
+#+keywords: git gitconfig hack
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+The following are few[fn:fullconfig] Git configs I like and use the most[fn:magit].
+
+** Ignoring files System-wide
+   This ensures the file listed in =~/.gitignore_global= are not listed when I
+   execute =git status= even for the fresh project with no local =.gitignore=
+   file configured.
+
+   #+BEGIN_SRC shell -n
+     # Content of ~/.gitconfig
+     [core]
+	     excludeFile = ~/.gitignore_global
+   #+END_SRC
+
+   Content of =~/.gitignore_global=
+   #+BEGIN_SRC shell -n
+     # .gitignore_global
+     # ignore files and dirs globally
+
+     ,*~
+     etc/
+     #*.rst
+     ,*.pyc
+     backup.py
+     ,*.log
+
+     # ignore APK binary
+     ,*.apk
+     bin/
+     gen/
+     .settings/
+     local.properties
+     ,*.img
+
+
+     # tar-balls system
+     ,*.gz
+     ,*.tar
+     ,*.bz2
+     ,*.pdf
+   #+END_SRC
+
+** Show staged files
+   #+BEGIN_SRC shell -n
+     # Content of ~/.gitconfig
+     [alias]
+	     dfc = diff --cached
+   #+END_SRC
+
+   Example:
+   #+BEGIN_SRC shell
+     git dfc
+   #+END_SRC
+
+** Show ignored file(s)
+   If I want to list all the ignored files just in-case I need to add the file
+   to =git= deliberately.
+
+   #+BEGIN_SRC shell -n
+     # Content of ~/.gitconfig
+     [alias]
+	     ign = ls-files -o -i --exclude-standard
+   #+END_SRC
+
+   Examples:
+   #+BEGIN_SRC shell -n
+     # Create a fresh project: foo
+     $ git init foo
+
+     # Copy a file which is ignored
+     $ cp ~/Downloads/w_lina09.pdf .
+
+     # Check the status of the project
+     $ git status
+     On branch master
+
+     No commits yet
+
+     nothing to commit (create/copy files and use "git add" to track)
+
+     # but using `git ign`, the PDF file is visible
+     $ git ign
+     w_lina09.pdf
+   #+END_SRC
+
+** Fetch the Pull Request/Merge Request
+   This is really helpful for local code reviews.
+   #+BEGIN_SRC shell -n
+     # Content of ~/.gitconfig
+     [alias]
+	     pr = !sh -c 'git fetch $1 pull/$2/head:$3 && git checkout $3' -
+	     mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
+   #+END_SRC
+
+   Examples:
+   #+BEGIN_SRC shell
+     # GitHub
+     # Syntax: git pr <REMOTE> <PR_ID> <BRANCH>
+     git pr upstream 2384 findmnt_propagation
+
+     # GitLab
+     # Syntax: git mr <REMOTE> <MR_ID>
+     git mr upstream 2127
+   #+END_SRC
+
+** Add modified files
+   #+BEGIN_SRC shell -n
+     # Content of ~/.gitconfig
+     [alias]
+	     u = add -u
+   #+END_SRC
+
+   Example:
+   #+BEGIN_SRC shell
+   git u
+   #+END_SRC
+
+[fn:fullconfig] Find the full list [[https://gitlab.com/psachin/configs/blob/master/.gitconfig][here]].
+[fn:magit] I use Magit to manage git projects. To know more about Magit please
+visit [[https://opensource.com/article/19/1/how-use-magit][https://opensource.com/article/19/1/how-use-magit]]
+
+#+INCLUDE: "../disquss.inc"

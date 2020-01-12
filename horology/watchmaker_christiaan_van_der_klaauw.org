@@ -1,0 +1,35 @@
+#+title: Watchmaker: Christiaan van der Klaauw
+#+date: <2019-11-16>
+#+keywords: horology watchmaker christiaan van der klaauw
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{Watchmaker: Christiaan Van der Klaauw}
+#+LaTeX_HEADER: \usepackage[a4paper, margin=0.5in, top=1in, bottom=1in]{geometry}
+
+#+CAPTION: Christiaan Van der Klaauw
+#+ATTR_HTML: :class center rounded-border
+https://www.ahci.ch/wp-content/uploads/2015/02/christiaan-van-der-klaauw.jpg
+
+[[https://www.ahci.ch/members/christiaan-van-der-klaauw/][Christiaan Van der Klaauw]] is an independent watchmaker who started Astronomy as
+a hobby and after training for 3 months at the [[https://www.universiteitleiden.nl/en/science/astronomy][Leiden Observatory]] decided to
+turn his hobby into a profession by making Astronomical watches. Since 4 decades
+his workshop is making Astronomical watches where each watch is special on its
+own and powered by an automatic movement.
+
+His visit to [[https://www.planetarium-friesland.nl/][Eise Eisinga Planetarium]] [fn:eise_eisinga] in Franeker inspired him
+to recreate a Solar System suspended from the ceiling of the living room into a
+wrist watch known as the /Planetarium(1999)/. Christiaan Van der Klaauw is also
+the former member of AHCI[fn:ahci]. The other two most known collections are the
+/Orion(2010)/ which accurately represents the position of the Celestial stars
+every night and the /Real Moon Joure(2012)/ which has a moon face in 3D unlike
+other designs where the moon is represented on a plane. It represents the phases
+of the moon with the accuracy of a 1 day in 11000 years.
+
+- Master of Time: https://www.youtube.com/watch?v=lHg4zsHl6pw
+- BaselWorld: https://www.youtube.com/watch?v=ts-dMrNkxzY
+
+[fn:eise_eisinga] Established in 1781, the Planetarium keeps track of planetary
+movements to this day.
+[fn:ahci] [[https://www.ahci.ch/][The Horology Academy of Independent Designers]].
+
+#+INCLUDE: "../disquss.inc"

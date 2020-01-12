@@ -7,7 +7,7 @@
   #+ATTR_HTML: :style text-align:center
   Developer, FOSS enthusiast, & avid GNU Emacs user.
 
-  #+ATTR_HTML: :class center rounded-border
+  #+ATTR_HTML: :class center rounded-border black-border
   https://static.fsf.org/nosvn/images/badges/Spring19-fan-of-fsf.png
 
   I try not to be biased with any programming language or technology. I work on

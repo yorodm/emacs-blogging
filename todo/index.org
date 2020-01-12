@@ -1,5 +1,5 @@
 #+title: TODO Index
-#+keywords: todo agenda tasks books reading
+#+keywords: todo agenda tasks books reading tracking
 
 ** Reading
 *** Physics
@@ -79,6 +79,7 @@
 **** TODO Celestial Bodies, Jokha Alharthi
 **** TODO And the Mountains Echoed, Khaled Hosseni
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
+**** TODO The Angles Game, Carlos Ruiz Zafon
 *** Non Fiction
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
@@ -95,8 +96,10 @@
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
 **** DONE A long way gone, Ishmael Beah
+**** DONE Atomic Habits, James Clear
 **** IN-PROGRESS The Class of 83, S. Hussain Zaidi                  :page:118:
 **** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
+**** IN-PROGRESS The 5AM Club, Robin Sharma
 **** TODO Mein Kampf, Adolf Hitler
 **** TODO Joseph Stalin: A Short Biography, G.F Alexandrov, Et al.
 **** TODO Medieval India: The Study if a Civilization, Irfan Habib
@@ -105,6 +108,8 @@
 **** TODO The Checklist Manifesto: How to Get Things Right, Atul Gawande
 **** TODO Scandinavia Since 1500, Byron J. Nordstrom
 **** TODO The Globalization of Inequality, François Bourguignon
+**** TODO A More Perfect Heaven, Dava Sobel[fn:dava_sobel]
+**** TODO Structures, J. E. Gordon
 *** Publications
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
@@ -115,3 +120,5 @@
 **** TODO The wave nature of the electron(Noble Lecture), Louis De Broglie
 *** Videos
 **** TODO [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
+
+[fn:dava_sobel] Dava Soble also wrote [[https://en.wikipedia.org/wiki/Longitude_(book)][Longitude]].

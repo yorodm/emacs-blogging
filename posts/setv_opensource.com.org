@@ -3,5 +3,8 @@
 #+keywords: python, virtualenvironment, setv, opensource.com
 #+setupfile: ../org-templates/post.org
 
+#+ATTR_HTML: :class center no-border
+https://gitlab.com/psachin/setV/raw/master/img/logo.png
+
 What I started as a [[https://github.com/psachin/bash_scripts/commit/a6b605786eefb7bc8aeb587ecf772c051647bd0d][simple bash helper script]] got transformed into a dedicated
 project which I use everyday. Know more about [[https://opensource.com/article/20/1/setv-bash-function][setV]] on [[https://opensource.com/][opensource.com]].

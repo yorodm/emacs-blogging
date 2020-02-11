@@ -25,8 +25,8 @@
 ** @Home
 
    For personal use, I have [[https://www.lenovo.com/gb/en/laptops/lenovo/g-series/g505s/][Lenovo G505s]] with AMD A8 Quad-core processor and 8
-   Gigs of RAM running Slackware 14.1(I always prefer [[https://gitlab.com/psachin/bash_scripts/blob/master/build_my_kernel.sh][latest kernel]]. I usually
-   work on this system.
+   Gigs of RAM running Slackware 14.1(I always prefer the [[https://gitlab.com/psachin/bash_scripts/blob/master/build_my_kernel.sh][latest kernel]]. I
+   usually work on this system.
 
    My other system includes /Acer emachines eM350/ netbook running [[https://manjaro.org/][Manjaro Linux]]
    an independently developed [[https://www.archlinux.org/][Arch Linux]]. I've [[http://awesomewm.org][Awesome window manager]] on it. I
@@ -44,7 +44,7 @@
 
 ** @Work
 
-   For work, I use Lenovo Thinkpad T440p running [[https://getfedora.org/][Fedora]]. I work on [[https://www.redhat.com/en/technologies/management/insights][Red Hat
+   For work, I use Lenovo Thinkpad +T440p+ [[../photography/thinkpad_t490s.org][T490s]] running [[https://getfedora.org/][Fedora]]. I work on [[https://www.redhat.com/en/technologies/management/insights][Red Hat
    Insights]]. Watch this introductory [[https://www.youtube.com/watch?v=MfRnKe-xxLM][YouTube video]] to know more about Red Hat
    Insights.
 
@@ -56,11 +56,11 @@
    [[https://www.gnu.org/software/emacs/][GNU Emacs]] and a terminal are the essential tools I need. However I manage
    most of the shell tasks from Emacs.
 
-   I prefer to use latest Emacs version. My Emacs is heavily [[https://gitlab.com/psachin/emacs.d][configured]] for all
-   my needs from programming(Python, Django, C, elisp, Ruby, shell etc.), blogs
-   & note taking[[https://orgmode.org/][(org-mode)]], agenda, eshell, tramp, [[https://opensource.com/article/19/1/how-use-magit][magit]] etc. Recently I fell in
-   love with =M-x emacs-timemachine=. Terminal is occasionally needed to keep
-   some front-end jobs running.
+   I prefer to use the latest Emacs version. My Emacs is heavily [[https://gitlab.com/psachin/emacs.d][configured]] for
+   all my needs from programming(Python, Django, C, elisp, Ruby, shell etc.),
+   blogs & note taking[[https://orgmode.org/][(org-mode)]], agenda, eshell, tramp, [[https://opensource.com/article/19/1/how-use-magit][magit]] etc. Recently I
+   fell in love with =M-x emacs-timemachine=. Terminal is occasionally needed to
+   keep some front-end jobs running.
 
    [[http://git-scm.com][Git]] is something I can't live without. I use Git to keep track of my personal
    notes, blogs, and all the projects. =magit= is a savior. It helps me a lot to
@@ -72,8 +72,8 @@
 
    I find programming in =elisp= relaxing when I'm bored with Python and
    friends. Occasionally I do write helper functions and share it on
-   [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most the tiny helper functions can be found within
-   my [[https://gitlab.com/psachin/emacs.d][Emacs conf]]. In my free time I engage myself in reading Physics and
+   [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of the tiny helper functions can be found
+   within my [[https://gitlab.com/psachin/emacs.d][Emacs conf]]. In my free time I engage myself in reading Physics and
    Mathematics. My latest obsession is Horology, you can read my posts [[../horology/][here]].
 
 ** Blogs
@@ -106,8 +106,8 @@
    - My posts published on [[https://opensource.com/users/psachin][opensource.com]]
    - My posts published on other web portals:
      * [[file:../assets/about/GNU_Linux_on_Aakash.pdf][GNU/Linux on Aakash]]: An article published in CSI
-       communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at Indian Institute of
-       Technology Bombay.
+       communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at [[http://iitb.ac.in/][Indian Institute of
+       Technology Bombay]].
      * [[http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem][Configuring Huawei-EC152 modem]]: My very first article appeared on
        [[https://www.linuxquestions.org/][linuxquestions.org]]. I just started using GNU/Linux that time and
        USB-modeswitch was also quite new.

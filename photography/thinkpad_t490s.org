@@ -1,0 +1,9 @@
+#+title: ThinkPad T490s
+#+keywords: photography thinkpad t490s
+
+#+CAPTION: ThinkPad T490s
+#+ATTR_HTML: :class center rounded-border black-border
+#+ATTR_HTML: :width 100% :height
+[[../images/photography/t490s.png]]
+
+#+INCLUDE: "../disquss.inc"

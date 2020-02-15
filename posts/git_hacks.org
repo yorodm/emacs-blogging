@@ -15,7 +15,7 @@ The following are few[fn:fullconfig] Git configs I like and use the most[fn:magi
    #+BEGIN_SRC shell -n
      # Content of ~/.gitconfig
      [core]
-	     excludeFile = ~/.gitignore_global
+             excludeFile = ~/.gitignore_global
    #+END_SRC
 
    Content of =~/.gitignore_global=
@@ -50,7 +50,7 @@ The following are few[fn:fullconfig] Git configs I like and use the most[fn:magi
    #+BEGIN_SRC shell -n
      # Content of ~/.gitconfig
      [alias]
-	     dfc = diff --cached
+             dfc = diff --cached
    #+END_SRC
 
    Example:
@@ -65,7 +65,7 @@ The following are few[fn:fullconfig] Git configs I like and use the most[fn:magi
    #+BEGIN_SRC shell -n
      # Content of ~/.gitconfig
      [alias]
-	     ign = ls-files -o -i --exclude-standard
+             ign = ls-files -o -i --exclude-standard
    #+END_SRC
 
    Examples:
@@ -94,8 +94,8 @@ The following are few[fn:fullconfig] Git configs I like and use the most[fn:magi
    #+BEGIN_SRC shell -n
      # Content of ~/.gitconfig
      [alias]
-	     pr = !sh -c 'git fetch $1 pull/$2/head:$3 && git checkout $3' -
-	     mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
+             pr = !sh -c 'git fetch $1 pull/$2/head:$3 && git checkout $3' -
+             mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
    #+END_SRC
 
    Examples:
@@ -113,12 +113,12 @@ The following are few[fn:fullconfig] Git configs I like and use the most[fn:magi
    #+BEGIN_SRC shell -n
      # Content of ~/.gitconfig
      [alias]
-	     u = add -u
+             u = add -u
    #+END_SRC
 
    Example:
    #+BEGIN_SRC shell
-   git u
+     git u
    #+END_SRC
 
 [fn:fullconfig] Find the full list [[https://gitlab.com/psachin/configs/blob/master/.gitconfig][here]].

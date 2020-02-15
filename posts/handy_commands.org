@@ -8,7 +8,7 @@
 
 List of commands that I find useful.
 
-/(Last updated on Nov 26, 2019)/
+/(Last updated on Feb 15, 2020)/
 ** PDF tricks[fn:gs]
    - Reduce PDF size
      #+BEGIN_SRC shell
@@ -116,7 +116,7 @@ List of commands that I find useful.
      #+BEGIN_SRC shell
        ffmpeg -i Birdman.mp4 -strict -2  -s 720x480 birdman.mp4
      #+END_SRC
-   - Record a screencast using *recordmydesktop*
+   - Record a screen cast using *recordmydesktop*
      #+BEGIN_SRC shell
        recordmydesktop -x 100 -y 100 --width 1280 --height 720 --freq 48000 --fps 30 -o ~/Videos/recordings/test-video.ogv
      #+END_SRC
@@ -125,12 +125,12 @@ List of commands that I find useful.
        ffmpeg -i video.avi -vf subtitles=subtitle.srt out.avi
      #+END_SRC
 
-** Image manupulation
+** Image manipulation
    - Capture screenshot
      #+BEGIN_SRC shell
        import -window root screenshot.png
      #+END_SRC
-   - Resize image 50% of its original size
+   - Re-size image 50% of its original size
      #+BEGIN_SRC shell
        convert dragon.gif -resize 50% half_dragon.gif
      #+END_SRC
@@ -139,8 +139,8 @@ List of commands that I find useful.
        convert input.png -quality 75 output.jpg
      #+END_SRC
 
-** Git
-   - Find commits by author between the timeline
+** Git[fn:lwn_git_sha_256]
+   - Find commits by author between the time-line
      #+BEGIN_SRC shell -n
        # Syntax
        git log --since "START" --until "END" --author=AUTHOR --pretty=oneline --diff-filter=A
@@ -150,6 +150,23 @@ List of commands that I find useful.
 
        # If you also want to see the file names
        git log --since "Oct 1 2018" --until "DEC 28 2018" --author=psachin@redhat.com --name-status --pretty=oneline --diff-filter=A
+     #+END_SRC
+   - Clone specific branch from remote
+     #+BEGIN_SRC shell -n
+       git clone -b <REMOTE_BRANCH> <REMOTE_REPO_URL>
+       # Example
+       git clone -b ics https://github.com/androportal/abt.git
+     #+END_SRC
+   - Checkout specific branch
+     #+BEGIN_SRC shell -n
+       git checkout -b <REMOTE_BRANCH> remotes/<REMOTE>/<BRANCH>
+       # Example
+       git checkout -b holo_theme remotes/origin/holo_theme
+     #+END_SRC
+   - Squash
+     #+BEGIN_SRC shell -n
+       # Squash last five commits interactively
+       git rebase -i HEAD~5  # and follow the instructions
      #+END_SRC
 
 ** Misc
@@ -177,7 +194,7 @@ List of commands that I find useful.
 
      *-H*: Span across hosts when doing recursive retrieving.
 
-   - Find the Filesystem/partition of current directory
+   - Find the File system/partition of current directory
      #+BEGIN_SRC shell
        df -h .   # Notice the DOT
      #+END_SRC
@@ -203,9 +220,10 @@ List of commands that I find useful.
        thunderbi 13475 psachin  134u  IPv6 5561644      0t0  TCP nubia:44914->sb-in-x6c.1e100.net:imaps (ESTABLISHED)
      #+END_SRC
 
-[fn:gs] *ghostscript* has a very good usage documentaion at
+[fn:gs] *ghostscript* has a very good usage documentation at
 https://www.ghostscript.com/doc/current/Use.htm
 [fn:freenode] Special thanks to the guys at *#ffmpeg@freenode* for helping me
 converting to the PS4 compatible format.
-
+[fn:lwn_git_sha_256] https://lwn.net/Articles/811068/ (not related to the notes
+mentioned in this post)
 #+INCLUDE: "../disquss.inc"

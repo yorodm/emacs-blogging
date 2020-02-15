@@ -56,8 +56,8 @@
 **** DONE Deception Point, Dan Brown
 **** DONE Angels & Demons, Dan Brown
 **** DONE Digital Fortress, Dan Brown
-**** IN-PROGRESS Origin, Dan Brown
 **** DONE The Railway Children, Edith Nesbit
+**** IN-PROGRESS Origin, Dan Brown
 **** IN-PROGRESS GoldFish Have No Hiding Place, James Hadley Chase
 **** IN-PROGRESS The Devil's Alternative, Frederick Forsyth
 **** IN-PROGRESS To Kill A Mocking Bird, Harper Lee
@@ -92,6 +92,7 @@
 **** DONE The Element of Style, William, Strunk Jr. & E.B. White
 **** DONE Into The Wild, Jon Krakauer
 **** DONE Discover your Destiny, Robin Sharma
+**** DONE The 5AM Club, Robin Sharma
 **** DONE Free as in Freedom, Sam Williams
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
@@ -99,7 +100,8 @@
 **** DONE Atomic Habits, James Clear
 **** IN-PROGRESS The Class of 83, S. Hussain Zaidi                  :page:118:
 **** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
-**** IN-PROGRESS The 5AM Club, Robin Sharma
+**** IN-PROGRESS Structures, J. E. Gordon
+**** IN-PROGRESS Meditations, Marcus Aurelius
 **** TODO Mein Kampf, Adolf Hitler
 **** TODO Joseph Stalin: A Short Biography, G.F Alexandrov, Et al.
 **** TODO Medieval India: The Study if a Civilization, Irfan Habib
@@ -109,7 +111,7 @@
 **** TODO Scandinavia Since 1500, Byron J. Nordstrom
 **** TODO The Globalization of Inequality, François Bourguignon
 **** TODO A More Perfect Heaven, Dava Sobel[fn:dava_sobel]
-**** TODO Structures, J. E. Gordon
+**** TODO Introducing Psychology, Nigel C. Benson
 *** Publications
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein

@@ -84,7 +84,8 @@
 Copyright © 2012-2020 <a href='mailto:iclcoolster@gmail.com'>Sachin Patil</a> | <a href='https://gitlab.com/psachin/psachin.gitlab.io'>Source</a><br>
 GnuPG fingerprint: <a href='https://pgp.key-server.io/0xE5F9CE4862AA06E2'>28C5 A1F3 221B 949D B651 FC47 E5F9 CE48 62AA 06E2</a> <br>
 Adapted from <a href='https://nicolas.petton.fr'>https://nicolas.petton.fr</a> <br>
-Last updated on %C using %c
+Last updated on %C using %c <br>
+<a href='http://www.catb.org/hacker-emblem/'> <img src='http://www.catb.org/hacker-emblem/glider.png' alt='hacker emblem' /></a>
 <a href='https://info.flagcounter.com/tlzk'><img src='https://s11.flagcounter.com/mini/tlzk/bg_FFFFFF/txt_9E9E9E/border_FFFFFF/flags_0/' alt='Free counters!' border='0'></a>
 </div>")
 

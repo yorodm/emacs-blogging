@@ -51,14 +51,16 @@
 <link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>")
 
 (defun psachin-website-html-preamble (plist)
-  "PLIST: An entry."
-  ;; Skip adding subtitle to the post if :KEYWORDS don't have 'post' has a
-  ;; keyword
-  (when (string-match-p "post" (format "%s" (plist-get plist :keywords)))
-    (plist-put plist
-	       :subtitle (format "Published on %s by %s."
-				 (org-export-get-date plist psachin-date-format)
-				 (car (plist-get plist :author)))))
+  "PLIST: An entry.
+Don't add publish date if :keywords include 'draft'."
+  (if (string-match-p "draft" (format "%s" (plist-get plist :keywords)))
+      (plist-put plist
+                 :subtitle "(DRAFT: Not published)")
+    (if (string-match-p "post" (format "%s" (plist-get plist :keywords)))
+        (plist-put plist
+               :subtitle (format "Published on %s by %s."
+                                 (org-export-get-date plist psachin-date-format)
+                                 (car (plist-get plist :author))))))
 
   ;; Below content will be added anyways
 "<div class='intro'>

@@ -30,4 +30,4 @@ clean:
 	@echo "Cleaning up.."
 	@rm -rvf *.elc
 	@rm -rvf public
-	@rm -rv ~/.org-timestamps/*
+	@rm -rvf ~/.org-timestamps/*

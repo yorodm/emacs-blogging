@@ -1,0 +1,200 @@
+#+title: [Notes] Fedora 31 Mplayer issue
+#+date: <2020-02-17>
+#+keywords: fedora 31 mplayer issue
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+** Issue
+   PulseAudio or ALSA audio drivers are not installed by default on
+   Fedora 31. This results into no sound while playing audio files.
+
+   Tests:
+   #+BEGIN_SRC shell -n
+     mplayer Eddie_Vedder_Guaranteed.mp3
+     MPlayer 1.4-9 (C) 2000-2019 MPlayer Team
+
+     Playing Eddie_Vedder_Guaranteed.mp3
+     libavformat version 58.27.102 (internal)
+     Audio only file format detected.
+     Load subtitles in ./
+     ==========================================================================
+     Requested audio codec family [mpg123] (afm=mpg123) not available.
+     Enable it at compilation.
+     Opening audio decoder: [ffmpeg] FFmpeg/libavcodec audio decoders
+     libavcodec version 58.51.100 (internal)
+     AUDIO: 44100 Hz, 2 ch, floatle, 320.0 kbit/11.34% (ratio: 40004->352800)
+     Selected audio codec: [ffmp3float] afm: ffmpeg (FFmpeg MPEG layer-3 audio)
+     ==========================================================================
+     [AO OSS] audio_setup: Can't open audio device /dev/dsp: No such file or directory
+     DVB card number must be between 1 and 4
+     AO: [null] 44100Hz 2ch floatle (4 bytes per sample)
+     Video: no video
+     Starting playback...
+     A:   4.8 (04.8) of 215.0 (03:35.0)  1.5%
+   #+END_SRC
+
+   Notice =null= in the line =AO: [null] 44100Hz 2ch floatle (4 bytes per
+   sample)=, which indicates that the audio output driver is null. Checking what
+   are the available audio output drivers results into following:
+
+   #+BEGIN_SRC shell -n
+     mplayer -ao help
+     MPlayer 1.4-9 (C) 2000-2019 MPlayer Team
+     Available audio output drivers:
+             oss	OSS/ioctl audio output
+             mpegpes	DVB audio output
+             v4l2	V4L2 MPEG Audio Decoder output
+             null	Null audio output
+             pcm	RAW PCM/WAVE file writer audio output
+   #+END_SRC
+
+   But none of the available driver works(I purposely excluded =pcm= because the
+   media file is MP3):
+   #+BEGIN_SRC shell -n
+     mplayer -ao oss Eddie_Vedder_Guaranteed.mp3
+     MPlayer 1.4-9 (C) 2000-2019 MPlayer Team
+
+     Playing Eddie_Vedder_Guaranteed.mp3.
+     libavformat version 58.27.102 (internal)
+     Audio only file format detected.
+     Clip info:
+      Title: Guaranteed
+      Artist: Eddie Vedder
+      Album: Into The Wild
+      Year:
+      Comment:
+      Genre: Other
+     Load subtitles in ./
+     ==========================================================================
+     Opening audio decoder: [mpg123] MPEG 1.0/2.0/2.5 layers I, II, III
+     AUDIO: 44100 Hz, 2 ch, s16le, 128.0 kbit/9.07% (ratio: 16000->176400)
+     Selected audio codec: [mpg123] afm: mpg123 (MPEG 1.0/2.0/2.5 layers I, II, III)
+     ==========================================================================
+     [AO OSS] audio_setup: Can't open audio device /dev/dsp: No such file or directory
+     Failed to initialize audio driver 'oss'
+     Could not open/initialize audio device -> no sound.
+     Audio: no sound
+     Video: no video
+     Exiting... (End of file)
+
+
+     mplayer -ao mpegpes Eddie_Vedder_Guaranteed.mp3
+     MPlayer 1.4-9 (C) 2000-2019 MPlayer Team
+
+     Playing Eddie_Vedder_Guaranteed.mp3.
+     libavformat version 58.27.102 (internal)
+     Audio only file format detected.
+     Clip info:
+      Title: Guaranteed
+      Artist: Eddie Vedder
+      Album: Into The Wild
+      Year:
+      Comment:
+      Genre: Other
+     Load subtitles in ./
+     ==========================================================================
+     Opening audio decoder: [mpg123] MPEG 1.0/2.0/2.5 layers I, II, III
+     AUDIO: 44100 Hz, 2 ch, s16le, 128.0 kbit/9.07% (ratio: 16000->176400)
+     Selected audio codec: [mpg123] afm: mpg123 (MPEG 1.0/2.0/2.5 layers I, II, III)
+     ==========================================================================
+     DVB card number must be between 1 and 4
+     Failed to initialize audio driver 'mpegpes'
+     Could not open/initialize audio device -> no sound.
+     Audio: no sound
+     Video: no video
+     Exiting... (End of file)
+
+
+     mplayer -ao v4l2 Eddie_Vedder_Guaranteed.mp3
+     MPlayer 1.4-9 (C) 2000-2019 MPlayer Team
+
+     Playing Eddie_Vedder_Guaranteed.mp3.
+     libavformat version 58.27.102 (internal)
+     Audio only file format detected.
+     Clip info:
+      Title: Guaranteed
+      Artist: Eddie Vedder
+      Album: Into The Wild
+      Year:
+      Comment:
+      Genre: Other
+     Load subtitles in ./
+     ==========================================================================
+     Opening audio decoder: [mpg123] MPEG 1.0/2.0/2.5 layers I, II, III
+     AUDIO: 44100 Hz, 2 ch, s16le, 128.0 kbit/9.07% (ratio: 16000->176400)
+     Selected audio codec: [mpg123] afm: mpg123 (MPEG 1.0/2.0/2.5 layers I, II, III)
+     ==========================================================================
+     Failed to initialize audio driver 'v4l2'
+     Could not open/initialize audio device -> no sound.
+     Audio: no sound
+     Video: no video
+     Exiting... (End of file)
+   #+END_SRC
+
+** Resolution
+   Installed ALSA & PulseAudio libraries and compile Mplayer again:
+   #+BEGIN_SRC shell -n
+     sudo dnf install alsa-lib-devel
+     sudo dnf install pulseaudio-libs-devel
+     ./configure --prefix=build --bindir="$HOME/bin/" --enable-pulse --enable-alsa
+     make
+     make install
+   #+END_SRC
+
+   Check available audio output drivers:
+   #+BEGIN_SRC shell -n
+     mplayer -ao help
+     MPlayer 1.4-9 (C) 2000-2019 MPlayer Team
+     Available audio output drivers:
+             oss	OSS/ioctl audio output
+             alsa	ALSA-0.9.x-1.x audio output
+             pulse	PulseAudio audio output
+             mpegpes	DVB audio output
+             v4l2	V4L2 MPEG Audio Decoder output
+             null	Null audio output
+             pcm	RAW PCM/WAVE file writer audio output
+   #+END_SRC
+
+   Test:
+   #+BEGIN_SRC shell -n
+     mplayer Eddie_Vedder_Guaranteed.mp3
+     MPlayer 1.4-9 (C) 2000-2019 MPlayer Team
+
+     Playing /home/psachin/Music/Eddie_Vedder_Guaranteed.mp3.
+     libavformat version 58.27.102 (internal)
+     Audio only file format detected.
+     Clip info:
+      Title: Guaranteed
+      Artist: Eddie Vedder
+      Album: Into The Wild
+      Year:
+      Comment:
+      Genre: Other
+     Load subtitles in ./
+     ==========================================================================
+     Opening audio decoder: [mpg123] MPEG 1.0/2.0/2.5 layers I, II, III
+     AUDIO: 44100 Hz, 2 ch, s16le, 128.0 kbit/9.07% (ratio: 16000->176400)
+     Selected audio codec: [mpg123] afm: mpg123 (MPEG 1.0/2.0/2.5 layers I, II, III)
+     ==========================================================================
+     [AO OSS] audio_setup: Can't open audio device /dev/dsp: No such file or directory
+     AO: [alsa] 44100Hz 2ch floatle (4 bytes per sample)
+     Video: no video
+     Starting playback...
+     A:   7.7 (07.6) of 323.0 (05:23.0)  1.2%
+   #+END_SRC
+
+   I got the sound this time but notice that Mplayer selected the first driver
+   as =oss= and fallback to =alsa= later. This can be controlled using =-ao=
+   flags as shown:
+
+   #+BEGIN_SRC shell
+     mplayer -ao alsa Eddie_Vedder_Guaranteed.mp3
+   #+END_SRC
+
+   Or set =alsa= in =~/.mplayer/config=:
+   #+BEGIN_SRC shell -n
+     ao=alsa
+   #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

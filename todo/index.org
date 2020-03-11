@@ -57,7 +57,7 @@
 **** DONE Angels & Demons, Dan Brown
 **** DONE Digital Fortress, Dan Brown
 **** DONE The Railway Children, Edith Nesbit
-**** IN-PROGRESS Origin, Dan Brown
+**** DONE Origin, Dan Brown
 **** IN-PROGRESS GoldFish Have No Hiding Place, James Hadley Chase
 **** IN-PROGRESS The Devil's Alternative, Frederick Forsyth
 **** IN-PROGRESS To Kill A Mocking Bird, Harper Lee
@@ -77,9 +77,10 @@
 **** TODO Lord Jim, Joseph Conrad
 **** TODO The Secret Agent, Joseph Conrad
 **** TODO Celestial Bodies, Jokha Alharthi
-**** TODO And the Mountains Echoed, Khaled Hosseni
+**** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
+**** TODO The Prophet, Kahlil Gibran
 *** Non Fiction
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
@@ -96,9 +97,10 @@
 **** DONE Free as in Freedom, Sam Williams
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
+**** DONE The Complete Guide to Drones, 2nd Ed., Adam Juniper
 **** DONE A long way gone, Ishmael Beah
 **** DONE Atomic Habits, James Clear
-**** IN-PROGRESS The Class of 83, S. Hussain Zaidi                  :page:118:
+**** DONE The Class of 83, S. Hussain Zaidi
 **** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
 **** IN-PROGRESS Structures, J. E. Gordon
 **** IN-PROGRESS Meditations, Marcus Aurelius
@@ -112,6 +114,7 @@
 **** TODO The Globalization of Inequality, François Bourguignon
 **** TODO A More Perfect Heaven, Dava Sobel[fn:dava_sobel]
 **** TODO Introducing Psychology, Nigel C. Benson
+**** TODO Guns, Germs, & Steel, Jared Diamond
 *** Publications
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein

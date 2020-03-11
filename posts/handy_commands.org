@@ -17,7 +17,7 @@ List of commands that I find useful.
 
    - Unlock PDF file
      #+BEGIN_SRC shell
-       gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=unencrypted.pdf -c .setpdfwrite -f encrypted.pdf
+       gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -SPDFPassword=THE_PASSWORD -sOutputFile=unencrypted.pdf -c .setpdfwrite -f encrypted.pdf
      #+END_SRC
 
    - Extract pages from PDF file

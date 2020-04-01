@@ -1,0 +1,108 @@
+#+title: ZeroDay
+#+keywords: todo agenda tasks zeroday tracker
+#+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
+
+** Bucket list
+*** Learning
+**** Reading [2/4]
+	  - [ ] Read every book by Walter Lewin
+	  - [ ] Read every book by Richard Feynman
+      - [X] De Broglie wavelength(/Lui De Broy/)
+        - Energy of particle or wave packet: E = h\nu (where h is Planck
+          constant = 6.626 x 10^-34 J.s)
+        - Einstien equation: $$E^2 = m^2 c^4 + p^2 c^2$$
+        - For a particle moving closely to the speed of light, m = 0
+
+          $$\therefore E^2 = p^2 c^2$$
+
+          $$\therefore h^2 \nu^2 = p^2 c^2$$
+
+          $$\therefore h \nu = pc$$
+
+          $$\therefore \frac{h}{p} = \frac{c}{\nu}$$
+
+          $$\therefore \frac{h}{p} = \lambda$$
+
+      - [X] Significance of \psi^2
+
+        - Schrodinger proposed the equation to mathematically interpret the wave
+          nature of the electron. He assumed that te wave nature of the electron
+          can be explained using the /charge density/ similarly to the spread of
+          water to see it's wave like nature, we have to spread the charge of an
+          electron to study it as a wave. But he failed to explain it. Later,
+          Max Born discarded the idea of /charge density/ and instead suggested
+          that to square \psi to get the probability of finding the electron in
+          space.
+
+          #+CAPTION: Probability of finding an electron
+          #+ATTR_HTML: :width 100%
+          #+ATTR_HTML: :class center no-border
+          [[../images/gureSagardoa/zeroday/probability_density.jpg]]
+
+
+**** Course [0/0]
+**** Videos [0/2]
+       - [-] Learn every video on/by Walter Lewin [4/5]
+         - [X] [[https://www.youtube.com/watch?v=cB8GNQuyMPc][Moment of Inertia]]
+         - [X] [[https://www.youtube.com/watch?v=iKUSWJWMSk4][The Hidden beauty of Rainbows]]
+           - Highlights:
+             - The Red color(~42^o)(radius) is on the outside and the
+               blue(~40^o) is on the inside of the primary bow. This is reversed
+               for the secondary bow which is 10_{o} higher in the sky.
+             - The sky is much brigher in the inside of the primary bow(due the
+               the white light).
+             - The refraction index of Water(n_{1} = ~1.33) is 33% more than
+               that of Air and Vaccum(n_{2} = ~1.00). This means the light
+               travels 33% slower in the Water than Air and Vaccum.
+             - Snell's Law: $$n_{1} sin \alpha = n_{2} sin \beta$$
+               - Where \alpha is the /angle of incident/ & \beta is the /angle
+                 of refraction/.
+               - If \alpha = \beta, the light travels in the straight line.
+             - [[https://en.wikipedia.org/wiki/Alexander%27s_band][Alexander's dark band]]: The region between \phi_{min} and
+               \phi_{max}.
+         - [X] For the love of Physics: [[https://www.youtube.com/watch?v=39vgSvnelNI][Walter Lewin - An Interview]]
+         - [X] 8.01 - MIT Physics 1: Classical Mechanics [1/1]
+           - [X] Lec 10: Hooke's Law, Springs, Pendulums, SHO
+             - Highlights:
+               - Hooke's Law
+               - Measuring the mass in outer space?
+               - Period of a spring:
+
+                 $$T = 2\pi \sqrt{ \frac{m}{k} }$$
+
+                 where /m/ is the mass of the object and /k/ is spring constant.
+
+               - Period of a Pendulum
+
+                 $$T = 2\pi\sqrt{\frac{l}{g}}$$
+
+                 where /l/ is the length of the string and /g/ is the gravity.
+
+         - [-] 8.03 - MIT Physics 3: Vibrations & waves [1/3]
+           - [X] Lec 1 - [[https://www.youtube.com/watch?v=sf3XlpPtBo0][Introduction]]
+             - Highlights:
+               - Resonance phenomena
+               - Rayleigh scattering
+               - Neutron scattering & Black holes
+               - Big bang cosmology
+           - [ ] Lec 2 - [[https://www.youtube.com/watch?v=VuX_UExHa0M][Periodic phenomema, SHO, Complex Notation, Physical Pendulum]]
+             - Highlights:
+               - Most human hear from 20Hz to 20K Hz. Animals can go way beyond
+                 20K Hz.
+           - [ ] Lec 11 - [[https://www.youtube.com/watch?v=k3byqIaULb8][Fourier Analysis, Time evolution of Pulses on String]]
+       - [ ] Learn every video on/by Richard Feynman [0/0]
+*** Make
+**** Projects [0/0]
+***** Software [0/0]
+***** Electronics [0/0]
+***** Misc [0/2]
+      - [ ] Make a mechanical clock. May be of wood/plastic/metal.
+      - [ ] Complete Dante's portrait. Acrylic on Canvas.
+*** Travel [0/1]
+    - [ ] Visit Florence again
+
+
+/Made using Love, LaTeX, Emacs, Org mode, & Mathjax[fn:mathjax][fn:cheatsheet]/
+
+[fn:mathjax] https://www.mathjax.org/
+[fn:cheatsheet] https://davidhamann.de/2017/06/12/latex-cheat-sheet/

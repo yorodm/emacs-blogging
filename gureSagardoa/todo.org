@@ -2,7 +2,7 @@
 #+keywords: todo agenda tasks books reading tracking
 
 ** Reading
-*** Physics
+*** Physics [2/7]
 **** DONE Seven Wonders of the Cosmos, Jayant V. Narlikar
 **** DONE Introduction to Electrodynamics, David J. Griffiths
 **** IN-PROGRESS A Brief History of Time, Stephen Hawking  :page:41:
@@ -10,7 +10,7 @@
 **** IN-PROGRESS QED: The Strange Theory of Light & Matter, Feynman :page:40:
 **** TODO The Feynman Lectures on Physics: Vol 2
 **** TODO The Feynman Lectures on Physics: Vol 3
-*** Computing
+*** Computing [9/18]
 **** DONE Linux Kernel in a Nutshell, Greg Kroah-Hartman
 **** DONE The Hacker's Guide to Python, 3rd Ed., Julien Danjou
 **** DONE A Byte of Python, Swaroop C H
@@ -29,9 +29,9 @@
 **** TODO [[http://www.gigamonkeys.com/book/][Practical Common Lisp]], Peter Seibel
 **** TODO ANSI Common LISP, Paul Graham
 **** TODO [[https://bigmachine.io/products/the-imposters-handbook/][The Imposter's Handbooks]], Rob Conery
-*** Electronics
+*** Electronics [1/1]
 **** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
-*** Fiction
+*** Fiction [26/49]
 **** DONE The Kite Runner, Khaled Hosseini
 **** DONE A Thousand Splendid Suns, Khaled Hosseini
 **** DONE The Monk Who Sold His Ferrari, Robin Sharma
@@ -81,7 +81,7 @@
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
 **** TODO The Prophet, Kahlil Gibran
-*** Non Fiction
+*** Non Fiction [19/33]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -90,6 +90,7 @@
 **** DONE Shantaram, Gregory David Roberts
 **** DONE Black Friday, S. Hussain Zaidi
 **** DONE Dongri to Dubai, S. Hussain Zaidi
+**** DONE The Class of 83, S. Hussain Zaidi
 **** DONE The Element of Style, William, Strunk Jr. & E.B. White
 **** DONE Into The Wild, Jon Krakauer
 **** DONE Discover your Destiny, Robin Sharma
@@ -100,9 +101,8 @@
 **** DONE The Complete Guide to Drones, 2nd Ed., Adam Juniper
 **** DONE A long way gone, Ishmael Beah
 **** DONE Atomic Habits, James Clear
-**** DONE The Class of 83, S. Hussain Zaidi
 **** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
-**** IN-PROGRESS Structures, J. E. Gordon
+**** IN-PROGRESS Structures, J. E. Gordon    :page:198:
 **** IN-PROGRESS Meditations, Marcus Aurelius
 **** TODO Mein Kampf, Adolf Hitler
 **** TODO Joseph Stalin: A Short Biography, G.F Alexandrov, Et al.
@@ -115,15 +115,26 @@
 **** TODO A More Perfect Heaven, Dava Sobel[fn:dava_sobel]
 **** TODO Introducing Psychology, Nigel C. Benson
 **** TODO Guns, Germs, & Steel, Jared Diamond
-*** Publications
+*** Publications [3/7]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
+**** DONE [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat ([[../lisp-java-notes.html][notes]])
 **** TODO Bitcoin: A Peer-to-Peer Electronic Cash System, Satoshi Nakamoto
-**** TODO [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat
 **** TODO [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]
 **** TODO The structure of the atom(Noble Lecture), Niels Bohr
 **** TODO The wave nature of the electron(Noble Lecture), Louis De Broglie
-*** Videos
-**** TODO [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
+*** Videos [0/2]
+	- [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
+	- [-] Control Systems [0/3]
+	  - [-] MATLAB: Understanding PID control [5/7]
+		- [X] [[https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=1][What is PID control?]]
+		- [X] [[https://www.youtube.com/watch?v=NVLXCwc8HzM&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=2][Expanding beyond Simple Integral]]
+		- [X] [[https://www.youtube.com/watch?v=7dUVdrs1e18&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=3][Expanding beyond Simple Derivative]]
+		- [X] [[https://www.youtube.com/watch?v=sFOEsA0Irjs&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=4][PID tuning guide]]
+		- [X] [[https://www.youtube.com/watch?v=qhIjIu-Zk10&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=5][Three ways to build a model]]
+		- [ ] [[https://www.youtube.com/watch?v=qj8vTO1eIHo&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=6][Manual & Automatic tuning]]
+		- [ ] [[https://www.youtube.com/watch?v=tbgV6caAVcs&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=7][Important PID concept]]
+	  - [ ] Cohen-Coon method
+	  - [ ] Ziegler-Nichols method
 
 [fn:dava_sobel] Dava Soble also wrote [[https://en.wikipedia.org/wiki/Longitude_(book)][Longitude]].

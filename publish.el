@@ -157,14 +157,15 @@ publishing directory. Returns output file name."
          :html-head ,psachin-website-html-head
          :html-preamble psachin-website-html-preamble
          :html-postamble ,psachin-website-html-postamble)
-        ("todo"
-         :base-directory "todo"
+        ("gureSagardoa"
+         :base-directory "gureSagardoa"
          :base-extension "org"
          :exclude ,(regexp-opt '("README.org" "draft"))
-         :index-filename "index.org"
-         :recursive nil
+         :sitemap-filename "index.org"
+         :recursive t
+         :auto-sitemap nil
          :publishing-function org-html-publish-to-html
-         :publishing-directory "./public/todo"
+         :publishing-directory "./public/gureSagardoa"
          :html-link-home "/"
          :html-link-up "/"
          :html-head-include-scripts t
@@ -245,7 +246,7 @@ publishing directory. Returns output file name."
          :exclude ".*"
          :include ("index.org")
          :table-of-contents nil)
-        ("all" :components ("posts" "about" "slides" "todo" "horology" "css" "images" "assets" "rss"))))
+        ("all" :components ("posts" "about" "slides" "gureSagardoa" "horology" "css" "images" "assets" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

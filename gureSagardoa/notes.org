@@ -1,0 +1,81 @@
+#+title: Notes
+#+keywords: notes quotes videos
+#+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
+
+** Quotes
+   - If You Need Permission to do Something, You Probably Shouldn’t Do It.
+   - Wealth and money is the side effect, not the goal itself.
+   - Don’t Seek Praise. Seek Criticism.
+   - Your Work Should Be A Performance.
+   - Retirement Should Never Be The Goal.
+   - If you do what you love, you'll never work a day in your life.
+   - The most powerful outcomes are delayed.
+   - I don’t think you can even talk about good or bad (sotware)design except with
+     reference to some intended user. - /Paul Graham[Hackers & Painters]/
+   - Learning never exhausts the mind. - /Leonardo da Vinci/
+** Videos
+   - [[https://www.youtube.com/watch?v=iBa9EoEbb38][8 lessons on building a company people enjoy working for]]
+     - Key points(for the Company & Managers):
+       - "Best practices" usually means copying what everybody else does.
+       - Your employees are adults, don't treat people like they're children.
+         They joined the company to do amazing work and make a difference.
+       - The job of the management is not to control people but to build great
+         teams.
+   - [[https://www.youtube.com/watch?v=PYJ22-YYNW8][This is what makes employee happy at work]]
+   - [[https://www.youtube.com/watch?v=x6fIseKzzH0][Why working from home is good for Business]]
+   - [[https://www.youtube.com/watch?v=ziGD7vQOwl8][The unheard story of David and Goliath, Malcolm Gladwell]]
+   - [[https://www.youtube.com/watch?v=lmEa9_WdpHo][Extensive reading]]
+	 - Key points:
+	   - /Read a lot./
+	   - /15 to 30 pages at a time./
+	   - /Read everyday./
+	   - /Extend reading time: 20-30 mins. to 2-3 hrs./
+	   - /Choose easy materials./
+	   - /Don't use the dictionary/: Try to guess the meaning from the context. Guess the replacement word.
+	   - /Content should be interesting./
+	   - /The more you know, the more you want to know./
+	   - /Read wide variety of topics./
+	   - /Read for pleasure./
+	   - /Read alone & quietly./
+   - [[https://www.youtube.com/watch?v=i69U0lvi89c][20 Years of Product Management in 25 minutes by Dave Wascha]]
+	 - Key points:
+	   - /Listen to your customers/: Avoid building solutions for the problems we don't have.
+	   - /Don't listen to your customers/: Don't design/implement the product based on customer's suggestions.
+	   - /Watch the competition but don't worry about it./
+	   - /Consider good ideas even when they are not coming from you./
+	   - /Ask if the customers are willing to pay for your solution/feature?/
+	   - /Remember that features have a limited shelf life so consider the cost of delay./
+	   - /Periodically review the backlogs./
+	   - /Stop saying 'No' (less badness)/
+	   - /Remember that you are not the customer./
+	   - /Be Dumb!/
+	   - /Companies drift/: They solve their problems than solving customer's problem.
+   - [[https://www.youtube.com/watch?v=lKXe3HUG2l4][The Mess we're in by Joe Armstrong.]]
+   - For the love of Physics: [[https://www.youtube.com/watch?v=39vgSvnelNI][Walter Lewin - An Interview]]
+   - [[https://www.youtube.com/watch?v=54evqZPwLFQ][Relentless by Tim Grover]]
+	 - Highlights:
+       - /Good -> Great -> Unstoppable./
+       - /See pressure(and things out of your comfort zone) as a challenge./
+       - /You can only achieve greatness if you'r willing to fail and make mistakes./
+       - /Effort counts twice/:
+         #+BEGIN_SRC
+           Talent x Effort = Skill
+           Skill  x Effort = Achievement
+         #+END_SRC
+       - /Turning your Dreams into Reality./
+   - Brain Science
+     - [[https://www.youtube.com/watch?v=H14bBuluwB8][Grit by Angela Lee Duckworth]]
+     - [[https://www.youtube.com/watch?v=rf8FX2sI3gU][Growth MixndSet-1]], [[https://www.youtube.com/watch?v=U4IU-y9-J8Q][Growth MindSet-2]]
+       - Highlights:
+         - Brain can grow.
+         - Learn to train your brain to tackle difficult situations. Keep
+           working through your frustration by using the right learning strategies.
+         - The more you work through your frustrations, the more your brain
+           grows.
+         - A wish is *not* a goal.
+         - SMART goals:
+           - *S* pecific
+           - *M* easureable
+           - *A* ctionable
+           - *R* ealistic
+           - *T* imely

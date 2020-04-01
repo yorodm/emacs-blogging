@@ -73,8 +73,8 @@
    I find programming in =elisp= relaxing when I'm bored with Python and
    friends. Occasionally I do write helper functions and share it on
    [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of the tiny helper functions can be found
-   within my [[https://gitlab.com/psachin/emacs.d][Emacs conf]]. In my free time I engage myself in reading Physics and
-   Mathematics. My latest obsession is Horology, you can read my posts [[../horology/][here]].
+   within my [[https://gitlab.com/psachin/emacs.d][Emacs conf]]. In my free time I engage myself in reading Physics,
+   Mathematics, and [[../horology/][Horology]].
 
 ** Blogs
 
@@ -119,9 +119,12 @@
 
    - *IRC*: psachin@{RedHat, freenode, OFTC, GIMPNet}
 
+** CV
+   Available upon request.
+
 ** Social
    #+ATTR_HTML: :style text-align:center
-   You won't find me on [[https://www.fsf.org/twitter][Twitter]], [[https://www.whatsapp.com/][Whatsapp]], [[https://www.fsf.org/facebook][Facebook]] & [[https://www.linkedin.com/][Linkedin]].
+   You won't find me on [[https://www.fsf.org/twitter][Twitter]], [[https://www.whatsapp.com/][Whatsapp]], [[https://www.fsf.org/facebook][Facebook]], & [[https://www.linkedin.com/][Linkedin]].
 
    #+ATTR_HTML: :class center no-border
    http://static.fsf.org/nosvn/no-facebook-me.png

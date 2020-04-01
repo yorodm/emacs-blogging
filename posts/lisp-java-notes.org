@@ -1,0 +1,64 @@
+#+title: Lisp as an Alternative to Java
+#+date: <2020-03-29>
+#+keywords: lisp java comparison
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{Lisp as an Alternative to Java}
+
+I Recently read an article by [[http://www.flownet.com/ron/][Erann Gat]] titled [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]]
+where Lisp was compared to C, C++ & Java with respect to the performance,
+execution time, & memory usage. This post summarizes the study.
+
+** Highlights
+   - 16 programs written by 14 programmers(all self-selected)
+     - 12(Common Lisp) + 4(Scheme)
+   - Lisp performance is comparable to or better than C++ in execution speed.
+     - due to lower variability.
+     - and reduces project risk.
+   - Execution of the fastest C & C++ programs were faster than the fastest Lisp
+     program.
+
+** Comparison
+   #+ATTR_HTML: :align |l|l|l|l|
+   |                                 | Lisp                    | C, C++       | Java         |
+   |---------------------------------+-------------------------+--------------+--------------|
+   | Development time                | 2 to 8.5 hrs.           | 3 to 25 hrs. | 4 to 63 hrs. |
+   | Avg. Programmer's experience    | 6.2 yrs.                | 9.6 yrs.     | 7.7 yrs.     |
+   | LoC                             | 51 to 182               | 107 to 164   | 107 to 164   |
+   | LoC(mean)                       | 119                     | 277          | 277          |
+   | LoC(median)                     | 134                     | 244          | 244          |
+   | LoC(standard deviation)         | 10                      | -            | -            |
+   | Execution time                  | Fast                    | Faster       | -            |
+   | Runtime                         | - Better than C & C++   |              |              |
+   |                                 | - Much better than Java |              |              |
+   | Runtime(mean)                   | 41 sec.                 | 165 sec.     | -            |
+   | Runtime(media)                  | 30 sec.                 | 54 sec.      | -            |
+   | Runtime(standard deviation)     | 11 sec.                 | 77 sec.      | -            |
+   | Memory consumption[fn:lisp_mem] | - Higher than C & C++   |              |              |
+   |                                 | - Comparable to Java    |              |              |
+
+** Speculations
+   - Why does Lisp seem to do so well?
+     - At time Lisp was considered slow because the compilers were unavailable &
+       immature, but modern /Lisp compilers are mature, stable and high quality/.
+     - /Much faster debug cycle/: As opposed to most compilers which recompiles
+       the entire file when any part is changed. This re-links the entire
+       program, may also require stopping which results in the loss of state.
+       Lisp compiler on the other hand is inherently designed to be incremental
+       & interactive. Functions are individually compiled and linked to the
+       running programs, so the state is preserved and used in the next run.
+     - /Smaller size of Lisp code/: Lisp does not require type declaration which
+       save LoC and it provide first class functions to write complex algorithms
+       in a very few lines.
+   - If the above is true, why isn't Lisp used more than this?
+     - Designed as a language for AI, it failed to deliver the promise.
+     - A myth that Lisp is big & slow.
+
+
+[fn:lisp_mem] Lisp & Java performs memory management using garbage collector,
+              hence the allocated memory from the Operating System might not be
+              used by the application. The memory consumption of Lisp is the
+              addition of the memory used by Lisp development environment,
+              compiler, & development libraries.
+
+#+INCLUDE: "../disquss.inc"

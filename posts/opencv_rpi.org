@@ -1,0 +1,69 @@
+#+title: [Notes] OpenCV and RPi
+#+date: <2020-04-10>
+#+keywords: opencv rpi rpi2 python notes
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+** Install OpenCV on RPi2
+*** System details
+    #+BEGIN_SRC shell -n
+      cat /etc/os-release
+      PRETTY_NAME="Raspbian GNU/Linux 10 (buster)"
+      NAME="Raspbian GNU/Linux"
+      VERSION_ID="10"
+      VERSION="10 (buster)"
+      VERSION_CODENAME=buster
+      ID=raspbian
+      ID_LIKE=debian
+      HOME_URL="http://www.raspbian.org/"
+      SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
+      BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
+    #+END_SRC
+
+*** Update & upgrade
+    #+BEGIN_SRC shell -n
+      apt-get update
+      apt-get upgrade
+    #+END_SRC
+
+*** Install required packages
+    #+BEGIN_SRC shell -n
+      # Other packages
+      apt-get install build-essential cmake pkg-config
+      apt-get install libjpeg-dev libtiff-dev libjasper-dev libpng12-dev
+
+      apt-get install libgtk2.0-dev
+      apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+      apt-get install libatlas-base-dev gfortran
+
+      apt-get install libhdf5-dev
+      apt-get install libilmbase23
+      apt-get install libilmbase-dev
+      apt-get install libopenexr-dev
+      apt-get install libqtgui4
+      apt-get install libqt4-test
+
+      # Install setv to manage Python virtual environments
+      curl https://gitlab.com/psachin/setV/raw/master/install.sh | sh -
+      # Create Python virtual environment
+      setv --new --python /usr/bin/python3.7 cv
+      # Activate the virtual environment
+      setv cv
+
+      # Install numpy & OpenCV
+      pip install numpy
+      pip install opencv-contrib-python==4.1.0.25  # https://github.com/piwheels/packages/issues/59
+      # Install bpython
+      pip install bpython
+    #+END_SRC
+
+*** Testing
+    #+BEGIN_SRC shell -n
+      bpython
+      >>> import cv2
+      >>> cv2.__version__
+      '4.1.0'
+	#+END_SRC
+
+ #+INCLUDE: "../disquss.inc"

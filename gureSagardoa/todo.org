@@ -61,6 +61,8 @@
 **** IN-PROGRESS GoldFish Have No Hiding Place, James Hadley Chase
 **** IN-PROGRESS The Devil's Alternative, Frederick Forsyth
 **** IN-PROGRESS To Kill A Mocking Bird, Harper Lee
+**** IN-PROGRESS The Prophet, Kahlil Gibran
+**** IN-PROGRESS Celestial Bodies, Jokha Alharthi
 **** TODO Devils, Fyodor Dostoevsky
 **** TODO A Christmas Carol, Charles Dickens
 **** TODO Martin Chuzzlewit, Charles Dickens
@@ -76,12 +78,10 @@
 **** TODO Sabbath's Theater, Philip Roth
 **** TODO Lord Jim, Joseph Conrad
 **** TODO The Secret Agent, Joseph Conrad
-**** TODO Celestial Bodies, Jokha Alharthi
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-**** TODO The Prophet, Kahlil Gibran
-*** Non Fiction [19/33]
+*** Non Fiction [22/37]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -94,16 +94,20 @@
 **** DONE The Element of Style, William, Strunk Jr. & E.B. White
 **** DONE Into The Wild, Jon Krakauer
 **** DONE Discover your Destiny, Robin Sharma
-**** DONE The 5AM Club, Robin Sharma
+**** DONE The 5AM Club, Robin Sharma ([[https://gitlab.com/psachin/notes/-/blob/master/notes_the_5_am_club.org][notes]])
 **** DONE Free as in Freedom, Sam Williams
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
 **** DONE The Complete Guide to Drones, 2nd Ed., Adam Juniper
 **** DONE A long way gone, Ishmael Beah
 **** DONE Atomic Habits, James Clear
+**** DONE Jeh: A Life of J.R.D. Tata, Bakhtiar K. Dadabhoy
+**** DONE Meditations, Marcus Aurelius
+**** DONE [[../photography/structures_je_gordon.org][Structures, J. E. Gordan]]
 **** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
-**** IN-PROGRESS Structures, J. E. Gordon    :page:198:
-**** IN-PROGRESS Meditations, Marcus Aurelius
+**** IN-PROGRESS Guns, Germs, & Steel, Jared Diamond
+**** TODO Discourses and Selected Writings, Epictetus
+**** TODO Letters from a Stoic, Seneca
 **** TODO Mein Kampf, Adolf Hitler
 **** TODO Joseph Stalin: A Short Biography, G.F Alexandrov, Et al.
 **** TODO Medieval India: The Study if a Civilization, Irfan Habib
@@ -114,8 +118,8 @@
 **** TODO The Globalization of Inequality, François Bourguignon
 **** TODO A More Perfect Heaven, Dava Sobel[fn:dava_sobel]
 **** TODO Introducing Psychology, Nigel C. Benson
-**** TODO Guns, Germs, & Steel, Jared Diamond
-*** Publications [3/7]
+**** TODO Brighter Than a Thousand Suns, Robert Jungk
+*** Publications [3/9]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
 **** DONE [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat ([[../lisp-java-notes.html][notes]])
@@ -123,18 +127,13 @@
 **** TODO [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]
 **** TODO The structure of the atom(Noble Lecture), Niels Bohr
 **** TODO The wave nature of the electron(Noble Lecture), Louis De Broglie
-*** Videos [0/2]
-	- [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
-	- [-] Control Systems [0/3]
-	  - [-] MATLAB: Understanding PID control [5/7]
-		- [X] [[https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=1][What is PID control?]]
-		- [X] [[https://www.youtube.com/watch?v=NVLXCwc8HzM&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=2][Expanding beyond Simple Integral]]
-		- [X] [[https://www.youtube.com/watch?v=7dUVdrs1e18&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=3][Expanding beyond Simple Derivative]]
-		- [X] [[https://www.youtube.com/watch?v=sFOEsA0Irjs&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=4][PID tuning guide]]
-		- [X] [[https://www.youtube.com/watch?v=qhIjIu-Zk10&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=5][Three ways to build a model]]
-		- [ ] [[https://www.youtube.com/watch?v=qj8vTO1eIHo&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=6][Manual & Automatic tuning]]
-		- [ ] [[https://www.youtube.com/watch?v=tbgV6caAVcs&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=7][Important PID concept]]
-	  - [ ] Cohen-Coon method
-	  - [ ] Ziegler-Nichols method
+**** TODO [[https://www.nobelprize.org/uploads/2018/06/heisenberg-lecture.pdf][The development of Quantum Mechanics(Noble Lecture)]], W. Heisenberg
+**** [[https://www.hs.ias.edu/lavin][Irving Lavin]] [0/1]
+	 - [ ] [[https://albert.ias.edu/handle/20.500.12111/6675][Michelangelo's Saint Peter's Pieta]]
+**** TODO [[http://lantb.net/uebersicht/wp-pdf/eiffelTower.pdf][The Eiffel Tower, Roland Barthes]]
+** Videos [1/2]
+   - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
+   - [X] [[https://www.youtube.com/watch?v=lKXe3HUG2l4]["The Mess we're In" by Joe Armstrong.]]
+
 
 [fn:dava_sobel] Dava Soble also wrote [[https://en.wikipedia.org/wiki/Longitude_(book)][Longitude]].

@@ -1,0 +1,9 @@
+#+title: Dante Alighieri
+#+keywords: canvas dante painting art
+
+#+CAPTION: Sketch: Dante Alighieri
+#+ATTR_HTML: :class center rounded-border black-border
+#+ATTR_HTML: :width 100% :height
+[[../images/photography/dante_sketch.png]]
+
+#+INCLUDE: "../disquss.inc"

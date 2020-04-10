@@ -13,6 +13,10 @@
    - I don’t think you can even talk about good or bad (sotware)design except with
      reference to some intended user. - /Paul Graham[Hackers & Painters]/
    - Learning never exhausts the mind. - /Leonardo da Vinci/
+   - Your learning ability decides your earning ability - Nishat Kasibhatla
+   - Advances are made by answering questions. Discoveries are made by
+     questioning answers. - Bernhard Haisch, Astrophysicist.
+   - Make yourself a priority once in a while. It's not selfish. It's necessary. ― Anonymous
 ** Videos
    - [[https://www.youtube.com/watch?v=iBa9EoEbb38][8 lessons on building a company people enjoy working for]]
      - Key points(for the Company & Managers):
@@ -50,10 +54,12 @@
 	   - /Remember that you are not the customer./
 	   - /Be Dumb!/
 	   - /Companies drift/: They solve their problems than solving customer's problem.
-   - [[https://www.youtube.com/watch?v=lKXe3HUG2l4][The Mess we're in by Joe Armstrong.]]
+   - [[https://www.youtube.com/watch?v=5LbCRx1UbWY][The 7 habits of Highly Effective People (part 2)]]
+	 - Most people don't listen with the intent to understand...we listen with the intent to reply.
+	 - Invest in yourself.
    - For the love of Physics: [[https://www.youtube.com/watch?v=39vgSvnelNI][Walter Lewin - An Interview]]
    - [[https://www.youtube.com/watch?v=54evqZPwLFQ][Relentless by Tim Grover]]
-	 - Highlights:
+     - Highlights:
        - /Good -> Great -> Unstoppable./
        - /See pressure(and things out of your comfort zone) as a challenge./
        - /You can only achieve greatness if you'r willing to fail and make mistakes./
@@ -79,3 +85,32 @@
            - *A* ctionable
            - *R* ealistic
            - *T* imely
+     - [[https://www.youtube.com/watch?v=ZVO8Wt_PCgE][How to learn anything Fast - Nishat Kasibhatla]]
+       - Hightlights:
+         - Input without an output is of no use.
+         - Learn & implement.
+         - Use(what you learned) it or lose it.
+         - Quality(the material) of input should be very high quality.
+         - /Single task/: Don't multitask when you are learning.
+         - Always thinks "How can I use this knowledge I recently acquired?"
+         - /Share/: Best way to learn something is to share(educate others).
+         - If the input is *1x*, the output should be *2x*.
+         - What stops us are our limiting beliefs.
+         - Gist
+           #+BEGIN_SRC
+              +-------------------------------------------------------------------------------------------------+
+              |                                                                                                 |
+              |                                                                                                 |
+              |                                                    Output                                       |
+              |                         --------------------------------------------------------------          |
+              |                                                                                                 |
+              |  +---------------+      +---------------+      +---------------+      +---------------+         |
+              |  |  Learn        |      |  Reflect      |      | Implement     |      | Share         |         |
+              |  |               |      |               |      |               |      |               |         |
+              |  +---------------+      +---------------+      +---------------+      +---------------+         |
+              |                                                                                                 |
+              |  -----------------                                                                              |
+              |       Input                                                                                     |
+              |                                                                                                 |
+              +-------------------------------------------------------------------------------------------------+
+           #+END_SRC

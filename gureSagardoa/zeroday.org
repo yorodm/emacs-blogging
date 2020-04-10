@@ -1,10 +1,13 @@
 #+title: ZeroDay
 #+keywords: todo agenda tasks zeroday tracker
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{ZeroDay}
+#+LaTeX_HEADER: \usepackage[a4paper, landscape, margin=0.5in, top=1in, bottom=1in]{geometry}
 #+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
 
 ** Bucket list
 *** Learning
-**** Reading [2/4]
+**** Reading [3/9]
 	  - [ ] Read every book by Walter Lewin
 	  - [ ] Read every book by Richard Feynman
       - [X] De Broglie wavelength(/Lui De Broy/)
@@ -22,9 +25,7 @@
           $$\therefore \frac{h}{p} = \frac{c}{\nu}$$
 
           $$\therefore \frac{h}{p} = \lambda$$
-
       - [X] Significance of \psi^2
-
         - Schrodinger proposed the equation to mathematically interpret the wave
           nature of the electron. He assumed that te wave nature of the electron
           can be explained using the /charge density/ similarly to the spread of
@@ -38,11 +39,129 @@
           #+ATTR_HTML: :width 100%
           #+ATTR_HTML: :class center no-border
           [[../images/gureSagardoa/zeroday/probability_density.jpg]]
+      - [ ] [[https://www.ibiblio.org/kuphaldt/electricCircuits/index.htm][Complete the 6 books series]] [0/6]
+        - [ ] [[https://www.ibiblio.org/kuphaldt/electricCircuits/DC/index.html][Lessons in Electrical Circuits - Vol I DC]]
+        - [ ] [[https://www.ibiblio.org/kuphaldt/electricCircuits/AC/index.html][Lessons in Electrical Circuits - Vol II AC]]
+        - [ ] [[https://www.ibiblio.org/kuphaldt/electricCircuits/Semi/index.html][Lessons on Electrical Circuits - Vol III Semiconductors]]
+        - [ ] [[https://www.ibiblio.org/kuphaldt/electricCircuits/Digital/index.html][Lessons on Electrical Circuits - Vol IV Digital]]
+        - [ ] [[https://www.ibiblio.org/kuphaldt/electricCircuits/Ref/index.html][Lessons on Electrical Circuits - Vol V References]]
+        - [ ] [[https://www.ibiblio.org/kuphaldt/electricCircuits/Exper/index.html][Lessons on Electrical Circuits - Vol VI Experiments]]
+      - [X] [[https://archive.org/details/COPENHAGEN_201703][Copenhagen By Michael Frayn]] (BBC Radio Drama, 2013)
+        - [[https://web.archive.org/web/20180831065819/http://heisenbergfamily.org/Jungk.htm][Heisenberg letter to Robert Jungk describing the detail of the meeting]].
+        - Notes:
+          - **Summary**: During the Autumn in 1941(September 15-21) when Germany
+            had occupied Denmark(WWII), Werner Heisenberg(German Physicist)
+            insisted /another/ meeting with Niels Bohr, his Mentor, Collaborator
+            and long time friend. The meeting took place while WH was scheduled
+            to deliver a lecture on Astrophysics at the German Cultural
+            Institute in Copenhagen between Niels Bohr, Werner Heisenberg, &
+            Margrethe Bohr at Bohr's home in Ny(new) Carlsberg(a dinner
+            invitation). Germany was certain to win the War and both(WH & NB)
+            were "on watch". W.H indicated that he was involved in the
+            program(in Germany) to built a nuclear weapon and thought it was
+            theoretically possible to make Atomic Bomb. After the meeting, the
+            Friendship was broken beyond repair.
+          - The drama is based on the idea of "Why Human beings do what they
+            do?"
+          - This historical drama was originally premiered in 1998 in London,
+            England. The play was also adapted as a TV movie in 2002.
+          - Heisenberg want to make sure that the meeting has to be in private
+            which opted out:
+            - Their usual long walks. Although most of the conversation took
+              place on an evening walk in the city district near Ny-Carlsberg.
+            - Bohr workplace and
+            - The university Canteen.
+          - Modern Atomic Physics(1913): Quantum Physics applies to matter as
+            well as Energy.
+          - Just after finishing his [[https://web.archive.org/web/20181128034643im_/http://heisenbergfamily.org/Edu-docs/UR-01.jpg][Doctorate]](1923), in March 1924 WH(22 yrs)
+            went to work as an assistant to NB(38 yrs.). Bohr was then the most
+            famous Atomic Physicist in the World.
+            - WH just over a year after joining NB invented Quantum Mechanics.
+            - In another year he came up with Uncertainty Principle(1927)(see
+              image: /Uncertainty Principle/).
+              - WH left to work in Germany in 1927 at the Department of physics
+                at the University of Leipzig.
+              - Bohr was on a skiing vacation in Norway(Feb, 1927) when he
+                conceived an idea of [[https://www.springer.com/gp/book/9789400717473][Complementarity]] Principle. During the same
+                time he received a letter from WH regarding Uncertainty
+                Principle. Bohr convinced Heisenberg that Uncertainty Principle
+                was a manifestation of the deeper concept of Complementarity.
+          - **John Wheeler** & Bohr work together
+            - Nuclear fission(1939)
+            - John Wheeler gave "Black holes" their name.
+            - Richard Feynman(post grad student)
+          - WH: /In Germany, we worshiped you(Bohr)/
+          - They both played Table tennis
+          - WH played piano.
+            - WH married [[https://web.archive.org/web/20171116021511/http://www.heisenbergfamily.org/Family-tree/Elisabeth-1914.pdf][Elizabeth]](Schumacher), he sighted her in the musical
+              evening of Jan. 28, 1937 where WH played piano.
+          - Uncertainty Principle
+            #+CAPTION: Measuring position & momentum
+            #+ATTR_HTML: :width 100%
+            #+ATTR_HTML: :class center no-border
+            [[../images/gureSagardoa/zeroday/uncertainty_principle.jpg]]
+          - In 1929 WH went on a lecture tour to US, Japan & India.
+            - [[https://web.archive.org/web/20180831100348/http://heisenbergfamily.org/Darjeeling.htm][WH telegram to his parents from Darjeeling. Oct 5, 1929]]
+          - Uranium split:
+            #+CAPTION: Uranium fissioned with fast neutron
+            #+ATTR_HTML: :width 100%
+            #+ATTR_HTML: :class center no-border
+            [[../images/gureSagardoa/zeroday/uranium_split.jpg]]
+          - But there's a catch. Natural Uranium has to two isotopes:
+            1. U-238: They are only fissioned with fast neutron.
+            2. U-235: Less than 1% of natural occurring Uranium.
+          - This was discussed between Bohr & Wheeler in 1939 at Princeton:
+            - U-238 also slows neutron down & absorbs them, hence explosive
+              chain reaction will never occur.
+            - To make an explosion, one has to separate out U-235 and this is
+              extremely difficult. To extract 1 gm of U-235 takes 26000 yrs.
+          - But
+            #+CAPTION: Plutonium
+            #+ATTR_HTML: :width 100%
+            #+ATTR_HTML: :class center no-border
+            [[../images/gureSagardoa/zeroday/plutonium.jpg]]
+          - $$_{94}^{239}Pu$$ has a high probability of fission than
+            $$_{92}^{235}U$$ but $$_{94}^{239}Pu$$ absorb an additional neutron
+            during production and converts to $$^{240}Pu$$ which has even high
+            rate of spontaneous fission.
+          - WH: /We do science to explain others in simple terms./
+          - The plan:
+            - WH will advice the Nazi Govt. that building he nuclear weapon is
+              not feasible. They will soon lose interest and give up.
+            - But..it is in the news that the allied forces(Americans) are
+              building nuclear weapon and someone from Europe(might be Bohr) is
+              advising them....which mean WH betrayed his Country.
+          - 1943(Summer night): Bohr escaped by ship via Sweden to Los Alamos.
+          - Fermi: Self contained chain reaction(Chicago)
+          - Fermi: Bohr worked out how to trigger Nagasaki bomb(Fat Man:
+            Plutonium fission bomb).
+          - [[https://en.wikipedia.org/wiki/Chandrasekhar_limit][Subramanyan Chandrasekhar]] was research assistant to Bohr in 1932 on
+            the advice on [[https://en.wikipedia.org/wiki/Paul_Dirac][P.A.M Dirac]].
+            - Doctoral students on Paul Dirac:
+              - [[https://en.wikipedia.org/wiki/Homi_J._Bhabha][Homi Bhabha]]
+              - [[https://en.wikipedia.org/wiki/Fred_Hoyle][Fred Hoyle]]:
+                - Doctoral student: [[https://en.wikipedia.org/wiki/Jayant_Narlikar][Jayant Narlikar]]
+          - WH first worked out Quantum Mechanics in [[https://en.wikipedia.org/wiki/Heligoland][Heligoland]].
+            - He wanted to do the Maths right but didn't understand Matrix &
+              calculus.
+          - WH refused to allow Wave theory a place in QM which made Bohr turned
+            against him.
+          - They(WH & NB) explained the theory to Margrethe(Listen from 1:18:53
+            to 1:20:47).
+            - If we detach an electron from atom and send it to a cloud chamber,
+              it should leave a trace.
+            - WH: There shouldn't be a track according to QM but only external
+              effect.
+      - [ ] GNU Guix
+      - [ ] GNU Sheperd
+      - [ ] Guile
+**** Course [2/3]
+     - [X] Masterclass: Frank Gehry ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_frank_gehry.org][Notes]])
+     - [ ] MasterClass: Neil deGrasse Tyson ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_neil_tyson.org][Notes]])
+     - [X] MasterClass: Chris Hadfield ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_chris_hadfield.org][Notes]])
 
-
-**** Course [0/0]
-**** Videos [0/2]
-       - [-] Learn every video on/by Walter Lewin [4/5]
+**** Videos [3/9]
+       - [-] Learn every video on/by Walter Lewin [4/6]
          - [X] [[https://www.youtube.com/watch?v=cB8GNQuyMPc][Moment of Inertia]]
          - [X] [[https://www.youtube.com/watch?v=iKUSWJWMSk4][The Hidden beauty of Rainbows]]
            - Highlights:
@@ -71,13 +190,18 @@
                  $$T = 2\pi \sqrt{ \frac{m}{k} }$$
 
                  where /m/ is the mass of the object and /k/ is spring constant.
-
                - Period of a Pendulum
 
                  $$T = 2\pi\sqrt{\frac{l}{g}}$$
 
                  where /l/ is the length of the string and /g/ is the gravity.
-
+         - [ ] 8.02 - MIT Physics 2: [0/1]
+           - [ ] Lec 16 - [[https://www.youtube.com/watch?v=nGQbA2jwkWI][Electromagnetic Induction, Faraday's Law, Lenz Law, DEMO]]
+             - Notes:
+               - /Electromagnetic Induction/: Changing magnetic field produces current(not steady magnetic
+                 field)
+               - Lenz Law(diagram)
+               - Ohms Law: Induced EMF = Induced Current(in the coil) * Resistance(in the coil)
          - [-] 8.03 - MIT Physics 3: Vibrations & waves [1/3]
            - [X] Lec 1 - [[https://www.youtube.com/watch?v=sf3XlpPtBo0][Introduction]]
              - Highlights:
@@ -91,18 +215,445 @@
                  20K Hz.
            - [ ] Lec 11 - [[https://www.youtube.com/watch?v=k3byqIaULb8][Fourier Analysis, Time evolution of Pulses on String]]
        - [ ] Learn every video on/by Richard Feynman [0/0]
+       - [-] Control Systems [0/4]
+         - [-] MATLAB: Understanding PID control [5/7]
+           - [X] [[https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=1][What is PID control?]]
+           - [X] [[https://www.youtube.com/watch?v=NVLXCwc8HzM&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=2][Expanding beyond Simple Integral]]
+           - [X] [[https://www.youtube.com/watch?v=7dUVdrs1e18&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=3][Expanding beyond Simple Derivative]]
+           - [X] [[https://www.youtube.com/watch?v=sFOEsA0Irjs&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=4][PID tuning guide]]
+           - [X] [[https://www.youtube.com/watch?v=qhIjIu-Zk10&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=5][Three ways to build a model]]
+           - [ ] [[https://www.youtube.com/watch?v=qj8vTO1eIHo&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=6][Manual & Automatic tuning]]
+           - [ ] [[https://www.youtube.com/watch?v=tbgV6caAVcs&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=7][Important PID concept]]
+         - [ ] Cohen-Coon method
+         - [ ] Ziegler-Nichols method
+         - [ ] MATLAB: Drone simulation & control [0/5]
+           - [ ] [[https://www.youtube.com/watch?v=hGcGPUqB67Q][1: Setting up the control problem]]
+           - [ ] [[https://www.youtube.com/watch?v=GK1t8YIvGM8][2: How to get a drone to hover?]]
+           - [ ] [[https://www.youtube.com/watch?v=3Gtb5Eq1Lvk][3: How to build the flight code]]
+           - [ ] [[https://www.youtube.com/watch?v=gEmGfo36INc][4: How to build a model for simulation]]
+           - [ ] [[https://www.youtube.com/watch?v=BqrRfoH-19s][5: Tuning the PID controller]]
+       - [X] [[https://www.youtube.com/watch?v=o4xkvyZnhj4][How L2 switches use Mac addresses]]
+         - Notes
+           - Uses a MAC addess table to bind MAC with port.
+           - A L2 switch dynamically learns MAC addresses.
+           - A L2 switch is the most common way to group and connect wired
+             devices.
+           - *Broadcast*: Everybody(every device) connect to the switch needs to see
+             this message.
+           - *Unicast*: This message is intended for a specific MAC address but the
+             switch has not learned which device has that MAC. Hence it will send
+             that message to every port(and eventully the intended device will
+             receive that message)
+       - [X] Abstract Algebra: Group Theory [5/5]
+         - [X] [[https://www.youtube.com/watch?v=EsBn7G2yhB8&list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO&index=1][Symmetries, Groups and Actions]]
+         - [X] [[https://www.youtube.com/watch?v=BfgMdi0OkPU&list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO&index=2][Orbit-Stabiliser Theorm]]
+         - [X] [[https://www.youtube.com/watch?v=fkJCpOwYgxo&list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO&index=3][Lagrange's theorm, subgroups and cosets]]
+         - [X] [[https://www.youtube.com/watch?v=0ob1m4XnVwQ&list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO&index=4][Conjugation, normal subgroups and simple groups]]
+         - [X] [[https://www.youtube.com/watch?v=N11vOq3h9XQ&list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO&index=5][Quotient groups]]
+         - Notes:
+       - [-] Funtional Programming with Erlang(UniKentMOOCs) [15/48]
+         - [X] [[https://www.youtube.com/watch?v=yZ-e6ZT4G6U&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=1][Trailer]]
+         - [X] [[https://www.youtube.com/watch?v=0U4S3Zw3lG4&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=2][Welcome to Erlang K-MOOC]]
+         - [X] [[https://www.youtube.com/watch?v=53FMjsjboiY&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=3][Week 1 1.2 Why Erlang - Motivation]]
+         - [X] [[https://www.youtube.com/watch?v=5-c1CeyCdOk&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=4][Week 1 1.3 Erlang and Functional Programming]]
+         - [X] [[https://www.youtube.com/watch?v=BMRMFoObzE4&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=5][Week 1 1.4 Erlang MOOC Orientation]]
+         - [X] [[https://www.youtube.com/watch?v=QxoOWrrGtD0&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=6][Week 1 1.5 Using an Erlang System]]
+         - [X] [[https://www.youtube.com/watch?v=VI4Chj-UQtg&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=7][Week 1 2.1 A first Erlang Program]]
+           - =first.erl:=
+             #+BEGIN_SRC erlang -n :tangle first.erl :exports code
+               -module(first).
+               -export([double/1,mult/2,area/3]).						%[function_name/argument_count,func2/arg_count]
+
+               mult(X,Y) ->
+                   X*Y.
+
+               double(X) ->
+                   mult(2,X).
+
+               %% area of triangle
+               area(A,B,C) ->
+                   S = (A+B+C)/2,
+                   math:sqrt(S*(S-A)*(S-B)*(S-C)).
+             #+END_SRC
+
+           - Output:
+             #+BEGIN_SRC erlang
+               1>  c(first).
+               {ok,first}
+               2> double(8).
+               ,** exception error: undefined shell command double/1
+               3> first:double(8).
+               16
+               4>  c(first).
+               {ok,first}
+               5> first:mult(8,8).
+               64
+               6>  c(first).
+               {ok,first}
+               7> first:mult(8,8).
+               64
+               8> first:double(8).
+               16
+               9>  c(first).
+               {ok,first}
+               10> first:area(1,2,3).
+               0.0
+               11> first:area(3,2,3).
+               2.8284271247461903
+             #+END_SRC
+         - [X] [[https://www.youtube.com/watch?v=fWhdM1t9FHs&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=8][Week 1 2.4 Erlang data]]
+           - Notes:
+             - Numbers: Are =bignums=, =base#number=, ex: 2#100
+               #+BEGIN_SRC erlang
+                 1> 2#100.
+                 4
+                 6> 10#1234.
+                 1234
+               #+END_SRC
+             - Atoms: They are *data* themselves. Two special atoms: *true* & *false*.
+               #+BEGIN_SRC erlang
+                 7> foo.
+                 foo
+                 8> 'I am an atom'.
+                 'I am an atom'
+                 9> foo == 'I am an atom'.
+                 false
+                 10> foo == foo.
+                 true
+               #+END_SRC
+             - Booleans: true, false
+             - Tuples:
+               - ={1,2,3}, {sachin,2,3}, {'sachin',2,3}=
+               - Heterogeneous(different types)
+             - Lists:
+               - Homogeneous
+               - =['sachin', 'foo'], [[1,2,3]], []=
+             - Strings:
+               - Is a list:
+                 #+BEGIN_SRC erlang
+                   17> "abc".
+                   "abc"
+                   18> [97,98,99].
+                   "abc"
+                   21> [$a,$b,$c].
+                   "abc"
+                   22>
+                   22> $a.
+                   97
+                   23> $b.
+                   98
+                   24> $c.
+                   99
+                 #+END_SRC
+             - Functions: Can be data themselves.
+               #+BEGIN_SRC erlang
+                 25> fun (X) -> X*2 end.
+                 #Fun<erl_eval.7.126501267>
+                 28> lists:map(fun (X) -> X*2 end, [1,2,3,4]).
+                 [2,4,6,8]
+                 55> lists:foldr(fun(X,Y) -> X*Y end, 2, [1,2,3,4]).
+                 48
+               #+END_SRC
+         - [X] [[https://www.youtube.com/watch?v=IY3YJbm4rps&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=9][Week 1 2.5a Erlang online documentation]]
+         - [X] [[https://www.youtube.com/watch?v=Ow44MvHdUNo&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=10][Week 1 2.7 Variables & Patterns]]
+           - Notes:
+             - If the value is already bond then *=* checks on its values: does
+               RHS matches LHS. Ex:
+               #+BEGIN_SRC erlang
+                 1> A=2+3.
+                 5
+                 2> B=A-1.
+                 4
+                 3> A=B.
+                 ,** exception error: no match of right hand side value 4
+                 4> C=B.
+                 4
+                 11> {E,F}={2,3}.
+                 {2,3}
+                 12> E.
+                 2
+                 13> F.
+                 3
+                 15> f().  %% forget all bindings
+                 ok
+                 16> {A,D}={2,3}.
+                 {2,3}
+               #+END_SRC
+
+               Variables in Erlang are actually /names/ assigned to the
+               values(2) or patter(B+2).
+
+           - Code:
+             #+BEGIN_SRC erlang -n :tangle pattern_matching.erl :exports code
+               -module(pattern_matching).
+               -export([is_zero/1,is_zero_2/1,xOr/2,xOr_2/2]).
+
+               is_zero(0) ->
+                   true;
+               is_zero(X) ->
+                   false.
+
+               xOr(true,false) ->
+                   true;
+               xOr(false,true) ->
+                   true;
+               xOr(1,0) ->
+                   true;
+               xOr(0,1) ->
+                   true;
+               xOr(X,Y) ->
+                   false.
+
+               is_zero_2(0) ->
+                   true;
+               is_zero_2(_) ->									% "_" will take away that warning.
+                   false.
+
+               xOr_2(true,false) ->
+                   true;
+               xOr_2(false,true) ->
+                   true;
+               xOr_2(1,0) ->
+                   true;
+               xOr_2(0,1) ->
+                   true;
+               xOr_2(_,_) ->									% "_" will take away that warning.
+                   false.
+
+               %% An elegant solution
+               exOr(true,X) ->
+                   not(X);
+               exOr(false,X) ->
+                   X.
+             #+END_SRC
+
+             #+BEGIN_SRC erlang
+               $ erl pattern_matching.erl
+               Erlang/OTP 22 [erts-10.6.4] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [hipe]
+
+               Eshell V10.6.4  (abort with ^G)
+               1> c(pattern_matching).
+               pattern_matching.erl:6: Warning: variable 'X' is unused
+               pattern_matching.erl:17: Warning: variable 'X' is unused
+               pattern_matching.erl:17: Warning: variable 'Y' is unused
+               {ok,pattern_matching}
+               2> pattern_matching:is_zero(2).
+               false
+               3> pattern_matching:is_zero(0).
+               true
+               4> pattern_matching:is_zero(-1).
+               false
+               8> pattern_matching:xOr(0,1).
+               true
+               9> pattern_matching:xOr(2,1).
+               false
+               10> pattern_matching:xOr(false,true).
+               true
+               12> pattern_matching:exOr(true,true).
+               false
+               13> pattern_matching:exOr(true,false).
+               true
+               14> pattern_matching:exOr(false,false).
+               false
+               15> pattern_matching:exOr(false,2).
+               2
+               16> pattern_matching:exOr(false,true).
+               true
+               17> pattern_matching:exOr(2,true).
+               ,** exception error: no function clause matching
+                                   pattern_matching:exOr(2,true) (pattern_matching.erl, line 38)
+             #+END_SRC
+         - [X] [[https://www.youtube.com/watch?v=VZZ8EY3yGpU&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=11][Week 1 2.9 Summing up section 1.2]]
+         - [X] [[https://www.youtube.com/watch?v=oBheOGlx48I&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=12][Week 1 3.1 Recursion on Integers]]
+           - =recursion.erl=
+             #+BEGIN_SRC erlang -n :tangle recursion.erl :exports code
+               -module(recursion).
+               -export([fac/1,fib/1]).
+
+               fac(0) ->
+                   1;
+               fac(N) when N>0 ->								% when N>0 is called "Guards"
+                   fac(N-1)*N.
+
+               fib(0) ->
+                   0;
+               fib(1) ->
+                   1;
+               fib(N) ->
+                   fib(N-2) + fib(N-1).
+             #+END_SRC
+         - [X] [[https://www.youtube.com/watch?v=XyIs0eFTMtg&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=13][Week 1 3.3 Recursion on Integers - Feedback]]
+         - [X] [[https://www.youtube.com/watch?v=YG9xtgYcpUk&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=14][Week 1 3.4 Tail recursion]]
+           - Notes:
+             - Direct recursion: fib(), fac()
+             - =tail_recursion.erl=
+               #+BEGIN_SRC erlang -n :tangle tail_recursion.erl :exports code
+                 -module(tail_recursion).
+                 -export([fac/1,loop/1]).
+
+
+                 fac(N) -> fac(N,1).
+
+                 fac(0,P) ->
+                     P;
+                 fac(N,P) when N>0 ->       % <-- P accumulates the resuls(storage)
+                     fac(N-1,N*P). % <-- This is where we actuall do the computation. "Tail call"
+
+
+                 %% Working example
+                 %% fac(3)       % fac(N)
+                 %% = fac(3,1)   % fac(N,1)
+                 %% = fac(2,3)   % fac(N-P,N*P)
+                 %% = fac(1,6)
+                 %% = fac(0,6)    % fac(0,P)
+                 %% = 6           % P
+
+
+                 %% --------------------
+                 %% Looping
+
+                 loop(N) when N>0 ->
+                     io:format("~p~n", [N]),                     % ~p will be replaced by the value of N
+                     loop(N-1);                                  % ~n new line(\n)???
+                 loop(N) ->
+                     io:format("bye~n").
+               #+END_SRC
+         - [X] [[https://www.youtube.com/watch?v=tlnxSXgp5Fs&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=15][Week 1 3.6 Tail recursion - Feedback]]
+           - =tail_recursion_feedback.erl=
+             #+BEGIN_SRC erlang -n :tangle tail_recursion_feedback.erl :export code
+               -module(tail_recursion_feedback).
+               -export([fib/3,fib/1,perfect/1]).
+
+               fib(0,P,_C) ->
+                   P;
+               fib(N,P,C) ->
+                   fib(N-1,C,P+C).
+
+               fib(N) ->
+                   fib(N,0,1).
+
+
+               %% perfect number
+               perfect(N,N,S) ->
+                   {N==S,S};
+               perfect(N,M,S) when N rem M == 0 ->
+                   perfect(N,M+1,S+M);
+               perfect(N,M,S) ->
+                   perfect(N,M+1,S).
+
+               perfect(N) ->
+                   perfect(N,1,0).
+             #+END_SRC
+         - [ ] [[https://www.youtube.com/watch?v=pNrHnz4a9mU&list=PLlML6SMLMRgAooeL26mW502jCgWikqx_n&index=16][Week 1 3.7 Recursion and Pattern matching]]
+         - [ ] Week 1 3.9 Week 1 Summary
+         - [ ] Week 2 1.1 Introduction to Week 2
+         - [ ] Week 2 1.2 What is a list in Erlang
+         - [ ] Week 2 1.4 Defining functions over list(part 1)
+         - [ ] Week 2 1.6 Defining functions over list(part 2)
+         - [ ] Week 2 1.8 Summary of 'Introduction to list'
+         - [ ] Week 2 2.1 Where do I begin?
+         - [ ] Week 2 2.3 Defining 'take' - Feedback
+         - [ ] Week 2 2.4 The 'nub' function
+         - [ ] Week 2 2.6 'nub' live coding
+         - [ ] Week 2 2.7 The palindrome function
+         - [ ] Week 2 2.9 'palindrome' live coding
+         - [ ] Week 2 3.1 Do It Yourself
+         - [ ] Week 2 3.4 Week 2 summary
+         - [ ] Week 2 4.1 Testing functional programs
+         - [ ] Week 2 4.2 Types for functional programs
+         - [ ] Week 3 1.1 Introduction to Week 3
+         - [ ] Week 3 1.2 Functional patterns
+         - [ ] Week 3 1.3 From specific to generic
+         - [ ] Week 3 1.6 Higher order functions - Feedback & summary
+         - [ ] Week 3 2.1 The game of rock-paper-scissors
+         - [ ] Week 3 2.3 Modelling and strategies in rock-paper-scissors
+         - [ ] Week 3 2.4 Functions as results
+         - [ ] Week 3 2.9 Rock-paper-scissors - summary
+         - [ ] Erlang Master Class 1.1 Introduction to Language Processing
+         - [ ] Erlang Master Class 1.2 Representing structured data
+         - [ ] Erlang Master Class 1.3 Using Recursion: Pretty Printing
+         - [ ] Erlang Master Class 1.4 Evaluating Expression
+         - [ ] Erlang Master Class 1.5 Compiling and runing on a virtual machine
+         - [ ] Erlang Master Class 1.6 Parsing
+         - [ ] Erlang Master Class 1.7 Simplification
+         - [ ] Erlang Master Class 1: Discussion
+       - [ ] [[https://www.youtube.com/playlist?list=PLn6KyJ4PmZsPhigNqPlWGEoCgBHJbhib3][John Berger: Ways of Seeing]]
+       - [ ] [[https://www.cs.kent.ac.uk/ErlangMasterClasses/][Erlang master classes]] [0/3]
+         - [ ] [[https://www.cs.kent.ac.uk/ErlangMasterClasses/#class1][Class 1]]: Functional Programming, with Simon Thompson
+         - [ ] [[https://www.cs.kent.ac.uk/ErlangMasterClasses/#class2][Class 2]]; Concurrent Programming, with Joe Armstrong
+         - [ ] [[https://www.cs.kent.ac.uk/ErlangMasterClasses/#class3][Class 3]]: OTP Behaviours and Releases, with Francesco Cesarini
+       - [X] [[https://www.youtube.com/watch?v=f5liqUk0ZTw][Tensors]]
 *** Make
-**** Projects [0/0]
+**** Projects [1/1]
 ***** Software [0/0]
 ***** Electronics [0/0]
-***** Misc [0/2]
+***** Misc [0/3]
       - [ ] Make a mechanical clock. May be of wood/plastic/metal.
-      - [ ] Complete Dante's portrait. Acrylic on Canvas.
-*** Travel [0/1]
-    - [ ] Visit Florence again
+      - [-] Complete Dante's portrait. Acrylic on Canvas. [1/2]
+        - [X] [[../photography/dante.html][Sketch]]
+        - [ ] Painting
 
+*** Travel
+**** Science [2/12]
+    - [ ] Eise Eisinga Planetarium, Franeker, The Netherlands.
+    - [ ] Delphi Archaeological Museum, Greece.
+    - [ ] Visit Carlsberg, Bohr's house, Denmark
+    - [ ] [[https://www.clerkmaxwellfoundation.org/Maxwell_Walking_Tour_160413.pdf][James C. Maxwell walking tour]] and Maxwell's house in 14 India street, Edinburgh
+    - [ ] [[https://www.nationaltrust.org.uk/woolsthorpe-manor][Sir Isaac Newton family house]].
+    - [X] Leonardo Da Vinci Museum, Florence
+    - [ ] Gallileo Museum, Florence
+    - [ ] Pantheon, Rome(Structures, J.E Gordan)
+    - [ ] [[https://www.basel.com/en/Baselworld][BaselWorld]]
+    - [ ] [[https://www.rigb.org/][Faraday Museum, RI]]
+    - [ ] Westminster Abbey
+      - Sir Isaac Newton
+      - William Thompson[Lord Kelvin]
+    - [X] Brunel's Clifton Suspension Bridge(Structures, J.E Gordan)
+**** Art & History [0/1]
+    - [ ] Glen Hansard Concert
+    - IT
+      - Rome [2/4]
+        - [X] Colosseum & the Roman forum(History)
+        - [ ] Spanish steps, Rome??
+        - [X] Tervi Fountain(History)
+        - [ ] Sistine Chapel(Art)
+      - Florence [2/5]
+        - [X] Dante's House(Literature)
+        - [X] The Accademia Gallery Museum(Art, History)
+        - [ ] Basillica de Santa Croce
+          - Gallileo's tomb
+          - Michelangelo's tomb
+        - [ ] Uffizi Gallery Museum, Florence
+          - [ ] The Vasari Corridor
+    - FR [1/2]
+      - [X] Mont Saint-Michel. Normandy (Art, History) | [Revist for stay]
+      - [ ] [[https://shershegoes.com/normandy-beach/][Normandy Beach & WWII memorial]]
+    - CH [2/2]
+      - [[https://www.interlaken-gemeinde.ch/][Interlaken]] [0/1]
+        - [ ] TODO: details
+      - [X] [[https://www.luzern.com/en/highlights/sights/lion-monument/][Lion Monument, Lucern]]
+      - [X] [[https://www.engelberg.ch/en/][Titlis, Engelberg]]
+      - [[https://www.bern.ch/][Bern]] [0/1]
+        - [ ] TODO: details
+    - ES [2/4]
+      - [ ] Basilica Familia Sagrada, Barcelona
+      - [X] Museo del Prado, Madrid
+      - [ ] Museo Nacional Centro de Arte Reina Sofía, Madrid
+      - [X] Parque del Buen Retiro, Madrid
+    - GR [0/1]
+      - [ ] Parthenon(Strutures)
+      - [ ] [[https://www.visitmeteora.travel/][Meteora]]
+    - UK [4/5]
+      - [ ] V&A Museum
+      - [X] The British Museum
+      - [X] 221B, Baker street
+      - [X] SS Great Britan
+      - [X] Stonehenges
 
-/Made using Love, LaTeX, Emacs, Org mode, & Mathjax[fn:mathjax][fn:cheatsheet]/
+/Made using Love, LaTeX, Emacs, Org mode, & MathJax[fn:mathjax][fn:cheatsheet][fn:latex]/
 
 [fn:mathjax] https://www.mathjax.org/
 [fn:cheatsheet] https://davidhamann.de/2017/06/12/latex-cheat-sheet/
+[fn:latex] https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols
+
+#+INCLUDE: "../disquss.inc"

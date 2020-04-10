@@ -1,4 +1,4 @@
-#+title: Handy commands
+#+title: [Notes] Handy commands
 #+date: <2016-10-09>
 #+keywords: gs, ssh, wget, import, mplayer, ffmpeg, convert, git
 #+setupfile: ../org-templates/post.org
@@ -126,15 +126,27 @@ List of commands that I find useful.
      #+END_SRC
 
 ** Image manipulation
-   - Capture screenshot
+   - Capture screenshot:
      #+BEGIN_SRC shell
        import -window root screenshot.png
      #+END_SRC
-   - Re-size image 50% of its original size
+   - Re-size image 50% of its original size:
      #+BEGIN_SRC shell
        convert dragon.gif -resize 50% half_dragon.gif
      #+END_SRC
-   - Control compression level of an image
+   - Limit pixel count to 30000:
+     #+BEGIN_SRC shell
+       convert input.png -resize 3000@ output.png
+     #+END_SRC
+   - Limit maximum image size of 265x64(hxw):
+     #+BEGIN_SRC shell
+       convert input.png -resize '265x64' output.png
+     #+END_SRC
+   - Limit image size of 265x64(hxw):
+     #+BEGIN_SRC shell
+       convert input.png -resize '265x64!' output.png
+     #+END_SRC
+   - Control compression level of an image:
      #+BEGIN_SRC shell
        convert input.png -quality 75 output.jpg
      #+END_SRC

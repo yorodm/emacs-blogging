@@ -1,6 +1,6 @@
-#+title: Install Protractor
+#+title: [Notes] Install Protractor
 #+date: <2015-03-06>
-#+keywords: nodejs, protractor
+#+keywords: nodejs protractor notes
 #+setupfile: ../org-templates/post.org
 
 Protractor is an unittest framework for [[http://angularjs.org/][AngularJS]] applications. It is

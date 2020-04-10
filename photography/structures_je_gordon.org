@@ -1,0 +1,12 @@
+#+title: Structures - J. E. Gordon
+#+keywords: photography structures
+
+#+CAPTION: Structures
+#+ATTR_HTML: :class center rounded-border black-border
+#+ATTR_HTML: :width 100% :height
+[[../images/photography/structures_book.jpg]]
+
+/I wanted to prepare notes from the book but eventually I found myself highlighting & tagging most of the book. The book covers almost everything on the Earth from Grass to Trees, from Worms to Cats, and Bridges, Ships &
+Cathedrals./
+
+#+INCLUDE: "../disquss.inc"

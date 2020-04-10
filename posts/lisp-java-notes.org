@@ -5,7 +5,7 @@
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{Lisp as an Alternative to Java}
 
-I Recently read an article by [[http://www.flownet.com/ron/][Erann Gat]] titled [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]]
+I recently read an article by [[http://www.flownet.com/ron/][Erann Gat]] titled [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]]
 where Lisp was compared to C, C++ & Java with respect to the performance,
 execution time, & memory usage. This post summarizes the study.
 

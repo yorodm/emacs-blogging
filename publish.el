@@ -14,6 +14,8 @@
 (package-install 'htmlize)
 (package-install 'org-plus-contrib)
 (package-install 'ox-reveal)
+;; Don't want to invoke insert-shebang locally
+(remove-hook 'find-file-hook 'insert-shebang)
 
 (require 'org)
 (require 'ox-publish)

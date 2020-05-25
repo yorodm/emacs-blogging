@@ -40,14 +40,14 @@ List of commands that I find useful.
        gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=out_file.pdf in_file_1.pdf in_file_2.pdf
      #+END_SRC
 
-** Media tricks
+** Media file tricks
    - Rotate video
       #+BEGIN_SRC shell -n
-	# Using mplayer(watch rotated video)
-	mplayer -vf-add rotate=1 sample.mp4
+        # Using mplayer(watch rotated video)
+        mplayer -vf-add rotate=1 sample.mp4
 
-	# Using ffmpeg
-	ffmpeg -i infile.mp4 -strict -2 -vf "transpose=1" outfile.mp4
+        # Using ffmpeg
+        ffmpeg -i infile.mp4 -strict -2 -vf "transpose=1" outfile.mp4
       #+END_SRC
 
    - Convert 3GP to MP4
@@ -85,10 +85,10 @@ List of commands that I find useful.
 
    - Extract audio(MP3) from MP4 video
       #+BEGIN_SRC shell -n
-	ffmpeg -i video.mp4 -f mp3 -ab 192000 -vn music.mp3
+        ffmpeg -i video.mp4 -f mp3 -ab 192000 -vn music.mp3
 
-	# or specify codec to use `libmp3lame` in this case.
-	ffmpeg -i video.mp4 -f mp3 -codec:a libmp3lame -ab 320000 -vn music.mp3
+        # or specify codec to use `libmp3lame` in this case.
+        ffmpeg -i video.mp4 -f mp3 -codec:a libmp3lame -ab 320000 -vn music.mp3
       #+END_SRC
 
       /where:/
@@ -101,9 +101,21 @@ List of commands that I find useful.
 
       *-vn*: don't want video
 
+   - Merge Audio:
+     #+BEGIN_SRC bash -n
+       # Assuming that the video does not contain any audio stream.
+       ffmpeg -i in_video.mp4 -i in_audio.mp3 -c:v copy -c:a mp3 output.mp4
+     #+END_SRC
+
+     /where:/
+
+     *-c:v copy*: Copy the audio stream. Similar to *-vcodec copy*
+
+     *-c:a*: Set MP3 code
+
    - Cut video starting from 19 min 49 seconds up to 04 mins 18 seconds.
       #+BEGIN_SRC shell
-	ffmpeg -y -i Video.mp4 -qscale 1 -ss 00:19:49.0 -t 00:04:18.0 -acodec copy -vcodec copy output.mp4
+        ffmpeg -y -i Video.mp4 -qscale 1 -ss 00:19:49.0 -t 00:04:18.0 -acodec copy -vcodec copy output.mp4
       #+END_SRC
 
       /Note/: *-sameq* was removed in the recent version of =ffmpeg=
@@ -183,7 +195,7 @@ List of commands that I find useful.
 
 ** Misc
    - Clean up =~/.ccache/= directory
-     #+BEGIN_SRC shell -n
+     #+BEGIN_SRC bash -n
        # View statistics using
        ccache -s
 
@@ -192,7 +204,7 @@ List of commands that I find useful.
      #+END_SRC
 
    - wget a website
-     #+BEGIN_SRC shell
+     #+BEGIN_SRC bash
        wget -rkp -l5 -np -nH --cut-dirs=1 https://example.com
      #+END_SRC
 
@@ -207,12 +219,12 @@ List of commands that I find useful.
      *-H*: Span across hosts when doing recursive retrieving.
 
    - Find the File system/partition of current directory
-     #+BEGIN_SRC shell
+     #+BEGIN_SRC bash
        df -h .   # Notice the DOT
      #+END_SRC
 
    - List commands/applications using IPv4/IPv6
-     #+BEGIN_SRC shell -n
+     #+BEGIN_SRC bash -n
        lsof -i 4
        # and
        lsof -i 6

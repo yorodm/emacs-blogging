@@ -94,7 +94,7 @@
 **** DONE The Element of Style, William, Strunk Jr. & E.B. White
 **** DONE Into The Wild, Jon Krakauer
 **** DONE Discover your Destiny, Robin Sharma
-**** DONE The 5AM Club, Robin Sharma ([[https://gitlab.com/psachin/notes/-/blob/master/notes_the_5_am_club.org][notes]])
+**** DONE The 5AM Club, Robin Sharma
 **** DONE Free as in Freedom, Sam Williams
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
@@ -134,6 +134,7 @@
 ** Videos [1/2]
    - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
    - [X] [[https://www.youtube.com/watch?v=lKXe3HUG2l4]["The Mess we're In" by Joe Armstrong.]]
+   - [ ] [[https://www.youtube.com/watch?v=TZLvEp_xjnY][LIGO and Gravitational Waves III, Kip S. Thorne (Noble Lecture, 2017)]]
 
 
 [fn:dava_sobel] Dava Soble also wrote [[https://en.wikipedia.org/wiki/Longitude_(book)][Longitude]].

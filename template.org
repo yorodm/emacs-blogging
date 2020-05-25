@@ -1,0 +1,10 @@
+#+title: TITLE
+#+date: <YYYY-MM-DD>
+#+keywords: separated by SPACE
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{TITLE}
+
+CONTENT
+
+#+INCLUDE: "../disquss.inc"

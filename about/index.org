@@ -5,17 +5,17 @@
   [[file:../../images/about/isitme.png]]
 
   #+ATTR_HTML: :style text-align:center
-  Developer, FOSS enthusiast, & avid GNU Emacs user.
+  Free Software Developer, FOSS enthusiast, & GNU Emacs Hacker.
 
   #+ATTR_HTML: :class center rounded-border black-border
   https://static.fsf.org/nosvn/images/badges/Spring19-fan-of-fsf.png
 
-  I try not to be biased with any programming language or technology. I work on
-  GNU/Linux and Free & Open Source Software for living. I prefer to use Google
-  products at minimum and use [[https://duckduckgo.com/][DuckDuckGo]] to search the Web and switch between
-  [[https://www.torproject.org/][Tor]] & [[https://www.privateinternetaccess.com/][VPN service]] when online. If you are passionate about GNU and Free
-  Software like me, I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako
-  Hill.
+  I work on GNU/Linux and Free & Open Source Software for living. I prefer not
+  to use [[https://www.gnu.org/proprietary/][Proprietary Software]] in-person or at work. Since couple of years I
+  switched completely to [[https://duckduckgo.com/][DuckDuckGo]] as my default Search Engine. I switch
+  between [[https://www.torproject.org/][Tor]] & [[https://www.privateinternetaccess.com/][VPN service]] when online. If you are passionate about GNU and
+  Free Software like me, I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin
+  Mako Hill.
 
 ** My work-space
 
@@ -34,11 +34,11 @@
    Athlon with 2 Gigs of RAM running+ +Slackware again!. The system's storage is
    shared via NFS across my home network, basically this is my NFS server.+
 
-   Apart from this I had a very old Intel Pentium II Machine with 350MHz
-   processor and 64MB of RAM running Vector Linux. +I wonder how this machine
+   +Apart from this I had a very old Intel Pentium II Machine with 350MHz+
+   +processor and 64MB of RAM running Vector Linux. I wonder how this machine
    [[./../photography/vector.html][still runs?]]+
 
-   Most of my home network and Internet connection is managed by D-LINK DIR-615E
+   Most of my Home network and Internet connection is managed by D-LINK DIR-615E
    wireless router flashed with custom [[https://openwrt.org/][OpenWRT(barrier-breaker)]]. This is my
    backup(and tiny) Linux system with minimal shell and =opkg= package manager.
 
@@ -72,9 +72,10 @@
 
    I find programming in =elisp= relaxing when I'm bored with Python and
    friends. Occasionally I do write helper functions and share it on
-   [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of the tiny helper functions can be found
-   within my [[https://gitlab.com/psachin/emacs.d][Emacs conf]]. In my free time I engage myself in reading Physics,
-   Mathematics, and [[../horology/][Horology]].
+   [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of these helper functions can be found within
+   my [[https://gitlab.com/psachin/emacs.d][Emacs configuration]] now. I majored in Physics with specialization in
+   [[https://www.tifr.res.in/~dcmpms/][Condensed Matter Physics]]. In my free time I engage myself in studying
+   Physics, Mathematics, and [[../horology/][Horology]].
 
 ** Blogs
 
@@ -82,7 +83,7 @@
    [[file:../../images/about/Anonymous-pen-pencil-small.png]]
 
    For raw/old posts please visit [[https://gitlab.com/psachin/blog-posts][blog-posts]]. Most of them are written in
-   [[http://orgmode.org/][org-mode]]. +I now use [[https://jekyllrb.com/][jekyll]] to publish my blogs(Source [[https://github.com/psachin/psachin.github.io][here]]).+ +Jekyll uses
+   [[http://orgmode.org/][org-mode]]. +I now use [[https://jekyllrb.com/][Jekyll]] to publish my blogs(Source [[https://github.com/psachin/psachin.github.io][here]]).+ +Jekyll uses
    markdown which I don't like much. I miss org-mode to post blogs.+ This
    website is [[https://gitlab.com/psachin/psachin.gitlab.io][entirely published]] using org-mode.
 
@@ -120,7 +121,7 @@
    - *IRC*: psachin@{RedHat, freenode, OFTC, GIMPNet}
 
 ** CV
-   Available upon request.
+   Available on request.
 
 ** Social
    #+ATTR_HTML: :style text-align:center

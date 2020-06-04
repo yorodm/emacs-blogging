@@ -57,4 +57,48 @@ How to manually install =ffmpeg= with =libmp3lame= & H.264 encoder support.
      make install
    #+END_SRC
 
+**** Here's the complete script
+     #+BEGIN_SRC shell :tangle compile_ffmpeg.sh
+       BUILD_DIR="$HOME/source/ffmpeg/build"
+
+       curl -O -L https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz
+       tar xzvf lame-3.100.tar.gz
+       pushd lame-3.100/
+       ./configure --prefix="$BUILD_DIR" --bindir="$HOME/bin" --disable-shared --enable-nasm
+       make
+       make install
+       popd -1
+
+       git clone --depth 1 https://code.videolan.org/videolan/x264
+       pushd x264/
+       PKG_CONFIG_PATH="$BUILD_DIR/lib/pkgconfig" ./configure --prefix="$BUILD_DIR" --bindir="$HOME/bin" --enable-static
+       make
+       make install
+       popd -1
+
+       # --------------------------------------------------
+       # libx264: MP4 encoder
+       # libvpx: WEBM encoder
+       # libfreetype: Text overlay
+       # --------------------------------------------------
+       PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$BUILD_DIR/lib/pkgconfig" ./configure \
+           --prefix="$BUILD_DIR" \
+           --pkg-config-flags="--static" \
+           --extra-cflags="-I$BUILD_DIR/include" \
+           --extra-ldflags="-L$BUILD_DIR/lib" \
+           --extra-libs=-lpthread \
+           --extra-libs=-lm \
+           --bindir="$HOME/bin" \
+           --enable-gpl \
+           --enable-libmp3lame \
+           --enable-libx264 \
+           --enable-libvpx \
+           --enable-nonfree \
+           --enable-libfreetype \
+           --enable-ffplay
+
+       make
+       make install
+     #+END_SRC
+
 #+INCLUDE: "../disquss.inc"

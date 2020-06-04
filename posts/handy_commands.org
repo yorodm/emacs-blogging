@@ -130,12 +130,28 @@ List of commands that I find useful.
      #+END_SRC
    - Record a screen cast using *recordmydesktop*
      #+BEGIN_SRC shell
-       recordmydesktop -x 100 -y 100 --width 1280 --height 720 --freq 48000 --fps 30 -o ~/Videos/recordings/test-video.ogv
+       recordmydesktop -x 100 -y 100 --width 1280 --height 720 --freq 48000 --fps 30 -o output.ogv
      #+END_SRC
+   - Record a screen cast using *ffmpeg* ([[https://wiki.archlinux.org/index.php/GDM#GDM_ignore_Wayland_and_use_X.Org_by_default][Please disable Wayland]]):
+     #+BEGIN_SRC bash
+       ffmpeg -video_size 1280x720 -show_region 1 -framerate 30 -f x11grab -i :1+30,30 output.mp4
+     #+END_SRC
+
+     /where:/
+
+     =-video_size 1280x720= Width and height of 1280x720
+
+     =-show_region 1= Highlight a region to be recorded
+
+     =-framerate 30= 30 FPS
+
+     =-i :1+30,30= On DISPLAY :1 starting with the upper-left corner at x=30, y=30
+
    - Include subtitles(Use =subtitleeditor= to create subtitle)
      #+BEGIN_SRC shell
        ffmpeg -i video.avi -vf subtitles=subtitle.srt out.avi
      #+END_SRC
+
 
 ** Image manipulation
    - Capture screenshot:

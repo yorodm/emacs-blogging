@@ -2,14 +2,17 @@
 #+keywords: todo agenda tasks books reading tracking
 
 ** Reading
-*** Physics [2/7]
-**** DONE Seven Wonders of the Cosmos, Jayant V. Narlikar
+*** Physics/Mathematics [2/10]
+**** DONE Seven Wonders of the Cosmos, Jayant V. Narlikar (Physical notes)
 **** DONE Introduction to Electrodynamics, David J. Griffiths
 **** IN-PROGRESS A Brief History of Time, Stephen Hawking  :page:41:
 **** IN-PROGRESS The Feynman Lectures on Physics: Vol 1
 **** IN-PROGRESS QED: The Strange Theory of Light & Matter, Feynman :page:40:
 **** TODO The Feynman Lectures on Physics: Vol 2
 **** TODO The Feynman Lectures on Physics: Vol 3
+**** TODO Quantum, Manjit Kumar
+**** TODO Mathematics That Power Our World, Joseph Khoury & Gilles Lamothe
+**** TODO Probability, Henk Tijms
 *** Computing [9/18]
 **** DONE Linux Kernel in a Nutshell, Greg Kroah-Hartman
 **** DONE The Hacker's Guide to Python, 3rd Ed., Julien Danjou
@@ -81,7 +84,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [22/38]
+*** Non Fiction [23/40]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -104,6 +107,7 @@
 **** DONE Jeh: A Life of J.R.D. Tata, Bakhtiar K. Dadabhoy
 **** DONE Meditations, Marcus Aurelius
 **** DONE [[../photography/structures_je_gordon.org][Structures, J. E. Gordan]]
+**** DONE The Surrender Experiment, Michael A. Singer
 **** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
 **** IN-PROGRESS Guns, Germs, & Steel, Jared Diamond
 **** TODO Discourses and Selected Writings, Epictetus
@@ -120,6 +124,7 @@
 **** TODO Introducing Psychology, Nigel C. Benson
 **** TODO Brighter Than a Thousand Suns, Robert Jungk
 **** TODO Towards A New Architecture, Le Corbusier
+**** TODO The Unthethered Soul, Michael A. Singer
 *** Publications [3/9]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein

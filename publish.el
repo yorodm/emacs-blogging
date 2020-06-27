@@ -130,7 +130,7 @@ publishing directory. Returns output file name."
          :recursive t
          :publishing-function org-html-publish-to-html
          :publishing-directory "./public"
-         :exclude ,(regexp-opt '("README.org" "draft"))
+         :exclude ,(regexp-opt '("README.org" "draft" "404.org"))
          :auto-sitemap t
          :sitemap-filename "index.org"
          :sitemap-title "Blog Index"

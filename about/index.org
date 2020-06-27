@@ -1,21 +1,20 @@
 #+title: About
 #+keywords: about
 
-  #+ATTR_HTML: :class center no-border
-  [[file:../../images/about/isitme.png]]
+#+ATTR_HTML: :class center no-border
+[[file:../../images/about/isitme.png]]
 
-  #+ATTR_HTML: :style text-align:center
-  Free Software Developer, FOSS enthusiast, & GNU Emacs Hacker.
+#+ATTR_HTML: :style text-align:center
+Free Software Developer, FOSS enthusiast, & GNU Emacs Hacker.
 
-  #+ATTR_HTML: :class center rounded-border black-border
-  https://static.fsf.org/nosvn/images/badges/Spring19-fan-of-fsf.png
+#+ATTR_HTML: :class center rounded-border black-border
+https://static.fsf.org/nosvn/images/badges/Spring19-fan-of-fsf.png
 
-  I work on GNU/Linux and Free & Open Source Software for living. I prefer not
-  to use [[https://www.gnu.org/proprietary/][Proprietary Software]] in-person or at work. Since couple of years I
-  switched completely to [[https://duckduckgo.com/][DuckDuckGo]] as my default Search Engine. I switch
-  between [[https://www.torproject.org/][Tor]] & [[https://www.privateinternetaccess.com/][VPN service]] when online. If you are passionate about GNU and
-  Free Software like me, I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin
-  Mako Hill.
+I work on GNU/Linux and Free & Open Source Software for living. I prefer not to
+use [[https://www.gnu.org/proprietary/][Proprietary Software]] in-person or at work. Since couple of years I switched
+completely to [[https://duckduckgo.com/][DuckDuckGo]] as my default Search Engine. I switch between [[https://www.torproject.org/][Tor]] & [[https://www.privateinternetaccess.com/][VPN
+service]] when online. If you are passionate about GNU and Free Software like me,
+I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako Hill.
 
 ** My work-space
 

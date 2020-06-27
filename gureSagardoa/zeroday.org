@@ -155,11 +155,13 @@
       - [ ] GNU Guix
       - [ ] GNU Sheperd
       - [ ] Guile
-**** Course [4/4]
+**** Course [5/6]
      - [X] Masterclass: Frank Gehry ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_frank_gehry.org][Notes]])
      - [X] MasterClass: Neil deGrasse Tyson ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_neil_tyson.org][Notes]])
      - [X] MasterClass: Chris Hadfield ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_chris_hadfield.org][Notes]])
      - [X] HGL (Physical Notes)
+     - [X] EveryDay Guide to Beer, Professor Charles W. Bamforth (Physical Notes)
+     - [ ] MasterClass: The Art and Soul of the Guitar, Carlos Santana
 
 **** Videos [3/9]
        - [-] Learn every video on/by Walter Lewin [4/6]

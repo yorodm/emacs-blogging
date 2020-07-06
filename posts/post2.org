@@ -2,6 +2,7 @@
 #+date: <2016-05-23 Mon>
 #+filetags: gitlab git org-mode orgmode
 #+filetags: emacs thoughts
+#+draft: t
 #+setupfile: ../org-templates/post.org
 
 /THIS is a sample post and will be removed./

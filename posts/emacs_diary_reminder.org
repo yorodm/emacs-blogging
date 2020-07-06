@@ -1,0 +1,18 @@
+#+title: Using Emacs's Diary
+#+date: <2019-11-06>
+#+filetags: emacs diary
+#+draft: t
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+- How to use diary
+- common diary
+- add entry
+  - using calendar
+  - manually
+- loop
+- anniversary
+- Example: https://wiki.openstack.org/wiki/Meetings
+
+#+INCLUDE: "../disquss.inc"

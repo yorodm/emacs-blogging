@@ -1,0 +1,68 @@
+#+title: NFS notes
+#+date: <2020-01-08>
+#+filetags: nfs mount fstab showmount export exportfs
+#+draft: t
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+#+BEGIN_SRC bash -n
+# cat /etc/fstab
+
+#
+# /etc/fstab
+# Created by anaconda on Fri Apr  1 18:26:49 2016
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/fedora--server_nubia-root /                       ext4    defaults        1 1
+UUID=c858a89e-a348-4943-8d70-1860e933d122 /boot                   ext4    defaults        1 2
+/dev/mapper/fedora--server_nubia-home /home                   ext4    defaults        1 2
+
+# test nfs from darkstar
+192.168.0.116:/data 	/home/psachin/data 	nfs	rw,noexec,noauto	0	0
+# 192.168.0.116:/data 	/home/psachin/data 	nfs	username=sachin,password=MyPassw0rd	0	0
+#+END_SRC
+
+
+#+BEGIN_SRC bash -n
+# cat /etc/exports
+# See exports(5) for a description.
+# This file contains a list of all directories exported to other computers.
+# It is used by rpc.nfsd and rpc.mountd.
+
+# My NFS share over the network.
+# Enable /etc/rc.d/rc.nfsd and /etc/rc.d/rc.rpc
+/home/sachin/Downloads/ktorrent 192.168.0.1/24(ro,sync,no_subtree_check)
+
+# pi@nebio(192.168.1.103)
+# /home/sachin/nebio/media 192.168.1.1/24(rw,sync,no_subtree_check)
+
+# /data
+# /data 192.168.0.1/24(rw,no_root_squash,no_subtree_check)
+
+/data 192.168.0.173(rw,all_squash,no_subtree_check,anonuid=1000,anongid=1000)
+#+END_SRC
+
+#+BEGIN_SRC bash -n
+root@darkstar:/etc/rc.d# exportfs -a
+root@darkstar:/etc/rc.d# exportfs -r
+root@darkstar:/etc/rc.d# exportfs
+/home/sachin/Downloads/ktorrent
+		192.168.0.1/24
+/data         	192.168.0.173
+#+END_SRC
+
+#+BEGIN_SRC bash -n
+  findmnt --fstab -t nfs
+  findmnt -lo+PROPAGATION
+  mount /home/psachin/data
+  umount /home/psachin/data
+  findmnt -lo+PROPAGATION
+  mount -t nfs -O vers=4,user=sachin,password=MyPassw0rd /home/psachin/data
+#+END_SRC
+
+
+
+#+INCLUDE: "../disquss.inc"

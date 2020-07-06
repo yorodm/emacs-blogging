@@ -1,0 +1,11 @@
+#+title: OpenCV Setup using Ansible
+#+date: <2019-12-09>
+#+filetags: ansible playbook opencv galaxy python
+#+draft: t
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+
+
+#+INCLUDE: "../disquss.inc"

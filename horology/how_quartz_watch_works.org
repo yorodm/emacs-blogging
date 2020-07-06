@@ -1,0 +1,17 @@
+#+title: How Quartz watch works?
+#+date: <2020-04-29>
+#+filetags: quartz watch horology
+#+draft: t
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{How Quartz watch works?}
+
+
+#+CAPTION: ASUS ZenWatch2 WI501Q
+#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :class center spaced-border
+[[../images/horology/zenwatch_1.jpg]]
+
+https://www.youtube.com/watch?v=_2By2ane2I4
+
+#+INCLUDE: "../disquss.inc"

@@ -1,0 +1,29 @@
+#+title: The lzip format
+#+date: <2019-09-04>
+#+filetags: lzip ghm
+#+draft: t
+#+setupfile: ../org-templates/post.org
+
+** Intro
+   #+BEGIN_SRC bash
+	 $ lzip --version
+	 lzip 1.20
+	 Copyright (C) 2018 Antonio Diaz Diaz.
+	 License GPLv2+: GNU GPL version 2 or later <http://gnu.org/licenses/gpl.html>
+	 This is free software: you are free to change and redistribute it.
+	 There is NO WARRANTY, to the extent permitted by law.
+   #+END_SRC
+*** GHM
+** compression
+
+   #+BEGIN_SRC bash
+	 lzip -v insights-rhel7-box-20191023130108.tar
+	 insights-rhel7-box-20191023130108.tar:  9.286:1, 10.77% ratio, 89.23% saved, 2447360 in, 263562 out.
+   #+END_SRC
+** decomression
+** features
+*** compression ratios
+*** extractions
+*** recovery
+
+#+INCLUDE: "../disquss.inc"

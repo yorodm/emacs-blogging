@@ -30,6 +30,8 @@
       org-export-with-toc nil)
 
 (defvar this-date-format "%b %d, %Y")
+(defvar draft-dir (expand-file-name "./public/drafts"))
+(defvar tags-dir "tags/")
 
 (setq org-html-divs '((preamble "header" "top")
                       (content "main" "content")
@@ -58,19 +60,27 @@ FILENAME is the filename of the Org file to be published.  PLIST
 is the property list for the given project.  PUB-DIR is the
 publishing directory.
 
-Return output file name."
-
-  (org-publish-org-to 'html filename
-		              (concat "." (or (plist-get plist :html-extension)  org-html-extension "html"))
-		              plist pubdir))
+If the org file has '#+draft: t' or '#+draft: 1', the html file will be exported in ./public/drafts/"
+  (with-temp-buffer
+    (insert-file-contents filename)
+    (if (string-match-p "^#.draft:.*[t,1]" (buffer-string))
+        (let ((pubdir draft-dir))
+          (unless (file-directory-p pubdir)
+            (make-directory pubdir))
+          (org-publish-org-to 'html filename
+		                      (concat "." (or (plist-get plist :html-extension)  org-html-extension "html"))
+		                      plist pubdir))
+      (org-publish-org-to 'html filename
+		                  (concat "." (or (plist-get plist :html-extension)  org-html-extension "html"))
+		                  plist pubdir))))
 
 (defun me/website-html-preamble (plist)
   "PLIST: An entry."
-  (when (string-match-p "post" (format "%s" (plist-get plist :keywords)))
-    (plist-put plist
-               :subtitle (format "Published on %s by %s."
-                                 (org-export-get-date plist this-date-format)
-                                 (car (plist-get plist :author)))))
+  (if (org-export-get-date plist this-date-format)
+        (plist-put plist
+             :subtitle (format "Published on %s by %s."
+                               (org-export-get-date plist this-date-format)
+                               (car (plist-get plist :author)))))
   ;; Preamble
   (with-temp-buffer
     (insert-file-contents "../html-templates/preamble.html") (buffer-string)))
@@ -179,7 +189,7 @@ publishing directory. Returns output file name."
          :base-directory "posts"
          :base-extension "org"
          :recursive t
-         :publishing-function org-html-publish-to-html
+         :publishing-function me/org-html-publish-to-html
          :publishing-directory "./public"
          :exclude ,(regexp-opt '("README.org" "draft" "404.org"))
          :auto-sitemap t
@@ -195,7 +205,7 @@ publishing directory. Returns output file name."
          :html-head ,me/website-html-head
          :html-preamble me/website-html-preamble
          :html-postamble me/website-html-postamble
-         :tags-directory "tags/")
+         :tags-directory ,tags-dir)
         ("tags"
          :base-directory "tags"
          :base-extension "org"
@@ -269,7 +279,7 @@ publishing directory. Returns output file name."
          :sitemap-format-entry me/org-sitemap-format-entry
          :sitemap-sort-files anti-chronologically
          :recursive nil
-         :publishing-function org-html-publish-to-html
+         :publishing-function me/org-html-publish-to-html
          :publishing-directory "./public/horology"
          :html-link-home "/"
          :html-link-up "/horology"
@@ -278,7 +288,7 @@ publishing directory. Returns output file name."
          :html-head ,me/website-html-head
          :html-preamble me/website-html-preamble
          :html-postamble me/website-html-postamble
-         :tags-directory "tags/")
+         :tags-directory ,tags-dir)
         ("slides"
          :base-directory "slides"
          :base-extension "org"

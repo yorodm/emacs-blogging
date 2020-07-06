@@ -1,0 +1,11 @@
+#+title: Debug wireless devicess
+#+date: <2019-07-26>
+#+filetags: tplink iw ip
+#+draft: t
+#+setupfile: ../org-templates/post.org
+
+ip a s
+iw DEV scan
+
+
+#+INCLUDE: "../disquss.inc"

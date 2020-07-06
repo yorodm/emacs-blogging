@@ -1,0 +1,15 @@
+#+title: HourGlass
+#+date: <2019-10-26>
+#+filetags: hourglass sandtimer sandglass sandclock horology
+#+draft: t
+#+setupfile: ../org-templates/post.org
+
+- History
+- I have a sandtimer
+- Practical usage
+- Photos
+
+
+Various sand timers:https://www.youtube.com/watch?v=LvZm6f9i-Gc
+
+#+INCLUDE: "../disquss.inc"

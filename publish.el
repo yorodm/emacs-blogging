@@ -179,7 +179,7 @@ publishing directory. Returns output file name."
          :base-directory "posts"
          :base-extension "org"
          :recursive t
-         :publishing-function org-html-publish-to-html
+         :publishing-function me/org-html-publish-to-html
          :publishing-directory "./public"
          :exclude ,(regexp-opt '("README.org" "draft" "404.org"))
          :auto-sitemap t
@@ -195,7 +195,7 @@ publishing directory. Returns output file name."
          :html-head ,me/website-html-head
          :html-preamble me/website-html-preamble
          :html-postamble me/website-html-postamble
-         :tags-directory "tags/")
+         :tags-directory ,tags-dir)
         ("tags"
          :base-directory "tags"
          :base-extension "org"
@@ -269,7 +269,7 @@ publishing directory. Returns output file name."
          :sitemap-format-entry me/org-sitemap-format-entry
          :sitemap-sort-files anti-chronologically
          :recursive nil
-         :publishing-function org-html-publish-to-html
+         :publishing-function me/org-html-publish-to-html
          :publishing-directory "./public/horology"
          :html-link-home "/"
          :html-link-up "/horology"
@@ -278,7 +278,7 @@ publishing directory. Returns output file name."
          :html-head ,me/website-html-head
          :html-preamble me/website-html-preamble
          :html-postamble me/website-html-postamble
-         :tags-directory "tags/")
+         :tags-directory ,tags-dir)
         ("slides"
          :base-directory "slides"
          :base-extension "org"

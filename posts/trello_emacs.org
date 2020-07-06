@@ -1,0 +1,9 @@
+#+title: Using Trello from Emacs
+#+date: <2019-08-08>
+#+filetags: trello emacs
+#+draft: t
+#+setupfile: ../org-templates/post.org
+
+post for opensource.com
+
+#+INCLUDE: "../disquss.inc"

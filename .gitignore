@@ -1,3 +1,6 @@
 *~
+*.tex
+*.sty
 index.org
 public/
+tags/

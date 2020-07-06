@@ -1,6 +1,6 @@
 #+title: Watchmaker: Christiaan van der Klaauw
 #+date: <2019-11-16>
-#+keywords: horology watchmaker christiaan van der klaauw
+#+filetags: horology watchmaker christiaan-van-der-klaauw
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{Watchmaker: Christiaan Van der Klaauw}

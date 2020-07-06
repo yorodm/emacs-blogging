@@ -1,6 +1,6 @@
-#+title: Notes: diff & patch
+#+title: [Notes] diff & patch
 #+date: <2017-03-21>
-#+keywords: diff patch git notes
+#+filetags: diff patch git notes
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{TITLE}

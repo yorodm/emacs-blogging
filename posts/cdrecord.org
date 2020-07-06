@@ -1,6 +1,6 @@
 #+title: Using cdrecord
 #+date: <2016-09-05>
-#+keywords: cdrecord, linux, scsi, cd-rom, optical, scanbus
+#+filetags: cdrecord linux scsi cdrom optical scanbus
 #+setupfile: ../org-templates/post.org
 
 Logging commands for using =cdrecord=. Might be useful.

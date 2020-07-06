@@ -1,6 +1,6 @@
 #+title: Why setV?
 #+date: <2020-01-19>
-#+keywords: python, virtual environment, setv, opensource.com, why
+#+filetags: python setv
 #+setupfile: ../org-templates/post.org
 
 #+ATTR_HTML: :class center no-border

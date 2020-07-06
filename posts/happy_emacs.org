@@ -1,6 +1,6 @@
 #+title: Very happy with Emacs pretest
 #+date: <2016-04-17>
-#+keywords: emacs, pretest
+#+filetags: emacs pretest
 #+setupfile: ../org-templates/post.org
 
 I decided to use pretest version of Emacs instead of a stable release

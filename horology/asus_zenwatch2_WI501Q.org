@@ -1,6 +1,6 @@
 #+title: Asus Zen Watch 2(WI501Q) review
 #+date: <2019-10-18>
-#+keywords: asus zenwatch zenwatch2 WI501Q wrist watch review
+#+filetags: asus zenwatch zenwatch2 WI501Q wristwatch review horology
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{Asus Zen Watch 2(WI501Q) review}

@@ -1,6 +1,6 @@
 #+title: My own build of Cyanogenmod 7 for ZTE Blade
 #+date: <2014-04-19>
-#+keywords: linux, makefile
+#+filetags: zte cyanogenmod
 #+setupfile: ../org-templates/post.org
 
 Altough I use Cyanogenmod-9 on ZTE Blade(Orange San Francisco),

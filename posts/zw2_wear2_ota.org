@@ -1,6 +1,6 @@
 #+title: ASUS ZenWatch2 update to Android Wear 2.0
 #+date: <2017-10-11>
-#+keywords: asus, zenwatch2, ota, sideload, android-wear2
+#+filetags: asus zenwatch2 adb android-wear2
 #+setupfile: ../org-templates/post.org
 
 Update ASUS ZenWatch2 to Android Wear 2.0

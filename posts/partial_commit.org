@@ -1,6 +1,6 @@
 #+title: Commit part of a file
 #+date: <2016-06-11>
-#+keywords: git, partial commit, file
+#+filetags: git commit
 #+setupfile: ../org-templates/post.org
 
 We seldom have a situation where only a part of a file needs to be

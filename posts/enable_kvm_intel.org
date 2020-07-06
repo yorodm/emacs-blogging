@@ -1,6 +1,6 @@
 #+title: Enable Kernel virtualization on Intel/AMD arch
 #+date: <2012-08-23>
-#+keywords: linux, kernel, intel, amd, arch, virtualization
+#+filetags: linux kernel intel amd arch virtualization
 #+setupfile: ../org-templates/post.org
 
 Enable *Kernel-based Virtual Machine* on your system.

@@ -1,6 +1,6 @@
 #+title: opensource.com: Getting started with Emacs text editor
 #+date: <2016-02-10>
-#+keywords: emacs, text editors, opensource.com
+#+filetags: emacs
 #+setupfile: ../org-templates/post.org
 
 My post titled [[https://opensource.com/life/16/2/intro-to-emacs][Getting started with Emacs text editor]] published on [[https://opensource.com/][opensource.com]]

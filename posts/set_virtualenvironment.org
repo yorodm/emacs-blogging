@@ -1,6 +1,6 @@
 #+title: Python virtualenv
 #+date: <2014-03-04>
-#+keywords: python, virtualenv
+#+filetags: python virtualenv setv
 #+setupfile: ../org-templates/post.org
 
 =setv=: /Lightweight Python virtual environment manager/

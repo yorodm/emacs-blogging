@@ -1,6 +1,6 @@
 #+title: Regex in Emacs
 #+date: <2014-05-13>
-#+keywords: regex, re-builder, emacs
+#+filetags: regex re-builder emacs
 #+setupfile: ../org-templates/post.org
 
 Working on the regular expressions in GNU Emacs is fun!! Unlike the conventional

@@ -1,6 +1,6 @@
 #+title: [Notes] Handy commands
 #+date: <2016-10-09>
-#+keywords: gs, ssh, wget, import, mplayer, ffmpeg, convert, git
+#+filetags: gs ssh wget mplayer ffmpeg convert git
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{Handy commands}

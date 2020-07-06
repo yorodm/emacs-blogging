@@ -1,6 +1,6 @@
 #+title: ManageIQ - Attach disk to RHV VM using button
 #+date: <2017-03-04>
-#+keywords: manageiq, rhv, rhevm, button, disk
+#+filetags: manageiq cloudforms rhev
 #+setupfile: ../org-templates/post.org
 
 Post describes a way to attach additional disk to RHV VM using button.

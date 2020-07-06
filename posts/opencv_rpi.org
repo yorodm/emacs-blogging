@@ -1,6 +1,6 @@
 #+title: [Notes] OpenCV and RPi
 #+date: <2020-04-10>
-#+keywords: opencv rpi rpi2 python notes
+#+filetags: opencv rpi python notes
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{\title}

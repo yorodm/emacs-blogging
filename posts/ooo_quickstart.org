@@ -1,6 +1,6 @@
 #+title: TripleO quickstart
 #+date: <2017-10-08>
-#+keywords: tripleo, quickstart, openstack
+#+filetags: tripleo quickstart openstack
 #+setupfile: ../org-templates/post.org
 
 

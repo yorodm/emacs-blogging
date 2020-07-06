@@ -1,6 +1,6 @@
 #+title: opensource.com: setV
 #+date: <2020-01-10>
-#+keywords: python, virtualenvironment, setv, opensource.com
+#+filetags: python setv
 #+setupfile: ../org-templates/post.org
 
 #+ATTR_HTML: :class center no-border

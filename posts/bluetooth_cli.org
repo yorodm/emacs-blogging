@@ -1,6 +1,6 @@
 #+title: Connect Bluetooth sound devices using command-line
 #+date: <2019-11-22>
-#+keywords: bluetoothctl rfkill
+#+filetags: bluetoothctl rfkill sound
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{Connect Bluetooth sound devices using command-line}

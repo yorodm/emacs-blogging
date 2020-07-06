@@ -1,6 +1,6 @@
 #+title: Watchmaker: Masahiro Kikuno
 #+date: <2018-02-01>
-#+keywords: horology watchmaker masahiro kikuno basel
+#+filetags: horology watchmaker masahiro-kikuno baselworld
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{Watchmaker: Masahiro Kikuno}

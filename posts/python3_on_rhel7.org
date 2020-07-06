@@ -1,6 +1,6 @@
 #+title: Python 3.x on RHEL7
 #+date: <2016-10-09>
-#+keywords: python, python3, rhel
+#+filetags: python python3 rhel
 #+setupfile: ../org-templates/post.org
 
 Manually install Python-3.5 in Red Hat Enterprise Linux

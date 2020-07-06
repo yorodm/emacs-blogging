@@ -30,4 +30,5 @@ clean:
 	@echo "Cleaning up.."
 	@rm -rvf *.elc
 	@rm -rvf public
+	@rm -rvf tags
 	@rm -rv ~/.org-timestamps/*

@@ -1,6 +1,6 @@
 #+title: [Notes] Network utilities
 #+date: <2012-03-24>
-#+keywords: linux network ifconfig ip route nmcli ssh
+#+filetags: linux network ifconfig ip route nmcli ssh
 #+setupfile: ../org-templates/post.org
 
 Few network configuration which can be performed using CLI, this post covers

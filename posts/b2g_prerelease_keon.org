@@ -1,6 +1,6 @@
 #+title: Boot2Gecko 1.5.0.0-prerelease build
 #+date: <2014-03-27>
-#+keywords: firefox, b2g, keon
+#+filetags: firefox b2g keon
 #+setupfile: ../org-templates/post.org
 
 For impatient Geeksphone(Keon) users who want to try the latest

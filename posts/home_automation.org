@@ -1,6 +1,6 @@
 #+title: Arduino Smart Lamp
 #+date: <2020-04-25>
-#+keywords: home automation lamp arduino hc-sr04 relay pir
+#+filetags: automation arduino hc-sr04 relay pir
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{Arduino Smart Lamp}
@@ -10,14 +10,14 @@
 #+ATTR_HTML: :width 100% :height
 [[file:images/posts/home_automation/main.jpg]]
 
-I recently bought a new Larrissa Floor Lamp(image below) for the Study room. The
+I recently bought a new Larrissa Floor Lamp(Figure 2) for the Study room. The
 Lamp has two LED Bulbs which can be operated individually by separate switch.
 The placement of the Lamp is good enough to sufficiently lit the room however,
 the switches are not easily accessible from the study table. Generally a single
 LED(I'll denote both LEDs as Lamp1 & Lamp2 henceforth) is enough during the day
 but during the Video call, I have to switch ON both the Lamps to have enough
 light in the room. I often forget to switch OFF the Lamp while leaving the room
-for short breaks which results in wastage of Power. This lead me to automate the
+for short breaks which leads to Power wastage. This lead me to automate the
 behavior of the Lamp when I'm not in the room for certain amount of time. I soon
 began to look for accessories available in my arsenal and I found two Arduino's,
 a [[https://en.wikipedia.org/wiki/Passive_infrared_sensor][PIR]](Passive IR sensor), [[https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf][HC-SRO4]], [[http://j5d2v7d7.stackpathcdn.com/wp-content/uploads/2015/10/SRD-05VDC-SL-C-Datasheet.pdf][5v Relay]], an old Remote Control and couple of
@@ -25,7 +25,7 @@ connecting wires just enough to get started.
 
 #+CAPTION: Larrissa Floor Lamp
 #+ATTR_HTML: :class center
-#+ATTR_HTML: :width 70% :height
+#+ATTR_HTML: :width 100% :height
 [[file:images/posts/home_automation/larissa_floor_lamp.jpg]]
 
 I started with the PIR sensor as it is good at detecting general movement(it

@@ -1,6 +1,6 @@
 #+title: Find bash function
 #+date: <2014-03-04>
-#+keywords: bas, function
+#+filetags: bash function
 #+setupfile: ../org-templates/post.org
 
 In this post I'll walk you through few commands which will help to

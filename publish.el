@@ -63,16 +63,13 @@ publishing directory.
 If the org file has '#+draft: t' or '#+draft: 1', the html file will be exported in ./public/drafts/"
   (with-temp-buffer
     (insert-file-contents filename)
-    (if (string-match-p "^#.draft:.*[t,1]" (buffer-string))
-        (let ((pubdir draft-dir))
-          (unless (file-directory-p pubdir)
-            (make-directory pubdir))
-          (org-publish-org-to 'html filename
-		                      (concat "." (or (plist-get plist :html-extension)  org-html-extension "html"))
-		                      plist pubdir))
-      (org-publish-org-to 'html filename
-		                  (concat "." (or (plist-get plist :html-extension)  org-html-extension "html"))
-		                  plist pubdir))))
+    (if (string-match-p "^#\\+draft:.*[t,1]" (buffer-string))
+        (setq pubdir draft-dir))
+    (unless (file-directory-p pubdir)
+      (make-directory pubdir))
+    (org-publish-org-to 'html filename
+		                (concat "." (or (plist-get plist :html-extension)  org-html-extension "html"))
+		                plist pubdir)))
 
 (defun me/website-html-preamble (plist)
   "PLIST: An entry."
@@ -87,13 +84,10 @@ If the org file has '#+draft: t' or '#+draft: 1', the html file will be exported
 
 (defun me/website-html-postamble (plist)
   "PLIST."
-  (let* ((date (format-time-string this-date-format (plist-get plist :time)))
-         (creator (plist-get plist :creator)))
-    (concat
-     (format
-      (with-temp-buffer
-        (insert-file-contents "../html-templates/postamble.html") (buffer-string))
-      date creator))))
+  (concat (format
+           (with-temp-buffer
+             (insert-file-contents "../html-templates/postamble.html") (buffer-string))
+           (format-time-string this-date-format (plist-get plist :time)) (plist-get plist :creator))))
 
 (defvar site-attachments
   (regexp-opt '("jpg" "jpeg" "gif" "png" "svg"
@@ -142,21 +136,28 @@ namespace."
       (concat (car (last (split-string pdir "/"))) "/")
     nil))
 
-(defun me/org-format-entry (entry project)
-  "Build the Index with title(ENTRY), publication date and tags.
-The tags are space separated keywords in the PROJECT."
+(defun me/org-sitemap-format-entry (entry style project)
+  "Format posts with author and published data in the index page.
+
+ENTRY: file-name
+STYLE:
+PROJECT: posts in this case.
+
+Build the Index with title(ENTRY), publication date and tags.
+The tags are space separated values for '#+filetags:' in the PROJECT."
   (let* ((tags (car (org-publish-find-property entry :filetags project)))
          (kwdir (plist-get (cdr project) :tags-directory))
          (pdir (me/org-publish-get-pdir (plist-get (cdr project) :publishing-directory)))
          (kwlinks))
-    (format "*[[file:%s][%s]]*
+      (format "*[[file:%s][%s]]*
             #+HTML: <p class='pubdate'>by %s on %s.</p>
-            Tags: /%s/"
+            Tag%s: /%s/"
             entry
             (org-publish-find-title entry project)
             (car (org-publish-find-property entry :author project))
             (format-time-string this-date-format
                                 (org-publish-find-date entry project))
+            (funcall (lambda (x) (if (> x 1) "s" "")) (length (split-string tags)))
             (mapconcat 'identity (me/org-publish-generate-tags tags kwdir kwlinks pdir) ", "))))
 
 (defun me/org-sitemap-function (title list)
@@ -164,17 +165,6 @@ The tags are space separated keywords in the PROJECT."
 TITLE:
 LIST."
   (org-list-to-subtree list))
-
-(defun me/org-sitemap-format-entry (entry style project)
-  "Format posts with author and published data in the index page.
-
-ENTRY: file-name
-STYLE:
-PROJECT: `posts in this case."
-  (cond ((not (directory-name-p entry))
-         (me/org-format-entry entry project))
-        ((eq style 'tree) (file-name-nondirectory (directory-file-name entry)))
-        (t entry)))
 
 (defun me/org-reveal-publish-to-html (plist filename pub-dir)
   "Publish an org file to reveal.js HTML Presentation.

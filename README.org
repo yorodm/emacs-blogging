@@ -7,19 +7,19 @@ Learn more about GitLab Pages at [[https://about.gitlab.com/product/pages/]] and
 official documentation [[https://docs.gitlab.com/ce/user/project/pages/]].
 
 * How to use this repository to publish your own blogs?
-  - Clone the =blog_template= branch:
+  - Clone the =tags= branch,
     #+BEGIN_SRC shell
-      git clone https://gitlab.com/psachin/psachin.gitlab.io -b blog_template --single-branch myblog
+      git clone https://gitlab.com/psachin/psachin.gitlab.io -b tags --single-branch myblog
     #+END_SRC
 
-  - Use =make= to export org pages to HTML. The =public/= directory will have
-    all the files for hosting
+  - Execute =make= to export org pages to HTML. The HTML pages will be generated
+    in =public/= directory,
     #+BEGIN_SRC shell -n
       cd myblog
       make
     #+END_SRC
 
-  - Use Python's =http.server= module to locally render the pages:
+  - Use Python's =http.server= module to locally render the pages,
     #+BEGIN_SRC shell -n
       # Python 3.7
       python -m http.server --directory=public/
@@ -31,7 +31,17 @@ official documentation [[https://docs.gitlab.com/ce/user/project/pages/]].
       # Open http://localhost:8000/ in the Web browser
     #+END_SRC
 
-  - A sample blog post exists in =posts/template.org= for reference.
+* Screenshots
+
+  #+CAPTION: Home page
+  #+ATTR_HTML: :width 50%
+  #+ATTR_HTML: :class center no-border
+  [[./images/posts/template/home.png]]
+
+  #+CAPTION: Posts tagged with 'emacs'
+  #+ATTR_HTML: :width 50%
+  #+ATTR_HTML: :class center no-border
+  [[./images/posts/template/tags.png]]
 
 * Org-mode
 Org-mode is [[http://www.gnu.org/philosophy/free-sw.en.html][Free Software]] and part of [[https://www.gnu.org/s/emacs/][GNU Emacs]]. It's a simple

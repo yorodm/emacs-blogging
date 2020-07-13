@@ -1,7 +1,7 @@
 #+title: ZTE Blade teardown
 #+author: Sachin
 #+date: <2014-04-19>
-#+filetags: zte blade
+#+filetags: zte
 
 In an attempt to unlock RAM from 256MB to 512MB I bricked my ZTE
 Blade. These are the final snaps before it died.

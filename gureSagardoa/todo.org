@@ -34,7 +34,7 @@
 **** TODO [[https://bigmachine.io/products/the-imposters-handbook/][The Imposter's Handbooks]], Rob Conery
 *** Electronics [1/1]
 **** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
-*** Fiction [26/49]
+*** Fiction [27/49]
 **** DONE The Kite Runner, Khaled Hosseini
 **** DONE A Thousand Splendid Suns, Khaled Hosseini
 **** DONE The Monk Who Sold His Ferrari, Robin Sharma
@@ -61,10 +61,10 @@
 **** DONE Digital Fortress, Dan Brown
 **** DONE The Railway Children, Edith Nesbit
 **** DONE Origin, Dan Brown
+**** DONE The Prophet, Kahlil Gibran
 **** IN-PROGRESS GoldFish Have No Hiding Place, James Hadley Chase
 **** IN-PROGRESS The Devil's Alternative, Frederick Forsyth
 **** IN-PROGRESS To Kill A Mocking Bird, Harper Lee
-**** IN-PROGRESS The Prophet, Kahlil Gibran
 **** IN-PROGRESS Celestial Bodies, Jokha Alharthi
 **** TODO Devils, Fyodor Dostoevsky
 **** TODO A Christmas Carol, Charles Dickens

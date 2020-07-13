@@ -5,7 +5,6 @@
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{New feature: Tags}
 #+LaTeX_HEADER: \usepackage[a4paper, landscape, margin=0.5in, top=1in, bottom=1in]{geometry}
-#+options: toc:nil
 
 I'm working on a new feature to include *tags* in the blog posts. This is a
 result of referring to many org-publish based blogs. The work is too early to be

@@ -1,6 +1,6 @@
 #+title: The lzip format
 #+date: <2019-09-04>
-#+filetags: lzip ghm
+#+filetags: lzip
 #+draft: t
 #+setupfile: ../org-templates/post.org
 

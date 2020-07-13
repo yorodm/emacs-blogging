@@ -31,4 +31,4 @@ clean:
 	@rm -rvf *.elc
 	@rm -rvf public
 	@rm -rvf tags
-	@rm -rv ~/.org-timestamps/*
+	@rm -rvf ~/.org-timestamps/*

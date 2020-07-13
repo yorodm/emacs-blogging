@@ -1,0 +1,20 @@
+#+title: How do I blog - 2?
+#+date: <2020-07-07>
+#+filetags: blog orgmode org-publish emacs
+#+draft: t
+#+setupfile: ../org-templates/post.org
+
+* Tutorial
+** Post
+   - Title
+   - Author(org-templates/post.org)
+   - date
+   - tags
+   - commentary - Disquss
+** HTML head
+** Preamble
+   - Links
+   - Profile photo and description
+** Postamble
+** Drafts
+** About

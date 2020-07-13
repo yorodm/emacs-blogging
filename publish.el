@@ -27,7 +27,8 @@
 ;; setting to nil, avoids "Author: x" at the bottom
 (setq org-export-with-section-numbers nil
       org-export-with-smart-quotes t
-      org-export-with-toc nil)
+      org-export-with-toc nil
+      debug-on-error nil)
 
 (defvar this-date-format "%b %d, %Y")
 (defvar draft-dir (expand-file-name "./public/drafts"))
@@ -136,6 +137,9 @@ namespace."
       (concat (car (last (split-string pdir "/"))) "/")
     nil))
 
+ (add-to-list 'org-export-options-alist
+              '(:draft "DRAFT" nil "false" t))
+
 (defun me/org-sitemap-format-entry (entry style project)
   "Format posts with author and published data in the index page.
 
@@ -146,19 +150,53 @@ PROJECT: posts in this case.
 Build the Index with title(ENTRY), publication date and tags.
 The tags are space separated values for '#+filetags:' in the PROJECT."
   (let* ((tags (car (org-publish-find-property entry :filetags project)))
+         (draft (org-publish-find-property entry :draft project))
          (kwdir (plist-get (cdr project) :tags-directory))
          (pdir (me/org-publish-get-pdir (plist-get (cdr project) :publishing-directory)))
          (kwlinks))
-      (format "*[[file:%s][%s]]*
-            #+HTML: <p class='pubdate'>by %s on %s.</p>
-            Tag%s: /%s/"
-            entry
-            (org-publish-find-title entry project)
-            (car (org-publish-find-property entry :author project))
-            (format-time-string this-date-format
-                                (org-publish-find-date entry project))
-            (funcall (lambda (x) (if (> x 1) "s" "")) (length (split-string tags)))
-            (mapconcat 'identity (me/org-publish-generate-tags tags kwdir kwlinks pdir) ", "))))
+
+    ;; (message "%s -- %s -- %s" (org-publish-find-title entry project) draft (type-of draft))
+    ;; (if (not (equal draft nil))
+    (if (and (stringp draft) (equal (string-match-p "[t,1]" draft) nil))
+        (progn
+          (message "draft is string -- %s" (org-publish-find-title entry project))
+          (message "%s" (string-match-p "[t,1]" draft))
+          (message draft)
+
+          (format "*[[file:%s][%s]]*
+                  #+HTML: <p class='pubdate'>by %s on %s.</p>
+                  Tag%s: /%s/"
+                  entry
+                  (org-publish-find-title entry project)
+                  (car (org-publish-find-property entry :author project))
+                  (format-time-string this-date-format
+                                      (org-publish-find-date entry project))
+                  (funcall (lambda (x) (if (> x 1) "s" "")) (length (split-string tags)))
+                  (mapconcat 'identity (me/org-publish-generate-tags tags kwdir kwlinks pdir) ", ")
+                  )
+          )
+      ;; (message "ELSE -- %s" (org-publish-find-title entry project))
+      (format "")
+      )
+
+    ;; (if (string-match-p "[t,1]" draft)
+
+    ;; (format "*[[file:%s][%s]]*
+    ;;         #+HTML: <p class='pubdate'>by %s on %s.</p>
+    ;;         Tag%s: /%s/"
+    ;;         entry
+    ;;         (org-publish-find-title entry project)
+    ;;         (car (org-publish-find-property entry :author project))
+    ;;         (format-time-string this-date-format
+    ;;                             (org-publish-find-date entry project))
+    ;;         (funcall (lambda (x) (if (> x 1) "s" "")) (length (split-string tags)))
+    ;;         (mapconcat 'identity (me/org-publish-generate-tags tags kwdir kwlinks pdir) ", ")
+    ;;         )
+
+      ;;)
+     ;; )
+
+    ))
 
 (defun me/org-sitemap-function (title list)
   "Sitemap generation function.
@@ -181,7 +219,7 @@ publishing directory. Returns output file name."
          :recursive t
          :publishing-function me/org-html-publish-to-html
          :publishing-directory "./public"
-         :exclude ,(regexp-opt '("README.org" "draft" "404.org"))
+         :exclude "README\.org\\|.*\.draft\.org\\|404\.org"
          :auto-sitemap t
          :sitemap-filename "index.org"
          :sitemap-title "Blog Index"

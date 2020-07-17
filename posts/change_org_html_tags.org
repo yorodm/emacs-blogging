@@ -1,6 +1,6 @@
 #+title: Change default org-mode HTML tags
 #+date: <2014-02-26>
-#+keywords: emacs, org-mode, orgmode, html, tags
+#+filetags: emacs orgmode html tags
 #+setupfile: ../org-templates/post.org
 
 

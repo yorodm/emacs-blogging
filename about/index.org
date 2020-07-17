@@ -1,14 +1,11 @@
 #+title: About
-#+keywords: about
+#+filetags: about
 
 #+ATTR_HTML: :class center no-border
 [[file:../../images/about/isitme.png]]
 
 #+ATTR_HTML: :style text-align:center
-Free Software Developer, FOSS enthusiast, & GNU Emacs Hacker.
-
-#+ATTR_HTML: :class center rounded-border black-border
-https://static.fsf.org/nosvn/images/badges/Spring19-fan-of-fsf.png
+/Free Software Developer, FOSS enthusiast, & GNU Emacs Hacker./
 
 I work on GNU/Linux and Free & Open Source Software for living. I prefer not to
 use [[https://www.gnu.org/proprietary/][Proprietary Software]] in-person or at work. Since couple of years I switched
@@ -20,8 +17,6 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
 
    #+ATTR_HTML: :class center no-border
    [[file:../../images/about/computers-300px.png]]
-
-** @Home
 
    For personal use, I have [[https://www.lenovo.com/gb/en/laptops/lenovo/g-series/g505s/][Lenovo G505s]] with AMD A8 Quad-core processor and 8
    Gigs of RAM running Slackware 14.1(I always prefer the [[https://gitlab.com/psachin/bash_scripts/blob/master/build_my_kernel.sh][latest kernel]]. I
@@ -40,8 +35,6 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
    Most of my Home network and Internet connection is managed by D-LINK DIR-615E
    wireless router flashed with custom [[https://openwrt.org/][OpenWRT(barrier-breaker)]]. This is my
    backup(and tiny) Linux system with minimal shell and =opkg= package manager.
-
-** @Work
 
    For work, I use Lenovo Thinkpad +T440p+ [[../photography/thinkpad_t490s.org][T490s]] running [[https://getfedora.org/][Fedora]]. I work on [[https://www.redhat.com/en/technologies/management/insights][Red Hat
    Insights]]. Watch this introductory [[https://www.youtube.com/watch?v=MfRnKe-xxLM][YouTube video]] to know more about Red Hat
@@ -67,14 +60,14 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
 
    I prefer [[https://www.emacswiki.org/emacs/GnusTutorial][Gnus]] over [[http://www.mutt.org/][mutt]] to manage mails.
 
-** More..
+*** More..
 
-   I find programming in =elisp= relaxing when I'm bored with Python and
-   friends. Occasionally I do write helper functions and share it on
-   [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of these helper functions can be found within
-   my [[https://gitlab.com/psachin/emacs.d][Emacs configuration]] now. I majored in Physics with specialization in
-   [[https://www.tifr.res.in/~dcmpms/][Condensed Matter Physics]]. In my free time I engage myself in studying
-   Physics, Mathematics, and [[../horology/][Horology]].
+    I find programming in =elisp= relaxing when I'm bored with Python and
+    friends. Occasionally I do write helper functions and share it on
+    [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of these helper functions can be found within
+    my [[https://gitlab.com/psachin/emacs.d][Emacs configuration]] now. I majored in Physics with specialization in
+    [[https://www.tifr.res.in/~dcmpms/][Condensed Matter Physics]]. In my free time I engage myself in studying
+    Physics, Mathematics, and [[../horology/][Horology]].
 
 ** Blogs
 
@@ -85,6 +78,16 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
    [[http://orgmode.org/][org-mode]]. +I now use [[https://jekyllrb.com/][Jekyll]] to publish my blogs(Source [[https://github.com/psachin/psachin.github.io][here]]).+ +Jekyll uses
    markdown which I don't like much. I miss org-mode to post blogs.+ This
    website is [[https://gitlab.com/psachin/psachin.gitlab.io][entirely published]] using org-mode.
+
+*** Articles
+    - My posts published on [[https://opensource.com/users/psachin][opensource.com]]
+    - My posts published on other web portals:
+      * [[file:../assets/about/GNU_Linux_on_Aakash.pdf][GNU/Linux on Aakash]]: An article published in CSI
+        communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at [[http://iitb.ac.in/][Indian Institute of
+        Technology Bombay]].
+      * [[http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem][Configuring Huawei-EC152 modem]]: My very first article appeared on
+        [[https://www.linuxquestions.org/][linuxquestions.org]]. I just started using GNU/Linux that time and
+        USB-modeswitch was also quite new.
 
 ** Talks/Presentations/Slides
 
@@ -102,15 +105,8 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
      architecture and [[https://www.youtube.com/watch?v=ru2iMJvUZjI][demonstrated Object versioning in Swift]].
    - [[http://psachin.github.io/py-starwars/][py-starwars]]: Introductory talk on Python programming language.
 
-** Articles
-   - My posts published on [[https://opensource.com/users/psachin][opensource.com]]
-   - My posts published on other web portals:
-     * [[file:../assets/about/GNU_Linux_on_Aakash.pdf][GNU/Linux on Aakash]]: An article published in CSI
-       communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at [[http://iitb.ac.in/][Indian Institute of
-       Technology Bombay]].
-     * [[http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem][Configuring Huawei-EC152 modem]]: My very first article appeared on
-       [[https://www.linuxquestions.org/][linuxquestions.org]]. I just started using GNU/Linux that time and
-       USB-modeswitch was also quite new.
+** Curriculum Vitae
+   /Available on request./
 
 ** Contact
 
@@ -118,13 +114,15 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
    [[file:../../images/about/skogskanten-300px.png]]
 
    - *IRC*: psachin@{RedHat, freenode, OFTC, GIMPNet}
+   - *Email*: [[mailto:iclcoolster@gmail.com][Personal]], [[mailto:psachin@redhat.com][Work]]
 
-** CV
-   Available on request.
+*** Social
+    #+ATTR_HTML: :style text-align:center
+    You won't find me on [[https://www.fsf.org/twitter][Twitter]], [[https://www.whatsapp.com/][Whatsapp]], [[https://www.fsf.org/facebook][Facebook]], & [[https://www.linkedin.com/][Linkedin]].
+    #+ATTR_HTML: :class center no-border
+    http://static.fsf.org/nosvn/no-facebook-me.png
 
-** Social
-   #+ATTR_HTML: :style text-align:center
-   You won't find me on [[https://www.fsf.org/twitter][Twitter]], [[https://www.whatsapp.com/][Whatsapp]], [[https://www.fsf.org/facebook][Facebook]], & [[https://www.linkedin.com/][Linkedin]].
-
-   #+ATTR_HTML: :class center no-border
-   http://static.fsf.org/nosvn/no-facebook-me.png
+    #+ATTR_HTML: :style text-align:center
+    However, I am
+    #+ATTR_HTML: :class center rounded-border black-border
+    https://static.fsf.org/nosvn/images/badges/Spring19-fan-of-fsf.png

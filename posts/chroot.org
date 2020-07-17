@@ -1,6 +1,6 @@
 #+title: Working on chroot environments
 #+date: <2013-02-25>
-#+keywords: linux, makefile
+#+filetags: chroot debootstrap rootstock jail
 #+setupfile: ../org-templates/post.org
 
 This post covers what is =chroot= and why to use it? It also provides

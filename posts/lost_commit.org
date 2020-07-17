@@ -1,6 +1,6 @@
 #+title: Lost commit
 #+date: <2016-01-04>
-#+keywords: git, commit, remote
+#+filetags: git commit
 #+setupfile: ../org-templates/post.org
 
 Where's my commit after I did =git commit --amend=?

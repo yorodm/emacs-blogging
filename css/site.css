@@ -38,8 +38,16 @@ body h4 img {
   border: 0 none;
 }
 body h1 {
-  font-size: 42px;
-  margin-top: 40px;
+    font-size: 42px;
+    margin-top: 40px;
+}
+.gray {
+    font-weight: lighter;
+    color: gray;
+}
+.black {
+    font-weight: lighter;
+    color: black;
 }
 body h2 {
   margin-top: 60px;

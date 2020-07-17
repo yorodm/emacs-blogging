@@ -1,6 +1,6 @@
 #+title: Update SailfishOS
 #+date: <2016-11-04>
-#+keywords: jolla,intex,aqua,sailfish,pkcon,devel-su
+#+filetags: jolla intex sailfish pkcon devel-su
 #+setupfile: ../org-templates/post.org
 
 Update [[https://sailfishos.org/][sailfishOS]] from 2.0.2.51 (Aurajoki) to 2.0.4.14 (Fiskarsinjoki)

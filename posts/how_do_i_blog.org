@@ -1,6 +1,6 @@
 #+title: opensource.com: How do I blog?
 #+date: <2020-03-05>
-#+keywords: blog org org-publish emacs opensource.com
+#+filetags: blog orgmode org-publish emacs
 #+setupfile: ../org-templates/post.org
 
 Read how do I use =org-publish= to write posts in Org mode and publish them

@@ -1,6 +1,6 @@
 #+title: Sticky bits
 #+date: <2015-12-14>
-#+keywords: sticky bits, permissions, file deletion restriction
+#+filetags: stickybits file permissions
 #+setupfile: ../org-templates/post.org
 
 Sticky bits explained

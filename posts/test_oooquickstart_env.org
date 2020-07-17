@@ -1,6 +1,6 @@
 #+title: Test tripleo-quickstart environment
 #+date: <2018-01-03>
-#+keywords: tripleo, quickstart, openstack
+#+filetags: tripleo quickstart openstack
 #+setupfile: ../org-templates/post.org
 
 

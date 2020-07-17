@@ -34,7 +34,7 @@
 **** TODO [[https://bigmachine.io/products/the-imposters-handbook/][The Imposter's Handbooks]], Rob Conery
 *** Electronics [1/1]
 **** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
-*** Fiction [26/49]
+*** Fiction [27/49]
 **** DONE The Kite Runner, Khaled Hosseini
 **** DONE A Thousand Splendid Suns, Khaled Hosseini
 **** DONE The Monk Who Sold His Ferrari, Robin Sharma
@@ -61,10 +61,10 @@
 **** DONE Digital Fortress, Dan Brown
 **** DONE The Railway Children, Edith Nesbit
 **** DONE Origin, Dan Brown
+**** DONE The Prophet, Kahlil Gibran
 **** IN-PROGRESS GoldFish Have No Hiding Place, James Hadley Chase
 **** IN-PROGRESS The Devil's Alternative, Frederick Forsyth
 **** IN-PROGRESS To Kill A Mocking Bird, Harper Lee
-**** IN-PROGRESS The Prophet, Kahlil Gibran
 **** IN-PROGRESS Celestial Bodies, Jokha Alharthi
 **** TODO Devils, Fyodor Dostoevsky
 **** TODO A Christmas Carol, Charles Dickens
@@ -84,7 +84,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [23/40]
+*** Non Fiction [23/41]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -110,6 +110,7 @@
 **** DONE The Surrender Experiment, Michael A. Singer
 **** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
 **** IN-PROGRESS Guns, Germs, & Steel, Jared Diamond
+**** IN-PROGRESS Longitute, Dava Sobel
 **** TODO Discourses and Selected Writings, Epictetus
 **** TODO Letters from a Stoic, Seneca
 **** TODO Mein Kampf, Adolf Hitler
@@ -120,7 +121,7 @@
 **** TODO The Checklist Manifesto: How to Get Things Right, Atul Gawande
 **** TODO Scandinavia Since 1500, Byron J. Nordstrom
 **** TODO The Globalization of Inequality, François Bourguignon
-**** TODO A More Perfect Heaven, Dava Sobel[fn:dava_sobel]
+**** TODO A More Perfect Heaven, Dava Sobel
 **** TODO Introducing Psychology, Nigel C. Benson
 **** TODO Brighter Than a Thousand Suns, Robert Jungk
 **** TODO Towards A New Architecture, Le Corbusier
@@ -141,6 +142,3 @@
    - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
    - [X] [[https://www.youtube.com/watch?v=lKXe3HUG2l4]["The Mess we're In" by Joe Armstrong.]]
    - [ ] [[https://www.youtube.com/watch?v=TZLvEp_xjnY][LIGO and Gravitational Waves III, Kip S. Thorne (Noble Lecture, 2017)]]
-
-
-[fn:dava_sobel] Dava Soble also wrote [[https://en.wikipedia.org/wiki/Longitude_(book)][Longitude]].

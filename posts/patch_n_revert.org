@@ -1,6 +1,6 @@
 #+title: Patch and revert source code
 #+date: <2013-06-21>
-#+keywords: linux, patch
+#+filetags: linux patch diff
 #+setupfile: ../org-templates/post.org
 
 Using =patch= efficiently.

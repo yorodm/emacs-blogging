@@ -1,6 +1,6 @@
 #+title: ffmpeg with libmp3lame & H.264 encoder support
 #+date: <2017-04-02>
-#+keywords: ffmpeg, libmp3lame
+#+filetags: ffmpeg libmp3lame
 #+setupfile: ../org-templates/post.org
 
 How to manually install =ffmpeg= with =libmp3lame= & H.264 encoder support.

@@ -1,6 +1,6 @@
 #+title: Realtek 5129 USB Card Reader Controller
 #+date: <2015-03-08>
-#+keywords: kernel, 5129, card reader, linux
+#+filetags: kernel linux
 #+setupfile: ../org-templates/post.org
 
 /Updated on March 24, 2020/

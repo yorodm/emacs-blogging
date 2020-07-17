@@ -1,6 +1,6 @@
 #+title: How to create a nested VM?
 #+date: <2018-12-19>
-#+keywords: vm kvm nested virt virt-manager libvirt qemu-kvm
+#+filetags: vm kvm nested virt virt-manager libvirt qemu-kvm
 #+setupfile: ../org-templates/post.org
 
 This post provides steps to create a virtual-machine inside another

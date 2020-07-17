@@ -95,7 +95,7 @@
           - WH played piano.
             - WH married [[https://web.archive.org/web/20171116021511/http://www.heisenbergfamily.org/Family-tree/Elisabeth-1914.pdf][Elizabeth]](Schumacher), he sighted her in the musical
               evening of Jan. 28, 1937 where WH played piano.
-          - Uncertainty Principle
+          - The Uncertainty Principle. Also watch [[https://www.youtube.com/watch?v=n0fRyDcG1BM][Heisenberg Uncertainty Principle by H C Verma.]]
             #+CAPTION: Measuring position & momentum
             #+ATTR_HTML: :width 100%
             #+ATTR_HTML: :class center no-border
@@ -620,7 +620,7 @@
         - [ ] Spanish steps, Rome??
         - [X] Tervi Fountain(History)
         - [ ] Sistine Chapel(Art)
-      - Florence [2/5]
+      - Florence [2/4]
         - [X] Dante's House(Literature)
         - [X] The Accademia Gallery Museum(Art, History)
         - [ ] Basillica de Santa Croce
@@ -628,6 +628,8 @@
           - Michelangelo's tomb
         - [ ] Uffizi Gallery Museum, Florence
           - [ ] The Vasari Corridor
+      - Milan [0/1]
+        - [ ] [[https://www.milan-museum.com/leonardo-last-supper-cenacolo.php][Da Vinci's - The last Supper]]
     - FR [1/2]
       - [X] Mont Saint-Michel. Normandy (Art, History) | [Revist for stay]
       - [ ] [[https://shershegoes.com/normandy-beach/][Normandy Beach & WWII memorial]]
@@ -643,7 +645,7 @@
       - [X] Museo del Prado, Madrid
       - [ ] Museo Nacional Centro de Arte Reina Sofía, Madrid
       - [X] Parque del Buen Retiro, Madrid
-    - GR [0/1]
+    - GR [0/2]
       - [ ] Parthenon(Strutures)
       - [ ] [[https://www.visitmeteora.travel/][Meteora]]
     - UK [4/5]
@@ -653,10 +655,12 @@
       - [X] SS Great Britan
       - [X] Stonehenges
 
-/Made using Love, LaTeX, Emacs, Org mode, & MathJax[fn:mathjax][fn:cheatsheet][fn:latex]/
+/Made using Love, LaTeX[fn:cheatsheet][fn:latex], Emacs[fn:emacs], Org mode[fn:orgmode], & MathJax[fn:mathjax]/
 
-[fn:mathjax] https://www.mathjax.org/
 [fn:cheatsheet] https://davidhamann.de/2017/06/12/latex-cheat-sheet/
 [fn:latex] https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols
+[fn:emacs] https://www.gnu.org/software/emacs/
+[fn:orgmode] https://orgmode.org/
+[fn:mathjax] https://www.mathjax.org/
 
 #+INCLUDE: "../disquss.inc"

@@ -1,6 +1,6 @@
 #+title: ASUS ZenWatch2 update to Android Wear 2.0
 #+date: <2017-10-11>
-#+keywords: asus, zenwatch2, ota, sideload, android-wear2
+#+filetags: asus zenwatch2 adb android-wear2
 #+setupfile: ../org-templates/post.org
 
 Update ASUS ZenWatch2 to Android Wear 2.0
@@ -68,6 +68,7 @@ with =android-tools= package and can be installed using
       Once upload is complete select **Reboot** from the menu and
       swipe right. Complete setup should take around 15 minutes
 
-*** References: [[https://www.reddit.com/r/AndroidWear/comments/6o6niv/zenwatch_2_w501q_android_wear_20_update_and_how/][https://www.reddit.com]]
+*** Reference:
+    - [[https://www.reddit.com/r/AndroidWear/comments/6o6niv/zenwatch_2_w501q_android_wear_20_update_and_how/][https://www.reddit.com]]
 
 #+INCLUDE: "../disquss.inc"

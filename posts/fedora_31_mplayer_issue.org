@@ -1,6 +1,6 @@
 #+title: [Notes] Fedora 31 Mplayer issue
 #+date: <2020-02-17>
-#+keywords: fedora 31 mplayer issue notes
+#+filetags: fedora mplayer issue notes
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{\title}

@@ -1,6 +1,6 @@
 #+title: Emacs Diary reminder using desktop notification
 #+date: <2019-05-03>
-#+keywords: emacs diary desktop notifications
+#+filetags: emacs diary desktop notifications
 #+setupfile: ../org-templates/post.org
 
 The post explains how to configure Emacs to alert diary reminders using

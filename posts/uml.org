@@ -1,6 +1,6 @@
 #+title: UML
 #+date: <2014-04-28>
-#+keywords: uml, kernel, linux
+#+filetags: uml kernel linux
 #+setupfile: ../org-templates/post.org
 
 UML is a port of linux to linux as referred by Jeff Dike, the man

@@ -1,6 +1,6 @@
 #+title: Lisp as an Alternative to Java
 #+date: <2020-03-29>
-#+keywords: lisp java comparison
+#+filetags: lisp java
 #+setupfile: ../org-templates/post.org
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{Lisp as an Alternative to Java}

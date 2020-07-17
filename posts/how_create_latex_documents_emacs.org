@@ -1,6 +1,6 @@
 #+title: opensource.com: How to create LaTeX documents with Emacs
 #+date: <2018-04-09>
-#+keywords: linux, latex, emacs, opensource.com
+#+filetags: latex emacs orgmode
 #+setupfile: ../org-templates/post.org
 
 My post titled [[https://opensource.com/article/18/4/how-create-latex-documents-emacs][How to create LaTeX documents with Emacs]] published on [[https://opensource.com/][opensource.com]]

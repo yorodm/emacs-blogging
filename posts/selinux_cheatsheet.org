@@ -1,6 +1,6 @@
-#+title: SELinux cheat-sheet
+#+title: SELinux cheatsheet
 #+date: <2019-01-19>
-#+keywords: selinux command
+#+filetags: selinux cheatsheet
 #+setupfile: ../org-templates/post.org
 
 *** Display selinux context
@@ -50,4 +50,4 @@
       chcon -l s0 httpd.conf
     #+END_SRC
 
- #+INCLUDE: "../disquss.inc"
+#+INCLUDE: "../disquss.inc"

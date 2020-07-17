@@ -1,6 +1,6 @@
 #+title: opensource.com: What is a Makefile and how does it work?
 #+date: <2018-08-22>
-#+keywords: linux, makefile, opensource.com
+#+filetags: linux makefile
 #+setupfile: ../org-templates/post.org
 
 My post titled [[https://opensource.com/article/18/8/what-how-makefile][What is a Makefile and how does it work?]] published on [[https://opensource.com/][opensource.com]]

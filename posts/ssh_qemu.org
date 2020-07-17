@@ -1,6 +1,6 @@
 #+title: Qemu - System emulator
 #+date: <2012-03-24>
-#+keywords: qemu ssh
+#+filetags: qemu ssh
 #+setupfile: ../org-templates/post.org
 
 In this post I will create an Qemu image and work with it remotely

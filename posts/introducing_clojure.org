@@ -1,6 +1,6 @@
 #+title: Introduction to Clojure
 #+date: <2013-10-18>
-#+keywords: linux, clojure, lein
+#+filetags: clojure lein
 #+setupfile: ../org-templates/post.org
 
 **Clojure** has been around for couple of years now. It has been

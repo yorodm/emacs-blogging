@@ -1,6 +1,6 @@
 #+title: pdftk
 #+date: <2012-08-26>
-#+keywords: pdftk, pdf, gs
+#+filetags: pdftk pdf gs
 #+setupfile: ../org-templates/post.org
 
 =pdftk= can be an excellent tool for manupilating PDFs if you know

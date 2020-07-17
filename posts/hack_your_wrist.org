@@ -1,6 +1,6 @@
 #+title: Hack your wrist
 #+date: <2017-02-10>
-#+keywords: asteroidos, zenwatch, zw2
+#+filetags: asteroidos zenwatch zw2
 #+setupfile: ../org-templates/post.org
 
 [[https://asteroidos.org/][AsteroidOS]] is an open-source operating system for smartwatches. It's

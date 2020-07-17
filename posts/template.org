@@ -1,6 +1,6 @@
 #+title: Sample Post
 #+date: <2020-02-05 Wed>
-#+keywords: gitlab, git, org-mode, orgmode, emacs
+#+filetags: gitlab git org-mode orgmode emacs template sample
 #+setupfile: ../org-templates/post.org
 
 /This is in Italic/ and *this is bold* and _this is how underlined looks_. We
@@ -93,4 +93,4 @@ needed.[fn:org-manual][fn:publish]
 [fn:org-manual] Visit [[https://orgmode.org/org.html][The Org Manual]] for more detail.
 [fn:publish] It's easy to publish org-mode pages via [[https://about.gitlab.com/gitlab-ci/][GitLab CI]] and [[https://pages.gitlab.io/][Pages]].
 
- #+INCLUDE: "../disquss.inc"
+#+INCLUDE: "../disquss.inc"

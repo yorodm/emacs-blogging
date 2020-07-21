@@ -56,6 +56,11 @@ the Arduino. To avoid this the Lamps can be connected to the relay on
 NC(Normally Connected) mode. This allows operating the Lamps using the physical
 switch when Arduino is not powered.
 
+#+CAPTION: Two channels of 5v relay are connected to Lamp1 & Lamp2.
+#+ATTR_HTML: :class center
+#+ATTR_HTML: :width 70% :height
+[[file:images/posts/home_automation/relay.jpg]]
+
 #+CAPTION: Wiring - Enclosed in the box. The LED on the left is Digital pin 11(Lamp1) whereas the LED on the right indicated the Power state of the board.
 #+ATTR_HTML: :class center
 #+ATTR_HTML: :width 70% :height

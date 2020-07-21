@@ -13,6 +13,7 @@ List of commands that I find useful.
    - Reduce PDF size
      #+BEGIN_SRC shell
        gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -sOutputFile=new_file.pdf original_file.pdf
+       # Also try using different 'dPDFSETTINGS' settings explained in http://milan.kupcevic.net/ghostscript-ps-pdf/, see what works for you.
      #+END_SRC
 
    - Unlock PDF file
@@ -152,6 +153,11 @@ List of commands that I find useful.
        ffmpeg -i video.avi -vf subtitles=subtitle.srt out.avi
      #+END_SRC
 
+   - Adjust aspect ratio
+     #+BEGIN_SRC shell
+       ffmpeg -i input.mp4 -aspect 1280:720 -c copy output.mp4
+       ffmpeg -i input.mp4 -vf scale=1280:720 -c:v h264 output.mp4 # Using h264 video codec
+     #+END_SRC
 
 ** Image manipulation
    - Capture screenshot:
@@ -177,6 +183,15 @@ List of commands that I find useful.
    - Control compression level of an image:
      #+BEGIN_SRC shell
        convert input.png -quality 75 output.jpg
+     #+END_SRC
+   - Convert JPG(or any image) to PDF:
+     #+BEGIN_SRC shell
+       convert input.jpg -page a4 output.pdf
+     #+END_SRC
+   - Combine images
+     #+BEGIN_SRC shell
+       convert image_1.jpg image_2.jpg -append out.jpg
+       # Note: '-' will combine images vertically whereas '+' will combine images horizontally
      #+END_SRC
 
 ** Git[fn:lwn_git_sha_256]

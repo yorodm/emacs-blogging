@@ -58,7 +58,7 @@ efficiently. I'll share some benefits of =setv= below:
 
    We often want to use a common virtual environment between projects especially
    when the "core" and "plugins" are two separate projects. It will be tedious
-   to save the virtual environment in "core" or the "plugins" and then use:
+   to save the virtual environment in "core" or the "plugins" and then use
 
    #+BEGIN_SRC shell
      source <VIRTUALENV_NAME>/bin/activate
@@ -71,15 +71,15 @@ efficiently. I'll share some benefits of =setv= below:
 4. *Re-using the virtual environment.*
 
    I personally use this a lot. I Often create a temporary virtual environment
-   to try out new project on GitHub/GitLab and find it useful to re-use to the
-   environment by installing more modules for a new project. This saves time and
-   data.
+   to try out a new project hosted on GitHub/GitLab and find it useful to re-use
+   to the environment by installing more modules for a new project. This saves
+   time and avoids data being downloaded twice.
 
 5. *What about the stale virtual environments?*
 
    We will eventually end up having all the virtual environments in
-   =~/virtualenvs=. With time, few will be unused. This is consume unnecessary
-   disk space. =setv= has a =--delete= flag to clean up those old environments
-   and make space for a new one.
+   =~/virtualenvs=. With time, few will be unused. This will consume unnecessary
+   disk space. =setv= has a =--delete= flag to clean up the old virtual
+   environments and make space for a new one.
 
 #+INCLUDE: "../disquss.inc"

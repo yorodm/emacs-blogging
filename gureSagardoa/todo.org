@@ -1,5 +1,5 @@
 #+title: TODO Index
-#+keywords: todo agenda tasks books reading tracking
+#+filetags: todo agenda tasks books reading tracking
 
 ** Reading
 *** Physics/Mathematics [2/10]
@@ -84,7 +84,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [23/41]
+*** Non Fiction [23/39]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -126,19 +126,24 @@
 **** TODO Brighter Than a Thousand Suns, Robert Jungk
 **** TODO Towards A New Architecture, Le Corbusier
 **** TODO The Unthethered Soul, Michael A. Singer
-*** Publications [3/9]
+**** TODO The Republic, Plato
+*** Publications [4/12]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
 **** DONE [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat ([[../lisp-java-notes.html][notes]])
+**** DONE [[http://www.paulgraham.com/iflisp.html][If Lisp is so Great, Paul Graham]]
+**** TODO [[https://www.stat.auckland.ac.nz/~ihaka/downloads/Compstat-2008.pdf][Lisp as a Base for a Statistical Computing System]]
 **** TODO Bitcoin: A Peer-to-Peer Electronic Cash System, Satoshi Nakamoto
 **** TODO [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]
 **** TODO The structure of the atom(Noble Lecture), Niels Bohr
 **** TODO The wave nature of the electron(Noble Lecture), Louis De Broglie
 **** TODO [[https://www.nobelprize.org/uploads/2018/06/heisenberg-lecture.pdf][The development of Quantum Mechanics(Noble Lecture)]], W. Heisenberg
+**** TODO [[http://lantb.net/uebersicht/wp-pdf/eiffelTower.pdf][The Eiffel Tower, Roland Barthes]]
+**** TODO [[http://doc.cat-v.org/feynman/simulating-physics/simulating-physics-with-computers.pdf][Simulating Physics with Computers]], Richard P. Feynman
 **** [[https://www.hs.ias.edu/lavin][Irving Lavin]] [0/1]
 	 - [ ] [[https://albert.ias.edu/handle/20.500.12111/6675][Michelangelo's Saint Peter's Pieta]]
-**** TODO [[http://lantb.net/uebersicht/wp-pdf/eiffelTower.pdf][The Eiffel Tower, Roland Barthes]]
 ** Videos [1/2]
+*** YouTube
    - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
    - [X] [[https://www.youtube.com/watch?v=lKXe3HUG2l4]["The Mess we're In" by Joe Armstrong.]]
    - [ ] [[https://www.youtube.com/watch?v=TZLvEp_xjnY][LIGO and Gravitational Waves III, Kip S. Thorne (Noble Lecture, 2017)]]

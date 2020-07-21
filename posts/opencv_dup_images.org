@@ -1,0 +1,94 @@
+#+title: Using Python & OpenCV to detect duplicate images
+#+date: <2020-06-26>
+#+filetags: python opencv
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{Using Python & OpenCV to detect duplicate images}
+
+#+ATTR_HTML: :class center
+#+ATTR_HTML: :width 100% :height
+[[file:images/posts/opencv_dup_images/montage.png]]
+
+For couple of days I was looking for an application that could help detect
+duplicate photos which got accumulated as a result of backup from Mobile phone,
+Cameras and other devices. Chances of coping the same set of photos happens
+especially after buying a large storage device and I want to backup all my
+photos from the old storage to the new storage device. I lazily don't care about
+which set of photos were already copied previously thus end up copying the same
+images again. Another situation is when I take the time series snaps and never
+get time to select the most significant photo(s). This is huge wastage of disk
+space. Coincidentally, I came across [[https://www.pyimagesearch.com/2020/04/20/detect-and-remove-duplicate-images-from-a-dataset-for-deep-learning/][this]] blog post by /Adrian Rosebrock/ which
+tackles this issue.
+
+I did few enhancements to the original script to keep the image with the highest
+resolution, pass the /hashsize/ as an argument to have greater control over the
+detected images, implemented threading which is useful to scan large datasets.
+
+** Features
+   - [X] View duplicate images: If *-m/--move* is not used.
+   - [X] Preference to High resolution images (default).
+   - [X] Accuracy: Use *-s/--hashsize*.
+   - [X] Threading: Use *-w/--workers*.
+   - [X] Save data set in JSON format: The script will overwrite exiting *dataset.json*.
+   - [ ] Packaging: Install using *pip*.
+   - [ ] Multiple data set: Able to specify multiple datasets.
+
+** Setup
+   Download the source code from [[https://gitlab.com/psachin/violent_python/-/tree/master/opencv][GitLab/psachin/opencv]] and install the
+   dependencies using,
+   #+BEGIN_SRC bash
+     pip install -r requirements.txt
+   #+END_SRC
+
+** Usage
+   - Running the script with =-d/--dataset= option will not delete/move the
+     duplicate image. Use =-m/--move= to actually move the duplicate image to
+     the =deleted/= directory. The script will run with the default /hashsize/
+     of *8* using *one* thread,
+     #+BEGIN_SRC bash -n
+       python ./dup_detect_and_remove.py --dataset <PATH_TO_DATA>
+
+       # Example:
+       python ./dup_detect_and_remove.py --dataset ~/Pictures/
+
+       # To move duplicate images to the 'deleted' directory, use,
+       python ./dup_detect_and_remove.py --dataset ~/Pictures/ --move
+     #+END_SRC
+
+   - If the script still detects /very/ similar images as duplicate, such as time
+     series photos, try raising the /hashsize/ using =-s/--hashsize= option,
+     #+BEGIN_SRC bash
+       python ./dup_detect_and_remove.py --dataset <PATH_TO_DATA> --hashsize 10
+     #+END_SRC
+
+   - Try combination of =-s/--hashsize= & =-w/--workers= for various workloads.
+     See what works for you,
+     #+BEGIN_SRC bash
+       # Example:
+       python ./dup_detect_and_remove.py --dataset <PATH_TO_DATA> --hashsize 10 --worker 4
+     #+END_SRC
+
+** Screenshots
+   #+CAPTION: Take a closer look...above two photos are not duplicate. Raising the hashsize value will eliminate this problem.
+   #+ATTR_HTML: :class center
+   #+ATTR_HTML: :width 100% :height
+   [[file:images/posts/opencv_dup_images/dup1.png]]
+
+   #+CAPTION: The two images are duplicate except one has the lower resolution. Raising the hashsize value will not detect these images as duplicate, but we don't really want to do that.
+   #+ATTR_HTML: :class center
+   #+ATTR_HTML: :width 100% :height
+   [[file:images/posts/opencv_dup_images/dup2.png]]
+
+   #+CAPTION: The two images are exact copies. This will be detected anyways.
+   #+ATTR_HTML: :class center
+   #+ATTR_HTML: :width 100% :height
+   [[file:images/posts/opencv_dup_images/dup3.png]]
+
+** Conclusion
+   - I have tested the script with various combination of threads & hashsize on
+     ~70GB of data and was very satisfied with the result.
+   - The script has no issue running over NFS data or an external storage.
+
+
+
+#+INCLUDE: "../disquss.inc"

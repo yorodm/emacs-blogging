@@ -1,5 +1,5 @@
 #+title: ZeroDay
-#+keywords: todo agenda tasks zeroday tracker
+#+filetags: todo agenda tasks zeroday tracker
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{ZeroDay}
 #+LaTeX_HEADER: \usepackage[a4paper, landscape, margin=0.5in, top=1in, bottom=1in]{geometry}
@@ -155,13 +155,14 @@
       - [ ] GNU Guix
       - [ ] GNU Sheperd
       - [ ] Guile
-**** Course [5/6]
+**** Course [6/7]
      - [X] Masterclass: Frank Gehry ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_frank_gehry.org][Notes]])
      - [X] MasterClass: Neil deGrasse Tyson ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_neil_tyson.org][Notes]])
      - [X] MasterClass: Chris Hadfield ([[https://gitlab.com/psachin/notes/-/blob/master/notes_masterclass_chris_hadfield.org][Notes]])
      - [X] HGL (Physical Notes)
      - [X] EveryDay Guide to Beer, Professor Charles W. Bamforth (Physical Notes)
      - [ ] MasterClass: The Art and Soul of the Guitar, Carlos Santana
+     - [X] MasterClass: Kelly Wearstler (Physical Notes)
 
 **** Videos [3/9]
        - [-] Learn every video on/by Walter Lewin [4/6]
@@ -586,6 +587,7 @@
          - [ ] [[https://www.cs.kent.ac.uk/ErlangMasterClasses/#class2][Class 2]]; Concurrent Programming, with Joe Armstrong
          - [ ] [[https://www.cs.kent.ac.uk/ErlangMasterClasses/#class3][Class 3]]: OTP Behaviours and Releases, with Francesco Cesarini
        - [X] [[https://www.youtube.com/watch?v=f5liqUk0ZTw][Tensors]]
+       - [X] [[https://www.youtube.com/watch?v=dBwNadry-TU][Neil deGrasse Tyson Explains the Tides]]
 *** Make
 **** Projects [1/1]
 ***** Software [0/0]

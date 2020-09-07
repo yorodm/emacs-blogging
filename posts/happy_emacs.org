@@ -2,9 +2,12 @@
 #+date: <2016-04-17>
 #+filetags: emacs pretest
 #+setupfile: ../org-templates/post.org
+#+options: toc:t
 
-I decided to use pretest version of Emacs instead of a stable release
-and so far it turned out to be a pleasant experience.
+** Testing the pretest version
+
+I decided to use the pretest version of Emacs instead of a stable release and so
+far it turned out to be a pleasant experience.
 
 #+CAPTION: Emacs pretest
 #+ATTR_HTML: :alt Emacs pretest :title Emacs pretest
@@ -89,32 +92,67 @@ release and needs to be fixed, make sure that it is reproducible
 before notifying /emacs-devel@gnu.org/. You can also ask for help on
 IRC at freenode, channel *#emacs*.
 
-** Update: (June 26, 2019)
+** Updates (June 26, 2019)
+   I use most recent version of GNU/Emacs available from the [[https://git.savannah.gnu.org/git/emacs.git][master]] branch. Below
+   are the steps:
+   #+BEGIN_SRC shell -n
+     git clone https://git.savannah.gnu.org/git/emacs.git  # use `--depth 1` if you don't want to pull entire history
+     make clean all
+     ./configure --host=x86_64-fedora-gnu --with-mailutils --prefix=$HOME/source/emacs/build --bindir=$HOME/bin
+     make -j 4
+     make install
+   #+END_SRC
 
-I use most recent version of GNU/Emacs available from the [[https://git.savannah.gnu.org/git/emacs.git][master]] branch. Below
-are the steps:
-#+BEGIN_SRC shell -n
-  git clone https://git.savannah.gnu.org/git/emacs.git  # use `--depth 1` if you don't want to pull entire history
-  make clean all
-  ./configure --host=x86_64-fedora-gnu --with-mailutils --prefix=$HOME/source/emacs/build --bindir=$HOME/bin
-  make -j 4
-  make install
-#+END_SRC
+   Below is the Desktop entry:
+   #+BEGIN_SRC shell -n
+     [Desktop Entry]
+     Name=Emacs-BleedingEdge
+     GenericName=Text Editor
+     Comment=Text editing
+     MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
+     Exec=/home/psachin/bin/emacs %f
+     Icon=emacs
+     Type=Application
+     Terminal=false
+     Categories=Utility;TextEditor;X-Red-Hat-Base;
+     StartupWMClass=Emacs
+     X-Desktop-File-Install-Version=0.22
+   #+END_SRC
 
-Below is the Desktop entry:
-#+BEGIN_SRC shell -n
-  [Desktop Entry]
-  Name=Emacs-BleedingEdge
-  GenericName=Text Editor
-  Comment=Text editing
-  MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
-  Exec=/home/psachin/bin/emacs %f
-  Icon=emacs
-  Type=Application
-  Terminal=false
-  Categories=Utility;TextEditor;X-Red-Hat-Base;
-  StartupWMClass=Emacs
-  X-Desktop-File-Install-Version=0.22
-#+END_SRC
+** Fedora 31 notes(Sep 07, 2020)
+   - Install required packages
+     #+BEGIN_SRC shell -n
+       dnf install autoconf
+       dnf install texinfo
+       dnf install libXpm-devel libjpeg-turbo-devel
+       dnf install libxml2-devel
+       dnf install giflib-devel gnutls-devel
+       dnf install ncurses-devel
+       dnf install gtk3-devel
+     #+END_SRC
+
+   - Clone repos
+     #+BEGIN_SRC shell -n
+       cd $HOME/source
+       git clone https://github.com/emacs-mirror/emacs.git --depth 2
+       cd emacs
+
+       # To display ERC channel name in the desktop notification(Optional)
+       git remote add psachin https://github.com/psachin/emacs.git
+       git fetch remote --depth 2
+       git checkout -b erc-show-channel-in-notification psachin/erc-show-channel-in-notification
+       git rebase master
+     #+END_SRC
+
+   - Compile
+     #+BEGIN_SRC shell -n
+       mkdir build
+       mkdir $HOME/bin
+
+       ./autogen.sh
+       ./configure --host=x86_64-fedora31-gnu --with-mailutils --prefix=$HOME/source/emacs/build --bindir=$HOME/bin --with-x-toolkit=yes
+       make -j 10
+       make install
+     #+END_SRC
 
 #+INCLUDE: "../disquss.inc"

@@ -36,9 +36,9 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
    wireless router flashed with custom [[https://openwrt.org/][OpenWRT(barrier-breaker)]]. This is my
    backup(and tiny) Linux system with minimal shell and =opkg= package manager.
 
-   For work, I use Lenovo Thinkpad +T440p+ [[../photography/thinkpad_t490s.org][T490s]] running [[https://getfedora.org/][Fedora]]. I work on [[https://www.redhat.com/en/technologies/management/insights][Red Hat
-   Insights]]. Watch this introductory [[https://www.youtube.com/watch?v=MfRnKe-xxLM][YouTube video]] to know more about Red Hat
-   Insights.
+   For work, I use Lenovo Thinkpad +T440p+ [[../photography/thinkpad_t490s.org][T490s]] running [[https://getfedora.org/][Fedora]]. I work on [[https://www.redhat.com/en/technologies/management/insights][Red
+   Hat Insights]]. Watch this introductory [[https://www.youtube.com/watch?v=MfRnKe-xxLM][YouTube video]] to know more about Red
+   Hat Insights.
 
 ** Tools I use
 
@@ -58,10 +58,12 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
    notes, blogs, and all the projects. =magit= is a savior. It helps me a lot to
    learn insights of Git.
 
-   I prefer [[https://www.emacswiki.org/emacs/GnusTutorial][Gnus]] over [[http://www.mutt.org/][mutt]] to manage mails.
+   I prefer [[https://www.emacswiki.org/emacs/GnusTutorial][Gnus]] over [[http://www.mutt.org/][mutt]] to manage E-mails. I use [[http://www.mplayerhq.hu/design7/info.html][Mplayer]] to play media files.
+   I plan to switch to {Open, NET}BSD when Linux goes out of the market but
+   still prefer to use GNU softwares.
+
 
 *** More..
-
     I find programming in =elisp= relaxing when I'm bored with Python and
     friends. Occasionally I do write helper functions and share it on
     [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of these helper functions can be found within
@@ -121,8 +123,3 @@ I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][You
     You won't find me on [[https://www.fsf.org/twitter][Twitter]], [[https://www.whatsapp.com/][Whatsapp]], [[https://www.fsf.org/facebook][Facebook]], & [[https://www.linkedin.com/][Linkedin]].
     #+ATTR_HTML: :class center no-border
     http://static.fsf.org/nosvn/no-facebook-me.png
-
-    #+ATTR_HTML: :style text-align:center
-    However, I am
-    #+ATTR_HTML: :class center rounded-border black-border
-    https://static.fsf.org/nosvn/images/badges/Spring19-fan-of-fsf.png

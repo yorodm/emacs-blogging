@@ -3,11 +3,13 @@
 #+filetags: vim cheatsheet
 #+setupfile: ../org-templates/post.org
 
-I moved to GNU Emacs but I maintain [[https://gitlab.com/psachin/latex/blob/master/vim_v2.pdf][VIM commands cheatsheet]]. I hope it is useful
-to VIM users
+I moved to GNU Emacs but I still maintain the VIM commands cheatsheet. I hope it
+is useful to VIM users
 
 #+ATTR_HTML: :width 100% :height
 [[file:images/posts/vim_cheatsheet/vim_cheatsheet.png]]
 
+#+HTML: <script src="https://gumroad.com/js/gumroad-embed.js"></script> <div class="gumroad-product-embed" data-gumroad-product-id="eQryc" data-outbound-embed="true"><a href="https://gumroad.com/l/eQryc">Loading...</a></div>
+#+HTML: <script src="https://gumroad.com/js/gumroad-embed.js"></script> <div class="gumroad-product-embed" data-gumroad-product-id="GEgXE" data-outbound-embed="true"><a href="https://gumroad.com/l/GEgXE">Loading...</a></div>
 
 #+INCLUDE: "../disquss.inc"

@@ -639,7 +639,7 @@
       - [[https://www.interlaken-gemeinde.ch/][Interlaken]] [0/1]
         - [ ] TODO: details
       - [X] [[https://www.luzern.com/en/highlights/sights/lion-monument/][Lion Monument, Lucern]]
-      - [X] [[https://www.engelberg.ch/en/][Titlis, Engelberg]]
+      - [X] [[https://www.engelberg.ch/en/][Titlis, Engelberg]].
       - [[https://www.bern.ch/][Bern]] [0/1]
         - [ ] TODO: details
     - ES [2/4]
@@ -656,6 +656,8 @@
       - [X] 221B, Baker street
       - [X] SS Great Britan
       - [X] Stonehenges
+    - DE [0/1]
+      - [ ] [[https://www.jagermeister.com/en/factory-tour/][Jagermeister Factory Tour.]]
 
 /Made using Love, LaTeX[fn:cheatsheet][fn:latex], Emacs[fn:emacs], Org mode[fn:orgmode], & MathJax[fn:mathjax]/
 

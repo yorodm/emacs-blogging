@@ -22,6 +22,8 @@
    - Hunger is the best flavoring.
    - How little is needed for Simple life.
    - We are what we do repeatedly.
+   - [[https://blog.doist.com/trust-remote-workplace/][The future of work is trust, not tracking]].
+   - /Tsundoku/ is the Japanese word for buying more books than you'll ever read.
 ** Videos
    - [[https://www.youtube.com/watch?v=iBa9EoEbb38][8 lessons on building a company people enjoy working for]]
      - Key points(for the Company & Managers):
@@ -104,3 +106,8 @@
          #+CAPTION: I/O
          #+ATTR_HTML: :width 100% :height
          [[../images/gureSagardoa/notes/input_output.png]]
+   - On Beer
+     - Read books by [[https://bamforth.faculty.ucdavis.edu/buy-the-book/][Professor Charles W. Bamforth]].
+     - Watch [[https://www.youtube.com/watch?v=P75SvA344QI][Every Style of Beer Explained | WIRED]].
+   - On Whisky
+     - Read about [[https://scotchwhisky.com/magazine/interviews/15832/richard-paterson-dalmore/][Richard Paterson]].

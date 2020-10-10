@@ -9,7 +9,7 @@ is useful to VIM users
 #+ATTR_HTML: :width 100% :height
 [[file:images/posts/vim_cheatsheet/vim_cheatsheet.png]]
 
-#+HTML: <script src="https://gumroad.com/js/gumroad-embed.js"></script> <div class="gumroad-product-embed" data-gumroad-product-id="eQryc" data-outbound-embed="true"><a href="https://gumroad.com/l/eQryc">Loading...</a></div>
 #+HTML: <script src="https://gumroad.com/js/gumroad-embed.js"></script> <div class="gumroad-product-embed" data-gumroad-product-id="GEgXE" data-outbound-embed="true"><a href="https://gumroad.com/l/GEgXE">Loading...</a></div>
+#+HTML: <script src="https://gumroad.com/js/gumroad-embed.js"></script> <div class="gumroad-product-embed" data-gumroad-product-id="eQryc" data-outbound-embed="true"><a href="https://gumroad.com/l/eQryc">Loading...</a></div>
 
 #+INCLUDE: "../disquss.inc"

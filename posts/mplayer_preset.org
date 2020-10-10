@@ -1,0 +1,49 @@
+#+title: Mplayer Equalizer
+#+date: <2020-10-04>
+#+filetags: mplayer equalizer bash
+#+draft: nil
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+I am a big fan of [[http://www.mplayerhq.hu/design7/info.html][Mplayer]] and that is the only media player I have on my
+system[fn:f31] and if you are like me who prefer to use it without GUI,
+customizing the Equalizer settings can be bit tedious from the command-line.
+Hence I have maintained the Bash script since past couple of years to make the
+experience better.
+
+** Install/Setup
+   - Download the Bash script:
+     #+BEGIN_SRC bash
+       curl https://gitlab.com/psachin/bash_scripts/-/raw/master/mplayer_eq.sh -o mplayer_eq.sh
+     #+END_SRC
+
+   - Source the Bash script in =~/.bashrc=:
+     #+BEGIN_SRC bash
+       source /path/to/mplayer_eq.sh
+     #+END_SRC
+
+** Usage
+   Open a new terminal window/tab and execute =mplayer-eq=:
+   #+BEGIN_SRC bash
+     mplayer-eq
+   #+END_SRC
+
+** Demo
+   Here's the screen-cast with *mplayer-eq* in action. Cheers!
+   #+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/ULCkepubt60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+** ChangeLog
+   - 17 Feb, 2020:
+     - Only update the equalizer settings in the config file.
+     - Use 'q' to quit.
+
+   - 16 May, 2018: Display equalizer setting names.
+
+   - 04 Dec, 2015: Converted mplayer-eq to Bash function.
+
+   - 22 Jan, 2015: Implementation(first commit).
+
+[fn:f31] [[./fedora_31_mplayer_issue.html][Fedora 31 Mplayer issue]]
+
+#+INCLUDE: "../disquss.inc"

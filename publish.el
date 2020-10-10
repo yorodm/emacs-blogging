@@ -195,7 +195,7 @@ publishing directory. Returns output file name."
          :exclude ,(regexp-opt '("README.org" "draft"))
          :index-filename "index.org"
          :recursive t
-         :publishing-function me/org-reveal-publish-to-html
+         :publishing-function org-html-publish-to-html
          :publishing-directory "./public/slides/")
         ("css"
          :base-directory "./css"

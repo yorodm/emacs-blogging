@@ -162,7 +162,9 @@ body #postamble {
   text-align: center;
   color: #aaa;
   padding: 15px 0;
-  border-top: 1px solid #e2e2e2;
+
+  /* Sep 30, 2020: This is replaced by footer-grass.svg */
+  /* border-top: 1px solid #e2e2e2; */
 }
 body #postamble a {
   color: #e9a390;

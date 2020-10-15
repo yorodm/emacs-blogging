@@ -1,0 +1,15 @@
+#+title: Art
+#+filetags: art
+
+#+ATTR_HTML: :style text-align:center
+All Images/Art work on *this page* are licensed under a [[https://creativecommons.org/licenses/by-sa/4.0/][CC BY-SA 4.0]].
+
+#+CAPTION: Flower Power (Sachin Patil, CC BY-SA 4.0)
+#+ATTR_HTML: :class center
+[[../images/gureSagardoa/art/flowers.svg]]
+
+#+CAPTION: Santa Maria del Fiore (Sachin Patil, CC BY-SA 4.0)
+#+ATTR_HTML: :class center spaced-border
+[[../images/gureSagardoa/art/duomo.svg]]
+
+#+INCLUDE: "../disquss.inc"

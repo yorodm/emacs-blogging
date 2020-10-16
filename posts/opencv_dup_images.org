@@ -9,16 +9,16 @@
 #+ATTR_HTML: :width 100% :height
 [[file:images/posts/opencv_dup_images/montage.png]]
 
-For couple of days I was looking for an application that could help detect
+For a couple of days I was looking for an application that could help detect
 duplicate photos which got accumulated as a result of backup from Mobile phone,
-Cameras and other devices. Chances of coping the same set of photos happens
+Cameras and other devices. Chances of coping the same set of photos happen
 especially after buying a large storage device and I want to backup all my
 photos from the old storage to the new storage device. I lazily don't care about
 which set of photos were already copied previously thus end up copying the same
 images again. Another situation is when I take the time series snaps and never
 get time to select the most significant photo(s). This is huge wastage of disk
-space. Coincidentally, I came across [[https://www.pyimagesearch.com/2020/04/20/detect-and-remove-duplicate-images-from-a-dataset-for-deep-learning/][this]] blog post by /Adrian Rosebrock/ which
-tackles this issue.
+space. Luckily, I came across [[https://www.pyimagesearch.com/2020/04/20/detect-and-remove-duplicate-images-from-a-dataset-for-deep-learning/][this]] blog post by /Adrian Rosebrock/ which tackles
+this issue.
 
 I did few enhancements to the original script to keep the image with the highest
 resolution, pass the /hashsize/ as an argument to have greater control over the

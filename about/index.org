@@ -16,8 +16,7 @@
 
 ** My work-space
 
-   #+ATTR_HTML: :class center no-border
-   [[file:../../images/about/computers-300px.png]]
+   #+HTML: <img class='center' src='/images/about/workspace.svg' alt='My real workspace' />
 
    For personal use, I have [[https://www.lenovo.com/gb/en/laptops/lenovo/g-series/g505s/][Lenovo G505s]] with AMD A8 Quad-core processor and 8
    Gigs of RAM running Slackware 14.1(I always prefer the [[https://gitlab.com/psachin/bash_scripts/blob/master/build_my_kernel.sh][latest kernel]]. I
@@ -63,14 +62,12 @@
    I plan to switch to {Open, NET}BSD when Linux goes out of the market but
    still prefer to use GNU softwares.
 
-
-*** More..
-    I find programming in =elisp= relaxing when I'm bored with Python and
-    friends. Occasionally I do write helper functions and share it on
-    [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of these helper functions can be found within
-    my [[https://gitlab.com/psachin/emacs.d][Emacs configuration]] now. I majored in Physics with specialization in
-    [[https://www.tifr.res.in/~dcmpms/][Condensed Matter Physics]]. In my free time I engage myself in studying
-    Physics, Mathematics, and [[../horology/][Horology]].
+   I find programming in =elisp= relaxing when I'm bored with Python and
+   friends. Occasionally I do write helper functions and share it on
+   [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of these helper functions can be found within
+   my [[https://gitlab.com/psachin/emacs.d][Emacs configuration]] now. I majored in Physics with specialization in
+   [[https://www.tifr.res.in/~dcmpms/][Condensed Matter Physics]]. In my free time I engage myself in studying
+   Physics, Mathematics, and [[../horology/][Horology]].
 
 ** Blogs
 
@@ -82,25 +79,25 @@
    markdown which I don't like much. I miss org-mode to post blogs.+ This
    website is [[https://gitlab.com/psachin/psachin.gitlab.io][entirely published]] using org-mode.
 
-*** Articles
-    - My posts published on [[https://opensource.com/users/psachin][opensource.com]]
-    - My posts published on other web portals:
-      * [[file:../assets/about/GNU_Linux_on_Aakash.pdf][GNU/Linux on Aakash]]: An article published in CSI
-        communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at [[http://iitb.ac.in/][Indian Institute of
-        Technology Bombay]].
-      * [[http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem][Configuring Huawei-EC152 modem]]: My very first article appeared on
-        [[https://www.linuxquestions.org/][linuxquestions.org]]. I just started using GNU/Linux that time and
-        USB-modeswitch was also quite new.
+** Articles
+   - My posts published on [[https://opensource.com/users/psachin][opensource.com]]
+   - My posts published on other web portals:
+     * [[file:../assets/about/GNU_Linux_on_Aakash.pdf][GNU/Linux on Aakash]]: An article published in CSI
+       communications(July 2013) on [[http://aakashlabs.org/gnu/][Aakash]] during my work at [[http://iitb.ac.in/][Indian Institute of
+       Technology Bombay]].
+     * [[http://www.linuxquestions.org/linux/answers/hardware/configuring_huaweiec152_modem][Configuring Huawei-EC152 modem]]: My very first article appeared on
+       [[https://www.linuxquestions.org/][linuxquestions.org]]. I just started using GNU/Linux that time and
+       USB-modeswitch was also quite new.
 
-** Talks/Presentations/Slides
+** Talks
 
-   All my presentation slides are pushed to [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]].
-   With few exceptions(hosted online):
+   All the presentations are pushed to [[https://gitlab.com/psachin/slides][https://gitlab.com/psachin/slides]]. With
+   few exceptions(hosted online):
 
-   - DevConf 2019: [[https://github.com/psachin/analysis-plugins][Contributing to the Insights Core Framework]].
+   - DevConf 2019: Contributing to the Insights Core Framework: [[https://devconfin19.sched.com/speaker/psachin][Schedule]] | [[https://github.com/psachin/analysis-plugins][Files]].
    - GNU Emacs for All:
-     - GHM 2019: [[https://gitlab.com/psachin/slides/blob/master/ghm_2019/index.org][Org file]] | [[https://psachin.gitlab.io/assets/slides/GNU_Emacs_for_all_GHM_2019.pdf][PDF]] | [[https://gitlab.com/psachin/slides/blob/master/ghm_2019/latex_beamer.pdf][LaTeX Beamer]]
-     - Freenode#live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][Video]] | [[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[https://psachin.gitlab.io/assets/slides/GNU_Emacs_for_all.pdf][PDF]]
+     - GHM 2019: [[https://gitlab.com/psachin/slides/blob/master/ghm_2019/index.org][Org file]] | [[https://psachin.gitlab.io/assets/slides/GNU_Emacs_for_all_GHM_2019.pdf][PDF]] | [[https://gitlab.com/psachin/slides/blob/master/ghm_2019/latex_beamer.pdf][LaTeX Beamer]].
+     - Freenode#live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][Video]] | [[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[https://psachin.gitlab.io/assets/slides/GNU_Emacs_for_all.pdf][PDF]].
    - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]].
    - [[http://psachin.github.io/.emacs.d/][GNU Hackers Meeting-2016]]: Manage GNU Emacs configuration using [[http://orgmode.org/worg/org-contrib/babel/intro.html][literate
      programming]].
@@ -119,8 +116,9 @@
    - *IRC*: psachin@{RedHat, freenode, OFTC, GIMPNet}
    - *Email*: [[mailto:iclcoolster@gmail.com][Personal]], [[mailto:psachin@redhat.com][Work]]
 
-*** Social
-    #+ATTR_HTML: :style text-align:center
-    You won't find me on [[https://www.fsf.org/twitter][Twitter]], [[https://www.whatsapp.com/][Whatsapp]], [[https://www.fsf.org/facebook][Facebook]], & [[https://www.linkedin.com/][Linkedin]].
-    #+ATTR_HTML: :class center no-border
-    http://static.fsf.org/nosvn/no-facebook-me.png
+** Social
+   #+ATTR_HTML: :style text-align:center
+   You won't find me on [[https://www.fsf.org/twitter][Twitter]], [[https://www.whatsapp.com/][Whatsapp]], [[https://www.fsf.org/facebook][Facebook]], & [[https://www.linkedin.com/][Linkedin]].
+   #+ATTR_HTML: :class center no-border
+   #+ATTR_HTML: :width 40%
+   http://static.fsf.org/nosvn/no-facebook-me.png

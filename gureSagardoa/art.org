@@ -4,12 +4,17 @@
 #+ATTR_HTML: :style text-align:center
 All Images/Art work on *this page* are licensed under a [[https://creativecommons.org/licenses/by-sa/4.0/][CC BY-SA 4.0]].
 
-#+CAPTION: Flower Power (Sachin Patil, CC BY-SA 4.0)
-#+ATTR_HTML: :class center
-[[../images/gureSagardoa/art/flowers.svg]]
+#+HTML: <img class='center' src='/images/gureSagardoa/art/flowers.svg' alt='Flower Power'/>
+#+ATTR_HTML: :style text-align:center
+Flower Power (Sachin Patil, CC BY-SA 4.0)
 
-#+CAPTION: Santa Maria del Fiore (Sachin Patil, CC BY-SA 4.0)
-#+ATTR_HTML: :class center spaced-border
-[[../images/gureSagardoa/art/duomo.svg]]
+#+CAPTION: Sketch - Dante Alighieri (Sachin Patil, CC BY-SA 4.0)
+#+ATTR_HTML: :class center rounded-border black-border
+#+ATTR_HTML: :width 100% :height
+[[../images/photography/dante_sketch.png]]
+
+#+HTML: <img class='center' src='/images/gureSagardoa/art/duomo.svg' alt='Duomo'/>
+#+ATTR_HTML: :style text-align:center
+Santa Maria del Fiore (Sachin Patil, CC BY-SA 4.0)
 
 #+INCLUDE: "../disquss.inc"

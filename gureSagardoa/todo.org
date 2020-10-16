@@ -5,9 +5,9 @@
 *** Physics/Mathematics [2/10]
 **** DONE Seven Wonders of the Cosmos, Jayant V. Narlikar (Physical notes)
 **** DONE Introduction to Electrodynamics, David J. Griffiths
-**** IN-PROGRESS A Brief History of Time, Stephen Hawking  :page:41:
-**** IN-PROGRESS The Feynman Lectures on Physics: Vol 1
-**** IN-PROGRESS QED: The Strange Theory of Light & Matter, Feynman :page:40:
+**** INPROGRESS A Brief History of Time, Stephen Hawking            :page:41:
+**** INPROGRESS The Feynman Lectures on Physics: Vol 1
+**** INPROGRESS QED: The Strange Theory of Light & Matter, Feynman  :page:40:
 **** TODO The Feynman Lectures on Physics: Vol 2
 **** TODO The Feynman Lectures on Physics: Vol 3
 **** TODO Quantum, Manjit Kumar
@@ -23,18 +23,18 @@
 **** DONE Writing GNU Emacs Extensions, Bob Glickstein
 **** DONE The Linux Kernel Module Programming Guide, Peter Jay Salzman
 **** DONE An Introduction to Programming in Emacs Lisp, 3rd Ed., Robert J. Chassell
-**** IN-PROGRESS The Linux Programming Interface, Michael KerrisK
-**** IN-PROGRESS Serious Python, Julien Danjou
-**** IN-PROGRESS Successful Lisp, David B. Lamkins  :page:88:
+**** INPROGRESS The Linux Programming Interface, Michael KerrisK
+**** INPROGRESS Serious Python, Julien Danjou
+**** INPROGRESS Successful Lisp, David B. Lamkins                   :page:88:
 **** TODO Cryptography & Network Security, William Stallings
 **** TODO Coders at Work: Reflections on the Craft of Programming, Peter Seibel
 **** TODO LISP in Small Pieces, Christian Queinnec
 **** TODO [[http://www.gigamonkeys.com/book/][Practical Common Lisp]], Peter Seibel
 **** TODO ANSI Common LISP, Paul Graham
 **** TODO [[https://bigmachine.io/products/the-imposters-handbook/][The Imposter's Handbooks]], Rob Conery
-*** Electronics [1/1]
+*** Electronics [1/2]
 **** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
-*** Fiction [27/45]
+*** Fiction [27/49]
 **** DONE The Kite Runner, Khaled Hosseini
 **** DONE A Thousand Splendid Suns, Khaled Hosseini
 **** DONE The Monk Who Sold His Ferrari, Robin Sharma
@@ -62,10 +62,10 @@
 **** DONE The Railway Children, Edith Nesbit
 **** DONE Origin, Dan Brown
 **** DONE The Prophet, Kahlil Gibran
-**** IN-PROGRESS GoldFish Have No Hiding Place, James Hadley Chase
-**** IN-PROGRESS The Devil's Alternative, Frederick Forsyth
-**** IN-PROGRESS To Kill A Mocking Bird, Harper Lee
-**** IN-PROGRESS Celestial Bodies, Jokha Alharthi
+**** INPROGRESS GoldFish Have No Hiding Place, James Hadley Chase
+**** INPROGRESS The Devil's Alternative, Frederick Forsyth
+**** INPROGRESS To Kill A Mocking Bird, Harper Lee
+**** INPROGRESS Celestial Bodies, Jokha Alharthi
 **** TODO Devils, Fyodor Dostoevsky
 **** TODO A Christmas Carol, Charles Dickens
 **** TODO Martin Chuzzlewit, Charles Dickens
@@ -84,7 +84,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [24/40]
+*** Non Fiction [25/44]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -109,9 +109,10 @@
 **** DONE Meditations, Marcus Aurelius
 **** DONE [[../photography/structures_je_gordon.org][Structures, J. E. Gordan]]
 **** DONE The Surrender Experiment, Michael A. Singer
-**** IN-PROGRESS A Practical course in Horology, Harold C. Kelly    :page:17:
-**** IN-PROGRESS Guns, Germs, & Steel, Jared Diamond
-**** IN-PROGRESS Longitute, Dava Sobel
+**** DONE The Unthethered Soul, Michael A. Singer
+**** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
+**** INPROGRESS Guns, Germs, & Steel, Jared Diamond
+**** INPROGRESS Longitute, Dava Sobel
 **** TODO Discourses and Selected Writings, Epictetus
 **** TODO Letters from a Stoic, Seneca
 **** TODO Mein Kampf, Adolf Hitler
@@ -126,10 +127,9 @@
 **** TODO Introducing Psychology, Nigel C. Benson
 **** TODO Brighter Than a Thousand Suns, Robert Jungk
 **** TODO Towards A New Architecture, Le Corbusier
-**** TODO The Unthethered Soul, Michael A. Singer
 **** TODO The Republic, Plato
 **** TODO Autobiography of a Yogi, Paramhansa Yogananda
-*** Publications [4/12]
+*** Publications [4/13]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
 **** DONE [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat ([[../lisp-java-notes.html][notes]])
@@ -142,10 +142,9 @@
 **** TODO [[https://www.nobelprize.org/uploads/2018/06/heisenberg-lecture.pdf][The development of Quantum Mechanics(Noble Lecture)]], W. Heisenberg
 **** TODO [[http://lantb.net/uebersicht/wp-pdf/eiffelTower.pdf][The Eiffel Tower, Roland Barthes]]
 **** TODO [[http://doc.cat-v.org/feynman/simulating-physics/simulating-physics-with-computers.pdf][Simulating Physics with Computers]], Richard P. Feynman
-**** [[https://www.hs.ias.edu/lavin][Irving Lavin]] [0/1]
-	 - [ ] [[https://albert.ias.edu/handle/20.500.12111/6675][Michelangelo's Saint Peter's Pieta]]
-** Videos [1/2]
-*** YouTube
+**** TODO Irving Lavin: [[https://albert.ias.edu/handle/20.500.12111/6675][Michelangelo's Saint Peter's Pieta]]
+** Videos
+*** YouTube [1/3]
    - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
    - [X] [[https://www.youtube.com/watch?v=lKXe3HUG2l4]["The Mess we're In" by Joe Armstrong.]]
    - [ ] [[https://www.youtube.com/watch?v=TZLvEp_xjnY][LIGO and Gravitational Waves III, Kip S. Thorne (Noble Lecture, 2017)]]

@@ -34,7 +34,7 @@
 **** TODO [[https://bigmachine.io/products/the-imposters-handbook/][The Imposter's Handbooks]], Rob Conery
 *** Electronics [1/2]
 **** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
-*** Fiction [27/49]
+*** Fiction [28/50]
 **** DONE The Kite Runner, Khaled Hosseini
 **** DONE A Thousand Splendid Suns, Khaled Hosseini
 **** DONE The Monk Who Sold His Ferrari, Robin Sharma
@@ -51,6 +51,7 @@
 **** DONE The 3 Mistakes of My Life, Chetan Bhagat
 **** DONE Five Point Someone, Chetan Bhagat
 **** DONE 2 States, Chetan Bhagat
+**** DONE One Night @ the Call Center, Chetan Bhagat
 **** DONE Being Happy, Andrew Matthews
 **** DONE Almost Single, Advaita Kala
 **** DONE Nancy Drew: Mystery On Maui, Carolyn Keene
@@ -59,8 +60,8 @@
 **** DONE Deception Point, Dan Brown
 **** DONE Angels & Demons, Dan Brown
 **** DONE Digital Fortress, Dan Brown
-**** DONE The Railway Children, Edith Nesbit
 **** DONE Origin, Dan Brown
+**** DONE The Railway Children, Edith Nesbit
 **** DONE The Prophet, Kahlil Gibran
 **** INPROGRESS GoldFish Have No Hiding Place, James Hadley Chase
 **** INPROGRESS The Devil's Alternative, Frederick Forsyth

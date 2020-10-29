@@ -7,12 +7,11 @@
    #+ATTR_HTML: :style text-align:center
    /Free Software Developer, FOSS enthusiast, & GNU Emacs Hacker./
 
-   I work on GNU/Linux and Free & Open Source Software for living. I prefer not
-   to use [[https://www.gnu.org/proprietary/][Proprietary Software]] in-person or at work. Since couple of years I
-   switched completely to [[https://duckduckgo.com/][DuckDuckGo]] as my default Search Engine. I switch
-   between [[https://www.torproject.org/][Tor]] & [[https://www.privateinternetaccess.com/][VPN service]] when
-   online. If you are passionate about GNU and Free Software like me, I
-   encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako Hill.
+   I work on GNU/Linux and Free & Open Source Software for a living. I prefer
+   not to use [[https://www.gnu.org/proprietary/][Proprietary Software]] in-person or at work. I have now switched
+   completely to [[https://duckduckgo.com/][DuckDuckGo]] as my default Search Engine. I switch between [[https://www.torproject.org/][Tor]] &
+   [[https://www.privateinternetaccess.com/][VPN service]] when online. If you are passionate about GNU and Free Software
+   like me, I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako Hill.
 
 ** My work-space
 
@@ -26,9 +25,9 @@
    an independently developed [[https://www.archlinux.org/][Arch Linux]]. I've [[http://awesomewm.org][Awesome window manager]] on it. I
    use it as a hotspot using [[https://github.com/psachin/hotspotd][hotspotd]]. +I also have an old desktop with AMD
    Athlon with 2 Gigs of RAM running+ +Slackware again!. The system's storage is
-   shared via NFS across my home network, basically this is my NFS server.+
+   shared via NFS across my home network, basically, this is my NFS server.+
 
-   +Apart from this I had a very old Intel Pentium II Machine with 350MHz+
+   +Apart from this, I had a very old Intel Pentium II Machine with a 350MHz+
    +processor and 64MB of RAM running Vector Linux. I wonder how this machine
    [[./../photography/vector.html][still runs?]]+
 
@@ -45,14 +44,14 @@
    #+ATTR_HTML: :class center no-border
    [[file:../../images/about/tools-server-small.png]]
 
-   [[https://www.gnu.org/software/emacs/][GNU Emacs]] and a terminal are the essential tools I need. However I manage
+   [[https://www.gnu.org/software/emacs/][GNU Emacs]] and a terminal are the essential tools I need. However, I manage
    most of the shell tasks from Emacs.
 
    I prefer to use the latest Emacs version. My Emacs is heavily [[https://gitlab.com/psachin/emacs.d][configured]] for
-   all my needs from programming(Python, Django, C, elisp, Ruby, shell etc.),
-   blogs & note taking[[https://orgmode.org/][(org-mode)]], agenda, eshell, tramp, [[https://opensource.com/article/19/1/how-use-magit][magit]] etc. Recently I
-   fell in love with =M-x emacs-timemachine=. Terminal is occasionally needed to
-   keep some front-end jobs running.
+   all my needs from programming(Python, Django, C, elisp, Ruby, shell, etc.),
+   blogs & note-taking[[https://orgmode.org/][(org-mode)]], agenda, eshell, tramp, [[https://opensource.com/article/19/1/how-use-magit][magit]], etc. Recently I
+   fell in love with =M-x emacs-timemachine=. The Terminal program is
+   occasionally needed to keep some front-end jobs running.
 
    [[http://git-scm.com][Git]] is something I can't live without. I use Git to keep track of my personal
    notes, blogs, and all the projects. =magit= is a savior. It helps me a lot to
@@ -60,19 +59,18 @@
 
    I prefer [[https://www.emacswiki.org/emacs/GnusTutorial][Gnus]] over [[http://www.mutt.org/][mutt]] to manage E-mails. I use [[http://www.mplayerhq.hu/design7/info.html][Mplayer]] to play media files.
    I plan to switch to {Open, NET}BSD when Linux goes out of the market but
-   still prefer to use GNU softwares.
+   still prefer to use GNU software.
 
    I find programming in =elisp= relaxing when I'm bored with Python and
    friends. Occasionally I do write helper functions and share it on
    [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of these helper functions can be found within
-   my [[https://gitlab.com/psachin/emacs.d][Emacs configuration]] now. I majored in Physics with specialization in
-   [[https://www.tifr.res.in/~dcmpms/][Condensed Matter Physics]]. In my free time I engage myself in studying
+   my [[https://gitlab.com/psachin/emacs.d][Emacs configuration]] now. I majored in Physics with a specialization in
+   [[https://www.tifr.res.in/~dcmpms/][Condensed Matter Physics]]. In my free time, I engage myself in studying
    Physics, Mathematics, and [[../horology/][Horology]].
 
 ** Blogs
 
-   #+ATTR_HTML: :class center no-border
-   [[file:../../images/about/Anonymous-pen-pencil-small.png]]
+   #+HTML: <img class='center' src='/images/about/pencil.svg' alt=Pencil' />
 
    For raw/old posts please visit [[https://gitlab.com/psachin/blog-posts][blog-posts]]. Most of them are written in
    [[http://orgmode.org/][org-mode]]. +I now use [[https://jekyllrb.com/][Jekyll]] to publish my blogs(Source [[https://github.com/psachin/psachin.github.io][here]]).+ +Jekyll uses

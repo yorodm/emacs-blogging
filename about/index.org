@@ -11,7 +11,11 @@
    not to use [[https://www.gnu.org/proprietary/][Proprietary Software]] in-person or at work. I have now switched
    completely to [[https://duckduckgo.com/][DuckDuckGo]] as my default Search Engine. I switch between [[https://www.torproject.org/][Tor]] &
    [[https://www.privateinternetaccess.com/][VPN service]] when online. If you are passionate about GNU and Free Software
-   like me, I encourage you to watch this [[https://www.youtube.com/watch?v=Er1pM9suxvE][YouTube video]] by Benjamin Mako Hill.
+   like me, I encourage you to watch the following YouTube video by Benjamin
+   Mako Hill.
+
+   #+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/Er1pM9suxvE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+   *When Free Software Isn't Better - Benjamin Mako Hill*
 
 ** My work-space
 
@@ -97,10 +101,13 @@
      - GHM 2019: [[https://gitlab.com/psachin/slides/blob/master/ghm_2019/index.org][Org file]] | [[https://psachin.gitlab.io/assets/slides/GNU_Emacs_for_all_GHM_2019.pdf][PDF]] | [[https://gitlab.com/psachin/slides/blob/master/ghm_2019/latex_beamer.pdf][LaTeX Beamer]].
      - Freenode#live 2018: [[https://www.youtube.com/watch?v=FOZ2KZpl4OM][Video]] | [[https://gitlab.com/psachin/psachin.gitlab.io/blob/master/slides/gnu_emacs_for_all/index.org][Org file]] | [[https://psachin.gitlab.io/assets/slides/GNU_Emacs_for_all.pdf][PDF]].
    - Red Hat forum: [[http://redhat.slides.com/psachin/rh-forum-2016][2016]], [[https://github.com/psachin/slides/blob/master/RH-forum/RedHatCloudForms-2017-Sachin.pdf][2017]].
-   - [[http://psachin.github.io/.emacs.d/][GNU Hackers Meeting-2016]]: Manage GNU Emacs configuration using [[http://orgmode.org/worg/org-contrib/babel/intro.html][literate
-     programming]].
+   - [[http://psachin.github.io/.emacs.d/][GNU Hackers Meeting-2016]]: Manage GNU Emacs configuration using [[http://orgmode.org/worg/org-contrib/babel/intro.html][literate programming]].
    - [[http://redhat.slides.com/psachin/rhosp-swift-2016][OpenStack Swift Object Storage]]: Session covered Swift object storage
-     architecture and [[https://www.youtube.com/watch?v=ru2iMJvUZjI][demonstrated Object versioning in Swift]].
+     architecture.
+
+     #+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/ru2iMJvUZjI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+     *Object versioning in Swift Object Storage*
+
    - [[http://psachin.github.io/py-starwars/][py-starwars]]: Introductory talk on Python programming language.
 
 ** Curriculum Vitae

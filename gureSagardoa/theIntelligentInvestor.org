@@ -1,0 +1,66 @@
+#+title: The Intelligent Investor, Benjamin Graham
+#+filetags: book, review, progress
+* Liked quotes
+  - /The valus of any investment is, and always must be, a function of price
+    you pay for it./ - Page 83.
+  - /The hotter they are, the harder they fall./ - Page 116.
+  - /A defensive Investor runs and wins by sitting still./ - Page 129.
+  - /The more you trade, the less you keep./ - Page 149.
+* Personal page Index
+  - Page 13: The Intelligent Investor, def.
+  - Page 41: Formula to Fiasco.
+  - Page 45: Graham's Advice.
+  - Page 38: Video Game.
+  - Page 21: Unintelligent Speculation.
+  - Page 18: Investment Operations.
+  - Page 46: A Sensible Gambler.
+  - Page 13: Newton.
+  - Page 32: Selling Short.
+  - Page 196: S&P 500 Index.
+  - Page 198: Networth, def.
+  - Page 203: Graham's experience in 113 words.
+  - Page 219: Investing, def.
+  - Page 225: Investment owners contract.
+  - Page 518: Theory of Diversification.
+  - Page 523: 4 Principles of Business.
+  - Page 526: Lakshmi.
+  - Page 268: Investment Banker.
+  - Page 273/274: When to get professional help.
+  - Page 87: A good advice.
+  - Page 104: Portfolio Management Strategy.
+  - Page 102: Investing and your age.
+  - Page 114: Rules for the common stock.
+  - Page 115/158: Growth Stock, def.
+  - Page 118: Dollar Cost Averaging (/formular investing/).
+  - Page 127: Home bias.
+  - Page 136: Discount and Premium Bonds, def.
+  - Page 148: Market Impact, def.
+  - Page 152: on IPO and VA Linux.
+
+* Progress
+** DONE 1. Investment versus Speculation
+   - [X] Commentary
+** 2. The Investor and Inflation                                  :inflation:
+   - [ ] Commentary
+** DONE 3. A Century of Stock-Market History                      :inflation:
+   - [X] Commentary
+** DONE 4. General Portfolio Policy :investing-policies:
+   - [X] Commentary
+** DONE 5. The Defensive Investor and Commmon Stocks     :investing_policies:
+   - [X] Commentary
+** DONE 6. Portfolio Policy for the Enterprising Investor - Negative Approach :investing_policies:
+   - [X] Commentary
+** 7. Portfolio Policy for the Enterprising Investor - Positive Approach :investing_policies:
+   - [ ] Commentary
+** DONE 8. The Investor and Market Fluctuations            :advice:must_read:
+   - [X] Commentary
+** 9. Investing in Investing Funds
+   - [ ] Commentary
+** DONE 10. The Investor and His Advisers                         :must_read:
+   - [X] Commentary
+** 14. Stock Selection for the Defensive Investor :selection_of_common_stocks:avoid_loss:
+   - [ ] Commentary
+** 15. Stock Selection for the Enterprising Investor :selection_of_common_stocks:avoid_loss:
+   - [ ] Commentary
+** DONE 20. "Margin of Safety" as the Central Concept of Investment :must_read:advice:avoid_loss:
+   - [X] Commentary

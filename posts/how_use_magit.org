@@ -4,3 +4,6 @@
 #+setupfile: ../org-templates/post.org
 
 My post titled [[https://opensource.com/article/19/1/how-use-magit][How to use Magit to manage Git projects]] published on [[https://opensource.com/][opensource.com]]
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/Vvw75Pqp7Mc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*Using the Magit Interface*

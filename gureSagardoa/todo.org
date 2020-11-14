@@ -34,7 +34,7 @@
 **** TODO [[https://bigmachine.io/products/the-imposters-handbook/][The Imposter's Handbooks]], Rob Conery
 *** Electronics [1/2]
 **** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
-*** Fiction [28/50]
+*** Fiction [29/51]
 **** DONE The Kite Runner, Khaled Hosseini
 **** DONE A Thousand Splendid Suns, Khaled Hosseini
 **** DONE The Monk Who Sold His Ferrari, Robin Sharma
@@ -63,6 +63,7 @@
 **** DONE Origin, Dan Brown
 **** DONE The Railway Children, Edith Nesbit
 **** DONE The Prophet, Kahlil Gibran
+**** DONE Jonathan Livingston Seagull, Richard Bach
 **** INPROGRESS GoldFish Have No Hiding Place, James Hadley Chase
 **** INPROGRESS The Devil's Alternative, Frederick Forsyth
 **** INPROGRESS To Kill A Mocking Bird, Harper Lee
@@ -85,7 +86,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [25/44]
+*** Non Fiction [26/46]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -111,9 +112,11 @@
 **** DONE [[../photography/structures_je_gordon.org][Structures, J. E. Gordan]]
 **** DONE The Surrender Experiment, Michael A. Singer
 **** DONE The Unthethered Soul, Michael A. Singer
+**** DONE As a Man Thinketh, James Allen
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
 **** INPROGRESS Longitute, Dava Sobel
+**** INPROGRESS [[./theIntelligentInvestor.org][The Intelligent Investor, Benjamin Graham]]
 **** TODO Discourses and Selected Writings, Epictetus
 **** TODO Letters from a Stoic, Seneca
 **** TODO Mein Kampf, Adolf Hitler

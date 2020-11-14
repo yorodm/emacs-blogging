@@ -10,7 +10,10 @@
 #+ATTR_HTML: :class center rounded-border
 https://image.jimcdn.com/app/cms/image/transf/dimension=192x10000:format=jpg/path/sd74e624fefc3f2f8/image/i8bea046c014939b7/version/1415351038/image.jpg
 
-[[https://www.youtube.com/watch?v=ZTiPNqeMS8E][This documentary]] by [[https://www3.nhk.or.jp/nhkworld/][NHK World, Japan]] features [[https://www.masahirokikuno.jp/][Masahiro Kikuno]], an independent
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/ZTiPNqeMS8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*Watchmaker Masahiro Kikuno Japan*
+
+This documentary by [[https://www3.nhk.or.jp/nhkworld/][NHK World, Japan]] features [[https://www.masahirokikuno.jp/][Masahiro Kikuno]], an independent
 watchmaker from Japan. Masahiro is on a six months project to make a watch
 inspired by Myriad year clock[fn:myriad] using the traditional Japanese
 technology(without relying on modern day watchmaking technologies)

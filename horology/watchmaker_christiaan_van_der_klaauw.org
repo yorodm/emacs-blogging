@@ -25,8 +25,11 @@ every night and the /Real Moon Joure(2012)/ which has a moon face in 3D unlike
 other designs where the moon is represented on a plane. It represents the phases
 of the moon with the accuracy of a 1 day in 11000 years.
 
-- Master of Time: https://www.youtube.com/watch?v=lHg4zsHl6pw
-- BaselWorld: https://www.youtube.com/watch?v=ts-dMrNkxzY
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/lHg4zsHl6pw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*Masters of Time Independent Watchmaker Christiaan van der Klaauw Beat Haldimann*
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/ts-dMrNkxzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*Christiaan van der Klaauw at Baselworld 2017*
 
 [fn:eise_eisinga] Established in 1781, the Planetarium keeps track of planetary
 movements to this day.

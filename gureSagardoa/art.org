@@ -9,12 +9,17 @@ All Images/Art work on *this page* are licensed under a [[https://creativecommon
 Flower Power (Sachin Patil, CC BY-SA 4.0)
 
 #+CAPTION: Sketch - Dante Alighieri (Sachin Patil, CC BY-SA 4.0)
-#+ATTR_HTML: :class center rounded-border black-border
+#+ATTR_HTML: :class center rounded-border no-border
 #+ATTR_HTML: :width 100% :height
 [[../images/photography/dante_sketch.png]]
 
 #+HTML: <img class='center' src='/images/gureSagardoa/art/duomo.svg' alt='Duomo'/>
 #+ATTR_HTML: :style text-align:center
 Santa Maria del Fiore (Sachin Patil, CC BY-SA 4.0)
+
+#+CAPTION: Sketch - Wooden Car. Created using GIMP (Sachin Patil, CC BY-SA 4.0)
+#+ATTR_HTML: :class center no-border
+#+ATTR_HTML: :width 100% :height
+[[../images/gureSagardoa/art/wood_car.png]]
 
 #+INCLUDE: "../disquss.inc"

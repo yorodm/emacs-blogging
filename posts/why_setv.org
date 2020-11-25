@@ -11,8 +11,8 @@ I got a [[https://opensource.com/comment/190861#comment-190861][comment]] on my 
 studied the script, =setv= is actually a wrapper around Python's =venv= module
 and =virtualenv= (in case of Python2). It uses =venv= or =virtualenv= depending
 upon the Python version to create the Python virtual environment. At the time of
-developing this script/project my goal was not only to create the Python virtual
-environment but how to manage existing Python virtual environments more
+developing this script/project, my goal was not only to create the Python
+virtual environment but how to manage existing Python virtual environments more
 efficiently. I'll share some benefits of =setv= below:
 
 1. *Where is my virtual environment?*
@@ -21,12 +21,12 @@ efficiently. I'll share some benefits of =setv= below:
    environment. They all love the idea of isolating the packages per project but
    they often forget to activate the virtual environment the very next time.
    Mostly they don't remember where the virtual environment is saved. This
-   create confusion. The preferred way is to save the environment within the
-   project itself so that you don't have spend time searching the right
+   creates confusion. The preferred way is to save the environment within the
+   project itself so that you don't have to spend time searching for the right
    environment. This is great but it ends up creating directories like =bin/=,
-   =include/=, =lib/= and =share/=. I'm not saying this is bad. Of course with
-   experience these directories will not have much concerns, but this can be
-   more confusing for the first timer. I've see many guys unknowingly adding
+   =include/=, =lib/=, and =share/=. I'm not saying this is bad. Of course with
+   experience, these directories will not have such concerns, but this can be
+   more confusing for the first-timer. I've seen many guys unknowingly adding
    these directories to the =git= repositories.
 
    Before =setv=, I used to keep all my virtual environments separately in
@@ -43,12 +43,12 @@ efficiently. I'll share some benefits of =setv= below:
    virtual environment. =setv= will list all the virtual environment names using
    TAB completion. No matter in which directory I'm currently in my system, I
    can always use =setv= to activate the desired virtual environment. See the
-   [[https://asciinema.org/a/234059][screen-cast]] for demo. This saves a lot of time.
+   [[https://asciinema.org/a/234059][screen-cast]] for the demo. This saves a lot of time.
 
 2. *Switching between the virtual environments.*
 
    This brings us to another advantage of using =setv=. We often want to switch
-   between the Python projects. Naturally we also have to switch the virtual
+   between Python projects. Naturally, we also have to switch the virtual
    environment. =setv= makes this really simple as all the virtual environments
    are always available to =setv=. Try TAB completing the environment name by
    initially typing a few letters(or just one letter) of your virtual
@@ -70,7 +70,7 @@ efficiently. I'll share some benefits of =setv= below:
 
 4. *Re-using the virtual environment.*
 
-   I personally use this a lot. I Often create a temporary virtual environment
+   I personally use this a lot. I often create a temporary virtual environment
    to try out a new project hosted on GitHub/GitLab and find it useful to re-use
    to the environment by installing more modules for a new project. This saves
    time and avoids data being downloaded twice.

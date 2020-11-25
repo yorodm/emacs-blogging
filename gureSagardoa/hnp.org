@@ -1,0 +1,28 @@
+#+title: Hackers & Painters, Paul Graham
+#+filetags: book, review
+* Liked quotes (list is incomplete.)
+  - /Programs should be written for people to read, and only incidentally for machines to execute./ - Page 31.
+  - /You should only need comments when there is some kind of kludge you need to warn readers about, just as on a road there are only arrows on parts with unexpectedly sharp curves./ - Page 224.
+  - /Use your Software yourself all the time./ - Page 85
+* Personal page Index
+  - Page 101: Small & Big Companies.
+  - Page 106: Software versioning.
+  - Page 108: Engineers & Entrepreneurs.
+  - Page 151: Static versus Dynamic.
+  - Page 217: Good and Bad design.
+  - Page 221: Programmers & Painters.
+  - Page 160: Essay -> Essayer(French.) -> "To try".
+  - Page 168: Future language design considerations.
+  - Page 170: Choosing a technology.
+  - Page 175: Choosing the programming language.
+  - Page 208: Language designer mindset.
+  - Page 9: John Nash.
+  - Page 20: Creating beautiful things.
+  - Page 23: Hackers, Companies & Product Managers.
+  - Page 43: Great work & Ideas.
+  - Page 48: Math & Open-mindness.
+  - Page 116: Expensive versus Ordinary.
+  - Page 67: Support & Engineering.
+  - Page 84: Hackers & Business(Startup).
+  - Chapter 12: Beating the Averages - Mostly about Lisp.
+  - Chapter 13: Revenge of the Nerds - again more Lisp.

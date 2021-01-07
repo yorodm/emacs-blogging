@@ -87,7 +87,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [27/47]
+*** Non Fiction [28/48]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -115,6 +115,7 @@
 **** DONE The Unthethered Soul, Michael A. Singer
 **** DONE As a Man Thinketh, James Allen
 **** DONE [[./hnp.org][Hackers & Painters, Paul Graham]]
+**** DONE [[./21_lessons.org][21 Lessons for the 21st Century, Yuval Noah Harari]]
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
 **** INPROGRESS Longitute, Dava Sobel

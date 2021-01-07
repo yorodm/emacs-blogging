@@ -1,0 +1,38 @@
+#+title: [Notes] error in process filter: eww-display-html
+#+date: <2021-01-07>
+#+filetags: emacs eww libxml2
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{[Notes] error in process filter: eww-display-html}
+
+I got the following error when invoking EWW from Emacs.
+
+** Error
+   #+BEGIN_SRC bash
+     Contacting host: duckduckgo.com:443
+     error in process filter: eww-display-html: This function requires Emacs to be compiled with libxml2
+     error in process filter: This function requires Emacs to be compiled with libxml2
+   #+END_SRC
+
+** Resolution
+   Install =libxml2-devel= package.
+   #+BEGIN_SRC bash
+     # (On Fedora)
+     sudo dnf install libxml2-devel -y
+   #+END_SRC
+
+   Configure: Ensure that below line appears in the output.
+   #+BEGIN_SRC bash
+     ./configure
+     ....
+     ....
+     Does Emacs use -lxml2     yes
+     ....
+   #+END_SRC
+
+   Install.
+   #+BEGIN_SRC bash
+     make & make install
+   #+END_SRC
+
+#+INCLUDE: "../disquss.inc"

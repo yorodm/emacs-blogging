@@ -1,0 +1,13 @@
+#+title: Weapons of Math Destruction, Cathy O'Neil
+#+filetags: book, review
+
+* Personal page Index
+  - Page 36: Hedge funds (Example).
+  - Page 39: Bank, Mortgage & Interest.
+  - Page 72: Vulnerability is worth Gold.
+  - Page 95: Computers, Friendship & Coding.
+  - Page 122: Phrenology & Big Ideas.
+  - Page 133: Error feedback.
+  - Page 136: Simpson's Paradox.
+  - Page 142: FICO: Risk involved in defaulting the loan.
+  - Page 176: BMI (Body Mass Index).

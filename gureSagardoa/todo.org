@@ -87,7 +87,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [28/48]
+*** Non Fiction [30/49]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -116,6 +116,8 @@
 **** DONE As a Man Thinketh, James Allen
 **** DONE [[./hnp.org][Hackers & Painters, Paul Graham]]
 **** DONE [[./21_lessons.org][21 Lessons for the 21st Century, Yuval Noah Harari]]
+**** DONE [[./wmd.org][Weapons of Math Destruction, Cathy O'Neil]]
+**** DONE [[./yogi.org][Autobiography of a Yogi, Paramhansa Yogananda]]
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
 **** INPROGRESS Longitute, Dava Sobel
@@ -135,8 +137,7 @@
 **** TODO Brighter Than a Thousand Suns, Robert Jungk
 **** TODO Towards A New Architecture, Le Corbusier
 **** TODO The Republic, Plato
-**** TODO Autobiography of a Yogi, Paramhansa Yogananda
-*** Publications [4/13]
+*** Publications [4/14]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
 **** DONE [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat ([[../lisp-java-notes.html][notes]])
@@ -149,7 +150,9 @@
 **** TODO [[https://www.nobelprize.org/uploads/2018/06/heisenberg-lecture.pdf][The development of Quantum Mechanics(Noble Lecture)]], W. Heisenberg
 **** TODO [[http://lantb.net/uebersicht/wp-pdf/eiffelTower.pdf][The Eiffel Tower, Roland Barthes]]
 **** TODO [[http://doc.cat-v.org/feynman/simulating-physics/simulating-physics-with-computers.pdf][Simulating Physics with Computers]], Richard P. Feynman
+**** TODO [[https://calteches.library.caltech.edu/1575/1/Science.pdf][The Value Of Science]], Richard P. Feynman
 **** TODO Irving Lavin: [[https://albert.ias.edu/handle/20.500.12111/6675][Michelangelo's Saint Peter's Pieta]]
+**** TODO [[https://arxiv.org/pdf/2004.02504.pdf][Bringing GNU Emacs to Native Code, Andrea Corallo Et.al]]
 ** Videos
 *** YouTube [1/3]
    - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]

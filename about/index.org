@@ -69,8 +69,8 @@
    friends. Occasionally I do write helper functions and share it on
    [[http://sachin.pythonanywhere.com][sachin.pythonanywhere.com]]. Most of these helper functions can be found within
    my [[https://gitlab.com/psachin/emacs.d][Emacs configuration]] now. I majored in Physics with a specialization in
-   [[https://www.tifr.res.in/~dcmpms/][Condensed Matter Physics]]. In my free time, I engage myself in studying
-   Physics, Mathematics, and [[../horology/][Horology]].
+   Solid State Physics. In my free time, I engage myself in studying Physics,
+   Mathematics, Electronics, and [[../horology/][Horology]].
 
 ** Blogs
 

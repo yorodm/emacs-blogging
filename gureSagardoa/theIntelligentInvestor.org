@@ -1,7 +1,7 @@
 #+title: The Intelligent Investor, Benjamin Graham
 #+filetags: book, review, progress
 * Liked quotes
-  - /The valus of any investment is, and always must be, a function of price
+  - /The value of any investment is, and always must be, a function of price
     you pay for it./ - Page 83.
   - /The hotter they are, the harder they fall./ - Page 116.
   - /A defensive Investor runs and wins by sitting still./ - Page 129.
@@ -16,8 +16,13 @@
   - Page 46: A Sensible Gambler.
   - Page 13: Newton.
   - Page 32: Selling Short.
+  - Page 54: Public utility enterprises & Inflation.
+  - Page 55: Buying Gold "things" for Americal Citizens.
+  - Page 60: Inflation & Debt.
+  - Page 63: Beyond Stocks.
+  - Page 87: A good advice.
   - Page 196: S&P 500 Index.
-  - Page 198: Networth, def.
+  - Page 198: Net worth, def.
   - Page 203: Graham's experience in 113 words.
   - Page 219: Investing, def.
   - Page 225: Investment owners contract.
@@ -26,41 +31,79 @@
   - Page 526: Lakshmi.
   - Page 268: Investment Banker.
   - Page 273/274: When to get professional help.
-  - Page 87: A good advice.
   - Page 104: Portfolio Management Strategy.
   - Page 102: Investing and your age.
   - Page 114: Rules for the common stock.
   - Page 115/158: Growth Stock, def.
-  - Page 118: Dollar Cost Averaging (/formular investing/).
+  - Page 118: Dollar-Cost Averaging (/formula investing/).
   - Page 127: Home bias.
   - Page 136: Discount and Premium Bonds, def.
   - Page 148: Market Impact, def.
   - Page 152: on IPO and VA Linux.
+  - Page 158: Growth Stocks.
+  - Page 164: Dogs of Dow approach.
+  - Page 166: Bargain Issue.
+  - Page 181: Growth stocks & P/E ratio.
+  - Page 183: Example: Johnson & Johnson, 2002.
+  - Page 186/187: How to bargain stocks and foreign stock investments.
+  - Page 228: Stock Picker.
+  - Page 242: Mutual Funds, 1924.
+  - Page 247: Trading cost.
+  - Page 249: Index funds v/s Mutual Funds.
+  - Page 252: Morning star rating.
+  - Page 253: ETFs - No No.
+  - Page 254: When to sell MFs.
+  - Page 290: Diversification v/s focused stocks.
+  - Page 291: Factors effecting the capitalization rate.
+  - Page 295: Formula for calculate the value of stocks.
+  - Page 297: Company's indefinite growth.
+  - Page 298: Industrial analysis.
+  - Page 304: Good & Bad companies.
+  - Page 312: "liquid"/Fluid Mechanics.
+  - Page 328: Points to remember while reading an financial report.
+  - Page 498: Stockholder/Company owner.
+  - Page 501: Proxy material.
+  - Page 503: Company's management mentality.
+  - Page 509: Company's stock options (Imp.)
 
-* Progress
-** DONE 1. Investment versus Speculation
-   - [X] Commentary
-** 2. The Investor and Inflation                                  :inflation:
-   - [ ] Commentary
-** DONE 3. A Century of Stock-Market History                      :inflation:
-   - [X] Commentary
-** DONE 4. General Portfolio Policy :investing-policies:
-   - [X] Commentary
-** DONE 5. The Defensive Investor and Commmon Stocks     :investing_policies:
-   - [X] Commentary
-** DONE 6. Portfolio Policy for the Enterprising Investor - Negative Approach :investing_policies:
-   - [X] Commentary
-** 7. Portfolio Policy for the Enterprising Investor - Positive Approach :investing_policies:
-   - [ ] Commentary
-** DONE 8. The Investor and Market Fluctuations            :advice:must_read:
-   - [X] Commentary
-** 9. Investing in Investing Funds
-   - [ ] Commentary
-** DONE 10. The Investor and His Advisers                         :must_read:
-   - [X] Commentary
-** 14. Stock Selection for the Defensive Investor :selection_of_common_stocks:avoid_loss:
-   - [ ] Commentary
-** 15. Stock Selection for the Enterprising Investor :selection_of_common_stocks:avoid_loss:
-   - [ ] Commentary
-** DONE 20. "Margin of Safety" as the Central Concept of Investment :must_read:advice:avoid_loss:
-   - [X] Commentary
+* Chapters
+  1. [X] Investment versus Speculation
+     - [X] Commentary
+  2. [X] The Investor and Inflation [inflation]
+     - [X] Commentary
+  3. [X] A Century of Stock-Market History [inflation]
+     - [X] Commentary
+  4. [X] General Portfolio Policy [investing policies]
+     - [X] Commentary
+  5. [X] The Defensive Investor and Common Stocks [investing policies]
+     - [X] Commentary
+  6. [X] Portfolio Policy for the Enterprising Investor - Negative Approach [investing policies]
+     - [X] Commentary
+  7. [X] Portfolio Policy for the Enterprising Investor - Positive Approach [investing policies]
+     - [X] Commentary
+  8. [X] The Investor and Market Fluctuations [advice, must read]
+     - [X] Commentary
+  9. [X] Investing in Investment Funds
+     - [X] Commentary
+  10. [X] The Investor and His Advisers [must read]
+      - [X] Commentary
+  11. [X] Security Analysis for the lay Investor: General Approach [must read]
+      - [X] Commentary [Determining the price of the stock]
+  12. [X] Things to consider about Per-Share Earnings
+      - [X] Commentary
+  13. [ ] A comparison of four listed company
+      - [ ] Commentary
+  14. [ ] Stock Selection for the Defensive Investor [selection of common stocks, avoid loss]
+     - [ ] Commentary
+  15. [ ] Stock Selection for the Enterprising Investor [selection of common stocks, avoid loss]
+      - [ ] Commentary
+  16. [ ] Convertible issues & warrants
+      - [ ] Commentary
+  17. [ ] Four extremely instructive case histories
+      - [ ] Commentary
+  18. [ ] A comparison of eight pairs of companies
+      - [ ] Commentary
+  19. [X] Shareholders and Managements: Dividend Policy [dividend, stock split]
+      - [X] Commentary
+  20. [X] "Margin of Safety" as the Central Concept of Investment [must read, advice, avoid loss]
+      - [X] Commentary

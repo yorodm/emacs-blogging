@@ -1,4 +1,4 @@
-#+title: UML
+#+title: User mode Linux (UML)
 #+date: <2014-04-28>
 #+filetags: uml kernel linux
 #+setupfile: ../org-templates/post.org

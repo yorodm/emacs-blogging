@@ -3,8 +3,8 @@
 #+filetags: vim cheatsheet
 #+setupfile: ../org-templates/post.org
 
-I moved to GNU Emacs but I still maintain the VIM commands cheatsheet. I hope it
-is useful to VIM users
+I moved to GNU Emacs but I still maintain below VIM commands cheatsheet. I hope
+it is useful to the VIM users.
 
 #+ATTR_HTML: :width 100% :height
 [[file:images/posts/vim_cheatsheet/vim_cheatsheet.png]]

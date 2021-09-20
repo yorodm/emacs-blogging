@@ -4,7 +4,7 @@
   - /Programs should be written for people to read, and only incidentally for machines to execute./ - Page 31.
   - /You should only need comments when there is some kind of kludge you need to warn readers about, just as on a road there are only arrows on parts with unexpectedly sharp curves./ - Page 224.
   - /Use your Software yourself all the time./ - Page 85
-* Personal page Index
+* Bookmarks
   - Page 101: Small & Big Companies.
   - Page 106: Software versioning.
   - Page 108: Engineers & Entrepreneurs.

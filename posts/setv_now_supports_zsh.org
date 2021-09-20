@@ -1,0 +1,17 @@
+#+title: setv v2.0 now supports ZSH
+#+date: <2021-09-20>
+#+filetags: setv python zsh
+#+setupfile: ../org-templates/post.org
+
+#+ATTR_HTML: :class center no-border
+https://gitlab.com/psachin/setV/raw/master/img/logo.png
+
+Few weeks ago a long pending [[https://gitlab.com/psachin/setV/-/issues/9][issue]] related to ZSH was fixed in [[https://gitlab.com/psachin/setV/-/merge_requests/2][MR#2]] thanks to
+all support from [[https://gitlab.com/savitojs][Savitoj Singh]].
+
+Below is the screen-cast recorded using [[https://asciinema.org][asciinema]],
+#+HTML: <a href="https://asciinema.org/a/424446" target="_blank"><img src="https://asciinema.org/a/424446.svg" width="700"/></a>
+
+Please update =setv= to version [[https://gitlab.com/psachin/setV/-/tags/2.0][2.0]] and as always contributions are welcome!
+
+#+INCLUDE: "../disquss.inc"

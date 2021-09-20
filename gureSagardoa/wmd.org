@@ -1,7 +1,7 @@
 #+title: Weapons of Math Destruction, Cathy O'Neil
 #+filetags: book, review
 
-* Personal page Index
+* Bookmarks
   - Page 36: Hedge funds (Example).
   - Page 39: Bank, Mortgage & Interest.
   - Page 72: Vulnerability is worth Gold.

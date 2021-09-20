@@ -650,12 +650,14 @@
     - GR [0/2]
       - [ ] Parthenon(Strutures)
       - [ ] [[https://www.visitmeteora.travel/][Meteora]]
-    - UK [4/5]
+    - UK [4/7]
       - [ ] V&A Museum
       - [X] The British Museum
       - [X] 221B, Baker street
       - [X] SS Great Britan
       - [X] Stonehenges
+      - [ ] Greenwich observatory
+      - [ ] Clockmaker's museum in Guildhall, London(Longitude, Dava Sobel)
     - DE [0/1]
       - [ ] [[https://www.jagermeister.com/en/factory-tour/][Jagermeister Factory Tour.]]
 

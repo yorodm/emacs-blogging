@@ -1,6 +1,6 @@
 #+title: 21 Lessons for the 21st Century, Yuval Noah Harari
 #+filetags: book, review
-* Personal page Index
+* Bookmarks
   - Page 28: Back to attention.
   - Page 35: Protecting Humans not Jobs.
   - Page 52: The right step.

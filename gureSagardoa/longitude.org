@@ -1,0 +1,25 @@
+#+title: Longitude, Dava Sobel
+#+filetags: book, review
+
+#+CAPTION: Longitude
+#+ATTR_HTML: :class center rounded-border black-border
+#+ATTR_HTML: :width 100% :height
+[[../images/horology/longitude.jpg]]
+
+* Bookmarks
+  - Page 27: Bologna.
+  - Page 29: Finite speed of the light.
+  - Page 38: Pendulum problem, Huygen - spring.
+  - Page 39: Robert Hook - The Cell.
+  - Page 41: Wounded dog theory.
+  - Page 52: Newton.
+  - Page 56, 156: Chronometer.
+  - Page 64: John's pendulum clock museum.
+  - Page 72: God's magnificent clockwork.
+  - Page 93: Halley and the Moon.
+  - Page 104: John Jeffery - Pocket watches.
+  - Page 108: All about H4.
+  - Page 146: H5 - Clockmaker's museum in Guildhall, London
+  - Page 156: Thomas Mudge.
+  - Page 160: Lever escapment.
+  - Page 164: Charles Darwin, 1831.

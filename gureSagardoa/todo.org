@@ -87,7 +87,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [30/49]
+*** Non Fiction [31/49]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -101,7 +101,7 @@
 **** DONE Into The Wild, Jon Krakauer
 **** DONE Discover your Destiny, Robin Sharma
 **** DONE The 5AM Club, Robin Sharma
-**** DONE The Greatness guide, Robin Sharma ([[https://gitlab.com/psachin/notes/-/blob/master/the_greatness_guide.org][Notes]])
+**** DONE The Greatness guide, Robin Sharma ([[https://gitlab.com/psachin/notes/-/blob/master/the_greateness_guide.org][Notes]])
 **** DONE Free as in Freedom, Sam Williams
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
@@ -110,7 +110,7 @@
 **** DONE Atomic Habits, James Clear
 **** DONE Jeh: A Life of J.R.D. Tata, Bakhtiar K. Dadabhoy
 **** DONE Meditations, Marcus Aurelius
-**** DONE [[../photography/structures_je_gordon.org][Structures, J. E. Gordan]]
+**** DONE [[file:structures_je_gordon.org][Structures, J. E. Gordon]]
 **** DONE The Surrender Experiment, Michael A. Singer
 **** DONE The Unthethered Soul, Michael A. Singer
 **** DONE As a Man Thinketh, James Allen
@@ -118,9 +118,9 @@
 **** DONE [[./21_lessons.org][21 Lessons for the 21st Century, Yuval Noah Harari]]
 **** DONE [[./wmd.org][Weapons of Math Destruction, Cathy O'Neil]]
 **** DONE [[./yogi.org][Autobiography of a Yogi, Paramhansa Yogananda]]
+**** DONE [[file:longitude.org][Longitude, Dava Sobel]]
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
-**** INPROGRESS Longitute, Dava Sobel
 **** INPROGRESS [[./theIntelligentInvestor.org][The Intelligent Investor, Benjamin Graham]]
 **** TODO Discourses and Selected Writings, Epictetus
 **** TODO Letters from a Stoic, Seneca

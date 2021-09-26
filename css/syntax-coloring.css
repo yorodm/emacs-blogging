@@ -5,10 +5,8 @@
  ******************************/
 .title  { text-align: center;
            margin-bottom: .2em; }
-.subtitle { text-align: center;
-            font-size: medium;
-            font-weight: bold;
-            margin-top:0; }
+.subtitle { color: #aaa;
+            font-size: 18px;}
 .todo   { font-family: monospace; color: red; }
 .done   { font-family: monospace; color: green; }
 .priority { font-family: monospace; color: orange; }

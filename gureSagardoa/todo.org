@@ -2,7 +2,7 @@
 #+filetags: todo agenda tasks books reading tracking
 
 ** Reading
-*** Physics/Mathematics [2/10]
+*** Physics/Mathematics [2/11]
 **** DONE Seven Wonders of the Cosmos, Jayant V. Narlikar (Physical notes)
 **** DONE Introduction to Electrodynamics, David J. Griffiths
 **** INPROGRESS A Brief History of Time, Stephen Hawking            :page:41:
@@ -13,6 +13,7 @@
 **** TODO Quantum, Manjit Kumar
 **** TODO Mathematics That Power Our World, Joseph Khoury & Gilles Lamothe
 **** TODO Probability, Henk Tijms
+**** TODO Physics and Philosophy, Werner Heisenberg
 *** Computing [9/18]
 **** DONE Linux Kernel in a Nutshell, Greg Kroah-Hartman
 **** DONE The Hacker's Guide to Python, 3rd Ed., Julien Danjou
@@ -87,7 +88,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [31/49]
+*** Non Fiction [32/50]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -119,6 +120,7 @@
 **** DONE [[./wmd.org][Weapons of Math Destruction, Cathy O'Neil]]
 **** DONE [[./yogi.org][Autobiography of a Yogi, Paramhansa Yogananda]]
 **** DONE [[file:longitude.org][Longitude, Dava Sobel]]
+**** DONE [[file:frugalwoods.org][Meet the Frugalwoods, Elizabeth W. Thames]]
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
 **** INPROGRESS [[./theIntelligentInvestor.org][The Intelligent Investor, Benjamin Graham]]

@@ -1,0 +1,11 @@
+#+title: GNU Emacs: indent-rigidly
+#+date: <2021-10-27>
+#+filetags: emacs
+#+setupfile: ../org-templates/post.org
+
+A quick demo of **indent-rigidly** feature in GNU Emacs.
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/vv9ae73GPGQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*GNU Emacs: indent-rigidly*
+
+#+INCLUDE: "../disquss.inc"

@@ -139,11 +139,12 @@
 **** TODO Brighter Than a Thousand Suns, Robert Jungk
 **** TODO Towards A New Architecture, Le Corbusier
 **** TODO The Republic, Plato
-*** Publications [4/14]
+*** Publications [5/16]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
 **** DONE [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat ([[../lisp-java-notes.html][notes]])
 **** DONE [[http://www.paulgraham.com/iflisp.html][If Lisp is so Great, Paul Graham]]
+**** DONE [[https://joss.theoj.org/papers/10.21105/joss.03066][PyPortfolioOpt: portfolio optimization in Python, Robert Martin]]
 **** TODO [[https://www.stat.auckland.ac.nz/~ihaka/downloads/Compstat-2008.pdf][Lisp as a Base for a Statistical Computing System]]
 **** TODO Bitcoin: A Peer-to-Peer Electronic Cash System, Satoshi Nakamoto
 **** TODO [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]]
@@ -160,3 +161,9 @@
    - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]
    - [X] [[https://www.youtube.com/watch?v=lKXe3HUG2l4]["The Mess we're In" by Joe Armstrong.]]
    - [ ] [[https://www.youtube.com/watch?v=TZLvEp_xjnY][LIGO and Gravitational Waves III, Kip S. Thorne (Noble Lecture, 2017)]]
+   - Art [1/2]
+     - [X] [[https://www.youtube.com/watch?v=IBcB_dYtGUg][The Great Wave by Hokusai]]
+     - [ ] [[https://www.youtube.com/watch?v=wk9L1N9bRRE][Vincent Van Gogh's The Starry Night]]
+   - Finance
+     - [ ] [[https://www.youtube.com/watch?v=Me_DWlSbe58&list=PLQtOp02o5t8VOjzts8q0rHXLNYHSqdiml&index=1][Probability and Stochastics for Finance II]], IITK
+     - [X] [[https://www.youtube.com/watch?v=wdeoIPCFtDU][In Pursuit of the Perfect Portfolio: Harry M. Markowitz]]

@@ -1,0 +1,12 @@
+#+title: [Book] Longitude, Dava Sobel
+#+date: <2021-10-27>
+#+filetags: book
+#+draft: nil
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+Bookmarks from [[../gureSagardoa/longitude.org][Longitude, Dava Sobel]] Recommended book for those who are
+interested in the life of John Harrison and Horology.
+
+#+INCLUDE: "../disquss.inc"

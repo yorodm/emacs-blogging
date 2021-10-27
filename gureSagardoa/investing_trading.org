@@ -1,0 +1,22 @@
+#+title: Investing & Trading logs
+#+filetags: investing trading
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{invest}
+#+LaTeX_HEADER: \usepackage[a4paper, landscape, margin=0.5in, top=1in, bottom=1in]{geometry}
+#+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
+
+#+ATTR_HTML: :style text-align:center
+All Images/Charts on *this page* are licensed under a [[https://creativecommons.org/licenses/by-sa/4.0/][CC BY-SA 4.0]].
+
+#+CAPTION: NSE:GOLDBEES - Technical Analysis
+#+ATTR_HTML: :class center no-border
+#+ATTR_HTML: :width 100% :height
+[[../images/gureSagardoa/in.tra/GOLDBEES_MAY_03_2021.png]]
+
+#+CAPTION: NSE:GOLDBEES - Zoomed
+#+ATTR_HTML: :class center no-border
+#+ATTR_HTML: :width 100% :height
+[[../images/gureSagardoa/in.tra/GOLDBEES_2021-10-27_12-29-17.png]]
+
+I analyzed the chart of NSE:GOLDBEES in May 03, 2021. As of today (Oct 27, 2021)
+the price action is maintained within the range as seen in the second chart.

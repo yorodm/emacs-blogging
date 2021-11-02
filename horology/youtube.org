@@ -1,0 +1,19 @@
+#+title: YouTube Channels for watch lovers
+#+date: <2021-11-02>
+#+keywords: watches youtube
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{Asus Zen Watch 2(WI501Q) review}
+
+Below are the YouTUbe Channels I like,
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/IPFQt24rmQY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+#+ATTR_HTML: :style text-align:center
+*The Urban Gentry Channel*
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/OrRGhRorJs0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+#+ATTR_HTML: :style text-align:center
+*WATCHES TV*
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/_2By2ane2I4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+#+ATTR_HTML: :style text-align:center
+*How a quartz watch works* (I like Steve Mould's YouTube channel)

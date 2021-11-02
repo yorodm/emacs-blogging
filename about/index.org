@@ -40,7 +40,7 @@
    backup(and tiny) Linux system with minimal shell and =opkg= package manager.
 
    For work, I use Lenovo Thinkpad +T440p+ [[../photography/thinkpad_t490s.org][T490s]] running [[https://getfedora.org/][Fedora]]. I work on [[https://www.redhat.com/en/technologies/management/insights][Red
-   Hat Insights]]. Watch this introductory [[https://www.youtube.com/watch?v=MfRnKe-xxLM][YouTube video]] to know more about Red
+   Hat Insights]]. Watch this introductory [[https://www.youtube.com/watch?v=eEZtS2k04f8][YouTube video]] to know more about Red
    Hat Insights.
 
 ** Tools I use

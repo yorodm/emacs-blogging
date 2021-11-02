@@ -3,14 +3,14 @@
 #+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
 
 ** Quotes
-   - If You Need Permission to do Something, You Probably Shouldn’t Do It.
+   - If You Need Permission to do Something, you Probably Shouldn’t Do It.
    - Wealth and money is the side effect, not the goal itself.
    - Don’t Seek Praise. Seek Criticism.
    - Your Work Should Be A Performance.
    - Retirement Should Never Be The Goal.
    - If you do what you love, you'll never work a day in your life.
    - The most powerful outcomes are delayed.
-   - I don’t think you can even talk about good or bad (sotware)design except with
+   - I don’t think you can even talk about good or bad (sotware) design except with
      reference to some intended user. - /Paul Graham[Hackers & Painters]/
    - Learning never exhausts the mind. - /Leonardo da Vinci/
    - Your learning ability decides your earning ability - Nishat Kasibhatla
@@ -24,6 +24,7 @@
    - We are what we do repeatedly.
    - [[https://blog.doist.com/trust-remote-workplace/][The future of work is trust, not tracking]].
    - /It's only after you've lost everything, you're free to do anything./
+   - It is easier to keep raising your level than to maintain a certain level - SCP
 ** Definitions
    - /Tsundoku/ is the Japanese word for buying more books than you'll ever read.
 ** Videos

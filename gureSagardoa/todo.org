@@ -88,7 +88,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [32/50]
+*** Non Fiction [35/53]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -101,8 +101,9 @@
 **** DONE The Element of Style, William, Strunk Jr. & E.B. White
 **** DONE Into The Wild, Jon Krakauer
 **** DONE Discover your Destiny, Robin Sharma
-**** DONE The 5AM Club, Robin Sharma
+**** DONE The 5AM Club, Robin Sharma ([[https://gitlab.com/psachin/notes/-/blob/master/notes_the_5_am_club.org][Notes]])
 **** DONE The Greatness guide, Robin Sharma ([[https://gitlab.com/psachin/notes/-/blob/master/the_greateness_guide.org][Notes]])
+**** DONE [[./everyday_hero.org][The Everyday Hero Manifesto, Robin Sharma]]
 **** DONE Free as in Freedom, Sam Williams
 **** DONE How To Ask Questions The Smart Way, Eric Raymonds & Rick Moen
 **** DONE The Art of War, Sun Tzu
@@ -121,6 +122,8 @@
 **** DONE [[./yogi.org][Autobiography of a Yogi, Paramhansa Yogananda]]
 **** DONE [[file:longitude.org][Longitude, Dava Sobel]]
 **** DONE [[file:frugalwoods.org][Meet the Frugalwoods, Elizabeth W. Thames]]
+**** DONE [[./the_parable_of_the_pipeline.org][The Parable of the Pipeline, Burke Hedges]]
+**** DONE [[./psycho_money.org][The Psychology of Money, Morgan Housel]]
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
 **** INPROGRESS [[./theIntelligentInvestor.org][The Intelligent Investor, Benjamin Graham]]

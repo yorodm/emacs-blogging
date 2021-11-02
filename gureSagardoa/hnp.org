@@ -23,6 +23,6 @@
   - Page 48: Math & Open-mindness.
   - Page 116: Expensive versus Ordinary.
   - Page 67: Support & Engineering.
-  - Page 84: Hackers & Business(Startup).
+  - Page 84: Hackers & Business (Startups).
   - Chapter 12: Beating the Averages - Mostly about Lisp.
   - Chapter 13: Revenge of the Nerds - again more Lisp.

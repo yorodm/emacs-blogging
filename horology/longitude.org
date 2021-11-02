@@ -6,6 +6,11 @@
 #+setupfile: ../org-templates/latex-pdf.org
 #+LaTeX_HEADER: \lhead{\title}
 
+#+CAPTION: Longitude
+#+ATTR_HTML: :class center rounded-border black-border
+#+ATTR_HTML: :width 100% :height
+[[../images/horology/longitude.jpg]]
+
 Bookmarks from [[../gureSagardoa/longitude.org][Longitude, Dava Sobel]] Recommended book for those who are
 interested in the life of John Harrison and Horology.
 

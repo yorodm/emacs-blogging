@@ -8,8 +8,10 @@
 ;;; Code:
 (require 'package)
 (package-initialize)
-(add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(setq package-archives
+      '(("gnu" . "https://elpa.gnu.org/packages/")
+        ("org" . "https://orgmode.org/elpa/")
+        ("melpa" . "https://melpa.org/packages/")))
 (package-refresh-contents)
 (package-install 'htmlize)
 (package-install 'org-plus-contrib)

@@ -1,4 +1,4 @@
-image: iquiw/alpine-emacs
+image: psachin/emacs-publish:0.9
 
 .build: &build
   script:

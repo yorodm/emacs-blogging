@@ -46,12 +46,12 @@ The main place for Org development is the mailing list, available on
 
 * Gitlab CI
 This project's static Pages are built by [[https://about.gitlab.com/gitlab-ci/][GitLab CI]], following the
-steps defined in [[https://gitlab.com/pages/nikola/blob/master/.gitlab-ci.yml][.gitlab-ci.yml]]:
+steps defined in [[https://gitlab.com/psachin/psachin.gitlab.io/-/raw/master/.gitlab-ci.yml][.gitlab-ci.yml]]:
 
 #+INCLUDE: .gitlab-ci.yml src conf
 
 These build instructions are using a docker image, namely
-~iquiw/alpine-emacs~. It makes it possible to publish the project on a
+~psachin/emacs-publish~. It makes it possible to publish the project on a
 public runner on Gitlab.com.
 
 You could probably get a better experience by using a local runner on

@@ -10,11 +10,14 @@
 (package-initialize)
 (setq package-archives
       '(("gnu" . "https://elpa.gnu.org/packages/")
-        ("org" . "https://orgmode.org/elpa/")
+        ("nongnu" . "https://elpa.nongnu.org/nongnu/")
         ("melpa" . "https://melpa.org/packages/")))
-(package-refresh-contents)
+
+(unless package-archive-contents
+  (package-refresh-contents))
 (package-install 'htmlize)
-(package-install 'org-plus-contrib)
+(package-install 'org)
+(package-install 'org-contrib)
 (package-install 'ox-reveal)
 ;; Don't want to invoke insert-shebang locally
 (remove-hook 'find-file-hook 'insert-shebang)

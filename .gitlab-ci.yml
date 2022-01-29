@@ -1,4 +1,4 @@
-image: psachin/emacs-publish:0.9
+image: psachin/emacs-publish:emacs-29.0.50
 
 .build: &build
   script:

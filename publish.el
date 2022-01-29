@@ -16,7 +16,6 @@
 (unless package-archive-contents
   (package-refresh-contents))
 (package-install 'htmlize)
-(package-install 'org)
 (package-install 'org-contrib)
 (package-install 'ox-reveal)
 ;; Don't want to invoke insert-shebang locally

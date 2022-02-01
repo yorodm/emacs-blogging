@@ -1,7 +1,6 @@
 #+REVEAL_THEME: moon
 #+REVEAL_TRANS: linear
 #+REVEAL_SPEED: default
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+REVEAL_TITLE_SLIDE_BACKGROUND:
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
 #+OPTIONS: num:nil toc:nil

@@ -23,9 +23,9 @@
 
 (require 'org)
 (require 'ox-publish)
-;; (require 'htmlize)
+;; (require 'htmlize) ;; required for ox-reveal to load Emacs theme
 ;; (require 'ox-html)
-;; (require 'ox-rss)
+(require 'ox-rss)
 (require 'ox-reveal)
 
 ;; setting to nil, avoids "Author: x" at the bottom
@@ -104,7 +104,7 @@ PROJECT: `posts in this case."
 FILENAME is the filename of the Org file to be published.  PLIST
 is the property list for the given project.  PUB-DIR is the
 publishing directory. Returns output file name."
-  (let ((org-reveal-root "http://cdn.jsdelivr.net/reveal.js/3.0.0/"))
+  (let ((org-reveal-root "https://cdn.jsdelivr.net/npm/reveal.js"))
     (org-publish-org-to 'reveal filename ".html" plist pub-dir)))
 
 (setq org-publish-project-alist
@@ -199,7 +199,7 @@ publishing directory. Returns output file name."
          :exclude ,(regexp-opt '("README.org" "draft"))
          :index-filename "index.org"
          :recursive t
-         :publishing-function org-html-publish-to-html
+         :publishing-function me/org-reveal-publish-to-html
          :publishing-directory "./public/slides/")
         ("css"
          :base-directory "./css"

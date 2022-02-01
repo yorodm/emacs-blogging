@@ -1,18 +1,43 @@
-image: psachin/emacs-publish:emacs-29.0.50
+stages:
+  - development
+  - test
+  - preprod
+  - production
 
 .build: &build
   script:
   - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
+
+pages:
+  stage: production
+  environment:
+    name: production
+    url: https://psachin.gitlab.io/
+  image: psachin/emacs-publish:emacs-29.0.50
+  <<: *build
   artifacts:
     paths:
     - public
-
-pages:
-  <<: *build
   only:
   - master
+  when: manual
 
-test:
+preprod:
+  stage: preprod
+  environment: proprod
+  image: psachin/emacs-publish:latest
+  <<: *build
+
+development:
+  stage: development
+  environment: development
+  image: psachin/emacs-publish:latest
   <<: *build
   except:
   - master
+
+test:
+  stage: test
+  environment: test
+  image: iquiw/alpine-emacs
+  <<: *build

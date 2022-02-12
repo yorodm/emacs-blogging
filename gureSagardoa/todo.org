@@ -88,7 +88,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [35/53]
+*** Non Fiction [36/54]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -112,6 +112,7 @@
 **** DONE Atomic Habits, James Clear
 **** DONE Jeh: A Life of J.R.D. Tata, Bakhtiar K. Dadabhoy
 **** DONE Meditations, Marcus Aurelius
+**** DONE [[./total_meditation.org][Total Meditation, Deepak Chopra]]
 **** DONE [[file:structures_je_gordon.org][Structures, J. E. Gordon]]
 **** DONE The Surrender Experiment, Michael A. Singer
 **** DONE The Unthethered Soul, Michael A. Singer

@@ -1,0 +1,78 @@
+#+title: [Notes] DHCP
+#+date: <2022-02-22>
+#+filetags: notes dhcp
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+DHCP [fn:rfc] (is a mechanism rather than a policy)
+
+** Protocol used
+   - Is based on BOOTP
+   - BOOTP: Bootstrap Protocol.
+     - Capabilities of automatic assigning of reusable IP addresses.
+
+** Ports:
+   - 67: DHCP server port.
+   - 68: DHCP client port.
+
+** DORA
+   - Discover:
+     - Discover is used to locate the DHCP service.
+     - It is a broadcast packet with the source IP Address 0.0.0.0 because the
+       client does not have an IP Address.
+     - Both MAC and IP Address are broadcast
+     - Client broadcast a message asking for IP address or a configuration on a
+       subnet.
+   - Offer:
+     - DHCP server sending offer (an IP address) to the client(Hey 'client',
+       this is a IP address. Do you want it?)
+     - The offer can be declined by the client if it is within the lease time.
+   - Request:
+     - Client requests IP address along with other configuration such as the
+       gateway and the subnet (Sure 'server' I'm Okay with this IP address)
+   - ACK:
+     - Server ACK. (Sure you can keep that IP address or your lease has expired)
+
+** Notes from Paul Browning's YouTube Channel
+   - Normal DHCP Traffic
+     - The traffic depends on what information the client requests
+     - Client outside the lease time: Discover, Offer, Request, Ack
+     - Client within the lease time: Request, Ack
+   - DHCP Messages
+     #+STARTUP: noalign
+     #+ATTR_HTML: :align |l|l|
+     | Number | Message Type |
+     |--------+--------------|
+     |      1 | Discover     |
+     |      2 | Offer        |
+     |      3 | Request      |
+     |      4 | Decline      |
+     |      5 | Ack          |
+     |      6 | Negative Ack |
+     |      7 | Release      |
+     |      8 | Info         |
+
+   - Time values ( T1 < T2 < LT )
+     - Lease Time (LT):
+       - The time duration during which the client is allowed to keep the IP
+         address.
+     - Renewal Time (T1 = 0.5 x LT):
+       - Time to extent the lease
+       - The client sends DHCP unicast request to the server
+       - If the client receives and ACK from the server, it goes in to the
+         BOUND state.
+       - If no answer is received until T2, the client enters the rebind state.
+     - Rebind Time (T2 = 0.875 x LT):
+       - The client broadcast the DHCPREQUEST
+     - In both renewing and rebinding stage if the client did not receives an ACK
+       for the request, it waits in the following order before retransmitting the
+       DHCPREQUEST message:
+       - One-half of the remaining time until T2
+       - One-half of the remaining time until T1
+       - Retransmit the message 4 times for a  total delay of 60 seconds
+
+
+[fn:rfc] https://www.ietf.org/rfc/rfc2131.txt
+
+#+INCLUDE: "../disquss.inc"

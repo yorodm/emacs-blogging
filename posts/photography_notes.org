@@ -1,0 +1,30 @@
+#+title: [Notes] Photography
+#+date: <2019-11-08>
+#+filetags: notes photography
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+*** Aperture
+    - Amount of light you want to allow by varying the size of the hole
+    - Range is 2.8f to 22f
+    - 2.8f will allow more light than 22f because 2.8f is actually 1/2.8f.
+      Meaning 1/2.8f > 1/22f.
+    - Examples:
+      - lower f will have sharp object with blur backgroud
+      - higher f is used for landscape
+*** shutter-speed
+    - higher shutter speed:
+      - low light
+      - motion blur
+    - short shutter speed
+      - sport or wild life event
+    - Underexposure: small aperture, short shutter speed
+    - Overexposure: Large aperture, high shutter speed
+*** ISO
+    - Sensitivity of the sensor
+    - Higher ISO may lead to grainy images
+    - Example:
+      - sunset: where the light is low but depends on Aperture & Shutter speed
+
+#+INCLUDE: "../disquss.inc"

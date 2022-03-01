@@ -612,16 +612,16 @@
     - [ ] [[https://www.rigb.org/][Faraday Museum, RI]]
     - [ ] Westminster Abbey
       - Sir Isaac Newton
-      - William Thompson[Lord Kelvin]
-    - [X] Brunel's Clifton Suspension Bridge(Structures, J.E Gordan)
+      - William Thompson [Lord Kelvin]
+    - [X] Brunel's Clifton Suspension Bridge (Structures, J.E Gordan)
 **** Art & History [0/1]
     - [ ] Glen Hansard Concert
     - IT
       - Rome [2/4]
-        - [X] Colosseum & the Roman forum(History)
+        - [X] Colosseum & the Roman forum (History)
         - [ ] Spanish steps, Rome??
-        - [X] Tervi Fountain(History)
-        - [ ] Sistine Chapel(Art)
+        - [X] Tervi Fountain (History)
+        - [ ] Sistine Chapel (Art)
       - Florence [2/4]
         - [X] Dante's House(Literature)
         - [X] The Accademia Gallery Museum(Art, History)
@@ -635,6 +635,7 @@
     - FR [1/2]
       - [X] Mont Saint-Michel. Normandy (Art, History) | [Revist for stay]
       - [ ] [[https://shershegoes.com/normandy-beach/][Normandy Beach & WWII memorial]]
+      - [ ] [[https://en.wikipedia.org/wiki/Marseille][Marseille]]
     - CH [2/2]
       - [[https://www.interlaken-gemeinde.ch/][Interlaken]] [0/1]
         - [ ] TODO: details
@@ -657,7 +658,7 @@
       - [X] SS Great Britan
       - [X] Stonehenges
       - [ ] Greenwich observatory
-      - [ ] Clockmaker's museum in Guildhall, London(Longitude, Dava Sobel)
+      - [ ] Clockmaker's museum in Guildhall, London (Longitude, Dava Sobel)
     - DE [0/1]
       - [ ] [[https://www.jagermeister.com/en/factory-tour/][Jagermeister Factory Tour.]]
 

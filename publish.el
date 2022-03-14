@@ -143,6 +143,21 @@ publishing directory. Returns output file name."
          :html-head ,me/website-html-head
          :html-preamble me/website-html-preamble
          :html-postamble me/website-html-postamble)
+        ("now"
+         :base-directory "now"
+         :base-extension "org"
+         :exclude ,(regexp-opt '("README.org" "draft"))
+         :index-filename "index.org"
+         :recursive nil
+         :publishing-function org-html-publish-to-html
+         :publishing-directory "./public/now"
+         :html-link-home "/"
+         :html-link-up "/"
+         :html-head-include-scripts t
+         :html-head-include-default-style nil
+         :html-head ,me/website-html-head
+         :html-preamble me/website-html-preamble
+         :html-postamble me/website-html-postamble)
         ("gureSagardoa"
          :base-directory "gureSagardoa"
          :base-extension "org"
@@ -232,7 +247,7 @@ publishing directory. Returns output file name."
          :exclude ".*"
          :include ("index.org")
          :table-of-contents nil)
-        ("all" :components ("posts" "about" "slides" "gureSagardoa" "horology" "css" "images" "assets" "rss"))))
+        ("all" :components ("posts" "about" "now" "slides" "gureSagardoa" "horology" "css" "images" "assets" "rss"))))
 
 (provide 'publish)
 ;;; publish.el ends here

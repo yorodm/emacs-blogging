@@ -1,4 +1,6 @@
 #+title: TODO Index
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
 #+filetags: todo agenda tasks books reading tracking
 
 ** Reading
@@ -171,3 +173,34 @@
    - Finance
      - [ ] [[https://www.youtube.com/watch?v=Me_DWlSbe58&list=PLQtOp02o5t8VOjzts8q0rHXLNYHSqdiml&index=1][Probability and Stochastics for Finance II]], IITK
      - [X] [[https://www.youtube.com/watch?v=wdeoIPCFtDU][In Pursuit of the Perfect Portfolio: Harry M. Markowitz]]
+   - Probability
+     - Monty Hall Problem (Why switching is better)
+       - [X] [[https://www.youtube.com/watch?v=ngUyyFd86FQ][Presh Talwalkar]]
+       - [X] [[https://www.youtube.com/watch?v=7WvlPgIjx_M][Bon Crowder Presents]]
+       - [X] [[https://www.youtube.com/watch?v=UgKrQ2ywVfs][MIT OpenCourseWare]]
+         - Notes:
+           - Probability of wining when all the three doors are closed = 1/3
+           - Probability of wining if your initial pic was correct = 1/3
+           - Probability of wining if your initial pick was wrong = 2/3.
+             Switching will win for you.
+           - Scaling a problem to 1000 doors helps to understand the solution.
+           - Deploying a strategy: Ex. Assuming that you pick door-1. If your
+             friend open door-2, you will NOT switch.
+             - Your chance if wining fals between 1/3 (min) and 2/3 (max).
+         - Table:
+           #+ATTR_HTML: :align |l|l|c|r|r|
+           #+ATTR_HTML: :rules all
+           | Choice | Prize | Opened door | Stay       | Switch     |
+           |--------+-------+-------------+------------+------------|
+           |      1 |     1 | 2,3         | x          |            |
+           |      1 |     2 | 1,3         |            | x          |
+           |      1 |     3 | 1,2         |            | x          |
+           |      2 |     1 | 3           |            | x          |
+           |      2 |     2 | 1,3         | x          |            |
+           |      2 |     3 | 1           |            | x          |
+           |      3 |     1 | 2           |            | x          |
+           |      3 |     2 | 1           |            | x          |
+           |      3 |     3 | 1,2         | x          |            |
+           |  Total |       |             | 3/9 => 1/3 | 6/9 => 2/3 |
+
+           You double your chance of winning if you switch.

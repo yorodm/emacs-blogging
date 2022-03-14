@@ -1,0 +1,23 @@
+#+TITLE: [Notes] Horology
+#+DATE: <2019-11-06>
+#+KEYWORDS: horology watch
+#+setupfile: ../org-templates/post.org
+#+setupfile: ../org-templates/latex-pdf.org
+#+LaTeX_HEADER: \lhead{\title}
+
+** Notes
+   - A perpetual calendar knows how many days are there in the particulat month.
+   - A complication can be anything for a watch besides displaing time i.e if
+     the watch has a function to display a date or dat-date, we can says that
+     the watch as day-date complication.
+
+** Definitions:
+   - Beats:
+   - Main train:
+     - Slow train:
+     - Fast train:
+
+** Links:
+   -  A. Lange & Söhne: https://www.youtube.com/watch?v=DGAsib-4mCk
+
+#+INCLUDE: "../disquss.inc"

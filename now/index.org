@@ -1,0 +1,22 @@
+#+title: What I am doing now?
+#+filetags: now
+
+** Tasks:
+   - What is the better use of 3.7v solar battery charger?
+     - Charge a digital table clock.
+     - Night light.
+     - Emergency Phone charger?
+     - ...
+
+   - Enhancing ML stocks script.
+   - Merging [[https://gitlab.com/psachin/psachin.gitlab.io/-/tree/tags][tags]] branch to master.
+   - Upgrading the Home Mesh network?
+     - [[https://opensource.com/article/22/1/turris-omnia-open-source-router][Turris Omnia]]
+
+** Reading
+   - Visit [[../gureSagardoa/todo.html][Reading/TODO]].
+
+#+ATTR_HTML: :style text-align:center
+/This page is inspired by [[https://sive.rs/][Derek Sivers page]]./
+
+#+INCLUDE: "../disquss.inc"

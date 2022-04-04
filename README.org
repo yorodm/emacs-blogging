@@ -33,6 +33,18 @@ official documentation [[https://docs.gitlab.com/ce/user/project/pages/]].
 
   - A sample blog post exists in =posts/template.org= for reference.
 
+* Using Podman
+  #+BEGIN_SRC shell
+    podman-compose -f local.yml build
+    podman run -it --rm -v $PWD:/root/source/site:z -p 8000:8000 emacs-publish:latest /bin/sh
+
+    # Inside the container
+    cd source/site
+    make
+    apk add python3
+    python3 -m http.server --directory=public/
+  #+END_SRC
+
 * Org-mode
 Org-mode is [[http://www.gnu.org/philosophy/free-sw.en.html][Free Software]] and part of [[https://www.gnu.org/s/emacs/][GNU Emacs]]. It's a simple
 document format ("Org") with a powerful and intuitive interface

@@ -118,8 +118,9 @@
    #+ATTR_HTML: :class center no-border
    [[file:../../images/about/skogskanten-300px.png]]
 
-   - *IRC*: psachin@{RedHat, freenode, OFTC, GIMPNet}
-   - *Email*: [[mailto:iclcoolster@gmail.com][Personal]], [[mailto:psachin@redhat.com][Work]]
+   - *IRC*: psachin@{RedHat, libera.chat, Freenode, OFTC, GIMPNet}
+   - *Email*: For general purpose use [[mailto:iclcoolster@gmail.com][this address]], for Red Hat & Fedora stuff
+     use [[mailto:psachin@redhat.com][this address]].
 
 ** Social
    #+ATTR_HTML: :style text-align:center

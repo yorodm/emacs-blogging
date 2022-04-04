@@ -185,8 +185,8 @@
              Switching will win for you.
            - Scaling a problem to 1000 doors helps to understand the solution.
            - Deploying a strategy: Ex. Assuming that you pick door-1. If your
-             friend open door-2, you will NOT switch.
-             - Your chance if wining fals between 1/3 (min) and 2/3 (max).
+             friend opens door-2, you will NOT switch.
+             - Your chance of wining fall between 1/3 (min) and 2/3 (max).
          - Table:
            #+ATTR_HTML: :align |l|l|c|r|r|
            #+ATTR_HTML: :rules all

@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  orgpublish:
+    build:
+      context: .
+      dockerfile: ./compose/Dockerfile
+    image: emacs-publish
+    container_name: emacs-publish

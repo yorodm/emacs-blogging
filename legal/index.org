@@ -1,0 +1,11 @@
+#+title: Privacy and Legal
+#+filetags: privacy legal
+
+** Privacy
+
+   - I don't collect logs for this site.
+   - FLAG counter is used to track pageviews. Please read the FLAG counter's privacy page [[https://s11.flagcounter.com/privacy.html][here]].
+
+** Legal
+
+   All content on this site is copyright Sachin Patil, all rights reserved, unless specifically stated otherwise.

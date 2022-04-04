@@ -6,6 +6,7 @@ LABEL description="Emacs master branch" emacs.version="29.0.50"
 RUN apk update && apk add ca-certificates
 
 WORKDIR /root
-COPY init.el /root/.emacs.d/
-COPY compile_emacs.sh /root/
+COPY ./compose/init.el /root/.emacs.d/
+COPY ./compose/compile_emacs.sh /root/
+RUN mkdir -p /root/source
 RUN /bin/sh /root/compile_emacs.sh

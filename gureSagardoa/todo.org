@@ -4,14 +4,16 @@
 #+filetags: todo agenda tasks books reading tracking
 
 ** Reading
-*** Physics/Mathematics [2/11]
+*** Physics/Mathematics [2/13]
 **** DONE Seven Wonders of the Cosmos, Jayant V. Narlikar (Physical notes)
 **** DONE Introduction to Electrodynamics, David J. Griffiths
 **** INPROGRESS A Brief History of Time, Stephen Hawking            :page:41:
 **** INPROGRESS The Feynman Lectures on Physics: Vol 1
 **** INPROGRESS QED: The Strange Theory of Light & Matter, Feynman  :page:40:
+**** INPROGRESS The Tau Manifesto, Michael Hartl
 **** TODO The Feynman Lectures on Physics: Vol 2
 **** TODO The Feynman Lectures on Physics: Vol 3
+**** TODO Six Easy Pieces, Feynman
 **** TODO Quantum, Manjit Kumar
 **** TODO Mathematics That Power Our World, Joseph Khoury & Gilles Lamothe
 **** TODO Probability, Henk Tijms
@@ -35,9 +37,9 @@
 **** TODO [[http://www.gigamonkeys.com/book/][Practical Common Lisp]], Peter Seibel
 **** TODO ANSI Common LISP, Paul Graham
 **** TODO [[https://bigmachine.io/products/the-imposters-handbook/][The Imposter's Handbooks]], Rob Conery
-*** Electronics [1/2]
+*** Electronics [1/1]
 **** DONE Digital Principles and Applications, Albert Paul Malvino & Donald P. Leach
-*** Fiction [30/52]
+*** Fiction [30/54]
 **** DONE The Kite Runner, Khaled Hosseini
 **** DONE A Thousand Splendid Suns, Khaled Hosseini
 **** DONE The Monk Who Sold His Ferrari, Robin Sharma
@@ -72,6 +74,8 @@
 **** INPROGRESS The Devil's Alternative, Frederick Forsyth
 **** INPROGRESS To Kill A Mocking Bird, Harper Lee
 **** INPROGRESS Celestial Bodies, Jokha Alharthi
+**** INPROGRESS Mind without fear, Rajat Gupta
+**** INPROGRESS The Secret, Dan Brown
 **** TODO Devils, Fyodor Dostoevsky
 **** TODO A Christmas Carol, Charles Dickens
 **** TODO Martin Chuzzlewit, Charles Dickens
@@ -90,7 +94,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [37/55]
+*** Non Fiction [37/56]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -146,7 +150,8 @@
 **** TODO Brighter Than a Thousand Suns, Robert Jungk
 **** TODO Towards A New Architecture, Le Corbusier
 **** TODO The Republic, Plato
-*** Publications [5/16]
+**** TODO Screw it, let's do it, Richard Branson
+*** Publications [5/17]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein
 **** DONE [[http://www.flownet.com/gat/papers/lisp-java.pdf][Lisp as an Alternative to Java]], Erann Gat ([[../lisp-java-notes.html][notes]])
@@ -165,7 +170,7 @@
 **** TODO [[https://arxiv.org/pdf/2004.02504.pdf][Bringing GNU Emacs to Native Code, Andrea Corallo Et.al]]
 **** TODO [[https://www.mayin.org/ajayshah/PDFDOCS/Shah1997_bms.pdf][Black, Merton and Scholes]], Ajay Shah
 *** Articles/Posts [0/1]
-**** TODO [[https://matt3o.com/book/][How to build a custon keyboard]]
+**** TODO [[https://matt3o.com/book/][How to build a custom keyboard]]
 ** Videos
 *** YouTube [1/3]
    - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]

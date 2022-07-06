@@ -10,22 +10,17 @@
 (package-initialize)
 (setq package-archives
       '(("gnu" . "https://elpa.gnu.org/packages/")
-        ("nongnu" . "https://elpa.nongnu.org/nongnu/")
         ("melpa" . "https://melpa.org/packages/")))
 
 (unless package-archive-contents
   (package-refresh-contents))
 (package-install 'htmlize)
-(package-install 'org-contrib)
 (package-install 'ox-reveal)
 ;; Don't want to invoke insert-shebang locally
 (remove-hook 'find-file-hook 'insert-shebang)
 
 (require 'org)
-(require 'ox-publish)
 ;; (require 'htmlize) ;; required for ox-reveal to load Emacs theme
-;; (require 'ox-html)
-(require 'ox-rss)
 (require 'ox-reveal)
 
 ;; setting to nil, avoids "Author: x" at the bottom
@@ -249,20 +244,7 @@ publishing directory. Returns output file name."
          :publishing-directory "./public/assets"
          :publishing-function org-publish-attachment
          :recursive t)
-        ("rss"
-         :base-directory "posts"
-         :base-extension "org"
-         :html-link-home "https://psachin.gitlab.io/"
-         :rss-link-home "https://psachin.gitlab.io/"
-         :html-link-use-abs-url t
-         :rss-extension "xml"
-         :publishing-directory "./public"
-         :publishing-function (org-rss-publish-to-rss)
-         :section-number nil
-         :exclude ".*"
-         :include ("index.org")
-         :table-of-contents nil)
-        ("all" :components ("posts" "about" "now" "legal" "slides" "gureSagardoa" "horology" "css" "images" "assets" "rss"))))
+        ("all" :components ("posts" "about" "now" "legal" "slides" "gureSagardoa" "horology" "css" "images" "assets"))))
 
 (provide 'publish)
 ;;; publish.el ends here

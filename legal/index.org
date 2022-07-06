@@ -3,8 +3,9 @@
 
 ** Privacy
 
-   - I don't collect logs for this site.
-   - FLAG counter is used to track pageviews. Please read the FLAG counter's privacy page [[https://s11.flagcounter.com/privacy.html][here]].
+   * I don't collect logs for this site.
+   * Disqus is used to support comments. Please read Disqus's privacy [[https://help.disqus.com/en/articles/1717103-disqus-privacy-policy][here]].
+   * FLAG counter is used to track pageviews. Please read the FLAG counter's privacy [[https://s11.flagcounter.com/privacy.html][here]].
 
 ** Legal
 

@@ -44,6 +44,8 @@
       apt-get install libqtgui4
       apt-get install libqt4-test
 
+      apt-get install python3-dev      # Updated on Apr 08, 2022
+
       # Install setv to manage Python virtual environments
       curl https://gitlab.com/psachin/setV/raw/master/install.sh | sh -
       # Create Python virtual environment

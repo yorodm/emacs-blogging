@@ -90,7 +90,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [36/54]
+*** Non Fiction [37/55]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -127,6 +127,7 @@
 **** DONE [[file:frugalwoods.org][Meet the Frugalwoods, Elizabeth W. Thames]]
 **** DONE [[./the_parable_of_the_pipeline.org][The Parable of the Pipeline, Burke Hedges]]
 **** DONE [[./psycho_money.org][The Psychology of Money, Morgan Housel]]
+**** DONE [[file:almanack_of_naval.org][The Almanack of Naval Ravikant, Eric Jorgenson]]
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
 **** INPROGRESS [[./theIntelligentInvestor.org][The Intelligent Investor, Benjamin Graham]]
@@ -162,6 +163,9 @@
 **** TODO [[https://calteches.library.caltech.edu/1575/1/Science.pdf][The Value Of Science]], Richard P. Feynman
 **** TODO Irving Lavin: [[https://albert.ias.edu/handle/20.500.12111/6675][Michelangelo's Saint Peter's Pieta]]
 **** TODO [[https://arxiv.org/pdf/2004.02504.pdf][Bringing GNU Emacs to Native Code, Andrea Corallo Et.al]]
+**** TODO [[https://www.mayin.org/ajayshah/PDFDOCS/Shah1997_bms.pdf][Black, Merton and Scholes]], Ajay Shah
+*** Articles/Posts [0/1]
+**** TODO [[https://matt3o.com/book/][How to build a custon keyboard]]
 ** Videos
 *** YouTube [1/3]
    - [ ] [[https://www.youtube.com/watch?v=At5atF4mKiU][Timeline]]

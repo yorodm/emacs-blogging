@@ -164,7 +164,7 @@
      - [ ] MasterClass: The Art and Soul of the Guitar, Carlos Santana
      - [X] MasterClass: Kelly Wearstler (Physical Notes)
 
-**** Videos [3/9]
+**** Videos [4/10]
        - [-] Learn every video on/by Walter Lewin [4/6]
          - [X] [[https://www.youtube.com/watch?v=cB8GNQuyMPc][Moment of Inertia]]
          - [X] [[https://www.youtube.com/watch?v=iKUSWJWMSk4][The Hidden beauty of Rainbows]]
@@ -219,7 +219,8 @@
                  20K Hz.
            - [ ] Lec 11 - [[https://www.youtube.com/watch?v=k3byqIaULb8][Fourier Analysis, Time evolution of Pulses on String]]
        - [ ] Learn every video on/by Richard Feynman [0/0]
-       - [-] Control Systems [0/4]
+       - [-] Control Systems [1/5]
+         - [X] [[https://www.youtube.com/watch?v=ZMI_kpNUgJM&t=1874s][Creating and Tunning a PID controller in Python]]
          - [-] MATLAB: Understanding PID control [5/7]
            - [X] [[https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=1][What is PID control?]]
            - [X] [[https://www.youtube.com/watch?v=NVLXCwc8HzM&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=2][Expanding beyond Simple Integral]]

@@ -171,8 +171,7 @@ using SSH.
    qemu, specify it as =-smp 4=. =smp= stands for
    [[http://en.wikipedia.org/wiki/Symmetric_multiprocessing][Symmetric-multiprocessing]].
 
-   b. Don't you run qemu over the snapshot image, it will corrupt the
-   snapshot image.
+   b. Don't use the snapshot image, it will alter the image.
 
 ** Refs
    :PROPERTIES:

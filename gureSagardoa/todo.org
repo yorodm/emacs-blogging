@@ -94,7 +94,7 @@
 **** TODO And the Mountains Echoed, Khaled Hosseini
 **** TODO The Shadow of the Wind, Carlos Ruiz Zafon
 **** TODO The Angles Game, Carlos Ruiz Zafon
-*** Non Fiction [37/56]
+*** Non Fiction [39/57]
 **** DONE Wings of Fire, A P J Abdul Kalam with Arun Tiwari
 **** DONE You Are Born To Blossom, A P J Abdul Kalam with Arun Tiwari
 **** DONE INDIA 2020: A Vision For the New Millennium, A P J Abdul Kalam with Y S Rajan
@@ -132,6 +132,8 @@
 **** DONE [[./the_parable_of_the_pipeline.org][The Parable of the Pipeline, Burke Hedges]]
 **** DONE [[./psycho_money.org][The Psychology of Money, Morgan Housel]]
 **** DONE [[file:almanack_of_naval.org][The Almanack of Naval Ravikant, Eric Jorgenson]]
+**** DONE [[file:screw_it.org][Screw it, let's do it, Richard Branson]]
+**** DONE [[file:pour_your_heart_into_it.org][Pour your heart into it, Howard Schultz]]
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
 **** INPROGRESS [[./theIntelligentInvestor.org][The Intelligent Investor, Benjamin Graham]]
@@ -150,7 +152,6 @@
 **** TODO Brighter Than a Thousand Suns, Robert Jungk
 **** TODO Towards A New Architecture, Le Corbusier
 **** TODO The Republic, Plato
-**** TODO Screw it, let's do it, Richard Branson
 *** Publications [5/17]
 **** DONE [[http://www.kroah.com/linux/talks/ols_2002_kernel_codingstyle_paper/codingstyle.ps][Documentation/Coding Style and Beyond]], Greg Kroah-Hartman
 **** DONE [[https://www.nobelprize.org/prizes/physics/1921/einstein/lecture/][Fundamental ideas & problems of the theory of relativity]], A. Einstein

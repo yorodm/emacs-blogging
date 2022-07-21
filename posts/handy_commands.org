@@ -223,6 +223,12 @@ List of commands that I find useful.
      #+END_SRC
    - Checkout specific branch
      #+BEGIN_SRC shell -n
+       ## New
+       git fetch <REMOTE>
+       get branch --all  # show all the branches
+       git checkout <BRANCH>
+
+       ## Old
        git checkout -b <REMOTE_BRANCH> remotes/<REMOTE>/<BRANCH>
        # Example
        git checkout -b holo_theme remotes/origin/holo_theme

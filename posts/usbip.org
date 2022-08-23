@@ -27,7 +27,7 @@
    #+CAPTION: Layout.
    #+ATTR_HTML: :class center
    #+ATTR_HTML: :width 100% :height
-   [[file:images/posts/usbip/layout.png]]
+   [[file:images/posts/usbip/layout.svg]]
 
 ** Server
    On the server side, update the kernel version to 3.17 or later, install

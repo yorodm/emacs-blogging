@@ -24,7 +24,9 @@
    - We are what we do repeatedly.
    - [[https://blog.doist.com/trust-remote-workplace/][The future of work is trust, not tracking]].
    - /It's only after you've lost everything, you're free to do anything./
-   - It is easier to keep raising your level than to maintain a certain level - SCP
+   - It is easier to keep raising your level than to maintain a certain level. - SCP
+   - An Employee joins the company but leaves the team when he resigns. - SCP
+   - [It's a case of where] constraints can sometimes push you to more creative solutions - [[https://youtu.be/sw0VfmXKq54?t=731][Jordan Mechner (Creator of the game: Prince of Persia)]]
 ** Definitions
    - /Tsundoku/ is the Japanese word for buying more books than you'll ever read.
 ** Videos
@@ -109,6 +111,16 @@
          #+CAPTION: I/O
          #+ATTR_HTML: :width 100% :height
          [[../images/gureSagardoa/notes/input_output.png]]
+   - [[https://www.youtube.com/playlist?list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr][Kalman filters]]: Used to extract information about what you can't mesure
+     directly. It is the optimal estimation algorithm.
+     - [[https://www.youtube.com/watch?v=mwn8xhgNpFY][Part1]]: Intro & applications.
+     - [[https://www.youtube.com/watch?v=4OerJmPpkRg][Part2]]: The State Oberservers - Estimating the values of the system by
+       observing the state.
+     - [[https://www.youtube.com/watch?v=ul3u2yLPwU0][Part3]]: Optimal state estimator - Estimating the smaller variance using
+       the Probability density functions by combining (multiplying) the
+       predicted and measured functions.
+     - [[https://www.youtube.com/watch?v=VFXf1lIZ3p8][Part4]]: Optimal state estimator algorithm.
+     - [[https://www.youtube.com/watch?v=Vefia3JMeHE][Part5]]: Nonlinear state estimators.
    - On Beer
      - Read books by [[https://bamforth.faculty.ucdavis.edu/buy-the-book/][Professor Charles W. Bamforth]].
      - Watch [[https://www.youtube.com/watch?v=P75SvA344QI][Every Style of Beer Explained | WIRED]].

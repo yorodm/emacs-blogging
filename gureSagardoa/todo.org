@@ -169,7 +169,7 @@
 **** TODO [[https://calteches.library.caltech.edu/1575/1/Science.pdf][The Value Of Science]], Richard P. Feynman
 **** TODO Irving Lavin: [[https://albert.ias.edu/handle/20.500.12111/6675][Michelangelo's Saint Peter's Pieta]]
 **** TODO [[https://arxiv.org/pdf/2004.02504.pdf][Bringing GNU Emacs to Native Code, Andrea Corallo Et.al]]
-**** TODO [[https://www.mayin.org/ajayshah/PDFDOCS/Shah1997_bms.pdf][Black, Merton and Scholes]], Ajay Shah
+**** TODO [[https://www.mayin.org/ajayshah/PDFDOCS/Shah1997_bms.pdf][Black, Merton and Scholes]], Ajay Shah ([[file:Shah1997_bms.org][notes]])
 *** Articles/Posts [0/1]
 **** TODO [[https://matt3o.com/book/][How to build a custom keyboard]]
 ** Videos

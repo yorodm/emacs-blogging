@@ -1,0 +1,11 @@
+#+title: GNU Emacs: Create a directory in dired-mode
+#+date: <2022-11-10>
+#+filetags: emacs
+#+setupfile: ../org-templates/post.org
+
+Shows how to create a directory in =dired-mode=.
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/rVWZbapDvQA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*GNU Emacs: Create a directory in dired-mode*
+
+#+INCLUDE: "../disquss.inc"

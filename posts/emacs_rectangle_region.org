@@ -1,0 +1,12 @@
+#+title: GNU Emacs: Rectangle region
+#+date: <2022-11-01>
+#+filetags: emacs
+#+setupfile: ../org-templates/post.org
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/gnfhAS1FnI0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*GNU Emacs: Kill (cut) a rectangle region*
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/rU00yfQ2eSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*GNU Emacs: Yank (copy) a rectangle region*
+
+#+INCLUDE: "../disquss.inc"

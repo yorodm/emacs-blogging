@@ -1,0 +1,11 @@
+#+title: GNU Emacs: Macros
+#+date: <2022-11-01>
+#+filetags: emacs
+#+setupfile: ../org-templates/post.org
+
+A quick demo of **Macros** in GNU Emacs.
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/b2OpKoCxjXg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*GNU Emacs macros*
+
+#+INCLUDE: "../disquss.inc"

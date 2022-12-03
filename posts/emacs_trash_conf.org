@@ -1,0 +1,11 @@
+#+title: GNU Emacs: Trash file configuration
+#+date: <2022-11-02>
+#+filetags: emacs
+#+setupfile: ../org-templates/post.org
+
+Shows how to configure a trash in GNU Emacs.
+
+#+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/vEPbTIGLPdM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+*GNU Emacs: Trash file configuration*
+
+#+INCLUDE: "../disquss.inc"

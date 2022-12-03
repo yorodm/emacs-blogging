@@ -15,6 +15,11 @@ How to manually install =ffmpeg= with =libmp3lame= & H.264 encoder support.
      dnf install nasm -y
    #+END_SRC
 
+   For OpenSUSE 15.2
+   #+BEGIN_SRC shell
+     $ sudo zypper install nasm libmp3lame-devel libvpx-devel
+   #+END_SRC
+
 ** Lame encoder
    #+BEGIN_SRC shell -n
      BUILD_DIR="$HOME/ffmpeg/ffmpeg_build"
@@ -59,6 +64,13 @@ How to manually install =ffmpeg= with =libmp3lame= & H.264 encoder support.
 
 **** Here's the complete script
      #+BEGIN_SRC shell :tangle compile_ffmpeg.sh
+       mkdir -p $HOME/source/
+       git clone https://git.ffmpeg.org/ffmpeg.git $HOME/source/ffmpeg
+
+       # cleanup
+       make clean
+       make distclean
+
        BUILD_DIR="$HOME/source/ffmpeg/build"
 
        curl -O -L https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz

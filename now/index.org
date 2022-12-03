@@ -6,8 +6,6 @@
      - Charge a digital table clock.
      - Night light.
      - Emergency Phone charger?
-     - ...
-
    - Enhancing ML stocks script.
    - Merging [[https://gitlab.com/psachin/psachin.gitlab.io/-/tree/tags][tags]] branch to master.
    - Upgrading the Home Mesh network?

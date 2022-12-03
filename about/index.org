@@ -39,9 +39,7 @@
    wireless router flashed with custom [[https://openwrt.org/][OpenWRT(barrier-breaker)]]. This is my
    backup(and tiny) Linux system with minimal shell and =opkg= package manager.
 
-   For work, I use Lenovo Thinkpad +T440p+ [[../photography/thinkpad_t490s.org][T490s]] running [[https://getfedora.org/][Fedora]]. I work on [[https://www.redhat.com/en/technologies/management/insights][Red
-   Hat Insights]]. Watch this introductory [[https://www.youtube.com/watch?v=eEZtS2k04f8][YouTube video]] to know more about Red
-   Hat Insights.
+   For work, I use Lenovo Thinkpad +T440p+ +[[../photography/thinkpad_t490s.org][T490s]]+ E460 running [[https://www.opensuse.org/][OpenSUSE]].
 
 ** Tools I use
 
@@ -118,9 +116,8 @@
    #+ATTR_HTML: :class center no-border
    [[file:../../images/about/skogskanten-300px.png]]
 
-   - *IRC*: psachin@{RedHat, libera.chat, Freenode, OFTC, GIMPNet}
-   - *Email*: For general purpose use [[mailto:iclcoolster@gmail.com][this address]], for Red Hat & Fedora stuff
-     use [[mailto:psachin@redhat.com][this address]].
+   - *IRC*: psachin@{libera.chat, Freenode, OFTC, GIMPNet}
+   - *Email*: For general purpose use [[mailto:iclcoolster@gmail.com][this address]].
 
 ** Social
    #+ATTR_HTML: :style text-align:center

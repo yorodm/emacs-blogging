@@ -140,6 +140,12 @@
      ./configure --prefix=build --bindir="$HOME/bin/" --enable-pulse --enable-alsa
      make
      make install
+
+     # OpenSUSE 15.4 specific
+     sudo zypper install yasm-devel
+     ./configure --prefix=build --bindir="$HOME/bin/" --enable-pulse
+     make -j 3
+     make install
    #+END_SRC
 
    Check available audio output drivers:

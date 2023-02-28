@@ -8,7 +8,7 @@
 
 List of commands that I find useful.
 
-/(Last updated on Feb 15, 2020)/
+/(Last updated on Dec 09, 2022)/
 ** PDF tricks[fn:gs]
    - Reduce PDF size
      #+BEGIN_SRC shell
@@ -179,7 +179,7 @@ List of commands that I find useful.
        ffmpeg -i input.mp4 -vf scale=1280:720 -c:v h264 output.mp4 # Using h264 video codec
      #+END_SRC
 
-   - Text overlay (required =--enable-libfreetype=)
+   - Text overlay (Use =--enable-libfreetype= while compiling Mplayer)
      #+BEGIN_SRC shell
        ffmpeg -i input.mp4 \
               -vf "[in]drawtext=fontfile=/usr/share/fonts/gnu-free/FreeSans.ttf:text='This text will appear from 1 to 4 seconds':fontcolor=white:fontsize=50:box=1:boxcolor=black@0.5:boxborderw=40:x=(w-text_w)/2:y=(h-text_h)/2:enable='between(t,1,4)'" \

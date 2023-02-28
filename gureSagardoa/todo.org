@@ -134,6 +134,7 @@
 **** DONE [[file:almanack_of_naval.org][The Almanack of Naval Ravikant, Eric Jorgenson]]
 **** DONE [[file:screw_it.org][Screw it, let's do it, Richard Branson]]
 **** DONE [[file:pour_your_heart_into_it.org][Pour your heart into it, Howard Schultz]]
+**** DONE Niksen, Olga Mecking
 **** INPROGRESS A Practical course in Horology, Harold C. Kelly     :page:17:
 **** INPROGRESS Guns, Germs, & Steel, Jared Diamond
 **** INPROGRESS [[./theIntelligentInvestor.org][The Intelligent Investor, Benjamin Graham]]

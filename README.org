@@ -21,7 +21,7 @@ official documentation [[https://docs.gitlab.com/ce/user/project/pages/]].
 
   - Use Python's =http.server= module to locally render the pages:
     #+BEGIN_SRC shell -n
-      # Python 3.7
+      # Python 3.7+
       python -m http.server --directory=public/
 
       # Python 3.6
@@ -35,7 +35,13 @@ official documentation [[https://docs.gitlab.com/ce/user/project/pages/]].
 
 * Using Podman
   #+BEGIN_SRC shell
+    # (OpenSUSE Tumbleweed) Install podman compose script using,
+    sudo zypper install python311-podman-compose
+
+    # build an image
     podman-compose -f local.yml build
+
+    # run
     podman run -it --rm -v $PWD:/root/source/site:z -p 8000:8000 emacs-publish:latest /bin/sh
 
     # Inside the container
@@ -43,6 +49,10 @@ official documentation [[https://docs.gitlab.com/ce/user/project/pages/]].
     make
     apk add python3
     python3 -m http.server --directory=public/
+
+    # publish image
+    podman login docker.io
+    podman push emacs-publish:TAG docker.io/psachin/emacs-publish:TAG
   #+END_SRC
 
 * Org-mode

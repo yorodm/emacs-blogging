@@ -4,5 +4,5 @@ services:
     build:
       context: .
       dockerfile: ./compose/Dockerfile
-    image: emacs-publish
+    image: emacs-publish:30.0.50
     container_name: emacs-publish

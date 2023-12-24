@@ -13,7 +13,7 @@ pages:
   environment:
     name: production
     url: https://psachin.gitlab.io/
-  image: psachin/emacs-publish:emacs-29.0.50
+  image: psachin/emacs-publish:30.0.50
   <<: *build
   artifacts:
     paths:
@@ -25,13 +25,13 @@ pages:
 preprod:
   stage: preprod
   environment: proprod
-  image: psachin/emacs-publish:latest
+  image: psachin/emacs-publish:30.0.50
   <<: *build
 
 development:
   stage: development
   environment: development
-  image: psachin/emacs-publish:latest
+  image: psachin/emacs-publish:emacs-29.0.50
   <<: *build
   except:
   - master

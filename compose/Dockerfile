@@ -1,7 +1,7 @@
-FROM alpine:3.15
+FROM alpine:3.19.0
 
 LABEL maintainer="Sachin Patil (iclcoolster@gmail.com)" version="2.1"
-LABEL description="Emacs master branch" emacs.version="29.0.50"
+LABEL description="Emacs master branch" emacs.version="30.0.50"
 
 RUN apk update && apk add ca-certificates
 

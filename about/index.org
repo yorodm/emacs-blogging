@@ -8,11 +8,10 @@
    /Free Software Developer, FOSS enthusiast, & GNU Emacs Hacker./
 
    I work on GNU/Linux and Free & Open Source Software for a living. I prefer
-   not to use [[https://www.gnu.org/proprietary/][Proprietary Software]] in-person or at work. I have now switched
-   completely to [[https://duckduckgo.com/][DuckDuckGo]] as my default Search Engine. I switch between [[https://www.torproject.org/][Tor]] &
-   [[https://www.privateinternetaccess.com/][VPN service]] when online. If you are passionate about GNU and Free Software
-   like me, I encourage you to watch the following YouTube video by Benjamin
-   Mako Hill.
+   not to use [[https://www.gnu.org/proprietary/][Proprietary Software]] personally or at work. I use [[https://duckduckgo.com/][DuckDuckGo]] as my
+   default Search Engine. I switch between [[https://www.torproject.org/][Tor]] & [[https://www.privateinternetaccess.com/][VPN service]] when online. If you
+   are passionate about GNU and Free Software like me, I encourage you to watch
+   the following YouTube video by Benjamin Mako Hill.
 
    #+HTML: <div class="video-container"><iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/Er1pM9suxvE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
    *When Free Software Isn't Better - Benjamin Mako Hill*
@@ -25,11 +24,12 @@
    Gigs of RAM running Slackware 14.1(I always prefer the [[https://gitlab.com/psachin/bash_scripts/blob/master/build_my_kernel.sh][latest kernel]]. I
    usually work on this system.
 
-   My other system includes /Acer emachines eM350/ netbook running [[https://manjaro.org/][Manjaro Linux]]
-   an independently developed [[https://www.archlinux.org/][Arch Linux]]. I've [[http://awesomewm.org][Awesome window manager]] on it. I
-   use it as a hotspot using [[https://github.com/psachin/hotspotd][hotspotd]]. +I also have an old desktop with AMD
-   Athlon with 2 Gigs of RAM running+ +Slackware again!. The system's storage is
-   shared via NFS across my home network, basically, this is my NFS server.+
+   My other system includes /Acer emachines eM350/ netbook [[https://puppylinux-woof-ce.github.io/][Puppy Linux]]. I've
+   [[http://awesomewm.org][Awesome window manager]] on it. I use it as a hotspot using [[https://github.com/psachin/hotspotd][hotspotd]]. I also
+   have an old desktop with AMD Athlon with 2 Gigs. of RAM running Slackware
+   again!. The system's storage is shared via NFS across my home network,
+   basically, this is my NFS server. I also has a SATA HDD attached to the
+   Raspberry PI which act as my network storage.
 
    +Apart from this, I had a very old Intel Pentium II Machine with a 350MHz+
    +processor and 64MB of RAM running Vector Linux. I wonder how this machine
@@ -37,7 +37,9 @@
 
    Most of my Home network and Internet connection is managed by D-LINK DIR-615E
    wireless router flashed with custom [[https://openwrt.org/][OpenWRT(barrier-breaker)]]. This is my
-   backup(and tiny) Linux system with minimal shell and =opkg= package manager.
+   backup (and tiny) Linux system with minimal shell and =opkg= package manager.
+   I have a total of three WiFi routers and a local DNS server (running on
+   Raspberry PI) which defines my home network.
 
    For work, I use Lenovo Thinkpad +T440p+ +[[../photography/thinkpad_t490s.org][T490s]]+ E460 running [[https://www.opensuse.org/][OpenSUSE]].
 

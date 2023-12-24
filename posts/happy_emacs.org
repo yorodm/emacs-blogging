@@ -139,7 +139,7 @@ IRC at freenode, channel *#emacs*.
 
        # To display ERC channel name in the desktop notification(Optional)
        git remote add psachin https://github.com/psachin/emacs.git
-       git fetch remote --depth 2
+       git fetch psachin --depth 2
        git checkout -b erc-show-channel-in-notification psachin/erc-show-channel-in-notification
        git rebase master
      #+END_SRC

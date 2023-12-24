@@ -141,10 +141,17 @@
      make
      make install
 
-     # OpenSUSE 15.4 specific
-     sudo zypper install yasm-devel
-     ./configure --prefix=build --bindir="$HOME/bin/" --enable-pulse
-     make -j 3
+     # for openSUSE 15.4 & Tumbleweed Actually mplayer faild to compile from
+     # https://mplayerhq.hu/MPlayer/releases/MPlayer-1.5.tar.xz on
+     # Tumbleweed-20231204 (likely due to ffmpeg) hence clone it from -
+     # svn://svn.mplayerhq.hu/mplayer/trunk
+     sudo zypper install yasm-devel libpulse-devel alsa-devel
+     svn checkout svn://svn.mplayerhq.hu/mplayer/trunk mplayer
+     cd mplayer
+     mkdir build
+     ./configure --prefix=build --bindir="$HOME/bin/" --enable-pulse --enable-alsa
+     [ENTER] to download ffmpeg
+     make -j 10
      make install
    #+END_SRC
 

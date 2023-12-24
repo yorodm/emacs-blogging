@@ -1,5 +1,5 @@
 #+title: Publishing org-mode projects on Gitlab Pages
-#+author: Sachin Patil <psachin@redhat.com>
+#+author: Sachin Patil <iclcoolster@gmail.com>
 
 Example [[http://orgmode.org][org-mode]] website using [[https://about.gitlab.com/product/pages/][GitLab Pages]].
 

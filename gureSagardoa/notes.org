@@ -4,6 +4,7 @@
 
 ** Quotes
    - If You Need Permission to do Something, you Probably Shouldn’t Do It.
+     - Ask for forgiveness, not for permission.
    - Wealth and money is the side effect, not the goal itself.
    - Don’t Seek Praise. Seek Criticism.
    - Your Work Should Be A Performance.
@@ -27,6 +28,7 @@
    - It is easier to keep raising your level than to maintain a certain level. - SCP
    - An Employee joins the company but leaves the team when he resigns. - SCP
    - [It's a case of where] constraints can sometimes push you to more creative solutions - [[https://youtu.be/sw0VfmXKq54?t=731][Jordan Mechner (Creator of the game: Prince of Persia)]]
+   - Don't throw away ideas.
 ** Definitions
    - /Tsundoku/ is the Japanese word for buying more books than you'll ever read.
 ** Videos
@@ -121,8 +123,11 @@
        predicted and measured functions.
      - [[https://www.youtube.com/watch?v=VFXf1lIZ3p8][Part4]]: Optimal state estimator algorithm.
      - [[https://www.youtube.com/watch?v=Vefia3JMeHE][Part5]]: Nonlinear state estimators.
+     - Also read https://praveshkoirala.com/2023/06/13/a-non-mathematical-introduction-to-kalman-filters-for-programmers/
    - On Beer
      - Read books by [[https://bamforth.faculty.ucdavis.edu/buy-the-book/][Professor Charles W. Bamforth]].
      - Watch [[https://www.youtube.com/watch?v=P75SvA344QI][Every Style of Beer Explained | WIRED]].
    - On Whisky
      - Read about [[https://scotchwhisky.com/magazine/interviews/15832/richard-paterson-dalmore/][Richard Paterson]].
+   - On Wine
+     - https://winefolly.com/

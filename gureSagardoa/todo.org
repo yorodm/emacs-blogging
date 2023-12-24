@@ -215,3 +215,6 @@
            |  Total |       |             | 3/9 => 1/3 | 6/9 => 2/3 |
 
            You double your chance of winning if you switch.
+     - Computational thinking & Data Science (MIT OpenCourseWare)
+       - [[https://www.youtube.com/watch?v=6wUD_gp5WeE][Randon Walks]]
+       - [[https://www.youtube.com/watch?v=OgO1gpXSUzU][Monte Carlo Simulations]]
